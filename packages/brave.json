@@ -9,7 +9,7 @@
     "threads": 8,
     "file_type": ".exe",
     "iswitches": [],
-    "uswitches": ["/S"],
+    "uswitches": [],
     "dependencies": []
   }
 }
