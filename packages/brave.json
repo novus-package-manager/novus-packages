@@ -1,0 +1,15 @@
+{
+  "display_name": "Brave",
+  "package_name": "brave",
+  "version": "1.26.3",
+  "creator": "CentOS",
+  "home_page": "https://brave.com/",
+  "19.0": {
+    "url": "https://laptop-updates.brave.com/latest/winx64",
+    "threads": 8,
+    "file_type": ".exe",
+    "iswitches": [],
+    "uswitches": [],
+    "dependencies": []
+  }
+}
