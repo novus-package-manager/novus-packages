@@ -8,7 +8,7 @@
     "url": "https://github.com/brave/brave-browser/releases/download/v1.26.3/BraveBrowserStandaloneNightlySetup.exe",
     "threads": 8,
     "file_type": ".exe",
-    "iswitches": ["/S"],
+    "iswitches": [],
     "uswitches": ["/S"],
     "dependencies": []
   }
