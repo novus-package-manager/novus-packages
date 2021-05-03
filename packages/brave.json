@@ -8,8 +8,8 @@
     "url": "https://laptop-updates.brave.com/latest/winx64",
     "threads": 8,
     "file_type": ".exe",
-    "iswitches": [],
-    "uswitches": [],
+    "iswitches": ["/S"],
+    "uswitches": ["/S"],
     "dependencies": []
   }
 }
