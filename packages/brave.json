@@ -5,7 +5,7 @@
   "creator": "CentOS",
   "home_page": "https://brave.com/",
   "19.0": {
-    "url": "https://laptop-updates.brave.com/latest/winx64",
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.26.3/BraveBrowserStandaloneNightlySetup.exe",
     "threads": 8,
     "file_type": ".exe",
     "iswitches": ["/S"],
