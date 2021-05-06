@@ -6,6 +6,7 @@
   "home_page": "https://www.7-zip.org/",
   "19.0": {
     "url": "https://www.7-zip.org/a/7z1900-x64.exe",
+    "size": 1447178,
     "threads": 16,
     "file_type": ".exe",
     "iswitches": ["/S"],
