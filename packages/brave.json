@@ -1,15 +1,15 @@
 {
   "display_name": "Brave",
   "package_name": "brave",
-  "version": "1.26.3",
-  "creator": "CentOS",
+  "latest_version": "90.1.24.82",
+  "creator": "Brave",
   "home_page": "https://brave.com/",
-  "1.26.3": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.26.3/BraveBrowserStandaloneNightlySetup.exe",
+  "90.1.24.82": {
+    "url": "https://brave-browser-downloads.s3.brave.com/latest/brave_installer-x64.exe",
     "threads": 8,
     "size": 81689968,
     "file_type": ".exe",
-    "iswitches": [],
+    "iswitches": ["--install", "--silent", "--system-level"],
     "uswitches": [],
     "dependencies": []
   }
