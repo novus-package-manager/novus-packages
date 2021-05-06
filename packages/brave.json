@@ -6,8 +6,8 @@
   "home_page": "https://brave.com/",
   "1.26.3": {
     "url": "https://github.com/brave/brave-browser/releases/download/v1.26.3/BraveBrowserStandaloneNightlySetup.exe",
-    "size": 81689968,
     "threads": 8,
+    "size": 81689968,
     "file_type": ".exe",
     "iswitches": [],
     "uswitches": [],
