@@ -1,0 +1,16 @@
+{
+  "display_name": "Adobe Acrobat Reader",
+  "package_name": "adobe-reader",
+  "latest_version": "2021.001.20145",
+  "creator": "Adobe",
+  "home_page": "https://get.adobe.com/reader/",
+  "2021.001.20145": {
+    "url": "https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/2100120145/AcroRdrDC2100120145_en_US.exe",
+    "threads": 8,
+    "size": 190154408,
+    "file_type": ".exe",
+    "iswitches": ["/sAll"],
+    "uswitches": ["/passive"],
+    "dependencies": []
+  }
+}

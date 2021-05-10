@@ -1,0 +1,15 @@
+{
+  "display_name": "CentOS",
+  "package_name": "centos",
+  "version": "8.3.2011",
+  "creator": "CentOS",
+  "home_page": "https://www.centos.org/",
+  "19.0": {
+    "url": "http://centos.mirror.snu.edu.in/centos/8.3.2011/isos/x86_64/CentOS-8.3.2011-x86_64-boot.iso",
+    "threads": 4,
+    "file_type": ".iso",
+    "iswitches": [],
+    "uswitches": [],
+    "dependencies": []
+  }
+}

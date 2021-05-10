@@ -1,0 +1,16 @@
+{
+  "display_name": "7-Zip",
+  "package_name": "7-zip",
+  "latest_version": "19.0",
+  "creator": "Igor Pavlov",
+  "home_page": "https://www.7-zip.org/",
+  "19.0": {
+    "url": "https://www.7-zip.org/a/7z1900-x64.exe",
+    "size": 1447178,
+    "threads": 16,
+    "file_type": ".exe",
+    "iswitches": ["/S"],
+    "uswitches": ["/S"],
+    "dependencies": []
+  }
+}
