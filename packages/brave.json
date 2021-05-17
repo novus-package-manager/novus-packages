@@ -11,6 +11,7 @@
     "file_type": ".exe",
     "iswitches": ["--install", "--silent", "--system-level"],
     "uswitches": [],
-    "dependencies": []
+    "dependencies": [],
+    "checksum": "D6422C140B7DD30AFDDD02A02ED47B12473FF2006CFD3E5107AA66FC57B795B9"
   }
 }
