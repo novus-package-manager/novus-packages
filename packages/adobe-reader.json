@@ -11,7 +11,6 @@
     "file_type": ".exe",
     "iswitches": ["/sAll"],
     "uswitches": ["/passive"],
-    "dependencies": [],
     "checksum": "F1E5CBBACE69EDBA23E7A2557B9BE59D916AF06AD27D99526E6FF356429FF4F2"
   }
 }
