@@ -16,14 +16,14 @@
     "download_url": "https://github.com/brave/brave-browser/releases/download/v<version>/BraveBrowserStandaloneSilentSetup.exe",
     "regex": "Release v.{7}"
   },
+  "1.24.82": {
+    "url": "https://brave-browser-downloads.s3.brave.com/latest/brave_installer-x64.exe",
+    "size": 81689968,
+    "checksum": "D6422C140B7DD30AFDDD02A02ED47B12473FF2006CFD3E5107AA66FC57B795B9"
+  },
   "1.24.85": {
     "url": "https://github.com/brave/brave-browser/releases/download/v1.24.85/BraveBrowserStandaloneSilentSetup.exe",
     "size": 81722736,
     "checksum": "9659B9C2E56C95B67A00E88AC5ADF9969DF27E4724814979A5F3BBAD62ECC2E2"
-  },
-  "90.1.24.82": {
-    "url": "https://brave-browser-downloads.s3.brave.com/latest/brave_installer-x64.exe",
-    "size": 81689968,
-    "checksum": "D6422C140B7DD30AFDDD02A02ED47B12473FF2006CFD3E5107AA66FC57B795B9"
   }
 }
