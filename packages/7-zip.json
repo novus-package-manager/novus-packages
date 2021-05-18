@@ -1,16 +1,28 @@
 {
-  "display_name": "7-Zip",
   "package_name": "7-zip",
-  "latest_version": "19.0",
+  "display_name": "7-Zip",
+  "latest_version": "21.02",
   "creator": "Igor Pavlov",
-  "home_page": "https://www.7-zip.org/download.html",
+  "home_page": "https://www.7-zip.org/",
+  "threads": 8,
+  "iswitches": [
+    "/S"
+  ],
+  "uswitches": [
+    "/S"
+  ],
+  "autoupdate": {
+    "download_page": "https://www.7-zip.org/download.html/",
+    "regex": "(?x)[^-].{2}[^.]*(\\d{4})-(\\d{2})-(\\d{2})"
+  },
   "19.0": {
     "url": "https://www.7-zip.org/a/7z1900-x64.exe",
     "size": 1447178,
-    "threads": 8,
-    "file_type": ".exe",
-    "iswitches": ["/S"],
-    "uswitches": ["/S"],
     "checksum": "0F5D4DBBE5E55B7AA31B91E5925ED901FDF46A367491D81381846F05AD54C45E"
+  },
+  "21.02": {
+    "url": "https://www.7-zip.org/a/7z2102-x64.exe",
+    "size": 1484843,
+    "checksum": "4ED310C3A54E28D98F4500987DA5391FC1FFA1C62301B96482E693C3CE76B741"
   }
 }
