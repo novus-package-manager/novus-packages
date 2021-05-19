@@ -7,6 +7,11 @@
   "threads": 8,
   "iswitches": ["/sAll"],
   "uswitches": ["/passive"],
+  "autoupdate": {
+    "download_page": "https://github.com/brave/brave-browser/releases",
+    "download_url": "https://github.com/brave/brave-browser/releases/download/v<version>/BraveBrowserStandaloneSilentSetup.exe",
+    "regex": "Release v.{7}"
+  },
   "2021.001.20145": {
     "url": "https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/2100120145/AcroRdrDC2100120145_en_US.exe",
     "size": 190154408,
