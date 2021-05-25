@@ -32,6 +32,7 @@ async fn main() {
         // autoupdate("7-zip").await;
     }
     autoupdate("7-zip").await;
+    autoupdate("brave").await;
 }
 
 async fn autoupdate(package_name: &str) {
