@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=d:\prana\Programming\My Projects\novus-package-manager\novus-packages\target\rls\debug\build\typenum-6a0f5561ed379736\out\consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=d:\prana\Programming\My Projects\novus-package-manager\novus-packages\target\rls\debug\build\typenum-6a0f5561ed379736\out\op.rs

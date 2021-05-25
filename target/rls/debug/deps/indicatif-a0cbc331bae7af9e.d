@@ -1,0 +1,11 @@
+d:\prana\Programming\My Projects\novus-package-manager\novus-packages\target\rls\debug\deps\indicatif-a0cbc331bae7af9e.rmeta: C:\Users\prana\.cargo\registry\src\github.com-1ecc6299db9ec823\indicatif-0.16.1\src\lib.rs C:\Users\prana\.cargo\registry\src\github.com-1ecc6299db9ec823\indicatif-0.16.1\src\format.rs C:\Users\prana\.cargo\registry\src\github.com-1ecc6299db9ec823\indicatif-0.16.1\src\iter.rs C:\Users\prana\.cargo\registry\src\github.com-1ecc6299db9ec823\indicatif-0.16.1\src\progress_bar.rs C:\Users\prana\.cargo\registry\src\github.com-1ecc6299db9ec823\indicatif-0.16.1\src\state.rs C:\Users\prana\.cargo\registry\src\github.com-1ecc6299db9ec823\indicatif-0.16.1\src\style.rs C:\Users\prana\.cargo\registry\src\github.com-1ecc6299db9ec823\indicatif-0.16.1\src\utils.rs
+
+d:\prana\Programming\My Projects\novus-package-manager\novus-packages\target\rls\debug\deps\indicatif-a0cbc331bae7af9e.d: C:\Users\prana\.cargo\registry\src\github.com-1ecc6299db9ec823\indicatif-0.16.1\src\lib.rs C:\Users\prana\.cargo\registry\src\github.com-1ecc6299db9ec823\indicatif-0.16.1\src\format.rs C:\Users\prana\.cargo\registry\src\github.com-1ecc6299db9ec823\indicatif-0.16.1\src\iter.rs C:\Users\prana\.cargo\registry\src\github.com-1ecc6299db9ec823\indicatif-0.16.1\src\progress_bar.rs C:\Users\prana\.cargo\registry\src\github.com-1ecc6299db9ec823\indicatif-0.16.1\src\state.rs C:\Users\prana\.cargo\registry\src\github.com-1ecc6299db9ec823\indicatif-0.16.1\src\style.rs C:\Users\prana\.cargo\registry\src\github.com-1ecc6299db9ec823\indicatif-0.16.1\src\utils.rs
+
+C:\Users\prana\.cargo\registry\src\github.com-1ecc6299db9ec823\indicatif-0.16.1\src\lib.rs:
+C:\Users\prana\.cargo\registry\src\github.com-1ecc6299db9ec823\indicatif-0.16.1\src\format.rs:
+C:\Users\prana\.cargo\registry\src\github.com-1ecc6299db9ec823\indicatif-0.16.1\src\iter.rs:
+C:\Users\prana\.cargo\registry\src\github.com-1ecc6299db9ec823\indicatif-0.16.1\src\progress_bar.rs:
+C:\Users\prana\.cargo\registry\src\github.com-1ecc6299db9ec823\indicatif-0.16.1\src\state.rs:
+C:\Users\prana\.cargo\registry\src\github.com-1ecc6299db9ec823\indicatif-0.16.1\src\style.rs:
+C:\Users\prana\.cargo\registry\src\github.com-1ecc6299db9ec823\indicatif-0.16.1\src\utils.rs:

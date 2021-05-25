@@ -1,0 +1,1 @@
+{"rustc":2989875100191573831,"features":"[\"termination\"]","target":875841655761279160,"profile":7135973342887328704,"path":4514265189804240001,"deps":[[17671881657559241013,"winapi",false,5235539294928990273]],"local":[{"CheckDepInfo":{"dep_info":"debug\\.fingerprint\\ctrlc-3424bf0b4bdc5613\\dep-lib-ctrlc"}}],"rustflags":[],"metadata":14328005900965106661,"config":0}

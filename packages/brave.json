@@ -5,11 +5,7 @@
   "creator": "Brave",
   "home_page": "https://brave.com/",
   "threads": 8,
-  "iswitches": [
-    "--install",
-    "--silent",
-    "--system-level"
-  ],
+  "iswitches": ["--install", "--silent", "--system-level"],
   "uswitches": [],
   "autoupdate": {
     "download_page": "https://github.com/brave/brave-browser/releases",
