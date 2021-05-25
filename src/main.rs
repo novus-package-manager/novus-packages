@@ -1,16 +1,20 @@
 mod package;
 
-use sha2::{Sha256, Digest};
-use package::{Package, VersionData};
-use reqwest::get;
 use colored::Colorize;
 use indicatif::{ProgressBar, ProgressStyle};
+use package::{AutoUpdateData, Package, VersionData};
+use reqwest::get;
+use serde::{Deserialize, Serialize};
+use serde_json::{from_str, to_string_pretty, to_writer_pretty, Value};
+use sha2::{Digest, Sha256};
+use std::collections::HashMap;
 use std::io::{BufReader, BufWriter, Write};
 use std::{fs::File, u64};
-use serde_json::{to_string_pretty, from_str, Value, to_writer_pretty};
 
 #[tokio::main]
 async fn main() {
+    let args: Vec<String> = std::env::args().collect();
+    println!("args: {:?}", args);
     let data = get_packages().await;
 
     let val = data
@@ -27,25 +31,81 @@ async fn main() {
                 .unwrap_or_else(|| handle_error_and_exit("An error occured".to_string()))
         })
         .collect();
-    
     for _package in package_list {
         // autoupdate("7-zip").await;
     }
-    autoupdate("7-zip").await;
-    autoupdate("brave").await;
+
+    if args.len() == 1 {
+        // autoupdate("7-zip").await;
+        autoupdate("discord").await;
+    } else {
+        if args[1] == "new" {
+            new_package(&args[2]);
+        }
+    }
+}
+
+#[derive(Deserialize, Serialize, Debug, Clone)]
+struct PackageList {
+    packages: Vec<String>,
+}
+
+fn new_package(package_name: &String) {
+    let loc = format!(
+        r"D:\prana\Programming\My Projects\novus-package-manager\novus-packages\packages\{}.json",
+        package_name
+    );
+    let path = std::path::Path::new(&loc);
+    let package_list_loc = std::path::Path::new(
+        r"D:\prana\Programming\My Projects\novus-package-manager\novus-packages\packages\package-list.json",
+    );
+    let file_contents = std::fs::read_to_string(package_list_loc).unwrap();
+    let package_list: PackageList =
+        serde_json::from_str::<PackageList>(file_contents.as_str()).unwrap();
+    let mut packages: Vec<String> = package_list.packages;
+    packages.push(package_name.clone());
+    let package_list: PackageList = PackageList { packages: packages };
+    let file = std::fs::File::create(r"D:\prana\Programming\My Projects\novus-package-manager\novus-packages\packages\package-list.json").unwrap();
+    to_writer_pretty(file, &package_list).unwrap();
+    let package_file = std::fs::File::create(path).unwrap();
+    let package: Package = Package {
+        package_name: package_name.clone(),
+        display_name: String::new(),
+        latest_version: String::new(),
+        home_page: String::new(),
+        threads: 0,
+        iswitches: vec![],
+        uswitches: vec![],
+        autoupdate: AutoUpdateData {
+            download_page: String::new(),
+            download_url: String::new(),
+            regex: String::new(),
+        },
+        versions: HashMap::new(),
+    };
+    to_writer_pretty(package_file, &package).unwrap();
 }
 
 async fn autoupdate(package_name: &str) {
     let package: Package = get_package(package_name.clone()).await;
-    let mut temp_package: Package = package.clone();
-    let url = package.autoupdate.download_page;
+    let url = package.clone().autoupdate.download_page;
     println!("url: {}", url);
-    let response = get(url).await.unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
-    let file_contents = response.text().await.unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
+    let response = get(url)
+        .await
+        .unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
+    let file_contents = response
+        .text()
+        .await
+        .unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
+
+    // println!("cont: {}", file_contents);
 
     let regex = regex::Regex::new(package.autoupdate.regex.as_str()).unwrap();
 
-    let matches: Vec<&str> = regex.captures_iter(file_contents.as_str()).map(|c| c.get(0).unwrap().as_str()).collect();
+    let matches: Vec<&str> = regex
+        .captures_iter(file_contents.as_str())
+        .map(|c| c.get(0).unwrap().as_str())
+        .collect();
     println!("matches: {:?}", matches);
 
     let mut versions_calc: Vec<String> = vec![];
@@ -61,7 +121,6 @@ async fn autoupdate(package_name: &str) {
         }
 
         versions.push(_match);
-        
         let year_dot_split: Vec<&str> = _match.split(".").collect();
         let year_string = year_dot_split.concat();
         versions_calc.push(year_string);
@@ -69,51 +128,127 @@ async fn autoupdate(package_name: &str) {
 
     println!("version final: {:?}", versions);
 
-    let index = versions_calc.iter()
-    .enumerate()
-    .filter_map(|(i, s)| s.parse::<u64>().ok().map(|n| (i, n)))
-    .max_by_key(|&(_, n)| n)
-    .map(|(i, _)| i).unwrap_or_else(|| handle_error_and_exit("Failed to find match".to_string()));    
+    let index = versions_calc
+        .iter()
+        .enumerate()
+        .filter_map(|(i, s)| s.parse::<u64>().ok().map(|n| (i, n)))
+        .max_by_key(|&(_, n)| n)
+        .map(|(i, _)| i)
+        .unwrap_or_else(|| handle_error_and_exit("Failed to find match".to_string()));
 
     let version = versions[index];
 
     println!("latest version: {}", version);
 
     if &package.latest_version != version {
-        let url = package.autoupdate.download_url.replace("<version>", version);
-        println!("url: {}", url);
-        let response = get(url.clone()).await.unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
-        let file_size = response.content_length().unwrap_or_else(|| handle_error_and_exit("Failed to get content length".to_string()));
-
-        let temp = std::env::var("TEMP").unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
-        let loc = format!(r"{}\novus\{}_check.exe", temp, package_name);
-        threadeddownload(url.clone(), loc.clone(), package.threads, package_name.to_string(), "".to_string(), false, false).await;
-        let hash = get_checksum(loc.clone());
-
-        let _ = std::fs::remove_file(loc);
-
-        let version_data: VersionData = VersionData {
-            url: url,
-            size: file_size,
-            checksum: hash,
-        };
-
-        println!("version_data: {:?}", version_data);
-
-        // make changes to data
-        temp_package.versions.insert(version.clone().to_string(), version_data);
-        temp_package.latest_version = version.to_string();
-
-        // Re-open file to replace the contents:
-        let file = std::fs::File::create(format!(r"D:\prana\Programming\My Projects\novus-package-manager\novus-packages\packages\{}.json", package_name)).unwrap(); 
-        to_writer_pretty(file, &temp_package).unwrap();
-        let mut commit = format!("autoupdate: {}", package_name);
-        commit = "\"".to_string() + commit.as_str() + "\"";
-        std::process::Command::new("powershell").arg("novus_update").output().expect("Failed to update gcp bucket");
-        let dir = std::path::Path::new(r"D:\prana\Programming\My Projects\novus-package-manager\novus-packages\");
-        let _ = std::env::set_current_dir(dir);
-        std::process::Command::new("powershell").args(&["deploy", commit.as_str(), "main"]).output().expect("Failed to deploy to github");
+        if package.clone().autoupdate.download_url == "" {
+            update_version(package.clone(), version, package_name);
+        } else {
+            update_url_and_version(package.clone(), version, package_name).await;
+        }
     }
+}
+
+fn update_version(package: Package, version: &str, package_name: &str) {
+    let mut temp_package: Package = package.clone();
+    temp_package.latest_version = version.to_string();
+
+    let file = std::fs::File::create(format!(
+        r"D:\prana\Programming\My Projects\novus-package-manager\novus-packages\packages\{}.json",
+        package_name
+    ))
+    .unwrap();
+    to_writer_pretty(file, &temp_package).unwrap();
+    let mut commit = format!("autoupdate: {}", package_name);
+    commit = "\"".to_string() + commit.as_str() + "\"";
+    std::process::Command::new("powershell")
+        .arg("novus_update")
+        .output()
+        .expect("Failed to update gcp bucket");
+    let dir = std::path::Path::new(
+        r"D:\prana\Programming\My Projects\novus-package-manager\novus-packages\",
+    );
+    let _ = std::env::set_current_dir(dir);
+    std::process::Command::new("powershell")
+        .args(&["deploy", commit.as_str(), "main"])
+        .output()
+        .expect("Failed to deploy to github");
+}
+
+async fn update_url_and_version(package: Package, version: &str, package_name: &str) {
+    let mut temp_package: Package = package.clone();
+    let mut url = package.autoupdate.download_url.clone();
+    if package.autoupdate.download_url.contains("<version>") {
+        url = package
+            .autoupdate
+            .download_url
+            .replace("<version>", version);
+    }
+    if package.autoupdate.download_url.contains("<version_no_dot>") {
+        url = package
+            .autoupdate
+            .download_url
+            .replace("<version_no_dot>", &version.replace(".", ""));
+    }
+    println!("url: {}", url);
+    let response = get(url.clone())
+        .await
+        .unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
+    let file_size = response
+        .content_length()
+        .unwrap_or_else(|| handle_error_and_exit("Failed to get content length".to_string()));
+
+    let temp = std::env::var("TEMP").unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
+    let loc = format!(r"{}\novus\{}_check.exe", temp, package_name);
+    threadeddownload(
+        url.clone(),
+        loc.clone(),
+        package.threads,
+        package_name.to_string(),
+        "".to_string(),
+        false,
+        false,
+    )
+    .await;
+    let hash = get_checksum(loc.clone());
+
+    let _ = std::fs::remove_file(loc);
+
+    let version_data: VersionData = VersionData {
+        url: url,
+        size: file_size,
+        checksum: hash,
+    };
+
+    println!("version_data: {:?}", version_data);
+
+    // make changes to data
+    temp_package
+        .versions
+        .insert(version.clone().to_string(), version_data);
+    temp_package.latest_version = version.to_string();
+
+    // Re-open file to replace the contents:
+    let file = std::fs::File::create(format!(
+        r"D:\prana\Programming\My Projects\novus-package-manager\novus-packages\packages\{}.json",
+        package_name
+    ))
+    .unwrap();
+    to_writer_pretty(file, &temp_package).unwrap();
+    let mut commit = format!("autoupdate: {}", package_name);
+    commit = "\"".to_string() + commit.as_str() + "\"";
+    std::process::Command::new("powershell")
+        .arg("novus_update")
+        .output()
+        .expect("Failed to update gcp bucket");
+    let dir = std::path::Path::new(
+        r"D:\prana\Programming\My Projects\novus-package-manager\novus-packages\",
+    );
+    let _ = std::env::set_current_dir(dir);
+    std::process::Command::new("powershell")
+        .args(&["deploy", commit.as_str(), "main"])
+        .output()
+        .expect("Failed to deploy to github");
 }
 
 fn handle_error_and_exit(e: String) -> ! {
@@ -121,19 +256,42 @@ fn handle_error_and_exit(e: String) -> ! {
     std::process::exit(0);
 }
 
-async fn get_packages() -> String {    
-    let response = get(format!("https://storage.googleapis.com/novus_bucket/package-list.json?a={:?}", std::time::UNIX_EPOCH.elapsed().unwrap())).await.unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
-    let file_contents = response.text().await.unwrap_or_else(|e| handle_error_and_exit(format!("{} get_package.rs:36", e.to_string())));
-    let content: Value = from_str(file_contents.as_str()).unwrap_or_else(|e| handle_error_and_exit(format!("{} get_package.rs:53", e.to_string())));
-    to_string_pretty(&content).unwrap_or_else(|e| handle_error_and_exit(format!("{} get_package.rs:54", e.to_string())))
+async fn get_packages() -> String {
+    let response = get(format!(
+        "https://storage.googleapis.com/novus_bucket/package-list.json?a={:?}",
+        std::time::UNIX_EPOCH.elapsed().unwrap()
+    ))
+    .await
+    .unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
+    let file_contents = response
+        .text()
+        .await
+        .unwrap_or_else(|e| handle_error_and_exit(format!("{} get_package.rs:36", e.to_string())));
+    let content: Value = from_str(file_contents.as_str())
+        .unwrap_or_else(|e| handle_error_and_exit(format!("{} get_package.rs:53", e.to_string())));
+    to_string_pretty(&content)
+        .unwrap_or_else(|e| handle_error_and_exit(format!("{} get_package.rs:54", e.to_string())))
 }
 
-
 async fn get_package(package_name: &str) -> Package {
-    println!("getting: https://storage.googleapis.com/novus_bucket/{}.json?a={:?}", package_name, std::time::UNIX_EPOCH.elapsed().unwrap());
-    let response = get(format!("https://storage.googleapis.com/novus_bucket/{}.json?a={:?}", package_name, std::time::UNIX_EPOCH.elapsed().unwrap())).await.unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
-    let file_contents = response.text().await.unwrap_or_else(|e| handle_error_and_exit(format!("{} get_package.rs:36", e.to_string())));
-    from_str::<Package>(&file_contents).unwrap_or_else(|e| handle_error_and_exit(format!("{} get_package.rs:29", e.to_string())))
+    println!(
+        "getting: https://storage.googleapis.com/novus_bucket/{}.json?a={:?}",
+        package_name,
+        std::time::UNIX_EPOCH.elapsed().unwrap()
+    );
+    let response = get(format!(
+        "https://storage.googleapis.com/novus_bucket/{}.json?a={:?}",
+        package_name,
+        std::time::UNIX_EPOCH.elapsed().unwrap()
+    ))
+    .await
+    .unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
+    let file_contents = response
+        .text()
+        .await
+        .unwrap_or_else(|e| handle_error_and_exit(format!("{} get_package.rs:36", e.to_string())));
+    from_str::<Package>(&file_contents)
+        .unwrap_or_else(|e| handle_error_and_exit(format!("{} get_package.rs:29", e.to_string())))
 }
 
 fn get_checksum(output: String) -> String {
@@ -160,7 +318,8 @@ async fn threadeddownload(
     let total_length = res
         .content_length()
         .unwrap_or_else(|| handle_error_and_exit("An Unexpected Error Occured!".to_string()));
-    let temp = std::env::var("TEMP").unwrap_or_else(|e| handle_error_and_exit(format!("{} install.rs:106", e.to_string())));
+    let temp = std::env::var("TEMP")
+        .unwrap_or_else(|e| handle_error_and_exit(format!("{} install.rs:106", e.to_string())));
 
     if max {
         let progress_bar = ProgressBar::new(total_length);
@@ -172,9 +331,9 @@ async fn threadeddownload(
             let loc = format!(r"{}\novus\setup_{}{}.tmp", temp, package_name, index + 1);
             let (start, end) = get_splits(index + 1, total_length, threads);
             let pb = progress_bar.clone();
-            let mut file = BufWriter::new(
-                File::create(loc).unwrap_or_else(|e| handle_error_and_exit(format!("{} install.rs:119", e.to_string()))),
-            );
+            let mut file = BufWriter::new(File::create(loc).unwrap_or_else(|e| {
+                handle_error_and_exit(format!("{} install.rs:119", e.to_string()))
+            }));
             let url = url.clone();
             handles.push(tokio::spawn(async move {
                 let client = reqwest::Client::new();
@@ -183,13 +342,13 @@ async fn threadeddownload(
                     .header("range", format!("bytes={}-{}", start, end))
                     .send()
                     .await
-                    .unwrap_or_else(|e| handle_error_and_exit(format!("{} install.rs:129", e.to_string())));
+                    .unwrap_or_else(|e| {
+                        handle_error_and_exit(format!("{} install.rs:129", e.to_string()))
+                    });
 
-                while let Some(chunk) = response
-                    .chunk()
-                    .await
-                    .unwrap_or_else(|e| handle_error_and_exit(format!("{} install.rs:134", e.to_string())))
-                {
+                while let Some(chunk) = response.chunk().await.unwrap_or_else(|e| {
+                    handle_error_and_exit(format!("{} install.rs:134", e.to_string()))
+                }) {
                     pb.inc(chunk.len() as u64);
                     let _ = file.write(&*chunk);
                 }
@@ -203,9 +362,9 @@ async fn threadeddownload(
         for index in 0..threads {
             let loc = format!(r"{}\novus\setup_{}{}.tmp", temp, package_name, index + 1);
             let (start, end) = get_splits(index + 1, total_length, threads);
-            let mut file = BufWriter::new(
-                File::create(loc).unwrap_or_else(|e| handle_error_and_exit(format!("{} install.rs:150", e.to_string()))),
-            );
+            let mut file = BufWriter::new(File::create(loc).unwrap_or_else(|e| {
+                handle_error_and_exit(format!("{} install.rs:150", e.to_string()))
+            }));
             let url = url.clone();
             handles.push(tokio::spawn(async move {
                 let client = reqwest::Client::new();
@@ -214,12 +373,12 @@ async fn threadeddownload(
                     .header("range", format!("bytes={}-{}", start, end))
                     .send()
                     .await
-                    .unwrap_or_else(|e| handle_error_and_exit(format!("{} install.rs:160", e.to_string())));
-                while let Some(chunk) = response
-                    .chunk()
-                    .await
-                    .unwrap_or_else(|e| handle_error_and_exit(format!("{} install.rs:164", e.to_string())))
-                {
+                    .unwrap_or_else(|e| {
+                        handle_error_and_exit(format!("{} install.rs:160", e.to_string()))
+                    });
+                while let Some(chunk) = response.chunk().await.unwrap_or_else(|e| {
+                    handle_error_and_exit(format!("{} install.rs:164", e.to_string()))
+                }) {
                     let _ = file.write(&*chunk);
                 }
             }));
@@ -228,21 +387,21 @@ async fn threadeddownload(
         futures::future::join_all(handles).await;
     }
 
-    let mut file =
-        File::create(output.clone()).unwrap_or_else(|e| handle_error_and_exit(format!("{} install.rs:175", e.to_string())));
+    let mut file = File::create(output.clone())
+        .unwrap_or_else(|e| handle_error_and_exit(format!("{} install.rs:175", e.to_string())));
 
     let temp = std::env::var("TEMP").unwrap();
 
     for index in 0..threads {
         let loc = format!(r"{}\novus\setup_{}{}.tmp", temp, package_name, index + 1);
         let mut buf: Vec<u8> = vec![];
-        let downloaded_file =
-            File::open(loc.clone()).unwrap_or_else(|e| handle_error_and_exit(format!("{} install.rs:183", e.to_string())));
+        let downloaded_file = File::open(loc.clone())
+            .unwrap_or_else(|e| handle_error_and_exit(format!("{} install.rs:183", e.to_string())));
         let mut reader = BufReader::new(downloaded_file);
         let _ = std::io::copy(&mut reader, &mut buf);
-        let _ = file.write_all(&buf);        
+        let _ = file.write_all(&buf);
         let _ = std::fs::remove_file(loc);
-    }    
+    }
 
     if get_checksum {
         verify_checksum(output, checksum);

@@ -2,7 +2,6 @@
   "package_name": "brave",
   "display_name": "Brave",
   "latest_version": "1.25.66",
-  "creator": "Brave",
   "home_page": "https://brave.com/",
   "threads": 8,
   "iswitches": [

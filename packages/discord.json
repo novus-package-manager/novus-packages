@@ -1,0 +1,19 @@
+{
+  "package_name": "discord",
+  "display_name": "Discord",
+  "latest_version": "1.0.9001",
+  "home_page": "https://discord.com/download",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "https://www.filehorse.com/download-discord/old-versions/",
+    "download_url": "https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x86",
+    "regex": "(Discord \\d.\\d.\\w+)"
+  },
+  "1.0.9001": {
+    "url": "https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x86",
+    "size": 70939752,
+    "checksum": "B21AA1804EE4ED1F8F85B43E4604A3B7A0DFC323B0E5DFFB89A20B2D6FED96D5"
+  }
+}

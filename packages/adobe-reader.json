@@ -2,7 +2,6 @@
   "display_name": "Adobe Acrobat Reader DC",
   "package_name": "adobe-reader",
   "latest_version": "2021.001.20145",
-  "creator": "Adobe",
   "home_page": "https://get.adobe.com/reader/",
   "threads": 8,
   "iswitches": ["/sAll"],
