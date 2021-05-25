@@ -124,8 +124,8 @@ fn handle_error_and_exit(e: String) -> ! {
     std::process::exit(0);
 }
 
-async fn get_packages() -> String {
-    let response = get(format!("https://storage.googleapis.com/novus_bucket/package-list.json?a={:?}", std::time::SystemTime::now())).await.unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
+async fn get_packages() -> String {    
+    let response = get(format!("https://storage.googleapis.com/novus_bucket/package-list.json?a={:?}", std::time::UNIX_EPOCH.elapsed().unwrap())).await.unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
     let file_contents = response.text().await.unwrap_or_else(|e| handle_error_and_exit(format!("{} get_package.rs:36", e.to_string())));
     let content: Value = from_str(file_contents.as_str()).unwrap_or_else(|e| handle_error_and_exit(format!("{} get_package.rs:53", e.to_string())));
     to_string_pretty(&content).unwrap_or_else(|e| handle_error_and_exit(format!("{} get_package.rs:54", e.to_string())))
@@ -133,7 +133,8 @@ async fn get_packages() -> String {
 
 
 async fn get_package(package_name: &str) -> Package {
-    let response = get(format!("https://storage.googleapis.com/novus_bucket/{}.json?a={:?}", package_name, std::time::SystemTime::now())).await.unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
+    println!("getting: https://storage.googleapis.com/novus_bucket/{}.json?a={:?}", package_name, std::time::UNIX_EPOCH.elapsed().unwrap());
+    let response = get(format!("https://storage.googleapis.com/novus_bucket/{}.json?a={:?}", package_name, std::time::UNIX_EPOCH.elapsed().unwrap())).await.unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
     let file_contents = response.text().await.unwrap_or_else(|e| handle_error_and_exit(format!("{} get_package.rs:36", e.to_string())));
     from_str::<Package>(&file_contents).unwrap_or_else(|e| handle_error_and_exit(format!("{} get_package.rs:29", e.to_string())))
 }
