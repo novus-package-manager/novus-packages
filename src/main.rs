@@ -31,7 +31,7 @@ async fn main() {
     for _package in package_list {
         // autoupdate("7-zip").await;
     }
-    autoupdate("brave").await;
+    autoupdate("7-zip").await;
 }
 
 async fn autoupdate(package_name: &str) {
