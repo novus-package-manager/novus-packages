@@ -37,7 +37,7 @@ async fn main() {
 
     if args.len() == 1 {
         // autoupdate("7-zip").await;
-        autoupdate("discord").await;
+        autoupdate("adobe-reader").await;
     } else {
         if args[1] == "new" {
             new_package(&args[2]);
@@ -113,11 +113,20 @@ async fn autoupdate(package_name: &str) {
     let mut versions: Vec<&str> = vec![];
 
     for mut _match in matches {
+        _match = _match.trim_end();
         let version_split: Vec<&str> = _match.split(" ").collect();
-        _match = version_split[1].trim();
-        if _match.contains("v") {
-            let version_split: Vec<&str> = _match.split("v").collect();
-            _match = version_split[1];
+        if version_split.len() > 1 {
+            _match = version_split[1].trim();
+            if _match.contains("v") {
+                let version_split: Vec<&str> = _match.split("v").collect();
+                _match = version_split[1].trim();
+            }
+        } else {
+            _match = version_split[0];
+            if _match.contains("v") {
+                let version_split: Vec<&str> = _match.split("v").collect();
+                _match = version_split[1].trim();
+            }
         }
 
         versions.push(_match);
