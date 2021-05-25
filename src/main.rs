@@ -108,7 +108,7 @@ async fn autoupdate(package_name: &str) {
         // Re-open file to replace the contents:
         let file = std::fs::File::create(format!(r"D:\prana\Programming\My Projects\novus-package-manager\novus-packages\packages\{}.json", package_name)).unwrap(); 
         to_writer_pretty(file, &temp_package).unwrap();
-        let mut commit = format!("autoupdater: Updated {}", package_name);
+        let mut commit = format!("autoupdate: {}", package_name);
         commit = "\"".to_string() + commit.as_str() + "\"";
         std::process::Command::new("powershell").arg("novus_update").output().expect("Failed to update gcp bucket");
         // std::process::Command::new("gsutil").args(&["cp", "-r", "\"D:/prana/Programming/My Projects/novus-package-manager/novus-packages/packages/*\"", "gs://novus_bucket"]).output().expect("Failed to update bucket");
