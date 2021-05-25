@@ -114,9 +114,10 @@ async fn autoupdate(package_name: &str) {
         // std::process::Command::new("gsutil").args(&["cp", "-r", "\"D:/prana/Programming/My Projects/novus-package-manager/novus-packages/packages/*\"", "gs://novus_bucket"]).output().expect("Failed to update bucket");
         let dir = std::path::Path::new(r"D:\prana\Programming\My Projects\novus-package-manager\novus-packages\");
         let _ = std::env::set_current_dir(dir);
-        std::process::Command::new("git").args(&["add", "."]).output().expect("Failed to add");
-        std::process::Command::new("git").args(&["commit", "-m", commit.as_str()]).output().expect("Failed to commit");
-        std::process::Command::new("git").args(&["push"]).output().expect("Failed to push");
+        std::process::Command::new("powershell").args(&["deploy", commit.as_str(), "main"]).output().expect("Failed to deploy to github");
+        // std::process::Command::new("git").args(&["add", "."]).output().expect("Failed to add");
+        // std::process::Command::new("git").args(&["commit", "-m", commit.as_str()]).output().expect("Failed to commit");
+        // std::process::Command::new("git").args(&["push"]).output().expect("Failed to push");
     }
 }
 
