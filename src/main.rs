@@ -110,7 +110,8 @@ async fn autoupdate(package_name: &str) {
         to_writer_pretty(file, &temp_package).unwrap();
         let mut commit = format!("autoupdater: Updated {}", package_name);
         commit = "\"".to_string() + commit.as_str() + "\"";
-        std::process::Command::new("gsutil").args(&["cp", "-r", "'D:\\prana/Programming/My Projects/novus-package-manager/novus-packages/packages/*'", "gs://novus_bucket"]);
+        std::process::Command::new("powershell").arg("novus_update").output().expect("Failed to update gcp bucket");
+        // std::process::Command::new("gsutil").args(&["cp", "-r", "\"D:/prana/Programming/My Projects/novus-package-manager/novus-packages/packages/*\"", "gs://novus_bucket"]).output().expect("Failed to update bucket");
         let dir = std::path::Path::new(r"D:\prana\Programming\My Projects\novus-package-manager\novus-packages\");
         let _ = std::env::set_current_dir(dir);
         std::process::Command::new("git").args(&["add", "."]).output().expect("Failed to add");
