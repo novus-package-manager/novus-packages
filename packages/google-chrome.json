@@ -4,7 +4,9 @@
   "latest_version": "90.0.4430.212",
   "home_page": "https://www.google.com/chrome/?brand=FHFK&gclsrc=ds&gclsrc=ds",
   "threads": 8,
-  "iswitches": [],
+  "iswitches": [
+    "/silent"
+  ],
   "uswitches": [],
   "autoupdate": {
     "download_page": "https://google_chrome.en.downloadastro.com/old_versions/",
@@ -14,7 +16,7 @@
   "90.0.4430.212": {
     "url": "https://www.google.com/chrome/thank-you.html?brand=FHFK&statcb=1&installdataindex=empty&defaultbrowser=0#",
     "size": 225999,
-    "checksum": "4731578ACA8BEB9FB63A53AEEF704200EAC5C8059018E77C6091216F6EE54C3B",
+    "checksum": "C2C63FF12963236F163A445C94088CC3291A973D3596A13A97F83023AB3F00A9",
     "file_type": ".exe"
   }
 }
