@@ -4,15 +4,20 @@
   "latest_version": "1.4.00.11161",
   "home_page": "https://www.microsoft.com/en-in/microsoft-teams/group-chat-software",
   "threads": 8,
-  "iswitches": ["--silent"],
-  "uswitches": ["--uninstall", "-s"],
+  "iswitches": [
+    "--silent"
+  ],
+  "uswitches": [
+    "--uninstall",
+    "-s"
+  ],
   "autoupdate": {
     "download_page": "https://microsoft-teams.en.uptodown.com/windows/versions",
-    "download_url": "https://go.microsoft.com/fwlink/p/?LinkID=869426&clcid=0x4009&culture=en-in&country=IN&lm=deeplink&lmsrc=groupChatMarketingPageWeb&cmpid=directDownloadWin64",
+    "download_url": "https://statics.teams.cdn.office.net/production-windows-x64/<version>/Teams_windows_x64.exe",
     "regex": "class=version>(\\d+\\.\\d+\\.\\d+\\.\\d+)"
   },
   "1.4.00.11161": {
-    "url": "https://go.microsoft.com/fwlink/p/?LinkID=869426&clcid=0x4009&culture=en-in&country=IN&lm=deeplink&lmsrc=groupChatMarketingPageWeb&cmpid=directDownloadWin64",
+    "url": "https://statics.teams.cdn.office.net/production-windows-x64/1.4.00.11161/Teams_windows_x64.exe",
     "size": 110777624,
     "checksum": "C29360A748F653FA5FA417A1FAE158D2AC08F90455B34089BFD8384B7E396FEB",
     "file_type": ".exe"

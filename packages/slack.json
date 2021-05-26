@@ -8,7 +8,7 @@
   "uswitches": [],
   "autoupdate": {
     "download_page": "https://slack.en.uptodown.com/windows/versions",
-    "download_url": "https://slack.com/ssb/download-win64",
+    "download_url": "https://slack.com/ssb/download-win64",    
     "regex": "class=version>(\\d+\\.\\d+\\.\\d+)"
   },
   "4.16.1": {
