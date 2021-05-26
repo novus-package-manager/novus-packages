@@ -31,13 +31,11 @@ async fn main() {
                 .unwrap_or_else(|| handle_error_and_exit("An error occured".to_string()))
         })
         .collect();
-    for _package in package_list {
-        // autoupdate("7-zip").await;
-    }
 
     if args.len() == 1 {
-        // autoupdate("7-zip").await;
-        autoupdate("blender").await;
+        for package in package_list {
+            autoupdate(package).await;
+        }
     } else {
         if args[1] == "new" {
             new_package(&args[2]);
