@@ -1,14 +1,20 @@
 {
   "package_name": "google-chrome",
   "display_name": "Google Chrome",
-  "latest_version": "0",
+  "latest_version": "90.0.4430.212",
   "home_page": "https://www.google.com/chrome/?brand=FHFK&gclsrc=ds&gclsrc=ds",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
   "autoupdate": {
-    "download_page": "https://chromeenterprise.google/browser/download/",
-    "download_url": "https://www.slimjet.com/chrome/download-chrome.php?file=files%2F91.0.4472.77%2FChromeStandaloneSetup64.exe",
-    "regex": ""
+    "download_page": "https://google_chrome.en.downloadastro.com/old_versions/",
+    "download_url": "https://www.google.com/chrome/thank-you.html?brand=FHFK&statcb=1&installdataindex=empty&defaultbrowser=0#",
+    "regex": "Program Version (\\d+\\.\\d+\\.\\d+\\.\\d+)"
+  },
+  "90.0.4430.212": {
+    "url": "https://www.google.com/chrome/thank-you.html?brand=FHFK&statcb=1&installdataindex=empty&defaultbrowser=0#",
+    "size": 225999,
+    "checksum": "4731578ACA8BEB9FB63A53AEEF704200EAC5C8059018E77C6091216F6EE54C3B",
+    "file_type": ".exe"
   }
 }
