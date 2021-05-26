@@ -1,5 +1,6 @@
 mod package;
 
+use clipboard_win::{formats, get_clipboard, set_clipboard};
 use colored::Colorize;
 use indicatif::{ProgressBar, ProgressStyle};
 use package::{AutoUpdateData, Package, VersionData};
@@ -33,13 +34,16 @@ async fn main() {
         .collect();
 
     if args.len() == 1 {
-        // for package in package_list {
-        //     autoupdate(package).await;
-        // }
-        autoupdate("spotify").await;
+        for package in package_list {
+            autoupdate(package).await;
+        }
     } else {
         if args[1] == "new" {
             new_package(&args[2]);
+        } else if args[1] == "test" {
+            get_contents(&args[2]).await;
+        } else {
+            autoupdate(&args[1]).await;
         }
     }
 }
@@ -47,6 +51,23 @@ async fn main() {
 #[derive(Deserialize, Serialize, Debug, Clone)]
 struct PackageList {
     packages: Vec<String>,
+}
+
+async fn get_contents(package_name: &str) {
+    let package: Package = get_package(package_name.clone()).await;
+    let url = package.clone().autoupdate.download_page;
+    println!("url: {}", url);
+    let response = get(url)
+        .await
+        .unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
+    let file_contents = response
+        .text()
+        .await
+        .unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
+
+    println!("cont: {}", file_contents);
+
+    set_clipboard(formats::Unicode, file_contents).expect("To set clipboard");
 }
 
 fn new_package(package_name: &String) {
