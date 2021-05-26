@@ -18,6 +18,7 @@
   "21.001.20145": {
     "url": "https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/2100120145/AcroRdrDC2100120145_en_US.exe",
     "size": 190154408,
-    "checksum": "F1E5CBBACE69EDBA23E7A2557B9BE59D916AF06AD27D99526E6FF356429FF4F2"
+    "checksum": "F1E5CBBACE69EDBA23E7A2557B9BE59D916AF06AD27D99526E6FF356429FF4F2",
+    "file_type": ".exe"
   }
 }

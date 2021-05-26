@@ -29,6 +29,7 @@
   "1.56.2": {
     "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user",
     "size": 80053656,
-    "checksum": "A3422589E2985B763C8C08A1820229051A87716D2FBDC9AEC3EE17B29CE83501"
+    "checksum": "A3422589E2985B763C8C08A1820229051A87716D2FBDC9AEC3EE17B29CE83501",
+    "file_type": ".exe"
   }
 }

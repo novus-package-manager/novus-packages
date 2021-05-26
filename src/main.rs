@@ -187,6 +187,10 @@ fn update_version(package: Package, version: &str, package_name: &str) {
 async fn update_url_and_version(package: Package, version: &str, package_name: &str) {
     let mut temp_package: Package = package.clone();
     let mut url = package.autoupdate.download_url.clone();
+    let mut file_type: String = ".exe".to_string();
+    if package.autoupdate.download_url.contains(".msi") {
+        file_type = ".msi".to_string();
+    }
     if package.autoupdate.download_url.contains("<version>") {
         url = url.replace("<version>", version);
     }
@@ -216,7 +220,7 @@ async fn update_url_and_version(package: Package, version: &str, package_name: &
         .unwrap_or_else(|| handle_error_and_exit("Failed to get content length".to_string()));
 
     let temp = std::env::var("TEMP").unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
-    let loc = format!(r"{}\novus\{}_check.exe", temp, package_name);
+    let loc = format!(r"{}\novus\{}_check{}", temp, package_name, file_type);
     threadeddownload(
         url.clone(),
         loc.clone(),
@@ -235,6 +239,7 @@ async fn update_url_and_version(package: Package, version: &str, package_name: &
         url: url,
         size: file_size,
         checksum: hash,
+        file_type: file_type,
     };
 
     println!("version_data: {:?}", version_data);

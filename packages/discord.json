@@ -14,6 +14,7 @@
   "1.0.9001": {
     "url": "https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x86",
     "size": 70939752,
-    "checksum": "B21AA1804EE4ED1F8F85B43E4604A3B7A0DFC323B0E5DFFB89A20B2D6FED96D5"
+    "checksum": "B21AA1804EE4ED1F8F85B43E4604A3B7A0DFC323B0E5DFFB89A20B2D6FED96D5",
+    "file_type": ".exe"
   }
 }
