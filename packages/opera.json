@@ -1,0 +1,20 @@
+{
+  "package_name": "opera",
+  "display_name": "Opera",
+  "latest_version": "74.0.3911.160",
+  "home_page": "https://www.opera.com/",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "https://opera.en.uptodown.com/windows/versions",
+    "download_url": "https://www.opera.com/computer/thanks?ni=stable&os=windows",
+    "regex": "class=version>(\\d+\\.\\d+\\.\\d+\\.\\d+)"
+  },
+  "74.0.3911.160": {
+    "url": "https://www.opera.com/computer/thanks?ni=stable&os=windows",
+    "size": 118,
+    "checksum": "0E0FC67D5F4074A868ADBC24611763E752C949607B0FB98114EBB9AEAFDBC8FF",
+    "file_type": ".exe"
+  }
+}
