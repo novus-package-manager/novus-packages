@@ -96,9 +96,9 @@ fn new_package(package_name: &String) {
     let package: Package = Package {
         package_name: package_name.clone(),
         display_name: String::new(),
-        latest_version: String::new(),
+        latest_version: "0".to_string(),
         home_page: String::new(),
-        threads: 0,
+        threads: 8,
         iswitches: vec![],
         uswitches: vec![],
         autoupdate: AutoUpdateData {

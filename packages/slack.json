@@ -3,7 +3,7 @@
   "display_name": "Slack",
   "latest_version": "3.0.1.0",
   "home_page": "https://slack.com/intl/en-in/",
-  "threads": 0,
+  "threads": 8,
   "iswitches": [],
   "uswitches": [],
   "autoupdate": {
