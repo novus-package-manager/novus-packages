@@ -1,0 +1,24 @@
+{
+  "package_name": "visual-studio-code",
+  "display_name": "Microsoft Visual Studio Code (User)",
+  "latest_version": "1.56.2",
+  "home_page": "https://code.visualstudio.com/",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "https://visual-studio-code.en.uptodown.com/windows/versions",
+    "download_url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user",
+    "regex": "\"(\\d+\\.\\d+\\.\\d)\""
+  },
+  "1.52.1": {
+    "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user",
+    "size": 0,
+    "checksum": ""
+  },
+  "1.56.2": {
+    "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user",
+    "size": 80053656,
+    "checksum": "A3422589E2985B763C8C08A1820229051A87716D2FBDC9AEC3EE17B29CE83501"
+  }
+}

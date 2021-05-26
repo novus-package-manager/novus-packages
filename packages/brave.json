@@ -13,7 +13,7 @@
   "autoupdate": {
     "download_page": "https://github.com/brave/brave-browser/releases",
     "download_url": "https://github.com/brave/brave-browser/releases/download/v<version>/BraveBrowserStandaloneSilentSetup.exe",
-    "regex": "Release v.{7}"
+    "regex": "(Release v.{7})"
   },
   "1.24.82": {
     "url": "https://brave-browser-downloads.s3.brave.com/latest/brave_installer-x64.exe",

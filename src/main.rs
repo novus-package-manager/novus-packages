@@ -37,7 +37,7 @@ async fn main() {
 
     if args.len() == 1 {
         // autoupdate("7-zip").await;
-        autoupdate("adobe-reader").await;
+        autoupdate("visual-studio-code").await;
     } else {
         if args[1] == "new" {
             new_package(&args[2]);
@@ -102,9 +102,16 @@ async fn autoupdate(package_name: &str) {
 
     let regex = regex::Regex::new(package.autoupdate.regex.as_str()).unwrap();
 
+    // let mut matches: Vec<String> = vec![];
+
+    // for _match in regex.captures_iter(file_contents.as_str()) {
+    //     println!("group1: {}", &_match[1]);
+    //     matches.push(_match[1].to_string());
+    // }
+
     let matches: Vec<&str> = regex
         .captures_iter(file_contents.as_str())
-        .map(|c| c.get(0).unwrap().as_str())
+        .map(|c| c.get(1).unwrap().as_str())
         .collect();
     println!("matches: {:?}", matches);
 
