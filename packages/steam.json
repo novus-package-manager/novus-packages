@@ -4,8 +4,8 @@
   "latest_version": "2021.04.12",
   "home_page": "https://store.steampowered.com/",
   "threads": 8,
-  "iswitches": [],
-  "uswitches": [],
+  "iswitches": ["/S"],
+  "uswitches": ["/S"],
   "autoupdate": {
     "download_page": "https://steam.en.softonic.com/download",
     "download_url": "https://cdn.cloudflare.steamstatic.com/client/installer/SteamSetup.exe",

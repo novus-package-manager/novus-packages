@@ -4,8 +4,8 @@
   "latest_version": "1.4.00.11161",
   "home_page": "https://www.microsoft.com/en-in/microsoft-teams/group-chat-software",
   "threads": 8,
-  "iswitches": [],
-  "uswitches": [],
+  "iswitches": ["--silent"],
+  "uswitches": ["--uninstall", "-s"],
   "autoupdate": {
     "download_page": "https://microsoft-teams.en.uptodown.com/windows/versions",
     "download_url": "https://go.microsoft.com/fwlink/p/?LinkID=869426&clcid=0x4009&culture=en-in&country=IN&lm=deeplink&lmsrc=groupChatMarketingPageWeb&cmpid=directDownloadWin64",
