@@ -10,13 +10,13 @@
   "uswitches": [],
   "autoupdate": {
     "download_page": "https://google_chrome.en.downloadastro.com/old_versions/",
-    "download_url": "https://www.google.com/chrome/thank-you.html?brand=FHFK&statcb=1&installdataindex=empty&defaultbrowser=0#",
+    "download_url": "https://dl.google.com/tag/s/dl/chrome/install/googlechromestandaloneenterprise64.msi",
     "regex": "Program Version (\\d+\\.\\d+\\.\\d+\\.\\d+)"
   },
   "90.0.4430.212": {
-    "url": "https://www.google.com/chrome/thank-you.html?brand=FHFK&statcb=1&installdataindex=empty&defaultbrowser=0#",
-    "size": 225999,
-    "checksum": "C2C63FF12963236F163A445C94088CC3291A973D3596A13A97F83023AB3F00A9",
-    "file_type": ".exe"
+    "url": "https://dl.google.com/tag/s/dl/chrome/install/googlechromestandaloneenterprise64.msi",
+    "size": 78790656,
+    "checksum": "FCA705F1F08F7AA96322E8A8D1929BA08006AA2A62113DCAD1E4A269BFBCED61",
+    "file_type": ".msi"
   }
 }
