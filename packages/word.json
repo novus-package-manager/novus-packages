@@ -1,0 +1,14 @@
+{
+  "package_name": "word",
+  "display_name": "Microsoft Word",
+  "latest_version": "0",
+  "home_page": "",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "https://microsoft-word.en.softonic.com/",
+    "download_url": "https://microsoft-word.en.softonic.com/download",
+    "regex": ""
+  }
+}

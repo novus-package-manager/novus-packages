@@ -4,8 +4,8 @@
   "latest_version": "74.0.3911.160",
   "home_page": "https://www.opera.com/",
   "threads": 8,
-  "iswitches": [],
-  "uswitches": [],
+  "iswitches": ["/silent", "/norestart"],
+  "uswitches": ["/uninstall", "/silent"],
   "autoupdate": {
     "download_page": "https://opera.en.uptodown.com/windows/versions",
     "download_url": "https://get.geo.opera.com/pub/opera/desktop/<version>/win/Opera_<version>_Setup_x64.exe",
