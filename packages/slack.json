@@ -1,17 +1,17 @@
 {
   "package_name": "slack",
   "display_name": "Slack",
-  "latest_version": "3.0.1.0",
+  "latest_version": "4.16.1",
   "home_page": "https://slack.com/intl/en-in/",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
   "autoupdate": {
-    "download_page": "https://slack.en.softonic.com/download",
+    "download_page": "https://slack.en.uptodown.com/windows/versions",
     "download_url": "https://slack.com/ssb/download-win64",
-    "regex": "(\\d+\\.\\d+\\.\\d+\\.\\d+)</p>"
+    "regex": "class=version>(\\d+\\.\\d+\\.\\d+)"
   },
-  "3.0.1.0": {
+  "4.16.1": {
     "url": "https://slack.com/ssb/download-win64",
     "size": 91744912,
     "checksum": "B594D10DCAB800B02402627416186CF2441A0A015F0E3017C3F3BBB4CE67FBCA",
