@@ -8,13 +8,13 @@
   "uswitches": [],
   "autoupdate": {
     "download_page": "https://opera.en.uptodown.com/windows/versions",
-    "download_url": "https://www.opera.com/computer/thanks?ni=stable&os=windows",
+    "download_url": "https://get.geo.opera.com/pub/opera/desktop/<version>/win/Opera_<version>_Setup_x64.exe",
     "regex": "class=version>(\\d+\\.\\d+\\.\\d+\\.\\d+)"
   },
   "74.0.3911.160": {
-    "url": "https://www.opera.com/computer/thanks?ni=stable&os=windows",
-    "size": 118,
-    "checksum": "0E0FC67D5F4074A868ADBC24611763E752C949607B0FB98114EBB9AEAFDBC8FF",
+    "url": "https://get.geo.opera.com/pub/opera/desktop/74.0.3911.160/win/Opera_74.0.3911.160_Setup_x64.exe",
+    "size": 69470688,
+    "checksum": "8CBEB2130FFEFBCD033078BFAD5E5E600BBEF8C364CC8FDF91FAD064422C1E82",
     "file_type": ".exe"
   }
 }
