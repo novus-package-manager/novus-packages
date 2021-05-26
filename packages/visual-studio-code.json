@@ -4,17 +4,12 @@
   "latest_version": "1.56.2",
   "home_page": "https://code.visualstudio.com/",
   "threads": 8,
-  "iswitches": [],
-  "uswitches": [],
+  "iswitches": ["/VERYSILENT", "/NORESTART", "/MERGETASKS=!runcode"],
+  "uswitches": ["/VERYSILENT", "/NORESTART"],
   "autoupdate": {
     "download_page": "https://visual-studio-code.en.uptodown.com/windows/versions",
     "download_url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user",
     "regex": "\"(\\d+\\.\\d+\\.\\d)\""
-  },
-  "1.52.1": {
-    "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user",
-    "size": 0,
-    "checksum": ""
   },
   "1.56.2": {
     "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user",
