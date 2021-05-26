@@ -1,0 +1,20 @@
+{
+  "package_name": "spotify",
+  "display_name": "Spotify",
+  "latest_version": "1.1.59.714",
+  "home_page": "https://www.spotify.com/us/",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "https://spotify.en.uptodown.com/windows/versions",
+    "download_url": "https://download.scdn.co/SpotifySetup.exe",
+    "regex": "class=version>(\\d+\\.\\d+\\.\\d+\\.\\d+)"
+  },
+  "1.1.59.714": {
+    "url": "https://download.scdn.co/SpotifySetup.exe",
+    "size": 898280,
+    "checksum": "4CC5003697933AED278142F45138ED1DAD4C71ABE32888EA2773684AF4F65CDF",
+    "file_type": ".exe"
+  }
+}

@@ -33,9 +33,10 @@ async fn main() {
         .collect();
 
     if args.len() == 1 {
-        for package in package_list {
-            autoupdate(package).await;
-        }
+        // for package in package_list {
+        //     autoupdate(package).await;
+        // }
+        autoupdate("spotify").await;
     } else {
         if args[1] == "new" {
             new_package(&args[2]);
