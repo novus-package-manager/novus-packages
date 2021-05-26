@@ -135,7 +135,7 @@ async fn autoupdate(package_name: &str) {
 
     let mut versions_calc: Vec<String> = vec![];
 
-    let mut versions: Vec<&str> = vec![];
+    let mut versions: Vec<String> = vec![];
 
     for mut _match in matches {
         _match = _match.trim_end();
@@ -153,8 +153,8 @@ async fn autoupdate(package_name: &str) {
                 _match = version_split[1].trim();
             }
         }
-
-        versions.push(_match);
+        let ver = format!("{:0<15}", _match);
+        versions.push(ver);
         let year_dot_split: Vec<&str> = _match.split(".").collect();
         let year_string = year_dot_split.concat();
         versions_calc.push(year_string);
@@ -170,15 +170,15 @@ async fn autoupdate(package_name: &str) {
         .map(|(i, _)| i)
         .unwrap_or_else(|| handle_error_and_exit("Failed to find match".to_string()));
 
-    let version = versions[index];
+    let version = &versions[index];
 
     println!("latest version: {}", version);
 
     if &package.latest_version != version {
         if package.clone().autoupdate.download_url == "" {
-            update_version(package.clone(), version, package_name);
+            update_version(package.clone(), &version, package_name);
         } else {
-            update_url_and_version(package.clone(), version, package_name).await;
+            update_url_and_version(package.clone(), &version, package_name).await;
         }
     }
 }

@@ -1,0 +1,14 @@
+{
+  "package_name": "google-chrome",
+  "display_name": "Google Chrome",
+  "latest_version": "0",
+  "home_page": "https://www.google.com/chrome/?brand=FHFK&gclsrc=ds&gclsrc=ds",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "https://chromeenterprise.google/browser/download/",
+    "download_url": "https://www.slimjet.com/chrome/download-chrome.php?file=files%2F91.0.4472.77%2FChromeStandaloneSetup64.exe",
+    "regex": ""
+  }
+}

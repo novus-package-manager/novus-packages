@@ -1,15 +1,27 @@
 {
   "package_name": "opera",
   "display_name": "Opera",
-  "latest_version": "74.0.3911.160",
+  "latest_version": "74.0.3911.16000",
   "home_page": "https://www.opera.com/",
   "threads": 8,
-  "iswitches": ["/silent", "/norestart"],
-  "uswitches": ["/uninstall", "/silent"],
+  "iswitches": [
+    "/silent",
+    "/norestart"
+  ],
+  "uswitches": [
+    "/uninstall",
+    "/silent"
+  ],
   "autoupdate": {
     "download_page": "https://opera.en.uptodown.com/windows/versions",
     "download_url": "https://get.geo.opera.com/pub/opera/desktop/<version>/win/Opera_<version>_Setup_x64.exe",
     "regex": "class=version>(\\d+\\.\\d+\\.\\d+\\.\\d+)"
+  },
+  "74.0.3911.16000": {
+    "url": "https://get.geo.opera.com/pub/opera/desktop/74.0.3911.16000/win/Opera_74.0.3911.16000_Setup_x64.exe",
+    "size": 146,
+    "checksum": "93B914E115123F6FFE1C21186784A98455B0DC194BCB6DC7767640EDBF286227",
+    "file_type": ".exe"
   },
   "74.0.3911.160": {
     "url": "https://get.geo.opera.com/pub/opera/desktop/74.0.3911.160/win/Opera_74.0.3911.160_Setup_x64.exe",
