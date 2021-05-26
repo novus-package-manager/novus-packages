@@ -12,7 +12,7 @@
   ],
   "autoupdate": {
     "download_page": "https://adobe-reader.en.softonic.com/download",
-    "download_url": "https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/<version_no_dot>/AcroRdrDC<version_no_dot>_en_US.exe",
+    "download_url": "https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/<version-no-dot>/AcroRdrDC<version-no-dot>_en_US.exe",
     "regex": "(21\\.\\d+.\\w+)"
   },
   "21.001.20145": {

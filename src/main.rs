@@ -37,7 +37,7 @@ async fn main() {
 
     if args.len() == 1 {
         // autoupdate("7-zip").await;
-        autoupdate("visual-studio-code").await;
+        autoupdate("blender").await;
     } else {
         if args[1] == "new" {
             new_package(&args[2]);
@@ -101,13 +101,6 @@ async fn autoupdate(package_name: &str) {
     // println!("cont: {}", file_contents);
 
     let regex = regex::Regex::new(package.autoupdate.regex.as_str()).unwrap();
-
-    // let mut matches: Vec<String> = vec![];
-
-    // for _match in regex.captures_iter(file_contents.as_str()) {
-    //     println!("group1: {}", &_match[1]);
-    //     matches.push(_match[1].to_string());
-    // }
 
     let matches: Vec<&str> = regex
         .captures_iter(file_contents.as_str())
@@ -195,16 +188,24 @@ async fn update_url_and_version(package: Package, version: &str, package_name: &
     let mut temp_package: Package = package.clone();
     let mut url = package.autoupdate.download_url.clone();
     if package.autoupdate.download_url.contains("<version>") {
-        url = package
-            .autoupdate
-            .download_url
-            .replace("<version>", version);
+        url = url.replace("<version>", version);
     }
-    if package.autoupdate.download_url.contains("<version_no_dot>") {
-        url = package
-            .autoupdate
-            .download_url
-            .replace("<version_no_dot>", &version.replace(".", ""));
+    if package.autoupdate.download_url.contains("<major-version>") {
+        let version_split: Vec<&str> = version.split(".").collect();
+        let mut version_new = String::new();
+        if version_split.len() == 2 {
+            version_new = version_split[0].to_string();
+        }
+        if version_split.len() == 3 {
+            version_new = version_split[0].to_string() + "." + version_split[1];
+        }
+        if version_split.len() == 1 {
+            version_new = version_split[0].to_string();
+        }
+        url = url.replace("<major-version>", version_new.as_str());
+    }
+    if package.autoupdate.download_url.contains("<version-no-dot>") {
+        url = url.replace("<version-no-dot>", &version.replace(".", ""));
     }
     println!("url: {}", url);
     let response = get(url.clone())
