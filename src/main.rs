@@ -33,6 +33,11 @@ async fn main() {
         })
         .collect();
 
+    std::process::Command::new("powershell")
+        .arg("novus_update")
+        .output()
+        .expect("Failed to update gcp bucket");
+
     if args.len() == 1 {
         for package in package_list {
             autoupdate(package).await;
