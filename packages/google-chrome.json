@@ -10,13 +10,13 @@
   "uswitches": [],
   "autoupdate": {
     "download_page": "https://www.whatismybrowser.com/guides/the-latest-version/chrome",
-    "download_url": "https://dl.google.com/tag/s/dl/chrome/install/googlechromestandaloneenterprise64.msi",
+    "download_url": "https://www.google.com/chrome/thank-you.html?brand=JJTC&statcb=1&installdataindex=empty&defaultbrowser=0#",
     "regex": "<td>Chrome on <strong>Windows</strong></td>\\n\\s+<td>(\\d+\\.\\d+\\.\\d+\\.\\d+)</td>"
   },
   "91.0.4472.77": {
-    "url": "https://dl.google.com/tag/s/dl/chrome/install/googlechromestandaloneenterprise64.msi",
-    "size": 78790656,
-    "checksum": "FCA705F1F08F7AA96322E8A8D1929BA08006AA2A62113DCAD1E4A269BFBCED61",
-    "file_type": ".msi"
+    "url": "https://www.google.com/chrome/thank-you.html?brand=JJTC&statcb=1&installdataindex=empty&defaultbrowser=0#",
+    "size": 225999,
+    "checksum": "1B631CE3AE431A4A7825871CFC3E3B0FB8381678710B7251C758F7DAE04C8336",
+    "file_type": ".exe"
   }
 }
