@@ -1,19 +1,19 @@
 {
   "package_name": "google-chrome",
   "display_name": "Google Chrome",
-  "latest_version": "90.0.4430.212",
-  "home_page": "https://www.google.com/chrome/?brand=FHFK&gclsrc=ds&gclsrc=ds",
+  "latest_version": "91.0.4472.77",
+  "home_page": "https://www.google.com/chrome/",
   "threads": 8,
   "iswitches": [
     "/silent"
   ],
   "uswitches": [],
   "autoupdate": {
-    "download_page": "https://google_chrome.en.downloadastro.com/old_versions/",
+    "download_page": "https://www.whatismybrowser.com/guides/the-latest-version/chrome",
     "download_url": "https://dl.google.com/tag/s/dl/chrome/install/googlechromestandaloneenterprise64.msi",
-    "regex": "Program Version (\\d+\\.\\d+\\.\\d+\\.\\d+)"
+    "regex": "<td>Chrome on <strong>Windows</strong></td>\\n\\s+<td>(\\d+\\.\\d+\\.\\d+\\.\\d+)</td>"
   },
-  "90.0.4430.212": {
+  "91.0.4472.77": {
     "url": "https://dl.google.com/tag/s/dl/chrome/install/googlechromestandaloneenterprise64.msi",
     "size": 78790656,
     "checksum": "FCA705F1F08F7AA96322E8A8D1929BA08006AA2A62113DCAD1E4A269BFBCED61",
