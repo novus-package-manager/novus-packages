@@ -1,0 +1,19 @@
+{
+  "package_name": "notepad++",
+  "display_name": "Notepad++",
+  "latest_version": "7.9.5",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "https://notepad-plus-plus.org/downloads/",
+    "download_url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v<version>/npp.<version>.Installer.x64.exe",
+    "regex": "Notepad&#43;&#43; (\\d+\\.\\d+\\.\\d+)"
+  },
+  "7.9.5": {
+    "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.9.5/npp.7.9.5.Installer.x64.exe",
+    "size": 4233416,
+    "checksum": "4881548CD86491B453520E83C19292C93B9C6CE485A1F9EB9301E3913A9BACED",
+    "file_type": ".exe"
+  }
+}

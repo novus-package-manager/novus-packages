@@ -3,8 +3,8 @@
   "display_name": "VLC Media Player",
   "latest_version": "3.0.14",
   "threads": 8,
-  "iswitches": [],
-  "uswitches": [],
+  "iswitches": ["/S"],
+  "uswitches": ["/S"],
   "autoupdate": {
     "download_page": "https://www.videolan.org/vlc/download-windows.html",
     "download_url": "https://mirror.clarkson.edu/videolan/vlc/3.0.12/win64/vlc-3.0.12-win64.exe",
