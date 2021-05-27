@@ -10,13 +10,13 @@
   "uswitches": [],
   "autoupdate": {
     "download_page": "https://www.whatismybrowser.com/guides/the-latest-version/chrome",
-    "download_url": "https://www.google.com/chrome/thank-you.html?brand=JJTC&statcb=1&installdataindex=empty&defaultbrowser=0#",
+    "download_url": "https://chromeenterprise.google/browser/download/thank-you/?platform=WIN64_BUNDLE&channel=stable&usagestats=0",
     "regex": "<td>Chrome on <strong>Windows</strong></td>\\n\\s+<td>(\\d+\\.\\d+\\.\\d+\\.\\d+)</td>"
   },
   "91.0.4472.77": {
-    "url": "https://www.google.com/chrome/thank-you.html?brand=JJTC&statcb=1&installdataindex=empty&defaultbrowser=0#",
-    "size": 225999,
-    "checksum": "1B631CE3AE431A4A7825871CFC3E3B0FB8381678710B7251C758F7DAE04C8336",
+    "url": "https://chromeenterprise.google/browser/download/thank-you/?platform=WIN64_BUNDLE&channel=stable&usagestats=0",
+    "size": 109348,
+    "checksum": "A8BCCA62C7C27992333BE5A344189DF072A6BC5D2FA54B383C2848023A5C45DF",
     "file_type": ".exe"
   }
 }
