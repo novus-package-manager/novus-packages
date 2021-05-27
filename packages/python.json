@@ -8,7 +8,7 @@
   "uswitches": [],
   "autoupdate": {
     "download_page": "https://www.python.org/downloads/",
-    "download_url": "https://www.python.org/ftp/python/3.9.5/python-3.9.5-amd64.exe",
+    "download_url": "https://www.python.org/ftp/python/<version>/python-<version>-amd64.exe",
     "regex": "Download Python (\\d+\\.\\d+\\.\\d+)"
   },
   "3.9.5": {
