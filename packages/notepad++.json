@@ -3,8 +3,8 @@
   "display_name": "Notepad++",
   "latest_version": "7.9.5",
   "threads": 8,
-  "iswitches": [],
-  "uswitches": [],
+  "iswitches": ["/S"],
+  "uswitches": ["/S"],
   "autoupdate": {
     "download_page": "https://notepad-plus-plus.org/downloads/",
     "download_url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v<version>/npp.<version>.Installer.x64.exe",

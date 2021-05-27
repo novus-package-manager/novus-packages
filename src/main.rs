@@ -291,7 +291,7 @@ async fn update_url_and_version(package: Package, version: &str, package_name: &
         url: url,
         size: file_size,
         checksum: hash,
-        file_type: file_type,
+        file_type: file_type.clone(),
     };
 
     println!("version_data: {:?}", version_data);
@@ -301,6 +301,13 @@ async fn update_url_and_version(package: Package, version: &str, package_name: &
         .versions
         .insert(version.clone().to_string(), version_data);
     temp_package.latest_version = version.to_string();
+    
+    if file_type.clone() == ".exe" {
+        temp_package.iswitches = vec!["/S".to_string()];
+    }
+    if file_type.clone() == ".msi" {
+        temp_package.iswitches = vec!["/passive".to_string()];
+    }
 
     // Re-open file to replace the contents:
     let file = std::fs::File::create(format!(

@@ -1,0 +1,21 @@
+{
+  "package_name": "git",
+  "display_name": "Git",
+  "latest_version": "2.31.1",
+  "threads": 8,
+  "iswitches": [
+    "/S"
+  ],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "https://git-scm.com/download/win",
+    "download_url": "https://github.com/git-for-windows/git/releases/download/v2.31.1.windows.1/Git-2.31.1-64-bit.exe",
+    "regex": "You are downloading the latest \\(<strong>(\\d+\\.\\d+\\.\\d+)</strong>\\)"
+  },
+  "2.31.1": {
+    "url": "https://github.com/git-for-windows/git/releases/download/v2.31.1.windows.1/Git-2.31.1-64-bit.exe",
+    "size": 49871216,
+    "checksum": "C43611EB73AD1F17F5C8CC82AE51C3041A2E7279E0197CCF5F739E9129CE426E",
+    "file_type": ".exe"
+  }
+}
