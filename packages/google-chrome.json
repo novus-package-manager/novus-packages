@@ -4,9 +4,7 @@
   "latest_version": "91.0.4472.77",
   "home_page": "https://www.google.com/chrome/",
   "threads": 8,
-  "iswitches": [
-    "/silent"
-  ],
+  "iswitches": [],
   "uswitches": [],
   "autoupdate": {
     "download_page": "https://www.whatismybrowser.com/guides/the-latest-version/chrome",

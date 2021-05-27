@@ -1,0 +1,20 @@
+{
+  "package_name": "python",
+  "display_name": "Python",
+  "latest_version": "3.9.5",
+  "home_page": "https://www.python.org/",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "https://www.python.org/downloads/",
+    "download_url": "https://www.python.org/ftp/python/3.9.5/python-3.9.5-amd64.exe",
+    "regex": "Download Python (\\d+\\.\\d+\\.\\d+)"
+  },
+  "3.9.5": {
+    "url": "https://www.python.org/ftp/python/3.9.5/python-3.9.5-amd64.exe",
+    "size": 28377264,
+    "checksum": "84D5243088BA00C11E51905C704DBE041040DFFF044F4E1CE5476844EE2E6EAC",
+    "file_type": ".exe"
+  }
+}
