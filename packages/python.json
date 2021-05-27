@@ -4,7 +4,7 @@
   "latest_version": "3.9.5",
   "home_page": "https://www.python.org/",
   "threads": 8,
-  "iswitches": [],
+  "iswitches": ["/silent"],
   "uswitches": [],
   "autoupdate": {
     "download_page": "https://www.python.org/downloads/",

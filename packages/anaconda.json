@@ -1,0 +1,20 @@
+{
+  "package_name": "anaconda",
+  "display_name": "Anaconda",
+  "latest_version": "2021.05",
+  "home_page": "https://www.anaconda.com/",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "https://www.anaconda.com/products/individual",
+    "download_url": "https://repo.anaconda.com/archive/Anaconda3-<version>-Windows-x86_64.exe",
+    "regex": "(\\d+\\.\\d+)-Windows-x86_64\\.exe"
+  },
+  "2021.05": {
+    "url": "https://repo.anaconda.com/archive/Anaconda3-2021.05-Windows-x86_64.exe",
+    "size": 500375944,
+    "checksum": "93DB42390444019E98B442AB281E1091671B6DCE64DAF08928D337FFC83CF3D2",
+    "file_type": ".exe"
+  }
+}
