@@ -2,7 +2,6 @@
   "package_name": "python",
   "display_name": "Python",
   "latest_version": "3.9.5",
-  "home_page": "https://www.python.org/",
   "threads": 8,
   "iswitches": ["/silent"],
   "uswitches": [],

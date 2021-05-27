@@ -2,7 +2,6 @@
   "package_name": "opera",
   "display_name": "Opera",
   "latest_version": "74.0.3911.160",
-  "home_page": "https://www.opera.com/",
   "threads": 8,
   "iswitches": [
     "/silent",

@@ -2,7 +2,6 @@
   "package_name": "microsoft-teams",
   "display_name": "Microsoft Teams",
   "latest_version": "1.4.00.11161",
-  "home_page": "https://www.microsoft.com/en-in/microsoft-teams/group-chat-software",
   "threads": 8,
   "iswitches": [
     "--silent"

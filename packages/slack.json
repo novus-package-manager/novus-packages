@@ -2,7 +2,6 @@
   "package_name": "slack",
   "display_name": "Slack",
   "latest_version": "4.16.1",
-  "home_page": "https://slack.com/intl/en-in/",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],

@@ -47,6 +47,8 @@ async fn main() {
             new_package(&args[2]);
         } else if args[1] == "test" {
             get_contents(&args[2]).await;
+        } else if args[1] == "remove" {
+            remove(&args[2]);
         } else {
             autoupdate(&args[1]).await;
         }
@@ -82,22 +84,22 @@ fn new_package(package_name: &String) {
     );
     let path = std::path::Path::new(&loc);
     let package_list_loc = std::path::Path::new(
-        r"D:\prana\Programming\My Projects\novus-package-manager\novus-packages\packages\package-list.json",
+        r"D:\prana\Programming\My Projects\novus-package-manager\novus-packages\packages\package-list\package-list.json",
     );
     let file_contents = std::fs::read_to_string(package_list_loc).unwrap();
     let package_list: PackageList =
         serde_json::from_str::<PackageList>(file_contents.as_str()).unwrap();
     let mut packages: Vec<String> = package_list.packages;
     packages.push(package_name.clone());
+    packages.sort();
     let package_list: PackageList = PackageList { packages: packages };
-    let file = std::fs::File::create(r"D:\prana\Programming\My Projects\novus-package-manager\novus-packages\packages\package-list.json").unwrap();
+    let file = std::fs::File::create(r"D:\prana\Programming\My Projects\novus-package-manager\novus-packages\packages\package-list\package-list.json").unwrap();
     to_writer_pretty(file, &package_list).unwrap();
     let package_file = std::fs::File::create(path).unwrap();
     let package: Package = Package {
         package_name: package_name.clone(),
         display_name: String::new(),
         latest_version: "0".to_string(),
-        home_page: String::new(),
         threads: 8,
         iswitches: vec![],
         uswitches: vec![],
@@ -185,6 +187,27 @@ async fn autoupdate(package_name: &str) {
             update_url_and_version(package.clone(), &version_new, package_name).await;
         }
     }
+}
+
+fn remove(package_name: &str) {
+    std::fs::remove_file(format!(
+        r"D:\prana\Programming\My Projects\novus-package-manager\novus-packages\packages\{}.json",
+        package_name
+    ))
+    .unwrap();
+    let package_list_loc = std::path::Path::new(
+        r"D:\prana\Programming\My Projects\novus-package-manager\novus-packages\packages\package-list\package-list.json",
+    );
+    let file_contents = std::fs::read_to_string(package_list_loc).unwrap();
+    let package_list: PackageList =
+        serde_json::from_str::<PackageList>(file_contents.as_str()).unwrap();
+    let mut packages: Vec<String> = package_list.packages;
+    let index = packages.iter().position(|x| *x == package_name).unwrap();
+    packages.remove(index);
+    packages.sort();
+    let package_list: PackageList = PackageList { packages: packages };
+    let file = std::fs::File::create(r"D:\prana\Programming\My Projects\novus-package-manager\novus-packages\packages\package-list\package-list.json").unwrap();
+    to_writer_pretty(file, &package_list).unwrap();
 }
 
 fn update_version(package: Package, version: &str, package_name: &str) {
@@ -309,7 +332,7 @@ fn handle_error_and_exit(e: String) -> ! {
 
 async fn get_packages() -> String {
     let response = get(format!(
-        "https://storage.googleapis.com/novus_bucket/package-list.json?a={:?}",
+        "https://storage.googleapis.com/novus_bucket/package-list/package-list.json?a={:?}",
         std::time::UNIX_EPOCH.elapsed().unwrap()
     ))
     .await

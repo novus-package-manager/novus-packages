@@ -2,7 +2,6 @@
   "package_name": "spotify",
   "display_name": "Spotify",
   "latest_version": "1.1.59.714",
-  "home_page": "https://www.spotify.com/us/",
   "threads": 8,
   "iswitches": ["/silent"],
   "uswitches": ["/silent"],

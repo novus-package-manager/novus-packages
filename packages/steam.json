@@ -2,7 +2,6 @@
   "package_name": "steam",
   "display_name": "Steam",
   "latest_version": "2021.04.12",
-  "home_page": "https://store.steampowered.com/",
   "threads": 8,
   "iswitches": ["/S"],
   "uswitches": ["/S"],

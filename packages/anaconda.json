@@ -2,7 +2,6 @@
   "package_name": "anaconda",
   "display_name": "Anaconda",
   "latest_version": "2021.05",
-  "home_page": "https://www.anaconda.com/",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -18,3 +17,4 @@
     "file_type": ".exe"
   }
 }
+

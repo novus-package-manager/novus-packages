@@ -1,0 +1,20 @@
+{
+  "packages": [
+    "7-zip",
+    "adobe-reader",
+    "anaconda",
+    "blender",
+    "brave",
+    "discord",
+    "google-chrome",
+    "microsoft-teams",
+    "nodejs",
+    "opera",
+    "python",
+    "slack",
+    "spotify",
+    "steam",
+    "visual-studio-code",
+    "whatsapp"
+  ]
+}

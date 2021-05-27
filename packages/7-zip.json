@@ -2,7 +2,6 @@
   "package_name": "7-zip",
   "display_name": "7-Zip",
   "latest_version": "21.02",
-  "home_page": "https://www.7-zip.org/",
   "threads": 8,
   "iswitches": [
     "/S"

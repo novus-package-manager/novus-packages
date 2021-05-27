@@ -2,7 +2,6 @@
   "package_name": "visual-studio-code",
   "display_name": "Microsoft Visual Studio Code (User)",
   "latest_version": "1.56.2",
-  "home_page": "https://code.visualstudio.com/",
   "threads": 8,
   "iswitches": [
     "/SP-",
