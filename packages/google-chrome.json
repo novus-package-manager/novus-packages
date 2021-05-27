@@ -10,11 +10,11 @@
   "uswitches": [],
   "autoupdate": {
     "download_page": "https://www.whatismybrowser.com/guides/the-latest-version/chrome",
-    "download_url": "https://chromeenterprise.google/browser/download/thank-you/?platform=WIN64_BUNDLE&channel=stable&usagestats=0",
+    "download_url": "https://chromeenterprise.google/browser/download/thank-you/?platform=WIN64_BUNDLE&channel=stable&usagestats=0&stage=retry",
     "regex": "<td>Chrome on <strong>Windows</strong></td>\\n\\s+<td>(\\d+\\.\\d+\\.\\d+\\.\\d+)</td>"
   },
   "91.0.4472.77": {
-    "url": "https://chromeenterprise.google/browser/download/thank-you/?platform=WIN64_BUNDLE&channel=stable&usagestats=0",
+    "url": "https://chromeenterprise.google/browser/download/thank-you/?platform=WIN64_BUNDLE&channel=stable&usagestats=0&stage=retry",
     "size": 109348,
     "checksum": "A8BCCA62C7C27992333BE5A344189DF072A6BC5D2FA54B383C2848023A5C45DF",
     "file_type": ".exe"
