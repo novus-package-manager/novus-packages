@@ -1,6 +1,7 @@
 {
   "packages": [
     "7-zip",
+    "adobe-air",
     "adobe-reader",
     "anaconda",
     "blender",

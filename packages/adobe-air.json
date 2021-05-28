@@ -1,0 +1,21 @@
+{
+  "package_name": "adobe-air",
+  "display_name": "Adobe AIR Runtime",
+  "latest_version": "33.1.1.444",
+  "threads": 8,
+  "iswitches": [
+    "/S"
+  ],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "https://adobe-air.en.softonic.com/download",
+    "download_url": "http://airdownload.adobe.com/air/win/download/<version>/AdobeAIRInstaller.exe",
+    "regex": "&nbsp;(\\d+\\.\\d+\\.\\d+\\.\\d+)</li>"
+  },
+  "33.1.1.444": {
+    "url": "http://airdownload.adobe.com/air/win/download/33.1.1.444/AdobeAIRInstaller.exe",
+    "size": 7540,
+    "checksum": "586E800DCFE5F3DD6360C9D2EB6C2D0759A4AE6228E6235AF1CF5D7C40BC2647",
+    "file_type": ".exe"
+  }
+}

@@ -4,9 +4,21 @@
   "latest_version": "8.72.0.94",
   "threads": 8,
   "iswitches": [
-    "/S"
+    "/SP-",
+    "/VERYSILENT",
+    "/SUPPRESSMSGBOXES",
+    "/NOCANCEL",
+    "/NORESTART",
+    "/FORCECLOSEAPPLICATIONS"
   ],
-  "uswitches": [],
+  "uswitches": [
+    "/SP-",
+    "/VERYSILENT",
+    "/SUPPRESSMSGBOXES",
+    "/NOCANCEL",
+    "/NORESTART",
+    "/FORCECLOSEAPPLICATIONS"
+  ],
   "autoupdate": {
     "download_page": "https://skype.en.uptodown.com/windows/versions",
     "download_url": "https://download.skype.com/s4l/download/win/Skype-<version>.exe",
