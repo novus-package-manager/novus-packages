@@ -1,0 +1,19 @@
+{
+  "package_name": "jdk8",
+  "display_name": "Java SE Development Kit 8",
+  "latest_version": "8u291",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "https://www.oracle.com/in/java/technologies/javase/javase-jdk8-downloads.html",
+    "download_url": "https://javadl.oracle.com/webapps/download/GetFile/1.<major-version>.0_<minor-version>-b12/478a62b7d4e34b78b671c754eaaf38ab/windows-i586/jdk-<version>-windows-x64.exe",
+    "regex": "(8u\\d+)-windows-x64\\.exe"
+  },
+  "8u291": {
+    "url": "https://javadl.oracle.com/webapps/download/GetFile/1.8.0_291-b12/478a62b7d4e34b78b671c754eaaf38ab/windows-i586/jdk-8u291-windows-x64.exe",
+    "size": 22,
+    "checksum": "762EE6037D90627DEBCBD23B37D9EC854B5C6B0F736AE5B137224AD8ECC04EB2",
+    "file_type": ".exe"
+  }
+}

@@ -168,7 +168,7 @@ async fn autoupdate(package_name: &str) {
         versions.push(ver);
         let year_dot_split: Vec<&str> = _match.split(".").collect();
         let year_string = year_dot_split.concat();
-        versions_calc.push(year_string);
+        versions_calc.push(year_string.replace("u", ""));
     }
 
     println!("version final: {:?}", versions);
@@ -254,6 +254,20 @@ async fn update_url_and_version(package: Package, version: &str, package_name: &
         url = url.replace("<version>", version);
     }
     if package.autoupdate.download_url.contains("<major-version>") {
+        if version.contains("u") {
+            let version_split: Vec<&str> = version.split("u").collect();
+            let mut version_new = String::new();
+            if version_split.len() == 2 {
+                version_new = version_split[0].to_string();
+            }
+            if version_split.len() == 3 {
+                version_new = version_split[0].to_string() + "." + version_split[1];
+            }
+            if version_split.len() == 1 {
+                version_new = version_split[0].to_string();
+            }
+            url = url.replace("<major-version>", version_new.as_str());
+        }
         let version_split: Vec<&str> = version.split(".").collect();
         let mut version_new = String::new();
         if version_split.len() == 2 {
@@ -266,6 +280,34 @@ async fn update_url_and_version(package: Package, version: &str, package_name: &
             version_new = version_split[0].to_string();
         }
         url = url.replace("<major-version>", version_new.as_str());
+    }
+    if package.autoupdate.download_url.contains("<minor-version>") {
+        if version.contains("u") {
+            let version_split: Vec<&str> = version.split("u").collect();
+            let mut version_new = String::new();
+            if version_split.len() == 2 {
+                version_new = version_split[1].to_string();
+            }
+            if version_split.len() == 3 {
+                version_new = version_split[2].to_string();
+            }
+            if version_split.len() == 1 {
+                version_new = version_split[0].to_string();
+            }
+            url = url.replace("<minor-version>", version_new.as_str());
+        }
+        let version_split: Vec<&str> = version.split(".").collect();
+        let mut version_new = String::new();
+        if version_split.len() == 2 {
+            version_new = version_split[1].to_string();
+        }
+        if version_split.len() == 3 {
+            version_new = version_split[2].to_string();
+        }
+        if version_split.len() == 1 {
+            version_new = version_split[0].to_string();
+        }
+        url = url.replace("<minor-version>", version_new.as_str());
     }
     if package.autoupdate.download_url.contains("<version-no-dot>") {
         url = url.replace("<version-no-dot>", &version.replace(".", ""));
