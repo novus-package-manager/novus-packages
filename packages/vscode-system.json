@@ -1,0 +1,19 @@
+{
+  "package_name": "vscode-system",
+  "display_name": "",
+  "latest_version": "1.56.2",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "https://visual-studio-code.en.uptodown.com/windows/versions",
+    "download_url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64",
+    "regex": "\"(\\d+\\.\\d+\\.\\d)\""
+  },
+  "1.56.2": {
+    "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64",
+    "size": 80053088,
+    "checksum": "1BAA3EBAD28B6E08C9806F8780690C6244F8AA89C47BC089E87A8F20B89F7492",
+    "file_type": ".exe"
+  }
+}
