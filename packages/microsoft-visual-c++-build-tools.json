@@ -1,0 +1,13 @@
+{
+  "package_name": "microsoft-visual-c++-build-tools",
+  "display_name": "Microsoft Visual C++ Build Tools",
+  "latest_version": "0",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "https://www.microsoft.com/en-in/download/details.aspx?id=48159",
+    "download_url": "https://download.microsoft.com/download/5/f/7/5f7acaeb-8363-451f-9425-68a90f98b238/visualcppbuildtools_full.exe",
+    "regex": ""
+  }
+}

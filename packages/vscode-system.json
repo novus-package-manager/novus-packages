@@ -1,10 +1,25 @@
 {
   "package_name": "vscode-system",
-  "display_name": "",
+  "display_name": "Microsoft Visual Studio Code",
   "latest_version": "1.56.2",
   "threads": 8,
-  "iswitches": [],
-  "uswitches": [],
+  "iswitches": [
+    "/SP-",
+    "/VERYSILENT",
+    "/SUPPRESSMSGBOXES",
+    "/NOCANCEL",
+    "/NORESTART",
+    "/FORCECLOSEAPPLICATIONS",
+    "/MERGETASKS=!runcode"
+  ],
+  "uswitches": [
+    "/SP-",
+    "/VERYSILENT",
+    "/SUPPRESSMSGBOXES",
+    "/NOCANCEL",
+    "/NORESTART",
+    "/FORCECLOSEAPPLICATIONS"
+  ],
   "autoupdate": {
     "download_page": "https://visual-studio-code.en.uptodown.com/windows/versions",
     "download_url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64",

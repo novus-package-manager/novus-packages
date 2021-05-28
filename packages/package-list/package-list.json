@@ -13,6 +13,8 @@
     "git",
     "google-chrome",
     "microsoft-teams",
+    "microsoft-visual-c++-build-tools",
+    "visual-studio-2019-community",
     "microsoft-windows-terminal",
     "microsoft-windows-terminal-preview",
     "nodejs",
