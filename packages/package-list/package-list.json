@@ -1,9 +1,9 @@
 {
   "packages": [
     "7-zip",
-    "adobe-air",
     "adobe-reader",
     "anaconda",
+    "android-studio",
     "blender",
     "brave",
     "discord",
