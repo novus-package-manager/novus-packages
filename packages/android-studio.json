@@ -3,13 +3,11 @@
   "display_name": "Android Studio",
   "latest_version": "4.2.1.0",
   "threads": 8,
-  "iswitches": [
-    "/S"
-  ],
-  "uswitches": [],
+  "iswitches": ["/S"],
+  "uswitches": ["/S"],
   "autoupdate": {
     "download_page": "https://developer.android.com/studio",
-    "download_url": "https://redirector.gvt1.com/edgedl/android/studio/install/4.2.1.0/android-studio-ide-202.7351085-windows.exe",
+    "download_url": "https://redirector.gvt1.com/edgedl/android/studio/install/<version>/android-studio-ide-202.7351085-windows.exe",
     "regex": "href=\"https://redirector\\.gvt1\\.com/edgedl/android/studio/install/(\\d+\\.\\d+\\.\\d+\\.\\d+)/android-studio"
   },
   "4.2.1.0": {

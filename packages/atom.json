@@ -1,0 +1,21 @@
+{
+  "package_name": "atom",
+  "display_name": "Atom",
+  "latest_version": "1.57.0",
+  "threads": 8,
+  "iswitches": [
+    "/S"
+  ],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "https://github.com/atom/atom/releases/latest",
+    "download_url": "https://github.com/atom/atom/releases/download/v<version>/AtomSetup-x64.exe",
+    "regex": "<title>Release (\\d+\\.\\d+\\.\\d+) · atom/atom · GitHub</title>"
+  },
+  "1.57.0": {
+    "url": "https://github.com/atom/atom/releases/download/v1.57.0/AtomSetup-x64.exe",
+    "size": 199183008,
+    "checksum": "C5314C5EFD7C4DE9E1A9DC0A4D6F64489559DDE4EFE1E7D28B94F20F13D63230",
+    "file_type": ".exe"
+  }
+}
