@@ -4,12 +4,17 @@
   "latest_version": "3211",
   "threads": 8,
   "iswitches": [
-    "/S"
+    "/SP-",
+    "/VERYSILENT",
+    "/SUPPRESSMSGBOXES",
+    "/NOCANCEL",
+    "/NORESTART",
+    "/FORCECLOSEAPPLICATIONS"
   ],
-  "uswitches": [],
+  "uswitches": ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART"],
   "autoupdate": {
     "download_page": "https://www.sublimetext.com/3",
-    "download_url": "https://download.sublimetext.com/Sublime%20Text%20Build%203211%20x64%20Setup.exe",
+    "download_url": "https://download.sublimetext.com/Sublime%20Text%20Build%20<version>%20x64%20Setup.exe",
     "regex": "\\(Build (\\d+)\\)"
   },
   "3211": {
