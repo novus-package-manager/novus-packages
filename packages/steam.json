@@ -3,12 +3,8 @@
   "display_name": "Steam",
   "latest_version": "2021.05.18",
   "threads": 8,
-  "iswitches": [
-    "/S"
-  ],
-  "uswitches": [
-    "/S"
-  ],
+  "iswitches": ["/S"],
+  "uswitches": ["/S"],
   "autoupdate": {
     "download_page": "https://steam.en.softonic.com/download",
     "download_url": "https://cdn.cloudflare.steamstatic.com/client/installer/SteamSetup.exe",

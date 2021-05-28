@@ -1,5 +1,5 @@
 {
-  "package_name": "visual-studio-code",
+  "package_name": "vscode",
   "display_name": "Microsoft Visual Studio Code (User)",
   "latest_version": "1.56.2",
   "threads": 8,

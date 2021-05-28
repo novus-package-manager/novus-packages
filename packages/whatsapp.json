@@ -1,16 +1,18 @@
 {
   "package_name": "whatsapp",
   "display_name": "WhatsApp",
-  "latest_version": "2.21.11.9",
+  "latest_version": "2.2119.6.0",
   "threads": 8,
-  "iswitches": [],
+  "iswitches": [
+    "/S"
+  ],
   "uswitches": [],
   "autoupdate": {
-    "download_page": "https://whatsapp-messenger.en.uptodown.com/android/versions",
+    "download_page": "https://whatsapp-desktop.en.uptodown.com/windows/versions",
     "download_url": "https://web.whatsapp.com/desktop/windows/release/x64/WhatsAppSetup.exe",
     "regex": "class=version>(\\d+\\.\\d+\\.\\d+\\.\\d+)"
   },
-  "2.21.11.9": {
+  "2.2119.6.0": {
     "url": "https://web.whatsapp.com/desktop/windows/release/x64/WhatsAppSetup.exe",
     "size": 130594512,
     "checksum": "87C69246688D6801F0A2C184F949E039A3E3D2C988EC482C65D331D44A77224F",
