@@ -14,7 +14,7 @@
   "uswitches": ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART"],
   "autoupdate": {
     "download_page": "https://git-scm.com/download/win",
-    "download_url": "https://github.com/git-for-windows/git/releases/download/v2.31.1.windows.1/Git-2.31.1-64-bit.exe",
+    "download_url": "https://github.com/git-for-windows/git/releases/download/v<version>.windows.1/Git-<version>-64-bit.exe",
     "regex": "You are downloading the latest \\(<strong>(\\d+\\.\\d+\\.\\d+)</strong>\\)"
   },
   "2.31.1": {
