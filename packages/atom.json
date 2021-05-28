@@ -3,10 +3,8 @@
   "display_name": "Atom",
   "latest_version": "1.57.0",
   "threads": 8,
-  "iswitches": [
-    "/S"
-  ],
-  "uswitches": [],
+  "iswitches": ["--silent"],
+  "uswitches": ["--silent"],
   "autoupdate": {
     "download_page": "https://github.com/atom/atom/releases/latest",
     "download_url": "https://github.com/atom/atom/releases/download/v<version>/AtomSetup-x64.exe",
