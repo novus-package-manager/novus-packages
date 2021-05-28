@@ -1,6 +1,6 @@
 {
   "package_name": "microsoft-windows-terminal",
-  "display_name": "Microsoft Windows Terminal",
+  "display_name": "Windows Terminal",
   "latest_version": "1.8.1444.0",
   "threads": 8,
   "iswitches": [],
@@ -14,6 +14,6 @@
     "url": "https://github.com/microsoft/terminal/releases/download/v1.8.1444.0/Microsoft.WindowsTerminal_1.8.1444.0_8wekyb3d8bbwe.msixbundle",
     "size": 28209528,
     "checksum": "E3520F18BD5D70A2BE536920ED47797BE75B7376ABCA065A6E5DB5047EC4BA7F",
-    "file_type": ".msi"
+    "file_type": ".msixbundle"
   }
 }
