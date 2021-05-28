@@ -1,10 +1,17 @@
 {
   "package_name": "sublime-text-4",
-  "display_name": "Sublime Text 4",
+  "display_name": "Sublime Text",
   "latest_version": "4107",
   "threads": 8,
-  "iswitches": [],
-  "uswitches": [],
+  "iswitches": [
+    "/SP-",
+    "/VERYSILENT",
+    "/SUPPRESSMSGBOXES",
+    "/NOCANCEL",
+    "/NORESTART",
+    "/FORCECLOSEAPPLICATIONS"
+  ],
+  "uswitches": ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART"],
   "autoupdate": {
     "download_page": "https://www.sublimetext.com/download",
     "download_url": "https://download.sublimetext.com/sublime_text_build_<version>_x64_setup.exe",
