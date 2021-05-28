@@ -3,12 +3,8 @@
   "display_name": "Adobe Acrobat Reader DC",
   "latest_version": "21.001.20145",
   "threads": 8,
-  "iswitches": [
-    "/sAll"
-  ],
-  "uswitches": [
-    "/passive"
-  ],
+  "iswitches": ["/sAll"],
+  "uswitches": [],
   "autoupdate": {
     "download_page": "https://adobe-reader.en.softonic.com/download",
     "download_url": "https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/<version-no-dot>/AcroRdrDC<version-no-dot>_en_US.exe",

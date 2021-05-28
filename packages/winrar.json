@@ -3,8 +3,8 @@
   "display_name": "WinRAR",
   "latest_version": "6.01",
   "threads": 8,
-  "iswitches": [],
-  "uswitches": [],
+  "iswitches": ["/S"],
+  "uswitches": ["/S"],
   "autoupdate": {
     "download_page": "https://www.win-rar.com/start.html?&L=0",
     "download_url": "https://www.rarlab.com/rar/winrar-x64-<version-no-dot>.exe",
