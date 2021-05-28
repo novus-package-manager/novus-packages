@@ -1,19 +1,19 @@
 {
   "package_name": "visual-studio-2019-build-tools",
-  "display_name": "Visual Studio 2019 Build Tools",
-  "latest_version": "16.10",
+  "display_name": "Microsoft Visual C++ Build Tools",
+  "latest_version": "14.0.25420.1",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
   "autoupdate": {
-    "download_page": "https://visualstudio.microsoft.com/downloads/",
-    "download_url": "https://download.visualstudio.microsoft.com/download/pr/9665567e-f580-4acd-85f2-bc94a1db745f/930a6ef592ea72e47b57565fce5bf93ffdbcc76c8d146bc02db97bd039e8d532/vs_BuildTools.exe",
-    "regex": "Visual Studio 2019</a></h2>\n<p class=\"notes-top\">Version (\\d+\\.\\d+)"
+    "download_page": "",
+    "download_url": "https://go.microsoft.com/fwlink/?LinkId=691126",
+    "regex": ""
   },
-  "16.10": {
-    "url": "https://download.visualstudio.microsoft.com/download/pr/9665567e-f580-4acd-85f2-bc94a1db745f/930a6ef592ea72e47b57565fce5bf93ffdbcc76c8d146bc02db97bd039e8d532/vs_BuildTools.exe",
-    "size": 1464544,
-    "checksum": "930A6EF592EA72E47B57565FCE5BF93FFDBCC76C8D146BC02DB97BD039E8D532",
+  "14.0.25420.1": {
+    "url": "https://go.microsoft.com/fwlink/?LinkId=691126",
+    "size": 3287928,
+    "checksum": "1E1774869ABD953D05D10372B7C08BFA0C76116F5C6DF1F3D031418CCDCD8F7B",
     "file_type": ".exe"
   }
 }

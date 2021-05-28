@@ -114,8 +114,15 @@ fn new_package(package_name: &String) {
 }
 
 async fn autoupdate(package_name: &str) {
-    let package: Package = get_package(package_name.clone()).await;
+    let package: Package = get_package(package_name.clone()).await;    
     let url = package.clone().autoupdate.download_page;
+
+    if url.clone() == "" {
+        // no autoupdate
+        update_url_and_version(package.clone(), &package.latest_version.clone(), package_name).await;
+        std::process::exit(0);
+    }
+
     println!("url: {}", url);
     let response = get(url)
         .await
