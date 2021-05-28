@@ -4,7 +4,7 @@
   "latest_version": "6.3.1",
   "threads": 8,
   "iswitches": [],
-  "uswitches": ["/passive"],
+  "uswitches": [],
   "autoupdate": {
     "download_page": "https://anydesk.com/en/downloads/windows",
     "download_url": "https://download.anydesk.com/AnyDesk.msi",

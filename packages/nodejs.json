@@ -4,7 +4,7 @@
   "latest_version": "14.17.0",
   "threads": 8,
   "iswitches": [],
-  "uswitches": ["/passive"],
+  "uswitches": [],
   "autoupdate": {
     "download_page": "https://nodejs.org/en/",
     "download_url": "https://nodejs.org/dist/v<version>/node-v<version>-x64.msi",

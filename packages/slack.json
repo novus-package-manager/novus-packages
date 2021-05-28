@@ -4,7 +4,6 @@
   "latest_version": "4.16.1",
   "threads": 8,
   "iswitches": [
-    "/passive"
   ],
   "uswitches": [],
   "autoupdate": {
