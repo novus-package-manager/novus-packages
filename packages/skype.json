@@ -1,0 +1,21 @@
+{
+  "package_name": "skype",
+  "display_name": "Skype",
+  "latest_version": "8.72.0.94",
+  "threads": 8,
+  "iswitches": [
+    "/S"
+  ],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "https://skype.en.uptodown.com/windows/versions",
+    "download_url": "https://download.skype.com/s4l/download/win/Skype-<version>.exe",
+    "regex": "class=version>(\\d+\\.\\d+\\.\\d+\\.\\d+)"
+  },
+  "8.72.0.94": {
+    "url": "https://download.skype.com/s4l/download/win/Skype-8.72.0.94.exe",
+    "size": 80831264,
+    "checksum": "0528918453F2682F98A6BC6D9DFC532044B01077D59BB860AAE734A2A9D3E245",
+    "file_type": ".exe"
+  }
+}

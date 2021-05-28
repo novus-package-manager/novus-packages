@@ -3,9 +3,7 @@
   "display_name": "WhatsApp",
   "latest_version": "2.2119.6.0",
   "threads": 8,
-  "iswitches": [
-    "/S"
-  ],
+  "iswitches": [],
   "uswitches": [],
   "autoupdate": {
     "download_page": "https://whatsapp-desktop.en.uptodown.com/windows/versions",
