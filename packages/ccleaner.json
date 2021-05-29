@@ -1,0 +1,23 @@
+{
+  "package_name": "ccleaner",
+  "display_name": "CCleaner",
+  "latest_version": "5.80.8743",
+  "threads": 8,
+  "iswitches": [
+    "/S"
+  ],
+  "uswitches": [
+    "/S"
+  ],
+  "autoupdate": {
+    "download_page": "https://www.ccleaner.com/ccleaner/version-history",
+    "download_url": "https://download.ccleaner.com/ccsetupmajor-version-no-dot.exe",
+    "regex": "v(\\d+\\.\\d+\\.\\d+) \\("
+  },
+  "5.80.8743": {
+    "url": "https://download.ccleaner.com/ccsetupmajor-version-no-dot.exe",
+    "size": 10,
+    "checksum": "F3AB630FBDCBBEBF59DD550CF259043F282EAFEAD5A024EDF1EA90BC83417F4A",
+    "file_type": ".exe"
+  }
+}

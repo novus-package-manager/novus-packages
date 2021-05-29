@@ -267,6 +267,20 @@ async fn update_url_and_version(package: Package, version: &str, package_name: &
         }
         url = url.replace("<major-version>", version_new.as_str());
     }
+    if package.autoupdate.download_url.contains("<major-version-no-dot>") {
+        let version_split: Vec<&str> = version.split(".").collect();
+        let mut version_new = String::new();
+        if version_split.len() == 2 {
+            version_new = version_split[0].to_string();
+        }
+        if version_split.len() == 3 {
+            version_new = version_split[0].to_string() + version_split[1];
+        }
+        if version_split.len() == 1 {
+            version_new = version_split[0].to_string();
+        }
+        url = url.replace("<major-version-no-dot>", version_new.as_str());
+    }
     if package.autoupdate.download_url.contains("<minor-version>") {
         let version_split: Vec<&str> = version.split(".").collect();
         let mut version_new = String::new();

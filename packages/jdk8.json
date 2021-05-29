@@ -3,7 +3,7 @@
   "display_name": "Java SE Development Kit 8",
   "latest_version": "8.0.211",
   "threads": 8,
-  "iswitches": [],
+  "iswitches": ["/s"],
   "uswitches": [],
   "autoupdate": {
     "download_page": "",
