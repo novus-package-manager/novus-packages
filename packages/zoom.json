@@ -1,0 +1,23 @@
+{
+  "package_name": "zoom",
+  "display_name": "Zoom",
+  "latest_version": "5.6.6.961",
+  "threads": 8,
+  "iswitches": [
+    "/quiet",
+    "/norestart",
+    "ZoomAutoUpdate=True"
+  ],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "https://zoom.en.softonic.com/download",
+    "download_url": "https://cdn.zoom.us/prod/5.6.6.961/x64/ZoomInstallerFull.msi",
+    "regex": "&nbsp;(\\d.\\d+\\.\\d+\\.\\d+)"
+  },
+  "5.6.6.961": {
+    "url": "https://cdn.zoom.us/prod/5.6.6.961/x64/ZoomInstallerFull.msi",
+    "size": 54905344,
+    "checksum": "8AB3A6DCABCB01876C0C5D3090C7C449E1DA25C720DBD4EAED50A80E01F994C0",
+    "file_type": ".msi"
+  }
+}
