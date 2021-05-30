@@ -1,6 +1,6 @@
 {
   "package_name": "azure-powershell",
-  "display_name": "",
+  "display_name": "Microsoft Azure Powershell",
   "latest_version": "6.0.0",
   "threads": 8,
   "iswitches": [],
