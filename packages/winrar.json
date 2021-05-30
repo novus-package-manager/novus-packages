@@ -1,6 +1,7 @@
 {
   "package_name": "winrar",
   "display_name": "WinRAR",
+  "exec_name": "WinRAR",
   "latest_version": "6.01",
   "threads": 8,
   "iswitches": ["/S"],

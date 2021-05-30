@@ -1,6 +1,7 @@
 {
   "package_name": "jdk8",
   "display_name": "Java SE Development Kit 8",
+  "exec_name": "none",
   "latest_version": "8.0.211",
   "threads": 8,
   "iswitches": ["/s"],

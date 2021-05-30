@@ -1,6 +1,7 @@
 {
   "package_name": "skype",
   "display_name": "Skype",
+  "exec_name": "Skype",
   "latest_version": "8.72.0.94",
   "threads": 8,
   "iswitches": [

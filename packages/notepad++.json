@@ -1,6 +1,7 @@
 {
   "package_name": "notepad++",
   "display_name": "Notepad++",
+  "exec_name": "notepad++",
   "latest_version": "7.9.5",
   "threads": 8,
   "iswitches": ["/S"],

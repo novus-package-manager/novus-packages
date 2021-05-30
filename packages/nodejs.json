@@ -1,6 +1,7 @@
 {
   "package_name": "nodejs",
   "display_name": "Node.js",
+  "exec_name": "none",
   "latest_version": "14.17.0",
   "threads": 8,
   "iswitches": [],

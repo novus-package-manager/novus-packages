@@ -1,6 +1,7 @@
 {
   "package_name": "slack",
   "display_name": "Slack",
+  "exec_name": "slack",
   "latest_version": "4.16.1",
   "threads": 8,
   "iswitches": [

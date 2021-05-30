@@ -1,6 +1,7 @@
 {
   "package_name": "sublime-text-3",
   "display_name": "Sublime Text 3",
+  "exec_name": "sublime_text",
   "latest_version": "3211",
   "threads": 8,
   "iswitches": [

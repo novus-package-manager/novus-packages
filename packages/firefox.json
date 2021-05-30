@@ -1,6 +1,7 @@
 {
   "package_name": "firefox",
   "display_name": "Mozilla Firefox",
+  "exec_name": "firefox",
   "latest_version": "88.0.1",
   "threads": 8,
   "iswitches": [],

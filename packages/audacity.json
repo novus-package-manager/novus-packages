@@ -1,6 +1,7 @@
 {
   "package_name": "audacity",
   "display_name": "Audacity",
+  "exec_name": "audacity",
   "latest_version": "3.0.2",
   "threads": 8,
   "iswitches": [

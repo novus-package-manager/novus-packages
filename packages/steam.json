@@ -1,6 +1,7 @@
 {
   "package_name": "steam",
   "display_name": "Steam",
+  "exec_name": "steam",
   "latest_version": "2021.05.18",
   "threads": 8,
   "iswitches": ["/S"],

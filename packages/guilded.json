@@ -1,6 +1,7 @@
 {
   "package_name": "guilded",
   "display_name": "Guilded",
+  "exec_name": "Guilded",
   "latest_version": "1.0.996954",
   "threads": 8,
   "iswitches": [

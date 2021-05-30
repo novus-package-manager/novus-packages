@@ -1,6 +1,7 @@
 {
   "package_name": "anaconda",
   "display_name": "Anaconda",
+  "exec_name": "none",
   "latest_version": "2021.05",
   "threads": 8,
   "iswitches": [

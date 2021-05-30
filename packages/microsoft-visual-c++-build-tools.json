@@ -1,6 +1,7 @@
 {
   "package_name": "microsoft-visual-c++-build-tools",
   "display_name": "Microsoft Visual C++ Build Tools 2015",
+  "exec_name": "none",
   "latest_version": "14.0.25420.1",
   "threads": 8,
   "iswitches": [],

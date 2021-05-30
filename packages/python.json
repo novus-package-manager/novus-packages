@@ -1,7 +1,8 @@
 {
   "package_name": "python",
   "display_name": "Python",
-  "latest_version": "3.9.5",
+  "exec_name": "none",
+  "latest_version": "3.9.5 ",
   "threads": 8,
   "iswitches": ["/silent"],
   "uswitches": [],

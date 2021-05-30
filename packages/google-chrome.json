@@ -1,6 +1,7 @@
 {
   "package_name": "google-chrome",
   "display_name": "Google Chrome",
+  "exec_name": "chrome",
   "latest_version": "91.0.4472.77",
   "threads": 8,
   "iswitches": [],

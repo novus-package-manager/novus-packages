@@ -1,6 +1,7 @@
 {
   "package_name": "cutepdf",
   "display_name": "CutePDF Writer",
+  "exec_name": "none",
   "latest_version": "4.0",
   "threads": 8,
   "iswitches": [

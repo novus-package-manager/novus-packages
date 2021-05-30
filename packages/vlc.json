@@ -1,6 +1,7 @@
 {
   "package_name": "vlc",
   "display_name": "VLC Media Player",
+  "exec_name": "vlc",
   "latest_version": "3.0.14",
   "threads": 8,
   "iswitches": ["/S"],

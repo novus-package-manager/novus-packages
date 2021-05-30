@@ -1,6 +1,7 @@
 {
   "package_name": "adobe-reader",
   "display_name": "Adobe Acrobat Reader DC",
+  "exec_name": "AcroRd32",
   "latest_version": "21.001.20145",
   "threads": 8,
   "iswitches": ["/sAll"],
