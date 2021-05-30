@@ -99,6 +99,7 @@ fn new_package(package_name: &String) {
     let package: Package = Package {
         package_name: package_name.clone(),
         display_name: String::new(),
+        exec_name: "none".to_string(),
         latest_version: "0".to_string(),
         threads: 8,
         iswitches: vec![],
