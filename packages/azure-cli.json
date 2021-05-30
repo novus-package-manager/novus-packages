@@ -1,6 +1,6 @@
 {
   "package_name": "azure-cli",
-  "display_name": "",
+  "display_name": "Microsoft Azure CLI",
   "latest_version": "2.24.0",
   "threads": 8,
   "iswitches": [],
