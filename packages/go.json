@@ -1,0 +1,19 @@
+{
+  "package_name": "go",
+  "display_name": "Go Programming Language",
+  "latest_version": "1.16.4",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "https://golang.org/dl/",
+    "download_url": "https://golang.org/dl/go<version>.windows-amd64.msi",
+    "regex": "<a class=\"download downloadBox\" href=\"/dl/go(\\d+\\.\\d+\\.\\d+)\\.windows-amd64\\.msi\">\\n<div class=\"platform\">Microsoft Windows</div>"
+  },
+  "1.16.4": {
+    "url": "https://golang.org/dl/go1.16.4.windows-amd64.msi",
+    "size": 124403712,
+    "checksum": "9AE1CAFAD5F206F004CFE4E9E9B64E4710CB69C83F6221DA89C113B6F2E8DEC8",
+    "file_type": ".msi"
+  }
+}
