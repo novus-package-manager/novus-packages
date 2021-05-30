@@ -43,7 +43,7 @@ async fn main() {
             autoupdate(package).await;
         }
     } else {
-        if args[1] == "new" {
+        if args[1] == "add" {
             new_package(&args[2]);
         } else if args[1] == "test" {
             get_contents(&args[2]).await;
@@ -114,12 +114,17 @@ fn new_package(package_name: &String) {
 }
 
 async fn autoupdate(package_name: &str) {
-    let package: Package = get_package(package_name.clone()).await;    
+    let package: Package = get_package(package_name.clone()).await;
     let url = package.clone().autoupdate.download_page;
 
     if url.clone() == "" {
         // no autoupdate
-        update_url_and_version(package.clone(), &package.latest_version.clone(), package_name).await;
+        update_url_and_version(
+            package.clone(),
+            &package.latest_version.clone(),
+            package_name,
+        )
+        .await;
         std::process::exit(0);
     }
 
@@ -267,7 +272,11 @@ async fn update_url_and_version(package: Package, version: &str, package_name: &
         }
         url = url.replace("<major-version>", version_new.as_str());
     }
-    if package.autoupdate.download_url.contains("<major-version-no-dot>") {
+    if package
+        .autoupdate
+        .download_url
+        .contains("<major-version-no-dot>")
+    {
         let version_split: Vec<&str> = version.split(".").collect();
         let mut version_new = String::new();
         if version_split.len() == 2 {
