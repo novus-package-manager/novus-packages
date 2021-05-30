@@ -4,8 +4,6 @@
   "latest_version": "5.6.6.961",
   "threads": 8,
   "iswitches": [
-    "/quiet",
-    "/norestart",
     "ZoomAutoUpdate=True"
   ],
   "uswitches": [],

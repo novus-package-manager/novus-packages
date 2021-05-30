@@ -1,0 +1,19 @@
+{
+  "package_name": "azure-powershell",
+  "display_name": "",
+  "latest_version": "6.0.0",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "https://github.com/Azure/azure-powershell/releases/latest",
+    "download_url": "https://github.com/Azure/azure-powershell/releases/download/v6.0.0-May2021/Az-Cmdlets-6.0.0.34351-x64.msi",
+    "regex": "Az (\\d+\\.\\d+\\.\\d+)"
+  },
+  "6.0.0": {
+    "url": "https://github.com/Azure/azure-powershell/releases/download/v6.0.0-May2021/Az-Cmdlets-6.0.0.34351-x64.msi",
+    "size": 45277184,
+    "checksum": "09F4FCB360D58474CBA907FED98F6AF8D9CCEA0A5449D6C614FC11B0ACF3CCDE",
+    "file_type": ".msi"
+  }
+}
