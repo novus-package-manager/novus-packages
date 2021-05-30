@@ -9,7 +9,7 @@
   "uswitches": [],
   "autoupdate": {
     "download_page": "https://zoom.en.softonic.com/download",
-    "download_url": "https://cdn.zoom.us/prod/5.6.6.961/x64/ZoomInstallerFull.msi",
+    "download_url": "https://cdn.zoom.us/prod/<version>/x64/ZoomInstallerFull.msi",
     "regex": "&nbsp;(\\d.\\d+\\.\\d+\\.\\d+)"
   },
   "5.6.6.961": {

@@ -7,7 +7,7 @@
   "uswitches": [],
   "autoupdate": {
     "download_page": "https://github.com/Azure/azure-powershell/releases/latest",
-    "download_url": "https://github.com/Azure/azure-powershell/releases/download/v6.0.0-May2021/Az-Cmdlets-6.0.0.34351-x64.msi",
+    "download_url": "https://github.com/Azure/azure-powershell/releases/download/v<version>-May2021/Az-Cmdlets-<version>.34351-x64.msi",
     "regex": "Az (\\d+\\.\\d+\\.\\d+)"
   },
   "6.0.0": {
