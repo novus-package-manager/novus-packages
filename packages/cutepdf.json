@@ -3,8 +3,15 @@
   "display_name": "CutePDF Writer",
   "latest_version": "4.0",
   "threads": 8,
-  "iswitches": [],
-  "uswitches": [],
+  "iswitches": [
+    "/SP-",
+    "/VERYSILENT",
+    "/SUPPRESSMSGBOXES",
+    "/NOCANCEL",
+    "/NORESTART",
+    "/FORCECLOSEAPPLICATIONS"
+  ],
+  "uswitches": ["/uninstall", "/s"],
   "autoupdate": {
     "download_page": "https://cutepdf-writer.en.uptodown.com/windows/versions",
     "download_url": "http://www.cutepdf.com/download/CuteWriter.exe",
