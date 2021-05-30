@@ -1,0 +1,23 @@
+{
+  "package_name": "gimp",
+  "display_name": "Gimp",
+  "latest_version": "2.10.24",
+  "threads": 8,
+  "iswitches": [
+    "/VERYSILENT /NORESTART /ALLUSERS"
+  ],
+  "uswitches": [
+    "/VERYSILENT /NORESTART"
+  ],
+  "autoupdate": {
+    "download_page": "https://www.gimp.org/downloads/",
+    "download_url": "https://download.gimp.org/pub/gimp/v<major-version>/windows/gimp-<version>-setup-3.exe",
+    "regex": "release of GIMP is <b>(\\d+.\\d+.\\d+)"
+  },
+  "2.10.24": {
+    "url": "https://download.gimp.org/pub/gimp/v2.10/windows/gimp-2.10.24-setup-3.exe",
+    "size": 253914240,
+    "checksum": "5E9EABE5739523A9FC347B4614D919418F3335E7AAB082A65F71705421E85E04",
+    "file_type": ".exe"
+  }
+}
