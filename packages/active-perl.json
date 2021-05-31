@@ -1,7 +1,7 @@
 {
   "package_name": "active-perl",
   "display_name": "ActivePerl",
-  "exec_name": "none",
+  "exec_name": "wperl",
   "latest_version": "5.28",
   "threads": 8,
   "iswitches": [],
