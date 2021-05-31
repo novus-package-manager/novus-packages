@@ -2,14 +2,24 @@
   "package_name": "spotify",
   "display_name": "Spotify",
   "exec_name": "Spotify",
-  "latest_version": "1.1.59.714",
+  "latest_version": "1.1.60.668",
   "threads": 8,
-  "iswitches": ["/silent"],
-  "uswitches": ["/silent"],
+  "iswitches": [
+    "/silent"
+  ],
+  "uswitches": [
+    "/silent"
+  ],
   "autoupdate": {
     "download_page": "https://spotify.en.uptodown.com/windows/versions",
     "download_url": "http://download.spotify.com/SpotifyFullSetup.exe",
     "regex": "class=version>(\\d+\\.\\d+\\.\\d+\\.\\d+)"
+  },
+  "1.1.60.668": {
+    "url": "http://download.spotify.com/SpotifyFullSetup.exe",
+    "size": 93085976,
+    "checksum": "CEA43DF44352E47DB010C0B0BA47520B1D988BB6772FA3347D3BA2476C6675B1",
+    "file_type": ".exe"
   },
   "1.1.59.714": {
     "url": "http://download.spotify.com/SpotifyFullSetup.exe",
