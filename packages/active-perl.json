@@ -1,0 +1,20 @@
+{
+  "package_name": "active-perl",
+  "display_name": "ActivePerl",
+  "exec_name": "none",
+  "latest_version": "5.28",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "https://www.activestate.com/products/perl/downloads/",
+    "download_url": "https://cli-msi.s3.amazonaws.com/ActivePerl-<version>.msi",
+    "regex": "Download Perl (\\d+\\.\\d+)"
+  },
+  "5.28": {
+    "url": "https://cli-msi.s3.amazonaws.com/ActivePerl-5.28.msi",
+    "size": 5783552,
+    "checksum": "DDC41B5C14769DDB6F09FA69959F2FDDB076729EDDEB647C96BB40E7A28BB842",
+    "file_type": ".msi"
+  }
+}

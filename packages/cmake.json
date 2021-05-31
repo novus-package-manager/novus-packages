@@ -1,7 +1,7 @@
 {
   "package_name": "cmake",
   "display_name": "CMake",
-  "exec_name": "none",
+  "exec_name": "cmake-gui",
   "latest_version": "3.20.3",
   "threads": 8,
   "iswitches": [],
