@@ -1,0 +1,20 @@
+{
+  "package_name": "ffmpeg",
+  "display_name": "FFmpeg",
+  "exec_name": "none",
+  "latest_version": "4.4",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "https://ffmpeg.org/download.html",
+    "download_url": "https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip",
+    "regex": "FFmpeg (\\d+\\.\\d+)"
+  },
+  "4.4": {
+    "url": "https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip",
+    "size": 78522599,
+    "checksum": "B61572975ECE8A3FE86BB590EDB0C5681D9E85A0332B305BDCFBF299344146E8",
+    "file_type": ".exe"
+  }
+}
