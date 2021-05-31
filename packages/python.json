@@ -2,9 +2,11 @@
   "package_name": "python",
   "display_name": "Python",
   "exec_name": "none",
-  "latest_version": "3.9.5 ",
+  "latest_version": "3.9.5",
   "threads": 8,
-  "iswitches": ["/silent"],
+  "iswitches": [
+    "/silent"
+  ],
   "uswitches": [],
   "autoupdate": {
     "download_page": "https://www.python.org/downloads/",
