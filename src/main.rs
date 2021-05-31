@@ -148,56 +148,53 @@ async fn autoupdate(package_name: &str) {
         .collect();
     println!("matches: {:?}", matches);
 
-    let mut versions_calc: Vec<String> = vec![];
+    if matches.len() != 0 {
+        let mut versions_calc: Vec<String> = vec![];
 
-    let mut versions: Vec<String> = vec![];
-    let mut lengths: Vec<usize> = vec![];
-
-    for mut _match in matches {
-        _match = _match.trim_end();
-        let version_split: Vec<&str> = _match.split(" ").collect();
-        if version_split.len() > 1 {
-            _match = version_split[1].trim();
-            if _match.contains("v") {
-                let version_split: Vec<&str> = _match.split("v").collect();
+        let mut versions: Vec<String> = vec![];
+        let mut lengths: Vec<usize> = vec![];
+        for mut _match in matches {
+            _match = _match.trim_end();
+            let version_split: Vec<&str> = _match.split(" ").collect();
+            if version_split.len() > 1 {
                 _match = version_split[1].trim();
+                if _match.contains("v") {
+                    let version_split: Vec<&str> = _match.split("v").collect();
+                    _match = version_split[1].trim();
+                }
+            } else {
+                _match = version_split[0];
+                if _match.contains("v") {
+                    let version_split: Vec<&str> = _match.split("v").collect();
+                    _match = version_split[1].trim();
+                }
             }
-        } else {
-            _match = version_split[0];
-            if _match.contains("v") {
-                let version_split: Vec<&str> = _match.split("v").collect();
-                _match = version_split[1].trim();
-            }
+            lengths.push(_match.len());
+            let ver = format!("{:0<15}", _match);
+            versions.push(ver);
+            let year_dot_split: Vec<&str> = _match.split(".").collect();
+            let year_string = year_dot_split.concat();
+            versions_calc.push(year_string);
         }
-        lengths.push(_match.len());
-        let ver = format!("{:0<15}", _match);
-        versions.push(ver);
-        let year_dot_split: Vec<&str> = _match.split(".").collect();
-        let year_string = year_dot_split.concat();
-        versions_calc.push(year_string);
-    }
-
-    println!("version final: {:?}", versions);
-
-    let index = versions_calc
-        .iter()
-        .enumerate()
-        .filter_map(|(i, s)| s.parse::<u64>().ok().map(|n| (i, n)))
-        .max_by_key(|&(_, n)| n)
-        .map(|(i, _)| i)
-        .unwrap_or_else(|| handle_error_and_exit("Failed to find match".to_string()));
-
-    let version = &versions[index];
-    let og_len = &lengths[index];
-    let ver = &version.split_at(*og_len).0;
-    let version_new = &ver.to_string();
-    println!("latest version: {}", version_new);
-
-    if &package.latest_version != version_new {
-        if package.clone().autoupdate.download_url == "" {
-            update_version(package.clone(), &version_new, package_name);
-        } else {
-            update_url_and_version(package.clone(), &version_new, package_name).await;
+        println!("version final: {:?}", versions);
+        let index = versions_calc
+            .iter()
+            .enumerate()
+            .filter_map(|(i, s)| s.parse::<u64>().ok().map(|n| (i, n)))
+            .max_by_key(|&(_, n)| n)
+            .map(|(i, _)| i)
+            .unwrap_or_else(|| handle_error_and_exit("Failed to find match".to_string()));
+        let version = &versions[index];
+        let og_len = &lengths[index];
+        let ver = &version.split_at(*og_len).0;
+        let version_new = &ver.to_string();
+        println!("latest version: {}", version_new);
+        if &package.latest_version != version_new {
+            if package.clone().autoupdate.download_url == "" {
+                update_version(package.clone(), &version_new, package_name);
+            } else {
+                update_url_and_version(package.clone(), &version_new, package_name).await;
+            }
         }
     }
 }
