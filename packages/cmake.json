@@ -8,13 +8,13 @@
   "uswitches": [],
   "autoupdate": {
     "download_page": "https://github.com/Kitware/CMake/releases/latest",
-    "download_url": "https://github.com/Kitware/CMake/releases/download/v<version>/cmake-<version>-win64-x64.msi",
+    "download_url": "https://github.com/Kitware/CMake/releases/download/v<version>/cmake-<version>-windows-x86_64.msi",
     "regex": "v(\\d+\\.\\d+\\.\\d+)"
   },
   "3.20.3": {
-    "url": "https://github.com/Kitware/CMake/releases/download/v3.20.3/cmake-3.20.3-win64-x64.msi",
-    "size": 9,
-    "checksum": "2840FCA0EC8C01A1C6395487D5E5E971578F1BD520A754DED4F74295386A4426",
+    "url": "https://github.com/Kitware/CMake/releases/download/v3.20.3/cmake-3.20.3-windows-x86_64.msi",
+    "size": 27758592,
+    "checksum": "EDF7D8D26D653053E71B4C3FFE8CC410C52EF536AB194DFA3EC116A11620D9C7",
     "file_type": ".msi"
   }
 }
