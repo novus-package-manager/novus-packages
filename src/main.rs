@@ -126,7 +126,6 @@ async fn autoupdate(package_name: &str) {
             package_name,
         )
         .await;
-        std::process::exit(0);
     }
 
     println!("url: {}", url);
