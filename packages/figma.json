@@ -1,7 +1,7 @@
 {
   "package_name": "figma",
-  "display_name": "",
-  "exec_name": "none",
+  "display_name": "Figma",
+  "exec_name": "Figma",
   "latest_version": "93.4.0",
   "threads": 8,
   "iswitches": [
@@ -14,7 +14,14 @@
     "/SILENT",
     "/VERYSILENT"
   ],
-  "uswitches": [],
+  "uswitches": [    "/s",
+    "/S",
+    "/q",
+    "/Q",
+    "/quiet",
+    "/silent",
+    "/SILENT",
+    "/VERYSILENT"],
   "autoupdate": {
     "download_page": "https://www.filehorse.com/download-figma/",
     "download_url": "https://www.figma.com/download/desktop/win",
