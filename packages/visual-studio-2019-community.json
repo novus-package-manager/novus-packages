@@ -2,6 +2,8 @@
   "package_name": "visual-studio-2019-community",
   "display_name": "Visual Studio Community 2019",
   "exec_name": "devenv",
+  "creator": "",
+  "description": "",
   "latest_version": "16.10",
   "threads": 8,
   "iswitches": [],

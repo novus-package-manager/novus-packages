@@ -2,6 +2,8 @@
   "package_name": "figma",
   "display_name": "Figma",
   "exec_name": "Figma",
+  "creator": "",
+  "description": "",
   "latest_version": "93.4.0",
   "threads": 8,
   "iswitches": [

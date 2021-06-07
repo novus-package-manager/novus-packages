@@ -2,6 +2,8 @@
   "package_name": "vscode",
   "display_name": "Microsoft Visual Studio Code (User)",
   "exec_name": "Code",
+  "creator": "",
+  "description": "",
   "latest_version": "1.56.2",
   "threads": 8,
   "iswitches": [

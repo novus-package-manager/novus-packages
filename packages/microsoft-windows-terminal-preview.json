@@ -2,6 +2,8 @@
   "package_name": "microsoft-windows-terminal-preview",
   "display_name": "Microsoft Windows Terminal Preview",
   "exec_name": "WindowsTerminal",
+  "creator": "",
+  "description": "",
   "latest_version": "1.8.1032.0",
   "threads": 8,
   "iswitches": [],

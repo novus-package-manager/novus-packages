@@ -2,6 +2,8 @@
   "package_name": "microsoft-edge",
   "display_name": "Microsoft Edge",
   "exec_name": "msedge",
+  "creator": "",
+  "description": "",
   "latest_version": "90.0.818.62",
   "threads": 8,
   "iswitches": [],

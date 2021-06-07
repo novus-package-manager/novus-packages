@@ -2,6 +2,8 @@
   "package_name": "gimp",
   "display_name": "Gimp",
   "exec_name": "gimp-2.10",
+  "creator": "",
+  "description": "",
   "latest_version": "2.10.24",
   "threads": 8,
   "iswitches": [

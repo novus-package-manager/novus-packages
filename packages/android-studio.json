@@ -2,6 +2,8 @@
   "package_name": "android-studio",
   "display_name": "Android Studio",  
   "exec_name": "java",
+  "creator": "",
+  "description": "",
   "latest_version": "4.2.1.0",
   "threads": 8,
   "iswitches": ["/S"],

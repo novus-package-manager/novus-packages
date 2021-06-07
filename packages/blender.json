@@ -2,6 +2,8 @@
   "package_name": "blender",
   "display_name": "Blender",
   "exec_name": "blender",
+  "creator": "",
+  "description": "",
   "latest_version": "2.93.0",
   "threads": 8,
   "iswitches": [],

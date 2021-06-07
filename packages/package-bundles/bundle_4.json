@@ -1,0 +1,297 @@
+[
+  {
+    "package_name": "steam",
+    "display_name": "Steam",
+    "exec_name": "steam",
+    "creator": "",
+    "description": "",
+    "latest_version": "2021.05.18",
+    "threads": 8,
+    "iswitches": [
+      "/S"
+    ],
+    "uswitches": [
+      "/S"
+    ],
+    "autoupdate": {
+      "download_page": "https://steam.en.softonic.com/download",
+      "download_url": "https://cdn.cloudflare.steamstatic.com/client/installer/SteamSetup.exe",
+      "regex": "(2021\\.\\d+\\.\\d+)"
+    },
+    "2021.05.18": {
+      "url": "https://cdn.cloudflare.steamstatic.com/client/installer/SteamSetup.exe",
+      "size": 1770744,
+      "checksum": "874788B45DFC043289BA05387E83F27B4A046004A88A4C5EE7C073187FF65B9D",
+      "file_type": ".exe"
+    }
+  },
+  {
+    "package_name": "sublime-text-3",
+    "display_name": "Sublime Text 3",
+    "exec_name": "sublime_text",
+    "creator": "",
+    "description": "",
+    "latest_version": "3211",
+    "threads": 8,
+    "iswitches": [
+      "/SP-",
+      "/VERYSILENT",
+      "/SUPPRESSMSGBOXES",
+      "/NOCANCEL",
+      "/NORESTART",
+      "/FORCECLOSEAPPLICATIONS"
+    ],
+    "uswitches": [
+      "/VERYSILENT",
+      "/SUPPRESSMSGBOXES",
+      "/NORESTART"
+    ],
+    "autoupdate": {
+      "download_page": "https://www.sublimetext.com/3",
+      "download_url": "https://download.sublimetext.com/Sublime%20Text%20Build%20<version>%20x64%20Setup.exe",
+      "regex": "\\(Build (\\d+)\\)"
+    },
+    "3211": {
+      "url": "https://download.sublimetext.com/Sublime%20Text%20Build%203211%20x64%20Setup.exe",
+      "size": 10931184,
+      "checksum": "17A659D3B09299481C7DF52DAF5FE3B8930A157B6139EBE5A1D8BDC0C2F3D7F4",
+      "file_type": ".exe"
+    }
+  },
+  {
+    "package_name": "sublime-text-4",
+    "display_name": "Sublime Text",
+    "exec_name": "sublime_text",
+    "creator": "",
+    "description": "",
+    "latest_version": "4107",
+    "threads": 8,
+    "iswitches": [
+      "/SP-",
+      "/VERYSILENT",
+      "/SUPPRESSMSGBOXES",
+      "/NOCANCEL",
+      "/NORESTART",
+      "/FORCECLOSEAPPLICATIONS"
+    ],
+    "uswitches": [
+      "/VERYSILENT",
+      "/SUPPRESSMSGBOXES",
+      "/NORESTART"
+    ],
+    "autoupdate": {
+      "download_page": "https://www.sublimetext.com/download",
+      "download_url": "https://download.sublimetext.com/sublime_text_build_<version>_x64_setup.exe",
+      "regex": "4 \\(Build (\\d+)\\)"
+    },
+    "4107": {
+      "url": "https://download.sublimetext.com/sublime_text_build_4107_x64_setup.exe",
+      "size": 18980352,
+      "checksum": "10943C2D71DC97DCBF0DF96A43D1F34FDB90F6D85184424A5EFCFE2D08DAAD2F",
+      "file_type": ".exe"
+    }
+  },
+  {
+    "package_name": "visual-studio-2019-build-tools",
+    "display_name": "Visual Studio Build Tools 2019",
+    "exec_name": "none",
+    "creator": "",
+    "description": "",
+    "latest_version": "16.10",
+    "threads": 8,
+    "iswitches": [],
+    "uswitches": [],
+    "autoupdate": {
+      "download_page": "https://visualstudio.microsoft.com/downloads/",
+      "download_url": "https://download.visualstudio.microsoft.com/download/pr/9665567e-f580-4acd-85f2-bc94a1db745f/930a6ef592ea72e47b57565fce5bf93ffdbcc76c8d146bc02db97bd039e8d532/vs_BuildTools.exe",
+      "regex": "Visual Studio 2019</a></h2>\n<p class=\"notes-top\">Version (\\d+\\.\\d+)"
+    },
+    "16.10": {
+      "url": "https://download.visualstudio.microsoft.com/download/pr/9665567e-f580-4acd-85f2-bc94a1db745f/930a6ef592ea72e47b57565fce5bf93ffdbcc76c8d146bc02db97bd039e8d532/vs_BuildTools.exe",
+      "size": 1464544,
+      "checksum": "930A6EF592EA72E47B57565FCE5BF93FFDBCC76C8D146BC02DB97BD039E8D532",
+      "file_type": ".exe"
+    }
+  },
+  {
+    "package_name": "visual-studio-2019-community",
+    "display_name": "Visual Studio Community 2019",
+    "exec_name": "devenv",
+    "creator": "",
+    "description": "",
+    "latest_version": "16.10",
+    "threads": 8,
+    "iswitches": [],
+    "uswitches": [],
+    "autoupdate": {
+      "download_page": "https://visualstudio.microsoft.com/downloads/",
+      "download_url": "https://download.visualstudio.microsoft.com/download/pr/9665567e-f580-4acd-85f2-bc94a1db745f/e44597271957d6bdacdea127ff62455d536b6a9d9b8c34f10bc555800ba3e4e2/vs_Community.exe",
+      "regex": "Visual Studio 2019</a></h2>\n<p class=\"notes-top\">Version (\\d+\\.\\d+)"
+    },
+    "16.10": {
+      "url": "https://download.visualstudio.microsoft.com/download/pr/9665567e-f580-4acd-85f2-bc94a1db745f/e44597271957d6bdacdea127ff62455d536b6a9d9b8c34f10bc555800ba3e4e2/vs_Community.exe",
+      "size": 1465096,
+      "checksum": "E44597271957D6BDACDEA127FF62455D536B6A9D9B8C34F10BC555800BA3E4E2",
+      "file_type": ".exe"
+    }
+  },
+  {
+    "package_name": "vlc",
+    "display_name": "VLC Media Player",
+    "exec_name": "vlc",
+    "creator": "",
+    "description": "",
+    "latest_version": "3.0.14",
+    "threads": 8,
+    "iswitches": [
+      "/S"
+    ],
+    "uswitches": [
+      "/S"
+    ],
+    "autoupdate": {
+      "download_page": "https://www.videolan.org/vlc/download-windows.html",
+      "download_url": "https://mirror.clarkson.edu/videolan/vlc/3.0.12/win64/vlc-3.0.12-win64.exe",
+      "regex": "<span id='downloadVersion'>\\n\\s+(\\d+\\.\\d+\\.\\d+)"
+    },
+    "3.0.14": {
+      "url": "https://mirror.clarkson.edu/videolan/vlc/3.0.12/win64/vlc-3.0.12-win64.exe",
+      "size": 42589480,
+      "checksum": "5D282D8C3F9F2FB188C191914DE80BEFA6E347C5297FB727D928DA941860530F",
+      "file_type": ".exe"
+    }
+  },
+  {
+    "package_name": "vscode-system",
+    "display_name": "Microsoft Visual Studio Code",
+    "exec_name": "Code",
+    "creator": "",
+    "description": "",
+    "latest_version": "1.56.2",
+    "threads": 8,
+    "iswitches": [
+      "/SP-",
+      "/VERYSILENT",
+      "/SUPPRESSMSGBOXES",
+      "/NOCANCEL",
+      "/NORESTART",
+      "/FORCECLOSEAPPLICATIONS",
+      "/MERGETASKS=!runcode"
+    ],
+    "uswitches": [
+      "/SP-",
+      "/VERYSILENT",
+      "/SUPPRESSMSGBOXES",
+      "/NOCANCEL",
+      "/NORESTART",
+      "/FORCECLOSEAPPLICATIONS"
+    ],
+    "autoupdate": {
+      "download_page": "https://visual-studio-code.en.uptodown.com/windows/versions",
+      "download_url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64",
+      "regex": "\"(\\d+\\.\\d+\\.\\d)\""
+    },
+    "1.56.2": {
+      "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64",
+      "size": 80053088,
+      "checksum": "1BAA3EBAD28B6E08C9806F8780690C6244F8AA89C47BC089E87A8F20B89F7492",
+      "file_type": ".exe"
+    }
+  },
+  {
+    "package_name": "vscode-system",
+    "display_name": "Microsoft Visual Studio Code",
+    "exec_name": "Code",
+    "creator": "",
+    "description": "",
+    "latest_version": "1.56.2",
+    "threads": 8,
+    "iswitches": [
+      "/SP-",
+      "/VERYSILENT",
+      "/SUPPRESSMSGBOXES",
+      "/NOCANCEL",
+      "/NORESTART",
+      "/FORCECLOSEAPPLICATIONS",
+      "/MERGETASKS=!runcode"
+    ],
+    "uswitches": [
+      "/SP-",
+      "/VERYSILENT",
+      "/SUPPRESSMSGBOXES",
+      "/NOCANCEL",
+      "/NORESTART",
+      "/FORCECLOSEAPPLICATIONS"
+    ],
+    "autoupdate": {
+      "download_page": "https://visual-studio-code.en.uptodown.com/windows/versions",
+      "download_url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64",
+      "regex": "\"(\\d+\\.\\d+\\.\\d)\""
+    },
+    "1.56.2": {
+      "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64",
+      "size": 80053088,
+      "checksum": "1BAA3EBAD28B6E08C9806F8780690C6244F8AA89C47BC089E87A8F20B89F7492",
+      "file_type": ".exe"
+    }
+  },
+  {
+    "package_name": "vscode",
+    "display_name": "Microsoft Visual Studio Code (User)",
+    "exec_name": "Code",
+    "creator": "",
+    "description": "",
+    "latest_version": "1.56.2",
+    "threads": 8,
+    "iswitches": [
+      "/SP-",
+      "/VERYSILENT",
+      "/SUPPRESSMSGBOXES",
+      "/NOCANCEL",
+      "/NORESTART",
+      "/FORCECLOSEAPPLICATIONS",
+      "/MERGETASKS=!runcode"
+    ],
+    "uswitches": [
+      "/SP-",
+      "/VERYSILENT",
+      "/SUPPRESSMSGBOXES",
+      "/NOCANCEL",
+      "/NORESTART",
+      "/FORCECLOSEAPPLICATIONS"
+    ],
+    "autoupdate": {
+      "download_page": "https://visual-studio-code.en.uptodown.com/windows/versions",
+      "download_url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user",
+      "regex": "\"(\\d+\\.\\d+\\.\\d)\""
+    },
+    "1.56.2": {
+      "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user",
+      "size": 80053656,
+      "checksum": "A3422589E2985B763C8C08A1820229051A87716D2FBDC9AEC3EE17B29CE83501",
+      "file_type": ".exe"
+    }
+  },
+  {
+    "package_name": "whatsapp",
+    "display_name": "WhatsApp",
+    "exec_name": "WhatsApp",
+    "creator": "",
+    "description": "",
+    "latest_version": "2.2119.6.0",
+    "threads": 8,
+    "iswitches": [],
+    "uswitches": [],
+    "autoupdate": {
+      "download_page": "https://whatsapp-desktop.en.uptodown.com/windows/versions",
+      "download_url": "https://web.whatsapp.com/desktop/windows/release/x64/WhatsAppSetup.exe",
+      "regex": "class=version>(\\d+\\.\\d+\\.\\d+\\.\\d+)"
+    },
+    "2.2119.6.0": {
+      "url": "https://web.whatsapp.com/desktop/windows/release/x64/WhatsAppSetup.exe",
+      "size": 130594512,
+      "checksum": "87C69246688D6801F0A2C184F949E039A3E3D2C988EC482C65D331D44A77224F",
+      "file_type": ".exe"
+    }
+  }
+]

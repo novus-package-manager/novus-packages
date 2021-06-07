@@ -2,6 +2,8 @@
   "package_name": "steam",
   "display_name": "Steam",
   "exec_name": "steam",
+  "creator": "",
+  "description": "",
   "latest_version": "2021.05.18",
   "threads": 8,
   "iswitches": ["/S"],

@@ -2,6 +2,8 @@
   "package_name": "opera",
   "display_name": "Opera",
   "exec_name": "opera",
+  "creator": "",
+  "description": "",
   "latest_version": "74.0.3911.160",
   "threads": 8,
   "iswitches": [

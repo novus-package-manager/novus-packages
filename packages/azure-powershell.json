@@ -2,6 +2,8 @@
   "package_name": "azure-powershell",
   "display_name": "Microsoft Azure Powershell",
   "exec_name": "none",
+  "creator": "",
+  "description": "",
   "latest_version": "4.1.1",
   "threads": 8,
   "iswitches": [],

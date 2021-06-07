@@ -2,6 +2,8 @@
   "package_name": "ccleaner",
   "display_name": "CCleaner",
   "exec_name": "CCleaner64",
+  "creator": "",
+  "description": "",
   "latest_version": "5.80.8743",
   "threads": 8,
   "iswitches": [

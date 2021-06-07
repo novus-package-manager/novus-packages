@@ -1,7 +1,9 @@
 {
   "package_name": "anydesk",
   "display_name": "Anydesk",
-  "exec_name": "AnyDeskMSI",  
+  "exec_name": "AnyDeskMSI",
+  "creator": "",
+  "description": "",  
   "latest_version": "6.3.1",
   "threads": 8,
   "iswitches": [],

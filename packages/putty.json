@@ -2,6 +2,8 @@
   "package_name": "putty",
   "display_name": "Putty",
   "exec_name": "putty",
+  "creator": "",
+  "description": "",
   "latest_version": "0.75",
   "threads": 8,
   "iswitches": [],

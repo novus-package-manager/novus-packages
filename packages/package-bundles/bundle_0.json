@@ -1,0 +1,272 @@
+[
+  {
+    "package_name": "1-password",
+    "display_name": "1Password",
+    "exec_name": "1Password",
+    "creator": "1Password",
+    "description": "1Password is the easiest way to store and use strong passwords.",
+    "latest_version": "7.7.805",
+    "threads": 8,
+    "iswitches": [
+      "--silent"
+    ],
+    "uswitches": [],
+    "autoupdate": {
+      "download_page": "https://app-updates.agilebits.com/product_history/OPW6",
+      "download_url": "https://c.1password.com/dist/1P/win6/1PasswordSetup-<version>.exe",
+      "regex": "(\\d+\\.\\d+\\.\\d+) - build"
+    },
+    "7.7.805": {
+      "url": "https://c.1password.com/dist/1P/win6/1PasswordSetup-7.7.805.exe",
+      "size": 11595416,
+      "checksum": "766AED776FFA89D8E55B6A0159001C791662479ED734D2D848A644759A2D0F9D",
+      "file_type": ".exe"
+    }
+  },
+  {
+    "package_name": "7-zip",
+    "display_name": "7-Zip",
+    "exec_name": "7-zip",
+    "creator": "Igor Pavlov",
+    "description": "7-Zip is a file archiver with a high compression ratio.",
+    "latest_version": "21.02",
+    "threads": 8,
+    "iswitches": [
+      "/S"
+    ],
+    "uswitches": [
+      "/S"
+    ],
+    "autoupdate": {
+      "download_page": "https://www.7-zip.org/download.html",
+      "download_url": "https://www.7-zip.org/a/7z<version_no_dot>-x64.exe",
+      "regex": "(7-Zip \\d....)"
+    },
+    "21.02": {
+      "url": "https://www.7-zip.org/a/7z2102-x64.exe",
+      "size": 154,
+      "checksum": "4ED310C3A54E28D98F4500987DA5391FC1FFA1C62301B96482E693C3CE76B741",
+      "file_type": ".exe"
+    },
+    "19.00": {
+      "url": "https://www.7-zip.org/a/7z1900-x64.exe",
+      "size": 1447178,
+      "checksum": "0F5D4DBBE5E55B7AA31B91E5925ED901FDF46A367491D81381846F05AD54C45E",
+      "file_type": ".exe"
+    }
+  },
+  {
+    "package_name": "active-perl",
+    "display_name": "ActivePerl",
+    "exec_name": "wperl",
+    "creator": "ActiveState",
+    "description": "ActivePerl is used to develop both commercial and non-commercial applications, scripts, APIs and other code for individual developers and organizations",
+    "latest_version": "5.28",
+    "threads": 8,
+    "iswitches": [],
+    "uswitches": [],
+    "autoupdate": {
+      "download_page": "https://www.activestate.com/products/perl/downloads/",
+      "download_url": "https://cli-msi.s3.amazonaws.com/ActivePerl-<version>.msi",
+      "regex": "Download Perl (\\d+\\.\\d+)"
+    },
+    "5.28": {
+      "url": "https://cli-msi.s3.amazonaws.com/ActivePerl-5.28.msi",
+      "size": 5783552,
+      "checksum": "DDC41B5C14769DDB6F09FA69959F2FDDB076729EDDEB647C96BB40E7A28BB842",
+      "file_type": ".msi"
+    }
+  },
+  {
+    "package_name": "adobe-reader",
+    "display_name": "Adobe Acrobat Reader DC",
+    "exec_name": "AcroRd32",
+    "creator": "",
+    "description": "",
+    "latest_version": "21.001.20145",
+    "threads": 8,
+    "iswitches": [
+      "/sAll"
+    ],
+    "uswitches": [],
+    "autoupdate": {
+      "download_page": "https://adobe-reader.en.softonic.com/download",
+      "download_url": "https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/<version-no-dot>/AcroRdrDC<version-no-dot>_en_US.exe",
+      "regex": "(21\\.\\d+.\\w+)"
+    },
+    "21.001.20145": {
+      "url": "https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/2100120145/AcroRdrDC2100120145_en_US.exe",
+      "size": 190154408,
+      "checksum": "F1E5CBBACE69EDBA23E7A2557B9BE59D916AF06AD27D99526E6FF356429FF4F2",
+      "file_type": ".exe"
+    }
+  },
+  {
+    "package_name": "anaconda",
+    "display_name": "Anaconda",
+    "exec_name": "none",
+    "creator": "",
+    "description": "",
+    "latest_version": "2021.05",
+    "threads": 8,
+    "iswitches": [
+      "/InstallationType=AllUsers",
+      "/RegisterPython=1",
+      "/AddToPath=1",
+      "/S"
+    ],
+    "uswitches": [],
+    "autoupdate": {
+      "download_page": "https://www.anaconda.com/products/individual",
+      "download_url": "https://repo.continuum.io/archive/Anaconda3-<version>-Windows-x86_64.exe",
+      "regex": "(\\d+\\.\\d+)-Windows-x86_64\\.exe"
+    },
+    "2021.05": {
+      "url": "https://repo.continuum.io/archive/Anaconda3-2021.05-Windows-x86_64.exe",
+      "size": 500375944,
+      "checksum": "93DB42390444019E98B442AB281E1091671B6DCE64DAF08928D337FFC83CF3D2",
+      "file_type": ".exe"
+    }
+  },
+  {
+    "package_name": "android-studio",
+    "display_name": "Android Studio",
+    "exec_name": "java",
+    "creator": "",
+    "description": "",
+    "latest_version": "4.2.1.0",
+    "threads": 8,
+    "iswitches": [
+      "/S"
+    ],
+    "uswitches": [
+      "/S"
+    ],
+    "autoupdate": {
+      "download_page": "https://developer.android.com/studio",
+      "download_url": "https://redirector.gvt1.com/edgedl/android/studio/install/<version>/android-studio-ide-202.7351085-windows.exe",
+      "regex": "href=\"https://redirector\\.gvt1\\.com/edgedl/android/studio/install/(\\d+\\.\\d+\\.\\d+\\.\\d+)/android-studio"
+    },
+    "4.2.1.0": {
+      "url": "https://redirector.gvt1.com/edgedl/android/studio/install/4.2.1.0/android-studio-ide-202.7351085-windows.exe",
+      "size": 978607576,
+      "checksum": "1DB6AEF39055D4CD69DE26026AA0D3F17D10DD2B66051004580EB5175039934F",
+      "file_type": ".exe"
+    }
+  },
+  {
+    "package_name": "anydesk",
+    "display_name": "Anydesk",
+    "exec_name": "AnyDeskMSI",
+    "creator": "",
+    "description": "",
+    "latest_version": "6.3.1",
+    "threads": 8,
+    "iswitches": [],
+    "uswitches": [],
+    "autoupdate": {
+      "download_page": "https://anydesk.com/en/downloads/windows",
+      "download_url": "https://download.anydesk.com/AnyDesk.msi",
+      "regex": "<div class=\"d-block\" >v(\\d+\\.\\d+\\.\\d+) .+</div>"
+    },
+    "6.3.1": {
+      "url": "https://download.anydesk.com/AnyDesk.msi",
+      "size": 7774208,
+      "checksum": "C00AB1A6DD39BE886B4280E67BAA685F1F161C7E367F7249C9BFA68E3B319350",
+      "file_type": ".msi"
+    }
+  },
+  {
+    "package_name": "atom",
+    "display_name": "Atom",
+    "exec_name": "atom",
+    "creator": "",
+    "description": "",
+    "latest_version": "1.57.0",
+    "threads": 8,
+    "iswitches": [
+      "--silent"
+    ],
+    "uswitches": [
+      "--silent"
+    ],
+    "autoupdate": {
+      "download_page": "https://github.com/atom/atom/releases/latest",
+      "download_url": "https://github.com/atom/atom/releases/download/v<version>/AtomSetup-x64.exe",
+      "regex": "<title>Release (\\d+\\.\\d+\\.\\d+) · atom/atom · GitHub</title>"
+    },
+    "1.57.0": {
+      "url": "https://github.com/atom/atom/releases/download/v1.57.0/AtomSetup-x64.exe",
+      "size": 199183008,
+      "checksum": "C5314C5EFD7C4DE9E1A9DC0A4D6F64489559DDE4EFE1E7D28B94F20F13D63230",
+      "file_type": ".exe"
+    }
+  },
+  {
+    "package_name": "audacity",
+    "display_name": "Audacity",
+    "exec_name": "audacity",
+    "creator": "",
+    "description": "",
+    "latest_version": "3.0.2",
+    "threads": 8,
+    "iswitches": [
+      "/SP-",
+      "/VERYSILENT",
+      "/SUPPRESSMSGBOXES",
+      "/NOCANCEL",
+      "/NORESTART",
+      "/FORCECLOSEAPPLICATIONS"
+    ],
+    "uswitches": [
+      "/VERYSILENT",
+      "/SUPPRESSMSGBOXES",
+      "/NORESTART"
+    ],
+    "autoupdate": {
+      "download_page": "https://audacity.en.uptodown.com/windows/versions",
+      "download_url": "https://github.com/audacity/audacity/releases/download/Audacity-<version>/audacity-win-<version>.exe",
+      "regex": "class=version>(\\d+\\.\\d+\\.\\d+)"
+    },
+    "3.0.2": {
+      "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.0.2/audacity-win-3.0.2.exe",
+      "size": 29534144,
+      "checksum": "2FA8E586A339D9DA8DCF49C21F4CD1CBAA24691B1DCC0D02F6C9F451AC8BEA47",
+      "file_type": ".exe"
+    }
+  },
+  {
+    "package_name": "azure-cli",
+    "display_name": "Microsoft Azure CLI",
+    "exec_name": "none",
+    "creator": "",
+    "description": "",
+    "latest_version": "2.24.2",
+    "threads": 8,
+    "iswitches": [],
+    "uswitches": [],
+    "autoupdate": {
+      "download_page": "https://github.com/Azure/azure-cli/releases/latest",
+      "download_url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-<version>/azure-cli-<version>.msi",
+      "regex": "Azure CLI (\\d+\\.\\d+\\.\\d+)"
+    },
+    "2.24.0": {
+      "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.24.0/azure-cli-2.24.0.msi",
+      "size": 50319360,
+      "checksum": "A46864E46A649AE4E17F6046C20504282E50CF5AB55633B7E2E47B71A3AE616E",
+      "file_type": ".msi"
+    },
+    "2.24.2": {
+      "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.24.2/azure-cli-2.24.2.msi",
+      "size": 50315264,
+      "checksum": "82C615D8799000020DEDCF9029E5131C984C838741C27E38E6FE2AF3513B4C73",
+      "file_type": ".msi"
+    },
+    "2.24.1": {
+      "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.24.1/azure-cli-2.24.1.msi",
+      "size": 50319360,
+      "checksum": "75C6F20ECFADC3E54A7CC2E1A0B2A098657B976F0694BEA58AA62BC7EA00C85D",
+      "file_type": ".msi"
+    }
+  }
+]

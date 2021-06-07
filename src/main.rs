@@ -1,5 +1,7 @@
 mod package;
 
+use std::ffi::OsStr;
+use std::path::PathBuf;
 use clipboard_win::{formats, set_clipboard};
 use colored::Colorize;
 use indicatif::{ProgressBar, ProgressStyle};
@@ -11,6 +13,7 @@ use sha2::{Digest, Sha256};
 use std::collections::HashMap;
 use std::io::{BufReader, BufWriter, Write};
 use std::{fs::File, u64};
+use std::fs;
 
 #[tokio::main]
 async fn main() {
@@ -49,6 +52,9 @@ async fn main() {
             get_contents(&args[2]).await;
         } else if args[1] == "remove" {
             remove(&args[2]);
+        } 
+        else if args[1] == "bundle" {
+            generate_bundles(package_list);
         } else {
             autoupdate(&args[1]).await;
         }
@@ -58,6 +64,44 @@ async fn main() {
 #[derive(Deserialize, Serialize, Debug, Clone)]
 struct PackageList {
     packages: Vec<String>,
+}
+
+fn generate_bundles(package_list: Vec<&str>) {
+    let packages_dir = std::path::Path::new(
+        r"D:\prana\Programming\My Projects\novus-package-manager\novus-packages\packages",
+    );
+
+    let mut package_files: Vec<PathBuf> = vec![];
+
+    for file in fs::read_dir(packages_dir).unwrap() {
+        let path = file.unwrap().path().display().to_string().clone();
+        let path_split: Vec<&str> = path.split("packages\\").collect();
+        let file_name: &str = path_split[2];
+        for pkg in package_list.clone() {
+            if file_name.starts_with(pkg) {
+                let file_path = packages_dir.join(file_name);
+                package_files.push(file_path)
+            }
+        }
+    }
+
+    let mut package_bundle: Vec<Package> = vec![];
+
+    let mut counter = 0;
+    for path in package_files {
+        let number: f64 = (counter / 10) as f64;
+        let path_number = format!("bundle_{}.json", number.floor());
+        if counter % 10 == 0 {
+            package_bundle = vec![];
+        }
+        let bundle_path = packages_dir.join("package-bundles").join(path_number);
+        let contents = fs::read_to_string(path).unwrap();
+        let data = serde_json::from_str::<Package>(&contents).unwrap();
+        package_bundle.push(data);
+        let file = fs::File::create(bundle_path).unwrap();
+        to_writer_pretty(file, &package_bundle).unwrap();
+        counter += 1;
+    }
 }
 
 async fn get_contents(package_name: &str) {
@@ -100,6 +144,8 @@ fn new_package(package_name: &String) {
         package_name: package_name.clone(),
         display_name: String::new(),
         exec_name: "none".to_string(),
+        creator: String::new(),
+        description: String::new(),
         latest_version: "0".to_string(),
         threads: 8,
         iswitches: vec![],

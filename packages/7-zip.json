@@ -2,14 +2,12 @@
   "package_name": "7-zip",
   "display_name": "7-Zip",
   "exec_name": "7-zip",
+  "creator": "Igor Pavlov",
+  "description": "7-Zip is a file archiver with a high compression ratio.",
   "latest_version": "21.02",
   "threads": 8,
-  "iswitches": [
-    "/S"
-  ],
-  "uswitches": [
-    "/S"
-  ],
+  "iswitches": ["/S"],
+  "uswitches": ["/S"],
   "autoupdate": {
     "download_page": "https://www.7-zip.org/download.html",
     "download_url": "https://www.7-zip.org/a/7z<version_no_dot>-x64.exe",
