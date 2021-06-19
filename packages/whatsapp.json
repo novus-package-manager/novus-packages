@@ -4,7 +4,7 @@
   "exec_name": "WhatsApp",
   "creator": "",
   "description": "",
-  "latest_version": "2.2119.6.0",
+  "latest_version": "2.2121.5.0",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -17,6 +17,12 @@
     "url": "https://web.whatsapp.com/desktop/windows/release/x64/WhatsAppSetup.exe",
     "size": 130594512,
     "checksum": "87C69246688D6801F0A2C184F949E039A3E3D2C988EC482C65D331D44A77224F",
+    "file_type": ".exe"
+  },
+  "2.2121.5.0": {
+    "url": "https://web.whatsapp.com/desktop/windows/release/x64/WhatsAppSetup.exe",
+    "size": 130613968,
+    "checksum": "000480A83F922EC02B811A101F1C4D7E38FB27A328E8B044C1D9455BBCF651F5",
     "file_type": ".exe"
   }
 }
