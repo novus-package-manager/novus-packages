@@ -4,7 +4,7 @@
   "exec_name": "none",
   "creator": "",
   "description": "",
-  "latest_version": "2.24.2",
+  "latest_version": "2.25.0",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -12,12 +12,6 @@
     "download_page": "https://github.com/Azure/azure-cli/releases/latest",
     "download_url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-<version>/azure-cli-<version>.msi",
     "regex": "Azure CLI (\\d+\\.\\d+\\.\\d+)"
-  },
-  "2.24.1": {
-    "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.24.1/azure-cli-2.24.1.msi",
-    "size": 50319360,
-    "checksum": "75C6F20ECFADC3E54A7CC2E1A0B2A098657B976F0694BEA58AA62BC7EA00C85D",
-    "file_type": ".msi"
   },
   "2.24.0": {
     "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.24.0/azure-cli-2.24.0.msi",
@@ -29,6 +23,18 @@
     "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.24.2/azure-cli-2.24.2.msi",
     "size": 50315264,
     "checksum": "82C615D8799000020DEDCF9029E5131C984C838741C27E38E6FE2AF3513B4C73",
+    "file_type": ".msi"
+  },
+  "2.24.1": {
+    "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.24.1/azure-cli-2.24.1.msi",
+    "size": 50319360,
+    "checksum": "75C6F20ECFADC3E54A7CC2E1A0B2A098657B976F0694BEA58AA62BC7EA00C85D",
+    "file_type": ".msi"
+  },
+  "2.25.0": {
+    "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.25.0/azure-cli-2.25.0.msi",
+    "size": 50532352,
+    "checksum": "240C4C73CE0CBCC1D2A9414E6A559D8108476F7785C4F40DE452080A80119A32",
     "file_type": ".msi"
   }
 }
