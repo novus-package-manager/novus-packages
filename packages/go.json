@@ -4,7 +4,7 @@
   "exec_name": "none",
   "creator": "",
   "description": "",
-  "latest_version": "1.16.4",
+  "latest_version": "1.16.5",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -17,6 +17,12 @@
     "url": "https://golang.org/dl/go1.16.4.windows-amd64.msi",
     "size": 124403712,
     "checksum": "9AE1CAFAD5F206F004CFE4E9E9B64E4710CB69C83F6221DA89C113B6F2E8DEC8",
+    "file_type": ".msi"
+  },
+  "1.16.5": {
+    "url": "https://golang.org/dl/go1.16.5.windows-amd64.msi",
+    "size": 124416000,
+    "checksum": "322DD8C585F37B62C9E603C84747B97A7A65B56FCEF56B64E3021CCAD90785B2",
     "file_type": ".msi"
   }
 }
