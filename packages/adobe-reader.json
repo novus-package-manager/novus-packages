@@ -4,14 +4,22 @@
   "exec_name": "AcroRd32",
   "creator": "",
   "description": "",
-  "latest_version": "21.001.20145",
+  "latest_version": "21.005.20048",
   "threads": 8,
-  "iswitches": ["/sAll"],
+  "iswitches": [
+    "/sAll"
+  ],
   "uswitches": [],
   "autoupdate": {
     "download_page": "https://adobe-reader.en.softonic.com/download",
     "download_url": "https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/<version-no-dot>/AcroRdrDC<version-no-dot>_en_US.exe",
     "regex": "(21\\.\\d+.\\w+)"
+  },
+  "21.005.20048": {
+    "url": "https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/2100520048/AcroRdrDC2100520048_en_US.exe",
+    "size": 192061152,
+    "checksum": "366998611F48E400B25ADDB85AA42D052A296ABBBDF0EEE392526C127705A5AA",
+    "file_type": ".exe"
   },
   "21.001.20145": {
     "url": "https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/2100120145/AcroRdrDC2100120145_en_US.exe",
