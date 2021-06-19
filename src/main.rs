@@ -42,6 +42,7 @@ async fn main() {
         .expect("Failed to update gcp bucket");
 
     if args.len() == 1 {
+        println!("pkg: {:?}", package_list);
         for package in package_list {
             autoupdate(package).await;
         }
