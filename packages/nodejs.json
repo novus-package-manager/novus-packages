@@ -4,7 +4,7 @@
   "exec_name": "none",
   "creator": "",
   "description": "",
-  "latest_version": "14.17.0",
+  "latest_version": "14.17.1",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -17,6 +17,12 @@
     "url": "https://nodejs.org/dist/v14.17.0/node-v14.17.0-x64.msi",
     "size": 30429184,
     "checksum": "6D4C7457A210B867CA5B1C4A4465B4065AE6708DFD917383FE61F6860DBA2128",
+    "file_type": ".msi"
+  },
+  "14.17.1": {
+    "url": "https://nodejs.org/dist/v14.17.1/node-v14.17.1-x64.msi",
+    "size": 30568448,
+    "checksum": "F4CEA916AF6D80784F5D9DAAB59292CEBA04BF636E4E2E6727153F89B1E6990F",
     "file_type": ".msi"
   }
 }
