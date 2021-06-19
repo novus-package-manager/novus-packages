@@ -4,7 +4,7 @@
   "exec_name": "cmake-gui",
   "creator": "",
   "description": "",
-  "latest_version": "3.20.3",
+  "latest_version": "3.20.4",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -12,6 +12,12 @@
     "download_page": "https://github.com/Kitware/CMake/releases/latest",
     "download_url": "https://github.com/Kitware/CMake/releases/download/v<version>/cmake-<version>-windows-x86_64.msi",
     "regex": "v(\\d+\\.\\d+\\.\\d+)"
+  },
+  "3.20.4": {
+    "url": "https://github.com/Kitware/CMake/releases/download/v3.20.4/cmake-3.20.4-windows-x86_64.msi",
+    "size": 27742208,
+    "checksum": "2A6FA766187812BB2A4DB1746AD119A8F215FB1B57DEBE8A5EF66B9757E0B8DB",
+    "file_type": ".msi"
   },
   "3.20.3": {
     "url": "https://github.com/Kitware/CMake/releases/download/v3.20.3/cmake-3.20.3-windows-x86_64.msi",
