@@ -4,13 +4,9 @@
   "exec_name": "brave",
   "creator": "",
   "description": "",
-  "latest_version": "1.25.69",
+  "latest_version": "1.25.68",
   "threads": 8,
-  "iswitches": [
-    "--install",
-    "--silent",
-    "--system-level"
-  ],
+  "iswitches": ["--install", "--silent", "--system-level"],
   "uswitches": [],
   "autoupdate": {
     "download_page": "https://github.com/brave/brave-browser/releases/",
@@ -21,12 +17,6 @@
     "url": "https://github.com/brave/brave-browser/releases/download/v1.25.68/BraveBrowserStandaloneSilentSetup.exe",
     "size": 82661288,
     "checksum": "F2C381DA5CDCFD1A91C4D9B3AE3A046A8F2D826FF6F50F6EC0932CB97A43029B",
-    "file_type": ".exe"
-  },
-  "1.25.69": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.25.69/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 9,
-    "checksum": "2840FCA0EC8C01A1C6395487D5E5E971578F1BD520A754DED4F74295386A4426",
     "file_type": ".exe"
   },
   "1.24.85": {

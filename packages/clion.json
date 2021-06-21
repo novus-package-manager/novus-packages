@@ -1,0 +1,16 @@
+{
+  "package_name": "clion",
+  "display_name": "Clion",
+  "exec_name": "none",
+  "creator": "JetBrains",
+  "description": "A cross-platform IDE for C and C++",
+  "latest_version": "0",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "https://www.jetbrains.com/clion/",
+    "download_url": "https://download-cf.jetbrains.com/cpp/CLion-<version>.exe",
+    "regex": "\"version\": \"(\\d+\\.\\d+)\""
+  }
+}

@@ -1,6 +1,5 @@
 mod package;
 
-use std::ffi::OsStr;
 use std::path::PathBuf;
 use clipboard_win::{formats, set_clipboard};
 use colored::Colorize;
