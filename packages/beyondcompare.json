@@ -1,0 +1,16 @@
+{
+  "package_name": "beyondcompare",
+  "display_name": "Beyond Compare",
+  "exec_name": "none",
+  "creator": "Scooter Software",
+  "description": "Merge changes, synchronize files, and generate reports.",
+  "latest_version": "0",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "",
+    "download_url": "",
+    "regex": ""
+  }
+}

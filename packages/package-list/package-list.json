@@ -12,6 +12,7 @@
     "azure-cli",
     "azure-powershell",
     "bazel",
+    "beyondcompare",
     "blender",
     "brave",
     "ccleaner",
