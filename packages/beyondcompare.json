@@ -4,13 +4,19 @@
   "exec_name": "none",
   "creator": "Scooter Software",
   "description": "Merge changes, synchronize files, and generate reports.",
-  "latest_version": "0",
+  "latest_version": "4.3.7.25118",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
   "autoupdate": {
-    "download_page": "",
-    "download_url": "",
-    "regex": ""
+    "download_page": "https://www.scootersoftware.com/download.php?zz=kb_dl4_winalternate",
+    "download_url": "https://www.scootersoftware.com/BCompare-<version>_x64.msi",
+    "regex": "href=\"/BCompare-(\\d+\\.\\d+\\.\\d+\\.\\d+)_x64.msi\""
+  },
+  "4.3.7.25118": {
+    "url": "https://www.scootersoftware.com/BCompare-4.3.7.25118_x64.msi",
+    "size": 18161664,
+    "checksum": "780048EA537860A8A706FB61483CEE0A1118039E25AB72C805E042B5C70BB781",
+    "file_type": ".msi"
   }
 }
