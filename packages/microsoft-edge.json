@@ -4,7 +4,7 @@
   "exec_name": "msedge",
   "creator": "",
   "description": "",
-  "latest_version": "90.0.818.62",
+  "latest_version": "91.0.864.53",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -12,6 +12,12 @@
     "download_page": "https://microsoft-edge.en.uptodown.com/windows",
     "download_url": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/ab3145f9-eb8d-4fc9-94fc-4a240d1aaf80/MicrosoftEdgeEnterpriseX64.msi",
     "regex": "class=version>(\\d+\\.\\d+\\.\\d+\\.\\d+)"
+  },
+  "91.0.864.53": {
+    "url": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/ab3145f9-eb8d-4fc9-94fc-4a240d1aaf80/MicrosoftEdgeEnterpriseX64.msi",
+    "size": 107880448,
+    "checksum": "45E0C200E2F95AE77D5BDBDBCA2DE106DBFB210246741DE0BF3F3369CC620540",
+    "file_type": ".msi"
   },
   "90.0.818.62": {
     "url": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/ab3145f9-eb8d-4fc9-94fc-4a240d1aaf80/MicrosoftEdgeEnterpriseX64.msi",
