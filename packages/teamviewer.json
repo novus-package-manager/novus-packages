@@ -1,0 +1,16 @@
+{
+  "package_name": "teamviewer",
+  "display_name": "TeamViewer",
+  "exec_name": "none",
+  "creator": "",
+  "description": "",
+  "latest_version": "0",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "",
+    "download_url": "",
+    "regex": ""
+  }
+}
