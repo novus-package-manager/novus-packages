@@ -1,13 +1,13 @@
 {
   "package_name": "teamviewer",
   "display_name": "TeamViewer",
-  "exec_name": "none",
+  "exec_name": "TeamViewer",
   "creator": "TeamViewer AG",
   "description": "TeamViewer is remote access and remote control computer software, allowing maintenance of computers and other devices.",
   "latest_version": "15.18.5",
   "threads": 8,
-  "iswitches": [],
-  "uswitches": [],
+  "iswitches": ["/S"],
+  "uswitches": ["/S"],
   "autoupdate": {
     "download_page": "https://teamviewer.en.uptodown.com/windows/versions",
     "download_url": "https://download.teamviewer.com/download/TeamViewer_Setup.exe",
