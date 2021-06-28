@@ -2,8 +2,8 @@
   "package_name": "anaconda",
   "display_name": "Anaconda",
   "exec_name": "none",
-  "creator": "",
-  "description": "",
+  "creator": "Anaconda Inc.",
+  "description": "Anaconda is a distribution of the Python and R programming languages for scientific computing",
   "latest_version": "2021.05",
   "threads": 8,
   "iswitches": [

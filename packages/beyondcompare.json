@@ -3,7 +3,7 @@
   "display_name": "Beyond Compare",
   "exec_name": "BCompare",
   "creator": "Scooter Software",
-  "description": "Merge changes, synchronize files, and generate reports.",
+  "description": "Beyond Compare is a data comparison utility.",
   "latest_version": "4.3.7.25118",
   "threads": 8,
   "iswitches": [],

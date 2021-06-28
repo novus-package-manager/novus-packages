@@ -2,8 +2,8 @@
   "package_name": "ccleaner",
   "display_name": "CCleaner",
   "exec_name": "CCleaner64",
-  "creator": "",
-  "description": "",
+  "creator": "Piriform",
+  "description": "CCleaner is a utility used to clean potentially unwanted files and invalid Windows Registry entries from a computer.",
   "latest_version": "5.82.8950",
   "threads": 8,
   "iswitches": [

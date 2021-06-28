@@ -2,8 +2,8 @@
   "package_name": "cutepdf",
   "display_name": "CutePDF Writer",
   "exec_name": "none",
-  "creator": "",
-  "description": "",
+  "creator": "Acro Software",
+  "description": "CutePDF is a proprietary Portable Document Format converter and editor.",
   "latest_version": "4.0",
   "threads": 8,
   "iswitches": [

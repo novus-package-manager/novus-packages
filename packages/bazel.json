@@ -3,7 +3,7 @@
   "display_name": "Bazel",
   "exec_name": "none",
   "creator": "Bazel",
-  "description": "Build and test software of any size, quickly and reliably.",
+  "description": "Bazel is a free software tool that allows for the automation of building and testing of software.",
   "latest_version": "4.1.0",
   "threads": 8,
   "iswitches": [],

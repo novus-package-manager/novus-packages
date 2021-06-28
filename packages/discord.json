@@ -2,8 +2,8 @@
   "package_name": "discord",
   "display_name": "Discord",
   "exec_name": "Discord",
-  "creator": "",
-  "description": "",
+  "creator": "Discord",
+  "description": "Discord is a VoIP, instant messaging and digital distribution platform designed for creating communities.",
   "latest_version": "1.0.9002",
   "threads": 8,
   "iswitches": [
