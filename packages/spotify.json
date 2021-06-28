@@ -2,8 +2,8 @@
   "package_name": "spotify",
   "display_name": "Spotify",
   "exec_name": "Spotify",
-  "creator": "",
-  "description": "",
+  "creator": "Daniel Ek",
+  "description": "Spotify is a Swedish audio streaming and media services provider.",
   "latest_version": "1.1.60.668",
   "threads": 8,
   "iswitches": [

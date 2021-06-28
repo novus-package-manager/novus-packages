@@ -2,8 +2,8 @@
   "package_name": "sublime-text-4",
   "display_name": "Sublime Text",
   "exec_name": "sublime_text",
-  "creator": "",
-  "description": "",
+  "creator": "Sublime HQ",
+  "description": "Sublime Text is a shareware cross-platform source code editor",
   "latest_version": "4107",
   "threads": 8,
   "iswitches": [

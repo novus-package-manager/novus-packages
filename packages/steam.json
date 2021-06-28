@@ -2,8 +2,8 @@
   "package_name": "steam",
   "display_name": "Steam",
   "exec_name": "steam",
-  "creator": "",
-  "description": "",
+  "creator": "Valve",
+  "description": "Steam is a video game digital distribution service",
   "latest_version": "2021.12.04",
   "threads": 8,
   "iswitches": [

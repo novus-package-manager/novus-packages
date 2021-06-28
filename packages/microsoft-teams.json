@@ -2,8 +2,8 @@
   "package_name": "microsoft-teams",
   "display_name": "Microsoft Teams",
   "exec_name": "Teams",
-  "creator": "",
-  "description": "",
+  "creator": "Microsoft",
+  "description": "Microsoft Teams is a proprietary business communication platform.",
   "latest_version": "1.4.00.11161",
   "threads": 8,
   "iswitches": [

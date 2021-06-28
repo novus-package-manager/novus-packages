@@ -2,8 +2,8 @@
   "package_name": "vlc",
   "display_name": "VLC Media Player",
   "exec_name": "vlc",
-  "creator": "",
-  "description": "",
+  "creator": "VideoLAN",
+  "description": "VLC media player is a free and open-source, portable, cross-platform media player software and streaming media server.",
   "latest_version": "3.0.16",
   "threads": 8,
   "iswitches": [

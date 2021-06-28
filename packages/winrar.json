@@ -2,8 +2,8 @@
   "package_name": "winrar",
   "display_name": "WinRAR",
   "exec_name": "WinRAR",
-  "creator": "",
-  "description": "",
+  "creator": "GmbH",
+  "description": "WinRAR is a trialware file archiver utility for Windows.",
   "latest_version": "6.02",
   "threads": 8,
   "iswitches": [

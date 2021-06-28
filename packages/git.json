@@ -2,8 +2,8 @@
   "package_name": "git",
   "display_name": "Git",
   "exec_name": "none",
-  "creator": "",
-  "description": "",
+  "creator": "Github",
+  "description": "Git is a free and open source distributed version control system.",
   "latest_version": "2.32.0",
   "threads": 8,
   "iswitches": [

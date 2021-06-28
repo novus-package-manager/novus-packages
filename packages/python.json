@@ -2,8 +2,8 @@
   "package_name": "python",
   "display_name": "Python",
   "exec_name": "none",
-  "creator": "",
-  "description": "",
+  "creator": "Python Software Foundation",
+  "description": "Python is an interpreted high-level general-purpose programming language.",
   "latest_version": "3.9.5",
   "threads": 8,
   "iswitches": [

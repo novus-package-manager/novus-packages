@@ -2,8 +2,8 @@
   "package_name": "skype",
   "display_name": "Skype",
   "exec_name": "Skype",
-  "creator": "",
-  "description": "",
+  "creator": "Microsoft",
+  "description": "Skype is a proprietary telecommunications application.",
   "latest_version": "8.73.0.92",
   "threads": 8,
   "iswitches": [

@@ -2,8 +2,8 @@
   "package_name": "figma",
   "display_name": "Figma",
   "exec_name": "Figma",
-  "creator": "",
-  "description": "",
+  "creator": "Dylan Field",
+  "description": "Figma is a vector graphics editor and prototyping tool.",
   "latest_version": "93.4.0",
   "threads": 8,
   "iswitches": [
