@@ -6,11 +6,11 @@
   "description": "The free FTP solution for both client and server.",
   "latest_version": "3.54.1",
   "threads": 8,
-  "iswitches": [],
-  "uswitches": [],
+  "iswitches": ["/S"],
+  "uswitches": ["/S"],
   "autoupdate": {
     "download_page": "https://filezilla.en.uptodown.com/windows/versions",
-    "download_url": "https://download.filezilla-project.org/client/FileZilla_3.54.1_win64_sponsored-setup.exe",
+    "download_url": "https://download.filezilla-project.org/client/FileZilla_<version>_win64_sponsored-setup.exe",
     "regex": "class=version>(\\d+\\.\\d+\\.\\d+)"
   },
   "3.54.1": {
