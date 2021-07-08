@@ -350,8 +350,8 @@ async fn update_url_and_version(package: Package, version: &str, package_name: &
         .content_length()
         .unwrap_or_else(|| handle_error_and_exit("Failed to get content length".to_string()));
 
-    let temp = std::env::var("TEMP").unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
-    let loc = format!(r"{}\novus\{}_check{}", temp, package_name, file_type);
+    let appdata = std::env::var("APPDATA").unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
+    let loc = format!(r"{}\novus\{}_check{}", appdata, package_name, file_type);
     threadeddownload(
         url.clone(),
         loc.clone(),
@@ -471,7 +471,7 @@ async fn threadeddownload(
     let total_length = res
         .content_length()
         .unwrap_or_else(|| handle_error_and_exit("An Unexpected Error Occured!".to_string()));
-    let temp = std::env::var("TEMP")
+    let appdata = std::env::var("APPDATA")
         .unwrap_or_else(|e| handle_error_and_exit(format!("{} install.rs:106", e.to_string())));
 
     if max {
@@ -481,7 +481,7 @@ async fn threadeddownload(
               .progress_chars("=>-"));
 
         for index in 0..threads {
-            let loc = format!(r"{}\novus\setup_{}{}.tmp", temp, package_name, index + 1);
+            let loc = format!(r"{}\novus\setup_{}{}.tmp", appdata, package_name, index + 1);
             let (start, end) = get_splits(index + 1, total_length, threads);
             let pb = progress_bar.clone();
             let mut file = BufWriter::new(File::create(loc).unwrap_or_else(|e| {
@@ -513,7 +513,7 @@ async fn threadeddownload(
         progress_bar.finish();
     } else {
         for index in 0..threads {
-            let loc = format!(r"{}\novus\setup_{}{}.tmp", temp, package_name, index + 1);
+            let loc = format!(r"{}\novus\setup_{}{}.tmp", appdata, package_name, index + 1);
             let (start, end) = get_splits(index + 1, total_length, threads);
             let mut file = BufWriter::new(File::create(loc).unwrap_or_else(|e| {
                 handle_error_and_exit(format!("{} install.rs:150", e.to_string()))
@@ -543,10 +543,10 @@ async fn threadeddownload(
     let mut file = File::create(output.clone())
         .unwrap_or_else(|e| handle_error_and_exit(format!("{} install.rs:175", e.to_string())));
 
-    let temp = std::env::var("TEMP").unwrap();
+    let appdata = std::env::var("APPDATA").unwrap();
 
     for index in 0..threads {
-        let loc = format!(r"{}\novus\setup_{}{}.tmp", temp, package_name, index + 1);
+        let loc = format!(r"{}\novus\setup_{}{}.tmp", appdata, package_name, index + 1);
         let mut buf: Vec<u8> = vec![];
         let downloaded_file = File::open(loc.clone())
             .unwrap_or_else(|e| handle_error_and_exit(format!("{} install.rs:183", e.to_string())));
