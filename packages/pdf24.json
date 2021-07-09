@@ -1,9 +1,9 @@
 {
   "package_name": "pdf24",
-  "display_name": "",
-  "exec_name": "none",
-  "creator": "",
-  "description": "",
+  "display_name": "PDF24",
+  "exec_name": "pdf24-Creator",
+  "creator": "geek Software GmbH",
+  "description": "PDF24 Creator is an application software for the creation of PDF files from any application and for converting files to PDF.",
   "latest_version": "10.0.12",
   "threads": 8,
   "iswitches": [],
