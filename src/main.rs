@@ -143,6 +143,7 @@ fn new_package(package_name: &String) {
     let package: Package = Package {
         package_name: package_name.clone(),
         display_name: String::new(),
+        alias: None,
         exec_name: "none".to_string(),
         creator: String::new(),
         description: String::new(),

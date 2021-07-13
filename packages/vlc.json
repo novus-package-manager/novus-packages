@@ -14,19 +14,19 @@
   ],
   "autoupdate": {
     "download_page": "https://www.videolan.org/vlc/download-windows.html",
-    "download_url": "https://mirror.clarkson.edu/videolan/vlc/3.0.12/win64/vlc-3.0.12-win64.exe",
+    "download_url": "https://mirror.clarkson.edu/videolan/vlc/<version>/win64/vlc-<version>-win64.exe",
     "regex": "<span id='downloadVersion'>\\n\\s+(\\d+\\.\\d+\\.\\d+)"
   },
-  "3.0.16": {
+  "3.0.12": {
     "url": "https://mirror.clarkson.edu/videolan/vlc/3.0.12/win64/vlc-3.0.12-win64.exe",
     "size": 42589480,
     "checksum": "5D282D8C3F9F2FB188C191914DE80BEFA6E347C5297FB727D928DA941860530F",
     "file_type": ".exe"
   },
-  "3.0.14": {
-    "url": "https://mirror.clarkson.edu/videolan/vlc/3.0.12/win64/vlc-3.0.12-win64.exe",
-    "size": 42589480,
-    "checksum": "5D282D8C3F9F2FB188C191914DE80BEFA6E347C5297FB727D928DA941860530F",
+  "3.0.16": {
+    "url": "https://mirror.clarkson.edu/videolan/vlc/3.0.16/win64/vlc-3.0.16-win64.exe",
+    "size": 42762464,
+    "checksum": "0CFF2D41A69D72DE30607B8FC09DA90E352393E154A342EFCDDB91E06B3A2147",
     "file_type": ".exe"
   }
 }
