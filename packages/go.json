@@ -4,7 +4,7 @@
   "exec_name": "none",
   "creator": "Go Authors",
   "description": "Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.",
-  "latest_version": "1.16.5",
+  "latest_version": "1.16.6",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -12,6 +12,12 @@
     "download_page": "https://golang.org/dl/",
     "download_url": "https://golang.org/dl/go<version>.windows-amd64.msi",
     "regex": "<a class=\"download downloadBox\" href=\"/dl/go(\\d+\\.\\d+\\.\\d+)\\.windows-amd64\\.msi\">\\n<div class=\"platform\">Microsoft Windows</div>"
+  },
+  "1.16.6": {
+    "url": "https://golang.org/dl/go1.16.6.windows-amd64.msi",
+    "size": 124420096,
+    "checksum": "8CAA75A1604A8519ABC92A0CA55B60ADFC675BB4EB13F1C9F6FAB9CCA54B617D",
+    "file_type": ".msi"
   },
   "1.16.4": {
     "url": "https://golang.org/dl/go1.16.4.windows-amd64.msi",
