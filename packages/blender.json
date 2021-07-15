@@ -4,21 +4,11 @@
   "exec_name": "blender",
   "creator": "Blender",
   "description": "Blender is the free and open source 3D creation suite.",
-  "latest_version": "2.93.1",
+  "latest_version": "2.92.0",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
-  "autoupdate": {
-    "download_page": "https://www.blender.org/download/",
-    "download_url": "https://ftp.nluug.nl/pub/graphics/blender/release/Blender<major-version>/blender-<version>-windows64.msi",
-    "regex": "Blender (\\d+\\.\\d+\\.\\d+)"
-  },
-  "2.93.1": {
-    "url": "https://ftp.nluug.nl/pub/graphics/blender/release/Blender2.93/blender-2.93.1-windows64.msi",
-    "size": 346,
-    "checksum": "EE3BA09F7793F9AC580D1D1F98F8F0E77DD7F8D3521C9A5667FA4537513BF042",
-    "file_type": ".msi"
-  },
+  "autoupdate": {},
   "2.92.0": {
     "url": "https://ftp.nluug.nl/pub/graphics/blender/release/Blender2.92/blender-2.92.0-windows64.msi",
     "size": 177647616,
