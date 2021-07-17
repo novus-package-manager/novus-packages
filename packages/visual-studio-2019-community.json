@@ -2,6 +2,7 @@
   "package_name": "visual-studio-2019-community",
   "display_name": "Visual Studio Community 2019",
   "exec_name": "devenv",
+  "portable": false,
   "creator": "Microsoft",
   "description": "Microsoft Visual Studio is an integrated development environment (IDE).",
   "latest_version": "16.10",

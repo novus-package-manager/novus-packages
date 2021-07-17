@@ -2,6 +2,7 @@
   "package_name": "opera",
   "display_name": "Opera",
   "exec_name": "opera",
+  "portable": false,
   "creator": "Opera Software",
   "description": "Opera is a multi-platform web browser.",
   "latest_version": "74.0.3911.160",

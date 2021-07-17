@@ -2,6 +2,7 @@
   "package_name": "active-perl",
   "display_name": "ActivePerl",
   "exec_name": "wperl",
+  "portable": false,
   "creator": "ActiveState",
   "description": "ActivePerl is used to develop both commercial and non-commercial applications, scripts, APIs and other code for individual developers and organizations",
   "latest_version": "5.28",

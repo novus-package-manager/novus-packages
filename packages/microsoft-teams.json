@@ -2,6 +2,7 @@
   "package_name": "microsoft-teams",
   "display_name": "Microsoft Teams",
   "exec_name": "Teams",
+  "portable": false,
   "creator": "Microsoft",
   "description": "Microsoft Teams is a proprietary business communication platform.",
   "latest_version": "1.4.00.11161",

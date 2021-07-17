@@ -2,6 +2,7 @@
   "package_name": "microsoft-visual-c++-build-tools",
   "display_name": "Microsoft Visual C++ Build Tools 2015",
   "exec_name": "none",
+  "portable": false,
   "creator": "Microsoft",
   "description": "Microsoft Visual C++ Build Tools allow you to build C and C++ libraries and applications.",
   "latest_version": "14.0.25420.1",

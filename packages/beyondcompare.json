@@ -2,6 +2,7 @@
   "package_name": "beyondcompare",
   "display_name": "Beyond Compare",
   "exec_name": "BCompare",
+  "portable": false,
   "creator": "Scooter Software",
   "description": "Beyond Compare is a data comparison utility.",
   "latest_version": "4.3.7.25118",

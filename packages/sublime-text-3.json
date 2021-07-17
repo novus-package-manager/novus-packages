@@ -2,6 +2,7 @@
   "package_name": "sublime-text-3",
   "display_name": "Sublime Text 3",
   "exec_name": "sublime_text",
+  "portable": false,
   "creator": "Sublime HQ",
   "description": "Sublime Text is a shareware cross-platform source code editor.",
   "latest_version": "3211",
@@ -14,7 +15,11 @@
     "/NORESTART",
     "/FORCECLOSEAPPLICATIONS"
   ],
-  "uswitches": ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART"],
+  "uswitches": [
+    "/VERYSILENT",
+    "/SUPPRESSMSGBOXES",
+    "/NORESTART"
+  ],
   "autoupdate": {
     "download_page": "https://www.sublimetext.com/3",
     "download_url": "https://download.sublimetext.com/Sublime%20Text%20Build%20<version>%20x64%20Setup.exe",

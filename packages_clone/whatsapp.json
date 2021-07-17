@@ -1,0 +1,34 @@
+{
+  "package_name": "whatsapp",
+  "display_name": "WhatsApp",
+  "exec_name": "WhatsApp",
+  "creator": "WhatsApp LLC",
+  "description": "WhatsApp is an American freeware, cross-platform centralized messaging and voice-over-IP service.",
+  "latest_version": "2.2123.8.0",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "https://whatsapp-desktop.en.uptodown.com/windows/versions",
+    "download_url": "https://web.whatsapp.com/desktop/windows/release/x64/WhatsAppSetup.exe",
+    "regex": "class=version>(\\d+\\.\\d+\\.\\d+\\.\\d+)"
+  },
+  "2.2119.6.0": {
+    "url": "https://web.whatsapp.com/desktop/windows/release/x64/WhatsAppSetup.exe",
+    "size": 130594512,
+    "checksum": "87C69246688D6801F0A2C184F949E039A3E3D2C988EC482C65D331D44A77224F",
+    "file_type": ".exe"
+  },
+  "2.2123.8.0": {
+    "url": "https://web.whatsapp.com/desktop/windows/release/x64/WhatsAppSetup.exe",
+    "size": 130598608,
+    "checksum": "05D34F547BD19DF5F29A43E865E91A0CE5472D78BE53534C3EFA2CE9509A22AA",
+    "file_type": ".exe"
+  },
+  "2.2121.5.0": {
+    "url": "https://web.whatsapp.com/desktop/windows/release/x64/WhatsAppSetup.exe",
+    "size": 130613968,
+    "checksum": "000480A83F922EC02B811A101F1C4D7E38FB27A328E8B044C1D9455BBCF651F5",
+    "file_type": ".exe"
+  }
+}

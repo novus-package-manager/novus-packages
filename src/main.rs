@@ -40,25 +40,27 @@ async fn main() {
         .output()
         .expect("Failed to update gcp bucket");
 
-    if args.len() == 1 {
-        println!("pkg: {:?}", package_list);
-        for package in package_list {
-            autoupdate(package).await;
-        }
-    } else {
-        if args[1] == "add" {
-            new_package(&args[2]);
-        } else if args[1] == "test" {
-            get_contents(&args[2]).await;
-        } else if args[1] == "remove" {
-            remove(&args[2]);
-        } 
-        else if args[1] == "bundle" {
-            generate_bundles(package_list);
-        } else {
-            autoupdate(&args[1]).await;
-        }
-    }
+    add_portable(package_list).await;
+
+    // if args.len() == 1 {
+    //     println!("pkg: {:?}", package_list);
+    //     for package in package_list {
+    //         autoupdate(package).await;
+    //     }
+    // } else {
+    //     if args[1] == "add" {
+    //         new_package(&args[2]);
+    //     } else if args[1] == "test" {
+    //         get_contents(&args[2]).await;
+    //     } else if args[1] == "remove" {
+    //         remove(&args[2]);
+    //     } 
+    //     else if args[1] == "bundle" {
+    //         generate_bundles(package_list);
+    //     } else {
+    //         autoupdate(&args[1]).await;
+    //     }
+    // }
 }
 
 #[derive(Deserialize, Serialize, Debug, Clone)]
@@ -142,9 +144,9 @@ fn new_package(package_name: &String) {
     let package_file = std::fs::File::create(path).unwrap();
     let package: Package = Package {
         package_name: package_name.clone(),
-        display_name: String::new(),
-        alias: None,
+        display_name: String::new(),        
         exec_name: "none".to_string(),
+        portable: Some(false),
         creator: String::new(),
         description: String::new(),
         latest_version: "0".to_string(),
@@ -591,4 +593,18 @@ fn get_splits(i: u64, total_length: u64, threads: u64) -> (u64, u64) {
     }
 
     (start, end)
+}
+
+async fn add_portable(package_list: Vec<&str>) {
+    for pkg in package_list {
+        let package: Package = get_package(pkg.clone()).await;
+        let mut temp_package: Package = package.clone();
+        temp_package.portable = Some(false);
+        let file = std::fs::File::create(format!(
+            r"D:\prana\Programming\My Projects\novus-package-manager\novus-packages\packages\{}.json",
+            pkg
+        ))
+        .unwrap();
+        to_writer_pretty(file, &temp_package).unwrap();
+    }
 }

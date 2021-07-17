@@ -2,6 +2,7 @@
   "package_name": "vysor",
   "display_name": "Vysor",
   "exec_name": "Vysor",
+  "portable": false,
   "creator": "Vysor",
   "description": "Vysor puts your iOS or Android on your desktop.",
   "latest_version": "3.1.4",

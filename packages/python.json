@@ -2,6 +2,7 @@
   "package_name": "python",
   "display_name": "Python",
   "exec_name": "none",
+  "portable": false,
   "creator": "Python Software Foundation",
   "description": "Python is an interpreted high-level general-purpose programming language.",
   "latest_version": "3.9.6",

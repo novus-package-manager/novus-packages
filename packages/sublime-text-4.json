@@ -1,8 +1,8 @@
 {
   "package_name": "sublime-text-4",
   "display_name": "Sublime Text",
-  "alias": "Sublime Text 4",
   "exec_name": "sublime_text",
+  "portable": false,
   "creator": "Sublime HQ",
   "description": "Sublime Text is a shareware cross-platform source code editor",
   "latest_version": "4107",
@@ -15,7 +15,11 @@
     "/NORESTART",
     "/FORCECLOSEAPPLICATIONS"
   ],
-  "uswitches": ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART"],
+  "uswitches": [
+    "/VERYSILENT",
+    "/SUPPRESSMSGBOXES",
+    "/NORESTART"
+  ],
   "autoupdate": {
     "download_page": "https://www.sublimetext.com/download",
     "download_url": "https://download.sublimetext.com/sublime_text_build_<version>_x64_setup.exe",

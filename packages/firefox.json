@@ -2,6 +2,7 @@
   "package_name": "firefox",
   "display_name": "Mozilla Firefox",
   "exec_name": "firefox",
+  "portable": false,
   "creator": "Mozilla Foundation",
   "description": "Firefox is a free and open-source web browser",
   "latest_version": "89.0.2",

@@ -2,6 +2,7 @@
   "package_name": "figma",
   "display_name": "Figma",
   "exec_name": "Figma",
+  "portable": false,
   "creator": "Dylan Field",
   "description": "Figma is a vector graphics editor and prototyping tool.",
   "latest_version": "93.4.0",
@@ -16,14 +17,16 @@
     "/SILENT",
     "/VERYSILENT"
   ],
-  "uswitches": [    "/s",
+  "uswitches": [
+    "/s",
     "/S",
     "/q",
     "/Q",
     "/quiet",
     "/silent",
     "/SILENT",
-    "/VERYSILENT"],
+    "/VERYSILENT"
+  ],
   "autoupdate": {
     "download_page": "https://www.filehorse.com/download-figma/",
     "download_url": "https://www.figma.com/download/desktop/win",

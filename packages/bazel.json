@@ -2,6 +2,7 @@
   "package_name": "bazel",
   "display_name": "Bazel",
   "exec_name": "none",
+  "portable": false,
   "creator": "Bazel",
   "description": "Bazel is a free software tool that allows for the automation of building and testing of software.",
   "latest_version": "4.1.0",

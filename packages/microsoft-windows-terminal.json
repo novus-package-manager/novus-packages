@@ -2,6 +2,7 @@
   "package_name": "microsoft-windows-terminal",
   "display_name": "Windows Terminal",
   "exec_name": "WindowsTerminal",
+  "portable": false,
   "creator": "Microsoft",
   "description": "Windows Terminal is a multi-tabbed command-line front-end",
   "latest_version": "1.8.1444.0",

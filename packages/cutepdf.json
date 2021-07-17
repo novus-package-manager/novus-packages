@@ -2,6 +2,7 @@
   "package_name": "cutepdf",
   "display_name": "CutePDF Writer",
   "exec_name": "none",
+  "portable": false,
   "creator": "Acro Software",
   "description": "CutePDF is a proprietary Portable Document Format converter and editor.",
   "latest_version": "4.0",
@@ -14,7 +15,10 @@
     "/NORESTART",
     "/FORCECLOSEAPPLICATIONS"
   ],
-  "uswitches": ["/uninstall", "/s"],
+  "uswitches": [
+    "/uninstall",
+    "/s"
+  ],
   "autoupdate": {
     "download_page": "https://cutepdf-writer.en.uptodown.com/windows/versions",
     "download_url": "http://www.cutepdf.com/download/CuteWriter.exe",

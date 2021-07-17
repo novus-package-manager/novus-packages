@@ -2,12 +2,17 @@
   "package_name": "clion",
   "display_name": "Clion",
   "exec_name": "clion64",
+  "portable": false,
   "creator": "JetBrains",
   "description": "A cross-platform IDE for C and C++",
   "latest_version": "2021.1",
   "threads": 8,
-  "iswitches": ["/S"],
-  "uswitches": ["/S"],
+  "iswitches": [
+    "/S"
+  ],
+  "uswitches": [
+    "/S"
+  ],
   "autoupdate": {
     "download_page": "https://www.jetbrains.com/clion/",
     "download_url": "https://download-cf.jetbrains.com/cpp/CLion-<version>.exe",

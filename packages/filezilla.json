@@ -2,6 +2,7 @@
   "package_name": "filezilla",
   "display_name": "FileZilla",
   "exec_name": "none",
+  "portable": false,
   "creator": "FileZilla",
   "description": "The free FTP solution for both client and server.",
   "latest_version": "3.55.0",

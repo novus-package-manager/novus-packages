@@ -1,0 +1,40 @@
+{
+  "package_name": "nodejs",
+  "display_name": "Node.js",
+  "exec_name": "none",
+  "creator": "OpenJS Foundation",
+  "description": "Node.js is an open-source, cross-platform, back-end JavaScript runtime environment.",
+  "latest_version": "14.17.3",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "https://nodejs.org/en/",
+    "download_url": "https://nodejs.org/dist/v<version>/node-v<version>-x64.msi",
+    "regex": "(\\d+\\.\\d+\\.\\d+) LTS"
+  },
+  "14.17.1": {
+    "url": "https://nodejs.org/dist/v14.17.1/node-v14.17.1-x64.msi",
+    "size": 30568448,
+    "checksum": "F4CEA916AF6D80784F5D9DAAB59292CEBA04BF636E4E2E6727153F89B1E6990F",
+    "file_type": ".msi"
+  },
+  "14.17.2": {
+    "url": "https://nodejs.org/dist/v14.17.2/node-v14.17.2-x64.msi",
+    "size": 30568448,
+    "checksum": "452A94F6DB29EA6EF298CB731765C615624EED2C8BD8746C827D5ABBED89A5DE",
+    "file_type": ".msi"
+  },
+  "14.17.0": {
+    "url": "https://nodejs.org/dist/v14.17.0/node-v14.17.0-x64.msi",
+    "size": 30429184,
+    "checksum": "6D4C7457A210B867CA5B1C4A4465B4065AE6708DFD917383FE61F6860DBA2128",
+    "file_type": ".msi"
+  },
+  "14.17.3": {
+    "url": "https://nodejs.org/dist/v14.17.3/node-v14.17.3-x64.msi",
+    "size": 30568448,
+    "checksum": "964E36AA518B17AB04C3A49A0F5641A6BD8A9DC2B57C18272B6F90EDF026F5DC",
+    "file_type": ".msi"
+  }
+}

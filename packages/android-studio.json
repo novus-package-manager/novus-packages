@@ -2,6 +2,7 @@
   "package_name": "android-studio",
   "display_name": "Android Studio",
   "exec_name": "java",
+  "portable": false,
   "creator": "Google, JetBrains",
   "description": "Android Studio is the official integrated development environment for Google's Android operating system",
   "latest_version": "4.2.2.0",

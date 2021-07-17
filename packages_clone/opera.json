@@ -1,0 +1,28 @@
+{
+  "package_name": "opera",
+  "display_name": "Opera",
+  "exec_name": "opera",
+  "creator": "Opera Software",
+  "description": "Opera is a multi-platform web browser.",
+  "latest_version": "74.0.3911.160",
+  "threads": 8,
+  "iswitches": [
+    "/silent",
+    "/norestart"
+  ],
+  "uswitches": [
+    "/uninstall",
+    "/silent"
+  ],
+  "autoupdate": {
+    "download_page": "https://opera.en.uptodown.com/windows/versions",
+    "download_url": "https://get.geo.opera.com/pub/opera/desktop/<version>/win/Opera_<version>_Setup_x64.exe",
+    "regex": "class=version>(\\d+\\.\\d+\\.\\d+\\.\\d+)"
+  },
+  "74.0.3911.160": {
+    "url": "https://get.geo.opera.com/pub/opera/desktop/74.0.3911.160/win/Opera_74.0.3911.160_Setup_x64.exe",
+    "size": 69470688,
+    "checksum": "8CBEB2130FFEFBCD033078BFAD5E5E600BBEF8C364CC8FDF91FAD064422C1E82",
+    "file_type": ".exe"
+  }
+}

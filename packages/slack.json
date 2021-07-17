@@ -2,12 +2,12 @@
   "package_name": "slack",
   "display_name": "Slack",
   "exec_name": "slack",
+  "portable": false,
   "creator": "Slack Technologies",
   "description": "Slack is a proprietary business communication platform.",
   "latest_version": "4.16.1",
   "threads": 8,
-  "iswitches": [
-  ],
+  "iswitches": [],
   "uswitches": [],
   "autoupdate": {
     "download_page": "https://slack.en.uptodown.com/windows/versions",

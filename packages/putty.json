@@ -2,6 +2,7 @@
   "package_name": "putty",
   "display_name": "PuTTY",
   "exec_name": "putty",
+  "portable": false,
   "creator": "Simon Tatham",
   "description": "PuTTY is a free and open-source terminal emulator, serial console and network file transfer application.",
   "latest_version": "0.75",

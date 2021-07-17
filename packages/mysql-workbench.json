@@ -2,6 +2,7 @@
   "package_name": "mysql-workbench",
   "display_name": "MySQL Workbench",
   "exec_name": "MySQLWorkbench",
+  "portable": false,
   "creator": "Oracle Corporation",
   "description": "MySQL Workbench is a unified visual tool for database architects, developers, and DBAs.",
   "latest_version": "8.0.25",

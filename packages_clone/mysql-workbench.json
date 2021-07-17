@@ -1,0 +1,22 @@
+{
+  "package_name": "mysql-workbench",
+  "display_name": "MySQL Workbench",
+  "exec_name": "MySQLWorkbench",
+  "creator": "Oracle Corporation",
+  "description": "MySQL Workbench is a unified visual tool for database architects, developers, and DBAs.",
+  "latest_version": "8.0.25",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "https://dev.mysql.com/downloads/workbench/",
+    "download_url": "https://cdn.mysql.com/Downloads/MySQLGUITools/mysql-workbench-community-<version>-winx64.msi",
+    "regex": "<h1>MySQL Workbench (\\d+\\.\\d+\\.\\d+)"
+  },
+  "8.0.25": {
+    "url": "https://cdn.mysql.com/Downloads/MySQLGUITools/mysql-workbench-community-8.0.25-winx64.msi",
+    "size": 44257280,
+    "checksum": "B5BE94E76EA87F0290B720E54829228DB6C1101DD505682790006F3AA3CF3C75",
+    "file_type": ".msi"
+  }
+}
