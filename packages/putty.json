@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "Simon Tatham",
   "description": "PuTTY is a free and open-source terminal emulator, serial console and network file transfer application.",
-  "latest_version": "0.75",
+  "latest_version": "0.76",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -13,6 +13,12 @@
     "download_page": "https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html",
     "download_url": "https://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-<version>-installer.msi",
     "regex": "Download PuTTY: latest release \\((\\d+\\.\\d+)\\)"
+  },
+  "0.76": {
+    "url": "https://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.76-installer.msi",
+    "size": 3083264,
+    "checksum": "129DF585291D28EC179BC715A3F8EC34C5ED5D66FD051A6A4B9DC9C537CB3AEE",
+    "file_type": ".msi"
   },
   "0.75": {
     "url": "https://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.75-installer.msi",
