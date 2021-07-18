@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "Slack Technologies",
   "description": "Slack is a proprietary business communication platform.",
-  "latest_version": "4.16.1",
+  "latest_version": "4.18.0",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -13,6 +13,12 @@
     "download_page": "https://slack.en.uptodown.com/windows/versions",
     "download_url": "https://downloads.slack-edge.com/releases/windows/<version>/prod/x64/slack-standalone-<version>.0.msi",
     "regex": "class=version>(\\d+\\.\\d+\\.\\d+)"
+  },
+  "4.18.0": {
+    "url": "https://downloads.slack-edge.com/releases/windows/4.18.0/prod/x64/slack-standalone-4.18.0.0.msi",
+    "size": 92438528,
+    "checksum": "7821699675BC67B63D1C7F2EB08DFC41CE3359D4D3CB37742DDB74090073EB1C",
+    "file_type": ".msi"
   },
   "4.16.1": {
     "url": "https://downloads.slack-edge.com/releases/windows/4.16.1/prod/x64/slack-standalone-4.16.1.0.msi",
