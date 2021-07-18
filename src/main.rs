@@ -40,27 +40,27 @@ async fn main() {
         .output()
         .expect("Failed to update gcp bucket");
 
-    add_portable(package_list).await;
+    // add_portable(package_list).await;
 
-    // if args.len() == 1 {
-    //     println!("pkg: {:?}", package_list);
-    //     for package in package_list {
-    //         autoupdate(package).await;
-    //     }
-    // } else {
-    //     if args[1] == "add" {
-    //         new_package(&args[2]);
-    //     } else if args[1] == "test" {
-    //         get_contents(&args[2]).await;
-    //     } else if args[1] == "remove" {
-    //         remove(&args[2]);
-    //     } 
-    //     else if args[1] == "bundle" {
-    //         generate_bundles(package_list);
-    //     } else {
-    //         autoupdate(&args[1]).await;
-    //     }
-    // }
+    if args.len() == 1 {
+        println!("pkg: {:?}", package_list);
+        for package in package_list {
+            autoupdate(package).await;
+        }
+    } else {
+        if args[1] == "add" {
+            new_package(&args[2]);
+        } else if args[1] == "test" {
+            get_contents(&args[2]).await;
+        } else if args[1] == "remove" {
+            remove(&args[2]);
+        } 
+        else if args[1] == "bundle" {
+            generate_bundles(package_list);
+        } else {
+            autoupdate(&args[1]).await;
+        }
+    }
 }
 
 #[derive(Deserialize, Serialize, Debug, Clone)]
