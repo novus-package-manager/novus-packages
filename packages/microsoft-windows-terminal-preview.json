@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "Microsoft",
   "description": "Windows Terminal is a multi-tabbed command-line front-end.",
-  "latest_version": "1.8.1032.0",
+  "latest_version": "1.9.1445.0",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -19,5 +19,11 @@
     "size": 27464041,
     "checksum": "D8526C2AC2190D760B51E17FAEE29A64D61A698730821F85615C020DC305E094",
     "file_type": ".msixbundle"
+  },
+  "1.9.1445.0": {
+    "url": "https://github.com/microsoft/terminal/releases/download/v1.9.1445.0/Microsoft.WindowsTerminalPreview_1.9.1445.0_8wekyb3d8bbwe.msixbundle",
+    "size": 29292291,
+    "checksum": "96FAE089A579D0E701E74B46471FF01BF69C5117D8794175014DAB29D4F656BF",
+    "file_type": ".msi"
   }
 }
