@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "Microsoft",
   "description": "Visual Studio Code is a source-code editor.",
-  "latest_version": "1.57.1",
+  "latest_version": "1.58.2",
   "threads": 8,
   "iswitches": [
     "/SP-",
@@ -29,13 +29,13 @@
     "download_url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64",
     "regex": "\"(\\d+\\.\\d+\\.\\d)\""
   },
-  "1.57.0": {
+  "1.57.1": {
     "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64",
     "size": 79931952,
     "checksum": "FD6F4FDC3C260E3511DBBF31285C774D8D6D6B7BE4108DEFE74E58A0E7964C55",
     "file_type": ".exe"
   },
-  "1.57.1": {
+  "1.57.0": {
     "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64",
     "size": 79931952,
     "checksum": "FD6F4FDC3C260E3511DBBF31285C774D8D6D6B7BE4108DEFE74E58A0E7964C55",
@@ -45,6 +45,12 @@
     "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64",
     "size": 80053088,
     "checksum": "1BAA3EBAD28B6E08C9806F8780690C6244F8AA89C47BC089E87A8F20B89F7492",
+    "file_type": ".exe"
+  },
+  "1.58.2": {
+    "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64",
+    "size": 80529392,
+    "checksum": "B2E4019C129765F5425E8FD9139A90C6200577754D5B35F8F83C2615F1644935",
     "file_type": ".exe"
   }
 }
