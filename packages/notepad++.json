@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "Don Ho",
   "description": "Notepad++ is a text and source code editor",
-  "latest_version": "8.1.1",
+  "latest_version": "8.1.2",
   "threads": 8,
   "iswitches": [
     "/S"
@@ -18,16 +18,22 @@
     "download_url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v<version>/npp.<version>.Installer.x64.exe",
     "regex": "Notepad&#43;&#43; (\\d+\\.\\d+\\.\\d+)"
   },
-  "8.1.1": {
-    "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.1.1/npp.8.1.1.Installer.x64.exe",
-    "size": 4247760,
-    "checksum": "906A6393558D1D291601E763AB02B2912C889523DA53E24C9295B409CD96F774",
-    "file_type": ".exe"
-  },
   "7.9.5": {
     "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.9.5/npp.7.9.5.Installer.x64.exe",
     "size": 4233416,
     "checksum": "4881548CD86491B453520E83C19292C93B9C6CE485A1F9EB9301E3913A9BACED",
+    "file_type": ".exe"
+  },
+  "8.1.2": {
+    "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.1.2/npp.8.1.2.Installer.x64.exe",
+    "size": 4255560,
+    "checksum": "FE13268FB07D85E215E034DA48529DC5D8FA2E68C290E9A4CCC3315FB2A629EB",
+    "file_type": ".exe"
+  },
+  "8.1.1": {
+    "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.1.1/npp.8.1.1.Installer.x64.exe",
+    "size": 4247760,
+    "checksum": "906A6393558D1D291601E763AB02B2912C889523DA53E24C9295B409CD96F774",
     "file_type": ".exe"
   }
 }
