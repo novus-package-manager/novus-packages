@@ -7,9 +7,7 @@
   "description": "A blazingly fast and efficient package manager for windows.",
   "latest_version": "1.0.0",
   "threads": 8,
-  "iswitches": [
-    "/S"
-  ],
+  "iswitches": ["/VERYSILENT", "/NORESTART", "/ALLUSERS"],
   "uswitches": [],
   "autoupdate": {
     "download_page": "https://github.com/novus-package-manager/novus/releases/latest",
