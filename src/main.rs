@@ -350,7 +350,7 @@ async fn update_url_and_version(package: Package, version: &str, package_name: &
         .await
         .unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
         
-    println!("response: {:?}", response);
+    println!("response: {:?}", response.status());
     let file_size = response
         .content_length()
         .unwrap_or_else(|| handle_error_and_exit("Failed to get content length".to_string()));
