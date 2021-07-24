@@ -349,6 +349,8 @@ async fn update_url_and_version(package: Package, version: &str, package_name: &
     let response = get(url.clone())
         .await
         .unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
+        
+    println!("response: {:?}", response);
     let file_size = response
         .content_length()
         .unwrap_or_else(|| handle_error_and_exit("Failed to get content length".to_string()));

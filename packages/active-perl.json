@@ -16,8 +16,8 @@
   },
   "5.28": {
     "url": "https://cli-msi.s3.amazonaws.com/ActivePerl-5.28.msi",
-    "size": 5783552,
-    "checksum": "DDC41B5C14769DDB6F09FA69959F2FDDB076729EDDEB647C96BB40E7A28BB842",
+    "size": 5787648,
+    "checksum": "314D3725C7DBFC1AD96667A63CB57399A4FC6B0BA13AE7640017A527945296A6",
     "file_type": ".msi"
   }
 }
