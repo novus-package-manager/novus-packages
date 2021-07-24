@@ -602,7 +602,7 @@ fn get_splits(i: u64, total_length: u64, threads: u64) -> (u64, u64) {
     (start, end)
 }
 
-async fn add_portable(package_list: Vec<&str>) {
+async fn _add_portable(package_list: Vec<&str>) {
     for pkg in package_list {
         let package: Package = get_package(pkg.clone()).await;
         let mut temp_package: Package = package.clone();
