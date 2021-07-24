@@ -378,33 +378,38 @@ async fn update_url_and_version(package: Package, version: &str, package_name: &
 
     println!("version_data: {:?}", version_data);
 
-    // make changes to data
-    temp_package
-        .versions
-        .insert(version.clone().to_string(), version_data);
-    temp_package.latest_version = version.to_string();
+    if file_size > 1500 {
+        // make changes to data
+        temp_package
+            .versions
+            .insert(version.clone().to_string(), version_data);
+        temp_package.latest_version = version.to_string();
 
-    // Re-open file to replace the contents:
-    let file = std::fs::File::create(format!(
-        r"D:\prana\Programming\My Projects\novus-package-manager\novus-packages\packages\{}.json",
-        package_name
-    ))
-    .unwrap();
-    to_writer_pretty(file, &temp_package).unwrap();
-    let mut commit = format!("autoupdate: {}", package_name);
-    commit = "\"".to_string() + commit.as_str() + "\"";
-    std::process::Command::new("powershell")
-        .arg("novus_update")
-        .output()
-        .expect("Failed to update gcp bucket");
-    let dir = std::path::Path::new(
-        r"D:\prana\Programming\My Projects\novus-package-manager\novus-packages\",
-    );
-    let _ = std::env::set_current_dir(dir);
-    std::process::Command::new("powershell")
-        .args(&["deploy", commit.as_str(), "main"])
-        .output()
-        .expect("Failed to deploy to github");
+        // Re-open file to replace the contents:
+        let file = std::fs::File::create(format!(
+            r"D:\prana\Programming\My Projects\novus-package-manager\novus-packages\packages\{}.json",
+            package_name
+        ))
+        .unwrap();
+        to_writer_pretty(file, &temp_package).unwrap();
+        let mut commit = format!("autoupdate: {}", package_name);
+        commit = "\"".to_string() + commit.as_str() + "\"";
+        std::process::Command::new("powershell")
+            .arg("novus_update")
+            .output()
+            .expect("Failed to update gcp bucket");
+        let dir = std::path::Path::new(
+            r"D:\prana\Programming\My Projects\novus-package-manager\novus-packages\",
+        );
+        let _ = std::env::set_current_dir(dir);
+        std::process::Command::new("powershell")
+            .args(&["deploy", commit.as_str(), "main"])
+            .output()
+            .expect("Failed to deploy to github");
+    }
+    else {
+        println!("Detected Corrupted Dowload For {}", package_name);
+    }
 }
 
 fn handle_error_and_exit(e: String) -> ! {
