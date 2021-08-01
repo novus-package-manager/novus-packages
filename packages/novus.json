@@ -8,7 +8,7 @@
   "latest_version": "1.0.0",
   "threads": 8,
   "iswitches": ["/VERYSILENT", "/NORESTART", "/ALLUSERS"],
-  "uswitches": [],
+  "uswitches": ["/VERYSILENT", "/NORESTART", "/ALLUSERS"],
   "autoupdate": {
     "download_page": "https://github.com/novus-package-manager/novus/releases/latest",
     "download_url": "https://github.com/novus-package-manager/novus/releases/download/v<version>/Novus.v<version>.Setup.exe",
