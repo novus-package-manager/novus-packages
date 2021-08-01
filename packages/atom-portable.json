@@ -5,7 +5,7 @@
   "portable": true,
   "creator": "Github",
   "description": "Atom is a free and open-source text and source code editor",
-  "latest_version": "1.57.0",
+  "latest_version": "1.58.0",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -18,6 +18,12 @@
     "url": "https://github.com/atom/atom/releases/download/v1.57.0/atom-x64-windows.zip",
     "size": 202403050,
     "checksum": "FAE26B85E05E2DB71F904B7A1FB0DE3EA6F0391BB3022C152B6D6BBCB30E26B3",
+    "file_type": ".exe"
+  },
+  "1.58.0": {
+    "url": "https://github.com/atom/atom/releases/download/v1.58.0/atom-x64-windows.zip",
+    "size": 202296416,
+    "checksum": "5F367CEE0EDA74E6A47278D0E2B6E0FAFD359C5FDA9F5D9E5FCE194D91E0EA94",
     "file_type": ".exe"
   }
 }
