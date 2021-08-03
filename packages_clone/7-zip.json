@@ -10,7 +10,7 @@
   "uswitches": ["/S"],
   "autoupdate": {
     "download_page": "https://www.7-zip.org/download.html",
-    "download_url": "https://www.7-zip.org/a/7z<version_no_dot>-x64.exe",
+    "download_url": "https://www.7-zip.org/a/7z<version-no-dot>-x64.exe",
     "regex": "(7-Zip \\d....)"
   },
   "19.00": {
