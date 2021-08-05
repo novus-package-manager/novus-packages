@@ -10,9 +10,11 @@ use serde_json::{from_str, to_string_pretty, to_writer_pretty, Value};
 use sha2::{Digest, Sha256};
 use std::collections::HashMap;
 use std::fs;
+use std::fs::{copy, read_dir, remove_dir_all, remove_file};
 use std::io::{BufReader, BufWriter, Write};
 use std::path::PathBuf;
 use std::{fs::File, u64};
+use zip::ZipArchive;
 
 #[tokio::main]
 async fn main() {
@@ -357,7 +359,7 @@ async fn update_url_and_version(package: Package, version: &str, package_name: &
         .unwrap_or_else(|| handle_error_and_exit("Failed to get content length".to_string()));
 
     let appdata = std::env::var("APPDATA").unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
-    let loc = format!(r"{}\novus\{}_check{}", appdata, package_name, file_type);
+    let mut loc = format!(r"{}\novus\{}_check{}", appdata, package_name, file_type);
     threadeddownload(
         url.clone(),
         loc.clone(),
@@ -368,6 +370,14 @@ async fn update_url_and_version(package: Package, version: &str, package_name: &
         false,
     )
     .await;
+
+    if file_type == ".zip" {
+        let (filetype_temp, loc_temp) =
+            extract_file(loc.clone(), appdata, package_name.to_string());
+        file_type = filetype_temp;
+        loc = loc_temp;
+    }
+
     let hash = get_checksum(loc.clone());
 
     let _ = std::fs::remove_file(loc);
@@ -412,6 +422,45 @@ async fn update_url_and_version(package: Package, version: &str, package_name: &
     } else {
         println!("Detected Corrupted Dowload For {}", package_name);
     }
+}
+
+fn extract_file(loc: String, appdata: String, package_name: String) -> (String, String) {
+    // Extract exe from package
+
+    let zip_file = File::open(loc.clone()).unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
+
+    let mut archive =
+        ZipArchive::new(zip_file).unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
+
+    let extract_dir = format!(r"{}\novus\{}_check", appdata, package_name);
+
+    archive
+        .extract(&extract_dir)
+        .unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
+
+    let mut path: String = String::new();
+
+    for entry in read_dir(std::path::Path::new(&extract_dir))
+        .unwrap_or_else(|e| handle_error_and_exit(e.to_string()))
+    {
+        let entry = entry.unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
+        path = entry.path().display().to_string();
+    }
+
+    let mut filetype = ".exe";
+
+    if path.contains(".msi") {
+        filetype = ".msi";
+    }
+
+    let copy_dir = format!(r"{}\novus\{}_check{}", appdata, package_name, filetype);
+
+    copy(path, copy_dir.clone()).unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
+
+    remove_dir_all(extract_dir).unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
+    remove_file(loc.clone()).unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
+
+    (filetype.to_string(), copy_dir)
 }
 
 fn handle_error_and_exit(e: String) -> ! {

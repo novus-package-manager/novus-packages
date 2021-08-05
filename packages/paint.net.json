@@ -1,13 +1,15 @@
 {
   "package_name": "paint.net",
   "display_name": "Paint.NET",
-  "exec_name": "none",
+  "exec_name": "PaintDotNet",
   "portable": false,
   "creator": "dotPDN, LLC",
   "description": "Paint.net is a freeware raster graphics editor program for Microsoft Windows.",
   "latest_version": "4.2.16",
   "threads": 8,
-  "iswitches": [],
+  "iswitches": [
+    "/auto"
+  ],
   "uswitches": [],
   "autoupdate": {
     "download_page": "https://www.getpaint.net/",
@@ -17,7 +19,7 @@
   "4.2.16": {
     "url": "https://www.dotpdn.com/files/paint.net.4.2.16.install.zip",
     "size": 12872272,
-    "checksum": "FE70191873A1F3B26D01D35DEE60A364A0A7DA4E69AC70F7495EF8666C32E8E5",
-    "file_type": ".zip"
+    "checksum": "AA4225D361B5CF28F59A6BA2E908DC16DCB9086D7849FC3489E4F0BBAF522DE1",
+    "file_type": ".exe"
   }
 }
