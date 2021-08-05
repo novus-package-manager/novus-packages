@@ -1,17 +1,23 @@
 {
   "package_name": "notepad3",
-  "display_name": "",
+  "display_name": "Notepad3",
   "exec_name": "none",
   "portable": false,
-  "creator": "",
-  "description": "",
-  "latest_version": "0",
+  "creator": "rizonesoft",
+  "description": "Notepad3 is a fast and light-weight Scintilla-based text editor with syntax highlighting.",
+  "latest_version": "5.21.227.1",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
   "autoupdate": {
-    "download_page": "",
+    "download_page": "https://github.com/rizonesoft/Notepad3/releases/latest",
     "download_url": "https://www.rizonesoft.com/download/8108/",
-    "regex": ""
+    "regex": "Release (\\d+\\.\\d+\\.\\d+\\.\\d+) · rizonesoft"
+  },
+  "5.21.227.1": {
+    "url": "https://www.rizonesoft.com/download/8108/",
+    "size": 3189069,
+    "checksum": "942F09879E73F5EC6AB6433B34A384FE5059D854EE2FBFD968C0C5421888E8BE",
+    "file_type": ".exe"
   }
 }
