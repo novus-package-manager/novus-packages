@@ -378,6 +378,8 @@ async fn update_url_and_version(package: Package, version: &str, package_name: &
         loc = loc_temp;
     }
 
+    println!("filetype: {}\n loc: {};", file_type, loc.clone());
+
     let hash = get_checksum(loc.clone());
 
     let _ = std::fs::remove_file(loc);
