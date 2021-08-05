@@ -1,0 +1,23 @@
+{
+  "package_name": "inkscape",
+  "display_name": "Inkscape",
+  "exec_name": "none",
+  "portable": false,
+  "creator": "Inkscape Founders",
+  "description": "Inkscape is a free and open-source vector graphics editor used to create vector images.",
+  "latest_version": "1.1",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "https://inkscape.org/release",
+    "download_url": "https://inkscape.org/gallery/item/26939/inkscape-1.1-x64.msi",
+    "regex": "<title>Download Inkscape (\\d+\\.\\d+)"
+  },
+  "1.1": {
+    "url": "https://inkscape.org/gallery/item/26939/inkscape-1.1-x64.msi",
+    "size": 133488816,
+    "checksum": "56D60C447E4758ADA94CBF7A4F1CF827B6B4E7064E1EE0C2084FC92F65C16BDF",
+    "file_type": ".msi"
+  }
+}
