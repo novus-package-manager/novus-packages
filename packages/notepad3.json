@@ -1,0 +1,17 @@
+{
+  "package_name": "notepad3",
+  "display_name": "",
+  "exec_name": "none",
+  "portable": false,
+  "creator": "",
+  "description": "",
+  "latest_version": "0",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "",
+    "download_url": "https://www.rizonesoft.com/download/8108/",
+    "regex": ""
+  }
+}
