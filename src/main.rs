@@ -1,6 +1,5 @@
 mod package;
 
-use std::path::PathBuf;
 use clipboard_win::{formats, set_clipboard};
 use colored::Colorize;
 use indicatif::{ProgressBar, ProgressStyle};
@@ -10,9 +9,10 @@ use serde::{Deserialize, Serialize};
 use serde_json::{from_str, to_string_pretty, to_writer_pretty, Value};
 use sha2::{Digest, Sha256};
 use std::collections::HashMap;
-use std::io::{BufReader, BufWriter, Write};
-use std::{fs::File, u64};
 use std::fs;
+use std::io::{BufReader, BufWriter, Write};
+use std::path::PathBuf;
+use std::{fs::File, u64};
 
 #[tokio::main]
 async fn main() {
@@ -54,8 +54,7 @@ async fn main() {
             get_contents(&args[2]).await;
         } else if args[1] == "remove" {
             remove(&args[2]);
-        } 
-        else if args[1] == "bundle" {
+        } else if args[1] == "bundle" {
             generate_bundles(package_list);
         } else {
             autoupdate(&args[1]).await;
@@ -144,7 +143,7 @@ fn new_package(package_name: &String) {
     let package_file = std::fs::File::create(path).unwrap();
     let package: Package = Package {
         package_name: package_name.clone(),
-        display_name: String::new(),        
+        display_name: String::new(),
         exec_name: "none".to_string(),
         portable: Some(false),
         creator: String::new(),
@@ -293,6 +292,9 @@ async fn update_url_and_version(package: Package, version: &str, package_name: &
     if package.autoupdate.download_url.contains(".msi") {
         file_type = ".msi".to_string();
     }
+    if package.autoupdate.download_url.contains(".zip") {
+        file_type = ".zip".to_string();
+    }
     if package.autoupdate.download_url.contains("<version>") {
         url = url.replace("<version>", version);
     }
@@ -349,7 +351,6 @@ async fn update_url_and_version(package: Package, version: &str, package_name: &
     let response = get(url.clone())
         .await
         .unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
-        
     println!("response status: {:?}", response.status());
     let file_size = response
         .content_length()
@@ -408,8 +409,7 @@ async fn update_url_and_version(package: Package, version: &str, package_name: &
             .args(&["deploy", commit.as_str(), "main"])
             .output()
             .expect("Failed to deploy to github");
-    }
-    else {
+    } else {
         println!("Detected Corrupted Dowload For {}", package_name);
     }
 }
