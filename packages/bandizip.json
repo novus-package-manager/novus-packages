@@ -1,7 +1,7 @@
 {
   "package_name": "bandizip",
   "display_name": "Bandizip",
-  "exec_name": "none",
+  "exec_name": "Bandizip",
   "portable": false,
   "creator": "Bandisoft",
   "description": "Bandizip is a powerful archiver which provides an ultrafast processing speed and convenient features.",
@@ -10,7 +10,7 @@
   "iswitches": [
     "/S"
   ],
-  "uswitches": [],
+  "uswitches": ["/S"],
   "autoupdate": {
     "download_page": "https://en.bandisoft.com/bandizip/",
     "download_url": "https://dl.bandisoft.com/bandizip.std/BANDIZIP-SETUP-STD-X64.EXE?1",
