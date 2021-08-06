@@ -244,7 +244,7 @@ async fn autoupdate(package_name: &str) {
             let og_len = &lengths[index];
             let ver = &version.split_at(*og_len).0;
             let version_new = &ver.to_string();
-            println!("latest version: {}", version_new);
+            // println!("latest version: {}", version_new);
             if &package.latest_version != version_new {
                 if package.clone().autoupdate.download_url == "" {
                     update_version(package.clone(), &version_new, package_name);
@@ -431,7 +431,7 @@ async fn update_url_and_version(package: Package, version: &str, package_name: &
         file_type: file_type.clone(),
     };
 
-    println!("Updated {}", package_name);
+    println!("Updated {} to {}", package_name, version);
 
     if response.status() == 200 {
         // make changes to data
