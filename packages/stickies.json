@@ -1,0 +1,17 @@
+{
+  "package_name": "stickies",
+  "display_name": "Stickies",
+  "exec_name": "none",
+  "portable": false,
+  "creator": "Zhorn Software",
+  "description": "Stickies is a PC utility to easily write notes",
+  "latest_version": "0",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "",
+    "download_url": "https://www.zhornsoftware.co.uk/stickies/stickies_setup_10_1a.exe",
+    "regex": ""
+  }
+}
