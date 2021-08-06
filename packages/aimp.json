@@ -10,9 +10,9 @@
   "iswitches": [],
   "uswitches": [],
   "autoupdate": {
-    "download_page": "https://www.filepuma.com/download/aimp_4.70.2251-28790/",
-    "download_url": "https://aimp.ru/files/windows/builds/aimp_4.70.2251.exe",
-    "regex": "<title>Download AIMP (\\d+\\.\\d+\\.\\d+) for windows"
+    "download_page": "https://www.filepuma.com/search/aimp/#gsc.tab=0&gsc.ie=UTF8&gsc.sort=&gsc.q=aimp",
+    "download_url": "https://aimp.ru/files/windows/builds/aimp_<version>.exe",
+    "regex": "alt=\"AIMP (\\d+\\.\\d+\\.\\d+)\" /></td>"
   },
   "4.70.2251": {
     "url": "https://aimp.ru/files/windows/builds/aimp_4.70.2251.exe",
