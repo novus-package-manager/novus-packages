@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "Audacity",
   "description": "Audacity is a free and open-source digital audio editor and recording application software",
-  "latest_version": "3.0.2",
+  "latest_version": "3.0.3",
   "threads": 8,
   "iswitches": [
     "/SP-",
@@ -21,9 +21,15 @@
     "/NORESTART"
   ],
   "autoupdate": {
-    "download_page": "https://audacity.en.uptodown.com/windows/versions",
-    "download_url": "https://github.com/audacity/audacity/releases/download/Audacity-<version>/audacity-win-<version>.exe",
-    "regex": "class=version>(\\d+\\.\\d+\\.\\d+)"
+    "download_page": "https://github.com/audacity/audacity/releases/latest",
+    "download_url": "https://github.com/audacity/audacity/releases/download/Audacity-3.0.3/audacity-win-<version>-64bit.exe",
+    "regex": "<title>Release Audacity (\\d+\\.\\d+\\.\\d+) · audacity/audacity"
+  },
+  "3.0.3": {
+    "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.0.3/audacity-win-3.0.3-64bit.exe",
+    "size": 34947992,
+    "checksum": "585C23D3CE19BE2E60584004D03AD23AF981F2681C0AE9EA22117376BFF58D3C",
+    "file_type": ".exe"
   },
   "3.0.2": {
     "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.0.2/audacity-win-3.0.2.exe",

@@ -19,7 +19,7 @@ use zip::ZipArchive;
 #[tokio::main]
 async fn main() {
     let args: Vec<String> = std::env::args().collect();
-    println!("args: {:?}", args);
+    // println!("args: {:?}", args);
     let data = get_packages().await;
 
     let val = data
@@ -45,7 +45,7 @@ async fn main() {
     // add_portable(package_list).await;
 
     if args.len() == 1 {
-        println!("pkg: {:?}", package_list);
+        // println!("pkg: {:?}", package_list);
         for package in package_list {
             autoupdate(package).await;
         }
@@ -110,7 +110,7 @@ fn generate_bundles(package_list: Vec<&str>) {
 async fn get_contents(package_name: &str) {
     let package: Package = get_package(package_name.clone()).await;
     let url = package.clone().autoupdate.download_page;
-    println!("url: {}", url);
+    // println!("url: {}", url);
     let response = get(url)
         .await
         .unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
@@ -119,7 +119,7 @@ async fn get_contents(package_name: &str) {
         .await
         .unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
 
-    println!("cont: {}", file_contents);
+    // println!("cont: {}", file_contents);
 
     set_clipboard(formats::Unicode, file_contents).expect("To set clipboard");
 }
@@ -169,7 +169,7 @@ async fn autoupdate(package_name: &str) {
     let url = package.clone().autoupdate.download_page;
 
     if url.clone() != "" {
-        println!("url: {}", url);
+        // println!("url: {}", url);
         let response = get(url)
             .await
             .unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
@@ -186,7 +186,7 @@ async fn autoupdate(package_name: &str) {
             .captures_iter(file_contents.as_str())
             .map(|c| c.get(1).unwrap().as_str())
             .collect();
-        println!("matches: {:?}", matches);
+        // println!("matches: {:?}", matches);
 
         if matches.len() != 0 {
             let mut versions_calc: Vec<String> = vec![];
@@ -216,7 +216,7 @@ async fn autoupdate(package_name: &str) {
                 let year_string = year_dot_split.concat();
                 versions_calc.push(year_string);
             }
-            println!("version final: {:?}", versions);
+            // println!("version final: {:?}", versions);
             let index = versions_calc
                 .iter()
                 .enumerate()
@@ -228,7 +228,7 @@ async fn autoupdate(package_name: &str) {
             let og_len = &lengths[index];
             let ver = &version.split_at(*og_len).0;
             let version_new = &ver.to_string();
-            println!("latest version: {}", version_new);
+            // println!("latest version: {}", version_new);
             if &package.latest_version != version_new {
                 if package.clone().autoupdate.download_url == "" {
                     update_version(package.clone(), &version_new, package_name);
@@ -349,11 +349,11 @@ async fn update_url_and_version(package: Package, version: &str, package_name: &
     if package.autoupdate.download_url.contains("<version-no-dot>") {
         url = url.replace("<version-no-dot>", &version.replace(".", ""));
     }
-    println!("url: {}", url);
+    // println!("url: {}", url);
     let response = get(url.clone())
         .await
         .unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
-    println!("response status: {:?}", response.status());
+    // println!("response status: {:?}", response.status());
     let file_size = response.content_length().unwrap_or(10000);
 
     let appdata = std::env::var("APPDATA").unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
@@ -376,7 +376,7 @@ async fn update_url_and_version(package: Package, version: &str, package_name: &
         loc = loc_temp;
     }
 
-    println!("filetype: {}\n loc: {};", file_type, loc.clone());
+    // println!("filetype: {}\n loc: {};", file_type, loc.clone());
 
     let hash = get_checksum(loc.clone());
 
@@ -389,7 +389,7 @@ async fn update_url_and_version(package: Package, version: &str, package_name: &
         file_type: file_type.clone(),
     };
 
-    println!("version_data: {:?}", version_data);
+    println!("Updated {}", package_name);
 
     if response.status() == 200 {
         // make changes to data
@@ -486,11 +486,11 @@ async fn get_packages() -> String {
 }
 
 async fn get_package(package_name: &str) -> Package {
-    println!(
-        "getting: https://storage.googleapis.com/novus_bucket/{}.json?a={:?}",
-        package_name,
-        std::time::UNIX_EPOCH.elapsed().unwrap()
-    );
+    // println!(
+    //     "getting: https://storage.googleapis.com/novus_bucket/{}.json?a={:?}",
+    //     package_name,
+    //     std::time::UNIX_EPOCH.elapsed().unwrap()
+    // );
     let response = get(format!(
         "https://storage.googleapis.com/novus_bucket/{}.json?a={:?}",
         package_name,
