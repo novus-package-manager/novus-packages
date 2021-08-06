@@ -5,9 +5,11 @@
   "portable": false,
   "creator": "HyperTerminal",
   "description": "A terminal built on web technologies.",
-  "latest_version": "3.1.1",
+  "latest_version": "3.1.2",
   "threads": 8,
-  "iswitches": ["/S"],
+  "iswitches": [
+    "/S"
+  ],
   "uswitches": [],
   "autoupdate": {
     "download_page": "https://github.com/vercel/hyper/releases/latest",
@@ -18,6 +20,12 @@
     "url": "https://github.com/vercel/hyper/releases/download/v3.1.1/Hyper-Setup-3.1.1.exe",
     "size": 63615352,
     "checksum": "95C78438FBA9BC55185BB2CB7E9B3338FBCF048BDDF91CE932A476250120DD55",
+    "file_type": ".exe"
+  },
+  "3.1.2": {
+    "url": "https://github.com/vercel/hyper/releases/download/v3.1.2/Hyper-Setup-3.1.2.exe",
+    "size": 63616904,
+    "checksum": "4E226B04EE69C0345918D2618A9D6EE852D9DEAAE7B00847FA751000AE7057EB",
     "file_type": ".exe"
   }
 }
