@@ -354,9 +354,7 @@ async fn update_url_and_version(package: Package, version: &str, package_name: &
         .await
         .unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
     println!("response status: {:?}", response.status());
-    let file_size = response
-        .content_length()
-        .unwrap_or_else(|| handle_error_and_exit("Failed to get content length".to_string()));
+    let file_size = response.content_length().unwrap_or(10000);
 
     let appdata = std::env::var("APPDATA").unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
     let mut loc = format!(r"{}\novus\{}_check{}", appdata, package_name, file_type);
@@ -529,9 +527,7 @@ async fn threadeddownload(
     let res = reqwest::get(url.to_string())
         .await
         .unwrap_or_else(|_| handle_error_and_exit("Failed to get download url!".to_string()));
-    let total_length = res
-        .content_length()
-        .unwrap_or_else(|| handle_error_and_exit("An Unexpected Error Occured!".to_string()));
+    let total_length = res.content_length().unwrap_or(10000);
     let appdata = std::env::var("APPDATA")
         .unwrap_or_else(|e| handle_error_and_exit(format!("{} install.rs:106", e.to_string())));
 
@@ -576,9 +572,10 @@ async fn threadeddownload(
         for index in 0..threads {
             let loc = format!(r"{}\novus\setup_{}{}.tmp", appdata, package_name, index + 1);
             let (start, end) = get_splits(index + 1, total_length, threads);
-            let mut file = BufWriter::new(File::create(loc).unwrap_or_else(|e| {
-                handle_error_and_exit(format!("{} install.rs:150", e.to_string()))
-            }));
+            let mut file = BufWriter::new(
+                File::create(loc)
+                    .unwrap_or_else(|e| handle_error_and_exit(format!("{}", e.to_string()))),
+            );
             let url = url.clone();
             handles.push(tokio::spawn(async move {
                 let client = reqwest::Client::new();
