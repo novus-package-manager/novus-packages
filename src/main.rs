@@ -217,18 +217,34 @@ async fn autoupdate(package_name: &str) {
                 versions_calc.push(year_string);
             }
             // println!("version final: {:?}", versions);
-            let index = versions_calc
-                .iter()
-                .enumerate()
-                .filter_map(|(i, s)| s.parse::<u64>().ok().map(|n| (i, n)))
-                .max_by_key(|&(_, n)| n)
-                .map(|(i, _)| i)
-                .unwrap_or_else(|| handle_error_and_exit("Failed to find match".to_string()));
+
+            let mut new_versions_calc = vec![];
+
+            for v in versions_calc.clone() {
+                new_versions_calc.push(parse_number_with_letters(&v).unwrap_or_else(|_| {
+                    handle_error_and_exit("Failed to parse version".to_string())
+                }));
+            }
+
+            let max = new_versions_calc.iter().max().unwrap_or_else(|| {
+                handle_error_and_exit("Failed to get max value of vector".to_string())
+            });
+
+            let index = new_versions_calc.iter().position(|&r| &r == max).unwrap();
+
+            // let index = new_versions_calc
+            //     .iter()
+            //     .enumerate()
+            //     // .filter_map(|(i, s)| s.parse::<u64>().ok().map(|n| (i, n)))
+            //     .max_by_key(|&(_, n)| n)
+            //     .map(|(i, _)| i)
+            //     .unwrap_or_else(|| handle_error_and_exit("Failed to find match".to_string()));
+
             let version = &versions[index];
             let og_len = &lengths[index];
             let ver = &version.split_at(*og_len).0;
             let version_new = &ver.to_string();
-            // println!("latest version: {}", version_new);
+            println!("latest version: {}", version_new);
             if &package.latest_version != version_new {
                 if package.clone().autoupdate.download_url == "" {
                     update_version(package.clone(), &version_new, package_name);
@@ -238,6 +254,32 @@ async fn autoupdate(package_name: &str) {
             }
         }
     }
+}
+
+fn parse_number_with_letters(s: &str) -> Result<u64, std::num::ParseIntError> {
+    let with_letters_replaced: String = s
+        .chars()
+        .map(|c| letter_to_number(c).unwrap_or(c))
+        .collect();
+
+    with_letters_replaced.trim().parse::<u64>()
+}
+
+fn letter_to_number(c: char) -> Option<char> {
+    let number = match c {
+        'a' => '1',
+        'b' => '2',
+        'c' => '3',
+        'd' => '4',
+        'e' => '5',
+        'f' => '6',
+        'g' => '7',
+        'h' => '8',
+        'i' => '9',
+        _ => return None,
+    };
+
+    Some(number)
 }
 
 fn remove(package_name: &str) {
