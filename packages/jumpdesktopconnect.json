@@ -1,7 +1,7 @@
 {
   "package_name": "jumpdesktopconnect",
   "display_name": "Jump Desktop Connect",
-  "exec_name": "none",
+  "exec_name": "JumpConnect",
   "portable": false,
   "creator": "Jump Desktop",
   "description": "Jump Desktop is a remote desktop application that lets you control your computer from your phone or tablet.",
