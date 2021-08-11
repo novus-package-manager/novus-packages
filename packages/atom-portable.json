@@ -1,7 +1,7 @@
 {
   "package_name": "atom-portable",
-  "display_name": "Atom Portable",
-  "exec_name": "none",
+  "display_name": "Atom",
+  "exec_name": "atom",
   "portable": true,
   "creator": "Github",
   "description": "Atom is a free and open-source text and source code editor",
