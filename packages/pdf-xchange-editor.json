@@ -1,5 +1,5 @@
 {
-  "package_name": "pdfxchangeeditor",
+  "package_name": "pdf-xchange-editor",
   "display_name": "PDF-XChange Editor",
   "exec_name": "PDFXEdit",
   "portable": false,
@@ -7,16 +7,8 @@
   "description": "PDF-XChange Editor can be used to create PDF files from scanned documents, images, text files, Markdown files and much more.",
   "latest_version": "9.1.356.0",
   "threads": 8,
-  "iswitches": [
-    "/qn",
-    "/quiet",
-    "/norestart"
-  ],
-  "uswitches": [
-    "/qn",
-    "/quiet",
-    "/norestart"
-  ],
+  "iswitches": ["/qn", "/quiet", "/norestart"],
+  "uswitches": ["/qn", "/quiet", "/norestart"],
   "autoupdate": {
     "download_page": "https://www.tracker-software.com/product/pdf-xchange-editor",
     "download_url": "https://downloads.pdf-xchange.com/EditorV9.x64.msi",
