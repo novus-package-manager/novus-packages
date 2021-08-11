@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "Microsoft",
   "description": "Visual Studio Build Tools allow you to build Visual Studio projects from a command-line interface.",
-  "latest_version": "16.10",
+  "latest_version": "16.11",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -13,6 +13,12 @@
     "download_page": "https://visualstudio.microsoft.com/downloads/",
     "download_url": "https://download.visualstudio.microsoft.com/download/pr/9665567e-f580-4acd-85f2-bc94a1db745f/930a6ef592ea72e47b57565fce5bf93ffdbcc76c8d146bc02db97bd039e8d532/vs_BuildTools.exe",
     "regex": "Visual Studio 2019</a></h2>\n<p class=\"notes-top\">Version (\\d+\\.\\d+)"
+  },
+  "16.11": {
+    "url": "https://download.visualstudio.microsoft.com/download/pr/9665567e-f580-4acd-85f2-bc94a1db745f/930a6ef592ea72e47b57565fce5bf93ffdbcc76c8d146bc02db97bd039e8d532/vs_BuildTools.exe",
+    "size": 1464544,
+    "checksum": "930A6EF592EA72E47B57565FCE5BF93FFDBCC76C8D146BC02DB97BD039E8D532",
+    "file_type": ".exe"
   },
   "16.10": {
     "url": "https://download.visualstudio.microsoft.com/download/pr/9665567e-f580-4acd-85f2-bc94a1db745f/930a6ef592ea72e47b57565fce5bf93ffdbcc76c8d146bc02db97bd039e8d532/vs_BuildTools.exe",
