@@ -222,7 +222,7 @@ async fn autoupdate(package_name: &str) {
 
             for v in versions_calc.clone() {
                 new_versions_calc.push(parse_number_with_letters(&v).unwrap_or_else(|_| {
-                    handle_error_and_exit("Failed to parse version".to_string())
+                    handle_error_and_exit(format!("Failed to parse version for {}", package_name))
                 }));
             }
 

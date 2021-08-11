@@ -7,14 +7,12 @@
   "description": "Adobe Acrobat Reader DC software is the free global standard for reliably viewing",
   "latest_version": "21.005.20058",
   "threads": 8,
-  "iswitches": [
-    "/sAll"
-  ],
+  "iswitches": ["/sAll"],
   "uswitches": [],
   "autoupdate": {
     "download_page": "https://adobe-reader.en.softonic.com/download",
     "download_url": "https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/<version-no-dot>/AcroRdrDC<version-no-dot>_en_US.exe",
-    "regex": "(21\\.\\d+.\\w+)"
+    "regex": "(21\\.\\d+\\.\\d+)"
   },
   "21.005.20058": {
     "url": "https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/2100520058/AcroRdrDC2100520058_en_US.exe",

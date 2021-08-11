@@ -13,7 +13,7 @@
     "/AddToPath=1",
     "/S"
   ],
-  "uswitches": [],
+  "uswitches": ["/S"],
   "autoupdate": {
     "download_page": "https://www.anaconda.com/products/individual",
     "download_url": "https://repo.continuum.io/archive/Anaconda3-<version>-Windows-x86_64.exe",
