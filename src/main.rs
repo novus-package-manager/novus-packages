@@ -336,7 +336,7 @@ async fn update_url_and_version(package: Package, version: &str, package_name: &
     if package.autoupdate.download_url.contains(".msi") {
         file_type = ".msi".to_string();
     }
-    if package.autoupdate.download_url.contains(".zip") {
+    if package.autoupdate.download_url.contains(".zip") && !package_name.contains("portable") {
         file_type = ".zip".to_string();
     }
     if package.autoupdate.download_url.contains("<version>") {
@@ -422,7 +422,7 @@ async fn update_url_and_version(package: Package, version: &str, package_name: &
 
     let hash = get_checksum(loc.clone());
 
-    let _ = std::fs::remove_file(loc);
+    let _ = std::fs::remove_file(loc).unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
 
     let version_data: VersionData = VersionData {
         url: url,
@@ -430,8 +430,6 @@ async fn update_url_and_version(package: Package, version: &str, package_name: &
         checksum: hash,
         file_type: file_type.clone(),
     };
-
-    println!("Updated {} to {}", package_name, version);
 
     if response.status() == 200 {
         // make changes to data
@@ -461,6 +459,7 @@ async fn update_url_and_version(package: Package, version: &str, package_name: &
             .args(&["deploy", commit.as_str(), "main"])
             .output()
             .expect("Failed to deploy to github");
+        println!("Updated {} to {}", package_name, version);
     } else {
         println!("Detected Corrupted Dowload For {}", package_name);
     }
