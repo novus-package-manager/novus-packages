@@ -25,7 +25,7 @@ async fn main() {
     let val = data
         .as_str()
         .parse::<Value>()
-        .unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
+        .unwrap_or_else(|e| handle_error_and_exit(format!("{}: line {}", e.to_string(), line!())));
 
     let package_list: Vec<&str> = val["packages"]
         .as_array()
@@ -113,11 +113,11 @@ async fn get_contents(package_name: &str) {
     // println!("url: {}", url);
     let response = get(url)
         .await
-        .unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
+        .unwrap_or_else(|e| handle_error_and_exit(format!("{}: line {}", e.to_string(), line!())));
     let file_contents = response
         .text()
         .await
-        .unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
+        .unwrap_or_else(|e| handle_error_and_exit(format!("{}: line {}", e.to_string(), line!())));
 
     // println!("cont: {}", file_contents);
 
@@ -172,11 +172,11 @@ async fn autoupdate(package_name: &str) {
         // println!("url: {}", url);
         let response = get(url)
             .await
-            .unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
+            .unwrap_or_else(|e| handle_error_and_exit(format!("{}: line {}", e.to_string(), line!())));
         let file_contents = response
             .text()
             .await
-            .unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
+            .unwrap_or_else(|e| handle_error_and_exit(format!("{}: line {}", e.to_string(), line!())));
 
         // println!("cont: {}", file_contents);
 
@@ -332,11 +332,12 @@ fn update_version(package: Package, version: &str, package_name: &str) {
 async fn update_url_and_version(package: Package, version: &str, package_name: &str) {
     let mut temp_package: Package = package.clone();
     let mut url = package.autoupdate.download_url.clone();
+    let portable = package.portable.unwrap_or(false);
     let mut file_type: String = ".exe".to_string();
     if package.autoupdate.download_url.contains(".msi") {
         file_type = ".msi".to_string();
     }
-    if package.autoupdate.download_url.contains(".zip") && !package.portable.unwrap_or(false) {
+    if package.autoupdate.download_url.contains(".zip") || portable {
         file_type = ".zip".to_string();
     }
     if package.autoupdate.download_url.contains("<version>") {
@@ -394,11 +395,11 @@ async fn update_url_and_version(package: Package, version: &str, package_name: &
     // println!("url: {}", url);
     let response = get(url.clone())
         .await
-        .unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
+        .unwrap_or_else(|e| handle_error_and_exit(format!("{}: line {}", e.to_string(), line!())));
     // println!("response status: {:?}", response.status());
     let file_size = response.content_length().unwrap_or(10000);
 
-    let appdata = std::env::var("APPDATA").unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
+    let appdata = std::env::var("APPDATA").unwrap_or_else(|e| handle_error_and_exit(format!("{}: line {}", e.to_string(), line!())));
     let mut loc = format!(r"{}\novus\{}_check{}", appdata, package_name, file_type);
     threadeddownload(
         url.clone(),
@@ -411,7 +412,7 @@ async fn update_url_and_version(package: Package, version: &str, package_name: &
     )
     .await;
 
-    if file_type == ".zip" {
+    if file_type == ".zip" && !portable {
         let (filetype_temp, loc_temp) =
             extract_file(loc.clone(), appdata, package_name.to_string());
         file_type = filetype_temp;
@@ -422,7 +423,7 @@ async fn update_url_and_version(package: Package, version: &str, package_name: &
 
     let hash = get_checksum(loc.clone());
 
-    let _ = std::fs::remove_file(loc).unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
+    let _ = std::fs::remove_file(loc).unwrap_or_else(|e| handle_error_and_exit(format!("{}: line {}", e.to_string(), line!())));
 
     let version_data: VersionData = VersionData {
         url: url,
@@ -468,23 +469,23 @@ async fn update_url_and_version(package: Package, version: &str, package_name: &
 fn extract_file(loc: String, appdata: String, package_name: String) -> (String, String) {
     // Extract exe from package
 
-    let zip_file = File::open(loc.clone()).unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
+    let zip_file = File::open(loc.clone()).unwrap_or_else(|e| handle_error_and_exit(format!("{}: line {}", e.to_string(), line!())));
 
     let mut archive =
-        ZipArchive::new(zip_file).unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
+        ZipArchive::new(zip_file).unwrap_or_else(|e| handle_error_and_exit(format!("{}: line {}", e.to_string(), line!())));
 
     let extract_dir = format!(r"{}\novus\{}_check", appdata, package_name);
 
     archive
         .extract(&extract_dir)
-        .unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
+        .unwrap_or_else(|e| handle_error_and_exit(format!("{}: line {}", e.to_string(), line!())));
 
     let mut path: String = String::new();
 
     for entry in read_dir(std::path::Path::new(&extract_dir))
-        .unwrap_or_else(|e| handle_error_and_exit(e.to_string()))
+        .unwrap_or_else(|e| handle_error_and_exit(format!("{}: line {}", e.to_string(), line!())))
     {
-        let entry = entry.unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
+        let entry = entry.unwrap_or_else(|e| handle_error_and_exit(format!("{}: line {}", e.to_string(), line!())));
         path = entry.path().display().to_string();
     }
 
@@ -496,10 +497,10 @@ fn extract_file(loc: String, appdata: String, package_name: String) -> (String, 
 
     let copy_dir = format!(r"{}\novus\{}_check{}", appdata, package_name, filetype);
 
-    copy(path, copy_dir.clone()).unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
+    copy(path, copy_dir.clone()).unwrap_or_else(|e| handle_error_and_exit(format!("{}: line {}", e.to_string(), line!())));
 
-    remove_dir_all(extract_dir).unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
-    remove_file(loc.clone()).unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
+    remove_dir_all(extract_dir).unwrap_or_else(|e| handle_error_and_exit(format!("{}: line {}", e.to_string(), line!())));
+    remove_file(loc.clone()).unwrap_or_else(|e| handle_error_and_exit(format!("{}: line {}", e.to_string(), line!())));
 
     (filetype.to_string(), copy_dir)
 }
@@ -515,7 +516,7 @@ async fn get_packages() -> String {
         std::time::UNIX_EPOCH.elapsed().unwrap()
     ))
     .await
-    .unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
+    .unwrap_or_else(|e| handle_error_and_exit(format!("{}: line {}", e.to_string(), line!())));
     let file_contents = response
         .text()
         .await
@@ -538,7 +539,7 @@ async fn get_package(package_name: &str) -> Package {
         std::time::UNIX_EPOCH.elapsed().unwrap()
     ))
     .await
-    .unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
+    .unwrap_or_else(|e| handle_error_and_exit(format!("{}: line {}", e.to_string(), line!())));
     let file_contents = response
         .text()
         .await
@@ -570,7 +571,7 @@ async fn threadeddownload(
         .unwrap_or_else(|_| handle_error_and_exit("Failed to get download url!".to_string()));
     let total_length = res.content_length().unwrap_or(10000);
     let appdata = std::env::var("APPDATA")
-        .unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
+        .unwrap_or_else(|e| handle_error_and_exit(format!("{}: line {}", e.to_string(), line!())));
 
     if max {
         let progress_bar = ProgressBar::new(total_length);
@@ -640,7 +641,7 @@ async fn threadeddownload(
     }
 
     let mut file = File::create(output.clone())
-        .unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
+        .unwrap_or_else(|e| handle_error_and_exit(format!("{}: line {}", e.to_string(), line!())));
 
     let appdata = std::env::var("APPDATA").unwrap();
 
@@ -648,7 +649,7 @@ async fn threadeddownload(
         let loc = format!(r"{}\novus\setup_{}{}.tmp", appdata, package_name, index + 1);
         let mut buf: Vec<u8> = vec![];
         let downloaded_file = File::open(loc.clone())
-            .unwrap_or_else(|e| handle_error_and_exit(e.to_string()));
+            .unwrap_or_else(|e| handle_error_and_exit(format!("{}: line {}", e.to_string(), line!())));
         let mut reader = BufReader::new(downloaded_file);
         let _ = std::io::copy(&mut reader, &mut buf);
         let _ = file.write_all(&buf);
