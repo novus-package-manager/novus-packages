@@ -576,8 +576,8 @@ async fn threadeddownload(
     if max {
         let progress_bar = ProgressBar::new(total_length);
         progress_bar.set_style(ProgressStyle::default_bar()
-              .template("[{elapsed_precise}] [{wide_bar:.cyan/blue/magenta}] {bytes}/{total_bytes} ({eta})")
-              .progress_chars("=>-"));
+            .template(("Downloading".bright_cyan().to_string() + " [{wide_bar:.cyan}] {bytes}/{total_bytes}").as_str())
+            .progress_chars("=> "));
 
         for index in 0..threads {
             let loc = format!(r"{}\novus\setup_{}{}.tmp", appdata, package_name, index + 1);
