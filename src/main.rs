@@ -336,7 +336,7 @@ async fn update_url_and_version(package: Package, version: &str, package_name: &
     if package.autoupdate.download_url.contains(".msi") {
         file_type = ".msi".to_string();
     }
-    if package.autoupdate.download_url.contains(".zip") && !package_name.contains("portable") {
+    if package.autoupdate.download_url.contains(".zip") && !package.portable.unwrap_or(false) {
         file_type = ".zip".to_string();
     }
     if package.autoupdate.download_url.contains("<version>") {
