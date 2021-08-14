@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "Scooter Software",
   "description": "Beyond Compare is a data comparison utility.",
-  "latest_version": "4.3.7.25118",
+  "latest_version": "4.4.0.25886",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -18,6 +18,12 @@
     "url": "https://www.scootersoftware.com/BCompare-4.3.7.25118_x64.msi",
     "size": 18161664,
     "checksum": "780048EA537860A8A706FB61483CEE0A1118039E25AB72C805E042B5C70BB781",
+    "file_type": ".msi"
+  },
+  "4.4.0.25886": {
+    "url": "https://www.scootersoftware.com/BCompare-4.4.0.25886_x64.msi",
+    "size": 17932288,
+    "checksum": "F582A3D85BCF499F069C2E398201EBD16C2F83D926E9186BA3BCC615FA7BC9B4",
     "file_type": ".msi"
   }
 }
