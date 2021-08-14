@@ -7,12 +7,8 @@
   "description": "Spotify is a Swedish audio streaming and media services provider.",
   "latest_version": "1.1.65.643",
   "threads": 8,
-  "iswitches": [
-    "/silent"
-  ],
-  "uswitches": [
-    "/silent"
-  ],
+  "iswitches": ["/silent"],
+  "uswitches": ["/silent"],
   "autoupdate": {
     "download_page": "https://spotify.en.uptodown.com/windows/versions",
     "download_url": "http://download.spotify.com/SpotifyFullSetup.exe",
@@ -21,19 +17,19 @@
   "1.1.62.583": {
     "url": "http://download.spotify.com/SpotifyFullSetup.exe",
     "size": 80938696,
-    "checksum": "44FFFE62C2F64B75B83A35E8B4F2FDB0D3FFCD976E83D6995A0781CE732F31D4",
+    "checksum": "E86EA6110AB5FE30B99807FFE150E41031EC52C683A3F7A51D638601D1F4F9E3",
     "file_type": ".exe"
   },
   "1.1.60.668": {
     "url": "http://download.spotify.com/SpotifyFullSetup.exe",
     "size": 80938696,
-    "checksum": "44FFFE62C2F64B75B83A35E8B4F2FDB0D3FFCD976E83D6995A0781CE732F31D4",
+    "checksum": "E86EA6110AB5FE30B99807FFE150E41031EC52C683A3F7A51D638601D1F4F9E3",
     "file_type": ".exe"
   },
   "1.1.65.643": {
     "url": "http://download.spotify.com/SpotifyFullSetup.exe",
     "size": 80938696,
-    "checksum": "44FFFE62C2F64B75B83A35E8B4F2FDB0D3FFCD976E83D6995A0781CE732F31D4",
+    "checksum": "E86EA6110AB5FE30B99807FFE150E41031EC52C683A3F7A51D638601D1F4F9E3",
     "file_type": ".exe"
   },
   "1.1.61.583": {
