@@ -5,9 +5,11 @@
   "portable": false,
   "creator": "Adobe",
   "description": "Adobe Acrobat Reader DC software is the free global standard for reliably viewing",
-  "latest_version": "21.005.20058",
+  "latest_version": "21.005.20060",
   "threads": 8,
-  "iswitches": ["/sAll"],
+  "iswitches": [
+    "/sAll"
+  ],
   "uswitches": [],
   "autoupdate": {
     "download_page": "https://adobe-reader.en.softonic.com/download",
@@ -30,6 +32,12 @@
     "url": "https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/2100120145/AcroRdrDC2100120145_en_US.exe",
     "size": 190154408,
     "checksum": "F1E5CBBACE69EDBA23E7A2557B9BE59D916AF06AD27D99526E6FF356429FF4F2",
+    "file_type": ".exe"
+  },
+  "21.005.20060": {
+    "url": "https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/2100520060/AcroRdrDC2100520060_en_US.exe",
+    "size": 192124640,
+    "checksum": "A7B48539976BBEC9132C1722563BAC69E6D154F88E675644A25DCF3D231F665B",
     "file_type": ".exe"
   }
 }
