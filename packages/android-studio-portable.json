@@ -1,0 +1,23 @@
+{
+  "package_name": "android-studio-portable",
+  "display_name": "",
+  "exec_name": "java",
+  "portable": true,
+  "creator": "Google, JetBrains",
+  "description": "",
+  "latest_version": "2020.3.1.22",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "https://developer.android.com/studio",
+    "download_url": "https://redirector.gvt1.com/edgedl/android/studio/ide-zips/<version>/android-studio-<version>-windows.zip",
+    "regex": "href=\"https://redirector\\.gvt1\\.com/edgedl/android/studio/install/(\\d+\\.\\d+\\.\\d+\\.\\d+)/android-studio"
+  },
+  "2020.3.1.22": {
+    "url": "https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2020.3.1.22/android-studio-2020.3.1.22-windows.zip",
+    "size": 967761306,
+    "checksum": "41C5F8A17294E1FE81B45C66273878EA067CFB5C2FD9BE7FAC2F8F82EC5B1DC3",
+    "file_type": ".zip"
+  }
+}
