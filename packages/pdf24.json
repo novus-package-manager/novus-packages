@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "geek Software GmbH",
   "description": "PDF24 Creator is an application software for the creation of PDF files from any application and for converting files to PDF.",
-  "latest_version": "10.0.12",
+  "latest_version": "10.1.0",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -18,6 +18,12 @@
     "url": "https://stx.pdf24.org/download/pdf24-creator-10.0.12.msi",
     "size": 149127168,
     "checksum": "CC056EAA622BBE2421FAC33271EBF3BD3A59B3B0AACA483E3C4AB2B168BE3E99",
+    "file_type": ".msi"
+  },
+  "10.1.0": {
+    "url": "https://stx.pdf24.org/download/pdf24-creator-10.1.0.msi",
+    "size": 149446656,
+    "checksum": "E2D19E748A040CF611F8C36845711CA65EA1456311D75CB0C3BEDEB75E36E142",
     "file_type": ".msi"
   }
 }
