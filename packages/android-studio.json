@@ -4,7 +4,7 @@
   "exec_name": "java",
   "portable": false,
   "creator": "Google, JetBrains",
-  "description": "Android Studio is the official integrated development environment for Google's Android operating system",
+  "description": "Android Studio is the official integrated development environment for Google's Android operating system.",
   "latest_version": "2020.3.1.22",
   "threads": 8,
   "iswitches": [

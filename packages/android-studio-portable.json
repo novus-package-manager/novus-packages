@@ -1,10 +1,10 @@
 {
   "package_name": "android-studio-portable",
-  "display_name": "",
-  "exec_name": "java",
+  "display_name": "Android Studio",
+  "exec_name": "bin\\studio64",
   "portable": true,
   "creator": "Google, JetBrains",
-  "description": "",
+  "description": "Android Studio is the official integrated development environment for Google's Android operating system.",
   "latest_version": "2020.3.1.22",
   "threads": 8,
   "iswitches": [],
