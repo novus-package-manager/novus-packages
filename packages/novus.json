@@ -5,14 +5,28 @@
   "portable": false,
   "creator": "Pranav Doshi",
   "description": "A blazingly fast and efficient package manager for windows.",
-  "latest_version": "1.0.0",
+  "latest_version": "1.1.0",
   "threads": 8,
-  "iswitches": ["/VERYSILENT", "/NORESTART", "/ALLUSERS"],
-  "uswitches": ["/VERYSILENT", "/NORESTART", "/ALLUSERS"],
+  "iswitches": [
+    "/VERYSILENT",
+    "/NORESTART",
+    "/ALLUSERS"
+  ],
+  "uswitches": [
+    "/VERYSILENT",
+    "/NORESTART",
+    "/ALLUSERS"
+  ],
   "autoupdate": {
     "download_page": "https://github.com/novus-package-manager/novus/releases/latest",
-    "download_url": "https://github.com/novus-package-manager/novus/releases/download/v<version>/Novus.v<version>.Setup.exe",
+    "download_url": "https://github.com/novus-package-manager/novus/releases/download/v<version>/Novus.v<version>.Alpha.Setup.exe",
     "regex": "Novus Alpha v(\\d+\\.\\d+\\.\\d+)"
+  },
+  "1.1.0": {
+    "url": "https://github.com/novus-package-manager/novus/releases/download/v1.1.0/Novus.v1.1.0.Alpha.Setup.exe",
+    "size": 3029439,
+    "checksum": "E2C8E8EA31CA684F66139692D10FFCF6F8F348042AC10EAE7AB57B1B353FC8F2",
+    "file_type": ".exe"
   },
   "1.0.0": {
     "url": "https://github.com/novus-package-manager/novus/releases/download/v1.0.0/Novus.v1.0.0.Setup.exe",
