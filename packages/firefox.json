@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "Mozilla Foundation",
   "description": "Firefox is a free and open-source web browser",
-  "latest_version": "90.0.2",
+  "latest_version": "91.0.1",
   "threads": 8,
   "iswitches": [],
   "uswitches": [
@@ -22,16 +22,22 @@
     "checksum": "D7DA7C71A38B4827DB0F3F595F9505C4E1343B9603F9FD4E5A1B216B24FF661A",
     "file_type": ".msi"
   },
-  "90.0.2": {
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/90.0.2/win64/en-US/Firefox%20Setup%2090.0.2.msi",
-    "size": 56097280,
-    "checksum": "6EE9C6803DC8E07B01810E237AA79C09E91E0B2F445022BE8111E5DB2298E124",
-    "file_type": ".msi"
-  },
   "89.0.2": {
     "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/89.0.2/win64/en-US/Firefox%20Setup%2089.0.2.msi",
     "size": 55993344,
     "checksum": "D7C5E9FEE67C411FB41725721B7633EB5A521BB036B113589980364FD892D3CA",
+    "file_type": ".msi"
+  },
+  "91.0.1": {
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/91.0.1/win64/en-US/Firefox%20Setup%2091.0.1.msi",
+    "size": 56572416,
+    "checksum": "FE33DC38A359BE0068ED15D2A37E59A5DFEAB290457603DE7133A626FB53B86E",
+    "file_type": ".msi"
+  },
+  "90.0.2": {
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/90.0.2/win64/en-US/Firefox%20Setup%2090.0.2.msi",
+    "size": 56097280,
+    "checksum": "6EE9C6803DC8E07B01810E237AA79C09E91E0B2F445022BE8111E5DB2298E124",
     "file_type": ".msi"
   },
   "88.0.1": {
