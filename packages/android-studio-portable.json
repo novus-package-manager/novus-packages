@@ -1,6 +1,6 @@
 {
   "package_name": "android-studio-portable",
-  "display_name": "Android Studio",
+  "display_name": "Android Studio (Portable)",
   "exec_name": "bin\\studio64",
   "portable": true,
   "creator": "Google, JetBrains",

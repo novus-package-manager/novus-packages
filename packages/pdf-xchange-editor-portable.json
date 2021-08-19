@@ -1,6 +1,6 @@
 {
   "package_name": "pdf-xchange-editor-portable",
-  "display_name": "PDF-XChange Editor",
+  "display_name": "PDF-XChange Editor (Portable)",
   "exec_name": "PDFXEdit",
   "portable": true,
   "creator": "Tracker Software",

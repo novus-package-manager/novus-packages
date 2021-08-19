@@ -1,6 +1,6 @@
 {
   "package_name": "atom-portable",
-  "display_name": "Atom",
+  "display_name": "Atom (Portable)",
   "exec_name": "atom",
   "portable": true,
   "creator": "Github",
