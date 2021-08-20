@@ -5,7 +5,7 @@
   "portable": null,
   "creator": "Blender",
   "description": "Blender is the free and open source 3D creation suite.",
-  "latest_version": "2.93.2",
+  "latest_version": "2.93.3",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -14,16 +14,22 @@
     "download_url": "https://ftp.nluug.nl/pub/graphics/blender/release/Blender<major-version>/blender-<version>-windows-x64.msi",
     "regex": "Blender (\\d+\\.\\d+\\.\\d+)"
   },
-  "2.93.1": {
-    "url": "https://ftp.nluug.nl/pub/graphics/blender/release/Blender2.93/blender-2.93.1-windows-x64.msi",
-    "size": 191508480,
-    "checksum": "89D117322C1FD748D95651E5CAA04F3613ECF513D00567DF55DD41A69BE931F8",
-    "file_type": ".msi"
-  },
   "2.93.2": {
     "url": "https://ftp.nluug.nl/pub/graphics/blender/release/Blender2.93/blender-2.93.2-windows-x64.msi",
     "size": 178515968,
     "checksum": "3C3BC8535CE7315A113CF4DC9AE96CCF0BD582A9529791A82301DBA5E9017FC6",
+    "file_type": ".msi"
+  },
+  "2.93.3": {
+    "url": "https://ftp.nluug.nl/pub/graphics/blender/release/Blender2.93/blender-2.93.3-windows-x64.msi",
+    "size": 178569216,
+    "checksum": "454497648CD05D45F0F21EA55D5B8B644DBE6325F355A7AAEA6189E2389ACF32",
+    "file_type": ".msi"
+  },
+  "2.93.1": {
+    "url": "https://ftp.nluug.nl/pub/graphics/blender/release/Blender2.93/blender-2.93.1-windows-x64.msi",
+    "size": 191508480,
+    "checksum": "89D117322C1FD748D95651E5CAA04F3613ECF513D00567DF55DD41A69BE931F8",
     "file_type": ".msi"
   },
   "2.92.0": {
