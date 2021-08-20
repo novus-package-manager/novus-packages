@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "Piriform",
   "description": "CCleaner is a utility used to clean potentially unwanted files and invalid Windows Registry entries from a computer.",
-  "latest_version": "5.83.9050",
+  "latest_version": "5.84.9126",
   "threads": 8,
   "iswitches": [
     "/S"
@@ -17,6 +17,12 @@
     "download_page": "https://www.ccleaner.com/ccleaner/version-history",
     "download_url": "https://download.ccleaner.com/ccsetup<major-version-no-dot>.exe",
     "regex": "v(\\d+\\.\\d+\\.\\d+) \\("
+  },
+  "5.83.9050": {
+    "url": "https://download.ccleaner.com/ccsetup583.exe",
+    "size": 36246064,
+    "checksum": "CDECCE5824E901BBBD97C0F933C15A14A4F2C1B260DA17D8081B6B87CF306C2F",
+    "file_type": ".exe"
   },
   "5.80.8743": {
     "url": "https://download.ccleaner.com/ccsetup580.exe",
@@ -30,10 +36,10 @@
     "checksum": "23FA3272684C37A0C4B04531EEF9363DD7874D3BEAA1709995779B273AE56C47",
     "file_type": ".exe"
   },
-  "5.83.9050": {
-    "url": "https://download.ccleaner.com/ccsetup583.exe",
-    "size": 36246064,
-    "checksum": "CDECCE5824E901BBBD97C0F933C15A14A4F2C1B260DA17D8081B6B87CF306C2F",
+  "5.84.9126": {
+    "url": "https://download.ccleaner.com/ccsetup584.exe",
+    "size": 36343056,
+    "checksum": "BDC3E1F9F29969CE316B8A3A9EE4C939F832BE92E59937057A8FD9C995EC43C1",
     "file_type": ".exe"
   }
 }
