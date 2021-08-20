@@ -5,7 +5,7 @@
   "portable": true,
   "creator": "Google, JetBrains",
   "description": "Android Studio is the official integrated development environment for Google's Android operating system.",
-  "latest_version": "2020.3.1.22",
+  "latest_version": "2020.3.1.23",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -18,6 +18,12 @@
     "url": "https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2020.3.1.22/android-studio-2020.3.1.22-windows.zip",
     "size": 967761306,
     "checksum": "41C5F8A17294E1FE81B45C66273878EA067CFB5C2FD9BE7FAC2F8F82EC5B1DC3",
+    "file_type": ".zip"
+  },
+  "2020.3.1.23": {
+    "url": "https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2020.3.1.23/android-studio-2020.3.1.23-windows.zip",
+    "size": 967547318,
+    "checksum": "DD619DAB9E7A8A3DA811B817BA8D0BDD1B2B7887AA19D573AEEFA62875096A13",
     "file_type": ".zip"
   }
 }

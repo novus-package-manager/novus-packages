@@ -1,14 +1,14 @@
 {
   "package_name": "lightworks",
   "display_name": "Lightworks",
-  "exec_name": "none",
+  "exec_name": "ntcardvt",
   "portable": false,
   "creator": "LWKS Software Ltd",
   "description": "Lightworks is a non-linear editing system for editing and mastering digital video.",
   "latest_version": "2021.3",
   "threads": 8,
-  "iswitches": [],
-  "uswitches": [],
+  "iswitches": ["/S"],
+  "uswitches": ["/S"],
   "autoupdate": {
     "download_page": "https://www.videohelp.com/software/Lightworks",
     "download_url": "https://cdn.lwks.com/releases/2021.3/lightworks_<version>_r129846_64bit_setup.exe",
