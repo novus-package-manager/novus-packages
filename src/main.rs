@@ -47,6 +47,7 @@ async fn main() {
     if args.len() == 1 {
         // println!("pkg: {:?}", package_list);
         for package in package_list {
+            println!("Checking {}", package);
             autoupdate(package).await;
         }
     } else {
@@ -460,9 +461,9 @@ async fn update_url_and_version(package: Package, version: &str, package_name: &
             .args(&["deploy", commit.as_str(), "main"])
             .output()
             .expect("Failed to deploy to github");
-        println!("Updated {} to {}", package_name, version);
+        println!("{} {} {} {}", "Updated".bright_green(), package_name.bright_green(), "to".bright_green(), version.bright_green());
     } else {
-        println!("Detected Corrupted Dowload For {}", package_name);
+        println!("{} {}", "Detected Corrupted Dowload For".bright_red(), package_name.bright_red());
     }
 }
 
