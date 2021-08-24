@@ -1,14 +1,14 @@
 {
   "package_name": "itunes",
   "display_name": "iTunes",
-  "exec_name": "none",
+  "exec_name": "iTunes",
   "portable": false,
   "creator": "Apple",
   "description": "iTunes is a media player, media library, Internet radio broadcaster, mobile device management utility.",
   "latest_version": "12.11.4.15",
   "threads": 8,
-  "iswitches": [],
-  "uswitches": [],
+  "iswitches": ["/qn", "/quiet", "/norestart"],
+  "uswitches": ["/qn", "/quiet", "/norestart"],
   "autoupdate": {
     "download_page": "https://itunes-64-bits.en.uptodown.com/windows/download",
     "download_url": "https://secure-appldnld.apple.com/itunes12/001-97787-20210421-F0E5A3C2-A2C9-11EB-A40B-A128318AD179/iTunes64Setup.exe",
