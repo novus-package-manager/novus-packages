@@ -1,0 +1,23 @@
+{
+  "package_name": "autoruns",
+  "display_name": "Autoruns",
+  "exec_name": "Autoruns64",
+  "portable": true,
+  "creator": "Microsoft",
+  "description": "This utility shows you what programs are configured to run during system bootup or login, and when you start various built-in Windows applications like Internet Explorer, Explorer and media players.",
+  "latest_version": "14.0",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns",
+    "download_url": "https://download.sysinternals.com/files/Autoruns.zip",
+    "regex": "Autoruns for Windows v(\\d+\\.\\d+)"
+  },
+  "14.0": {
+    "url": "https://download.sysinternals.com/files/Autoruns.zip",
+    "size": 2592317,
+    "checksum": "67CF0F6897C8BBE7DDBB8B1934E75A983EBD1270762260BADB900AB34DB1F17C",
+    "file_type": ".zip"
+  }
+}
