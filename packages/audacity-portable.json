@@ -11,7 +11,7 @@
   "uswitches": [],
   "autoupdate": {
     "download_page": "https://github.com/audacity/audacity/releases/latest",
-    "download_url": "https://github.com/audacity/audacity/releases/download/Audacity-3.0.4/audacity-win-<version>-64bit.zip",
+    "download_url": "https://github.com/audacity/audacity/releases/download/Audacity-<version>/audacity-win-<version>-64bit.zip",
     "regex": "<title>Release Audacity (\\d+\\.\\d+\\.\\d+) · audacity/audacity"
   },
   "3.0.4": {
