@@ -1,0 +1,23 @@
+{
+  "package_name": "audacity-portable",
+  "display_name": "Audacity (Portable)",
+  "exec_name": "Audacity",
+  "portable": true,
+  "creator": "Audacity",
+  "description": "Audacity is a free and open-source digital audio editor and recording application software",
+  "latest_version": "3.0.4",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "https://github.com/audacity/audacity/releases/latest",
+    "download_url": "https://github.com/audacity/audacity/releases/download/Audacity-3.0.4/audacity-win-<version>-64bit.zip",
+    "regex": "<title>Release Audacity (\\d+\\.\\d+\\.\\d+) · audacity/audacity"
+  },
+  "3.0.4": {
+    "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.0.4/audacity-win-3.0.4-64bit.zip",
+    "size": 42230979,
+    "checksum": "C1D21EE50F609C0BBB3D02C55CBB819DD7A2E4D63630B1326A08C0D7BC2A779C",
+    "file_type": ".zip"
+  }
+}
