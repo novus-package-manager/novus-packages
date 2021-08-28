@@ -427,7 +427,7 @@ async fn update_url_and_version(package: Package, version: &str, package_name: &
     let _ = std::fs::remove_file(loc).unwrap_or_else(|e| handle_error_and_exit(format!("{}: line {}", e.to_string(), line!())));
 
     let version_data: VersionData = VersionData {
-        url: url,
+        url: url.clone(),
         size: file_size,
         checksum: hash,
         file_type: file_type.clone(),
@@ -462,8 +462,8 @@ async fn update_url_and_version(package: Package, version: &str, package_name: &
             .output()
             .expect("Failed to deploy to github");
         println!("{} {} {} {}", "Updated".bright_green(), package_name.bright_green(), "to".bright_green(), version.bright_green());
-    } else {
-        println!("{} {}", "Detected Corrupted Dowload For".bright_red(), package_name.bright_red());
+    } else {        
+        println!("{} {}\n    -> {}", "Detected Corrupted Dowload For".bright_red(), package_name.bright_red(), url.bright_cyan());
     }
 }
 
