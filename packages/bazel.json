@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "Bazel",
   "description": "Bazel is a free software tool that allows for the automation of building and testing of software.",
-  "latest_version": "4.2.0",
+  "latest_version": "4.2.1",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -18,6 +18,12 @@
     "url": "https://github.com/bazelbuild/bazel/releases/download/4.1.0/bazel-4.1.0-windows-x86_64.exe",
     "size": 44876812,
     "checksum": "7B2077AF7055B421FE31822F83C3C3C15E36FF39B69560BA2472DDE92DD45B46",
+    "file_type": ".exe"
+  },
+  "4.2.1": {
+    "url": "https://github.com/bazelbuild/bazel/releases/download/4.2.1/bazel-4.2.1-windows-x86_64.exe",
+    "size": 46155804,
+    "checksum": "8FA10DFDC8B2F610A8891B68E2A132540E6FAC4FEA62174CFFD9994B9147586E",
     "file_type": ".exe"
   },
   "4.2.0": {
