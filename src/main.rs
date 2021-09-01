@@ -205,7 +205,9 @@ async fn autoupdate(package_name: &str) {
             }
         }
 
-        date_match = year.to_string() + "." + month + "." + date;
+        if year != "" && month != "" && date != "" {
+            date_match = year.to_string() + "." + month + "." + date;
+        }
 
         let matches: Vec<&str>;
 
