@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "Google",
   "description": "Google Chrome is a cross-platform web browser developed by Google.",
-  "latest_version": "92.0.4515.159",
+  "latest_version": "93.0.4577.63",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -20,22 +20,16 @@
     "checksum": "E233552D5E7CAD58E77171F8604CD7DED2170923388F3F94444D4C7606432FF3",
     "file_type": ".exe"
   },
-  "92.0.4515.131": {
-    "url": "https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7B57E47058-9559-70EC-74B5-0ADF68E8696E%7D%26lang%3Den%26browser%3D3%26usagestats%3D0%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable-statsdef_1%26installdataindex%3Dempty/chrome/install/ChromeStandaloneSetup64.exe",
-    "size": 79611496,
-    "checksum": "FA4DEC6373B53086EA1BBEC5C7DE7266F608140160268A4D3454FCBA9CF34459",
-    "file_type": ".exe"
-  },
-  "91.0.4472.124": {
-    "url": "https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7B57E47058-9559-70EC-74B5-0ADF68E8696E%7D%26lang%3Den%26browser%3D3%26usagestats%3D0%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable-statsdef_1%26installdataindex%3Dempty/chrome/install/ChromeStandaloneSetup64.exe",
-    "size": 78594488,
-    "checksum": "25E29351F6FAE62AA41CD255DC87F16AEE958A7FB64FA3581CAC5428025E69EA",
-    "file_type": ".exe"
-  },
   "92.0.4515.107": {
     "url": "https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7B57E47058-9559-70EC-74B5-0ADF68E8696E%7D%26lang%3Den%26browser%3D3%26usagestats%3D0%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable-statsdef_1%26installdataindex%3Dempty/chrome/install/ChromeStandaloneSetup64.exe",
     "size": 79618488,
     "checksum": "8E4274484CB73B80A68BFE9823C1C13215388D606B28A7990325FD401E4FA421",
+    "file_type": ".exe"
+  },
+  "92.0.4515.131": {
+    "url": "https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7B57E47058-9559-70EC-74B5-0ADF68E8696E%7D%26lang%3Den%26browser%3D3%26usagestats%3D0%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable-statsdef_1%26installdataindex%3Dempty/chrome/install/ChromeStandaloneSetup64.exe",
+    "size": 79611496,
+    "checksum": "FA4DEC6373B53086EA1BBEC5C7DE7266F608140160268A4D3454FCBA9CF34459",
     "file_type": ".exe"
   },
   "91.0.4472.77": {
@@ -44,16 +38,28 @@
     "checksum": "40F965713F6F05529D0F2D2E187EE394FED3AFDDB97157E219AD63EED6022A4B",
     "file_type": ".exe"
   },
-  "91.0.4472.164": {
+  "91.0.4472.124": {
     "url": "https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7B57E47058-9559-70EC-74B5-0ADF68E8696E%7D%26lang%3Den%26browser%3D3%26usagestats%3D0%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable-statsdef_1%26installdataindex%3Dempty/chrome/install/ChromeStandaloneSetup64.exe",
-    "size": 78593976,
-    "checksum": "DE2F2AA8526DF2E79153280A9FA82997D22EDA1C738E906BBAC2C2889B3C7549",
+    "size": 78594488,
+    "checksum": "25E29351F6FAE62AA41CD255DC87F16AEE958A7FB64FA3581CAC5428025E69EA",
     "file_type": ".exe"
   },
   "92.0.4515.159": {
     "url": "https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7B57E47058-9559-70EC-74B5-0ADF68E8696E%7D%26lang%3Den%26browser%3D3%26usagestats%3D0%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable-statsdef_1%26installdataindex%3Dempty/chrome/install/ChromeStandaloneSetup64.exe",
     "size": 79637608,
     "checksum": "A3B4AE7E28F5D25E0C7609A05E85B46D1B620FFC9613CFF8FB15D80268967790",
+    "file_type": ".exe"
+  },
+  "93.0.4577.63": {
+    "url": "https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7B57E47058-9559-70EC-74B5-0ADF68E8696E%7D%26lang%3Den%26browser%3D3%26usagestats%3D0%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable-statsdef_1%26installdataindex%3Dempty/chrome/install/ChromeStandaloneSetup64.exe",
+    "size": 80327272,
+    "checksum": "1F72331CF6FBF3575CB9CBC7B3E57F97E2C99163D8077CBB45DF1A510B050EC9",
+    "file_type": ".exe"
+  },
+  "91.0.4472.164": {
+    "url": "https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7B57E47058-9559-70EC-74B5-0ADF68E8696E%7D%26lang%3Den%26browser%3D3%26usagestats%3D0%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable-statsdef_1%26installdataindex%3Dempty/chrome/install/ChromeStandaloneSetup64.exe",
+    "size": 78593976,
+    "checksum": "DE2F2AA8526DF2E79153280A9FA82997D22EDA1C738E906BBAC2C2889B3C7549",
     "file_type": ".exe"
   }
 }

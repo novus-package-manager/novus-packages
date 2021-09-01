@@ -1,0 +1,17 @@
+{
+  "package_name": "sysinternals",
+  "display_name": "",
+  "exec_name": "none",
+  "portable": false,
+  "creator": "",
+  "description": "",
+  "latest_version": "0",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "https://docs.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite",
+    "download_url": "https://download.sysinternals.com/files/SysinternalsSuite.zip",
+    "regex": ""
+  }
+}
