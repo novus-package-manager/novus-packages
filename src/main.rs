@@ -206,7 +206,6 @@ async fn autoupdate(package_name: &str) {
         }
 
         date_match = year.to_string() + "." + month + "." + date;
-        println!("date_mathch: {}", date_match);
 
         let matches: Vec<&str>;
 
@@ -229,7 +228,7 @@ async fn autoupdate(package_name: &str) {
             matches = vec![&date_match];
         }
 
-        println!("matches: {:?}", matches);
+        // println!("matches: {:?}", matches);
 
         if matches.len() != 0 {
             let mut versions_calc: Vec<String> = vec![];
