@@ -174,6 +174,13 @@ async fn autoupdate(package_name: &str) {
         let response = get(url).await.unwrap_or_else(|e| {
             handle_error_and_exit(format!("{}: line {}", e.to_string(), line!()))
         });
+
+        let mut month = "";
+        let mut year = "";
+        let mut date = "";
+        #[allow(unused_assignments)]
+        let mut date_match: String = "null".to_string();
+
         let file_contents = response.text().await.unwrap_or_else(|e| {
             handle_error_and_exit(format!("{}: line {}", e.to_string(), line!()))
         });
@@ -183,21 +190,46 @@ async fn autoupdate(package_name: &str) {
         let regex = regex::Regex::new(package.autoupdate.regex.as_str()).unwrap();
         let mut new_match;
 
-        let matches: Vec<&str> = regex
-            .captures_iter(file_contents.as_str())
-            .map(|c| c.get(1).unwrap().as_str())
-            .collect();
-        // println!("matches: {:?}", matches);
-
-        for mut _match in matches.clone() {
-            for month in months.iter() {
-                if _match.contains(month) {
-                    let number = month_to_number(month);
-                    new_match = _match.replace(month, number);
-                    _match = &new_match;
+        for captures in regex.captures_iter(file_contents.as_str()) {
+            if captures.len() > 2 {
+                for cap in captures.iter() {
+                    let cap = &cap.unwrap().as_str();
+                    if MONTHS.contains(&cap.to_lowercase().as_str()) {
+                        month = month_to_number(cap);
+                    } else if cap.len() == 4 {
+                        year = cap;
+                    } else {
+                        date = cap;
+                    }
                 }
             }
         }
+
+        date_match = year.to_string() + "." + month + "." + date;
+        println!("date_mathch: {}", date_match);
+
+        let matches: Vec<&str>;
+
+        if date_match == "null".to_string() {
+            matches = regex
+                .captures_iter(file_contents.as_str())
+                .map(|c| c.get(1).unwrap().as_str())
+                .collect();
+
+            for mut _match in matches.clone() {
+                for month in MONTHS.iter() {
+                    if _match.contains(month) {
+                        let number = month_to_number(month);
+                        new_match = _match.replace(month, number);
+                        _match = &new_match;
+                    }
+                }
+            }
+        } else {
+            matches = vec![&date_match];
+        }
+
+        println!("matches: {:?}", matches);
 
         if matches.len() != 0 {
             let mut versions_calc: Vec<String> = vec![];
@@ -289,7 +321,7 @@ fn month_to_number(month: &str) -> &str {
     }
 }
 
-const months: [&str; 12] = [
+const MONTHS: [&str; 12] = [
     "january",
     "february",
     "march",

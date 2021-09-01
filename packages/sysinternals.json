@@ -1,17 +1,23 @@
 {
   "package_name": "sysinternals",
-  "display_name": "",
+  "display_name": "Sysinternals",
   "exec_name": "none",
   "portable": false,
-  "creator": "",
+  "creator": "Microsoft",
   "description": "",
-  "latest_version": "0",
+  "latest_version": "2021.8.18",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
   "autoupdate": {
     "download_page": "https://docs.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite",
     "download_url": "https://download.sysinternals.com/files/SysinternalsSuite.zip",
-    "regex": ""
+    "regex": "(August) (\\d+), (\\d+)"
+  },
+  "2021.8.18": {
+    "url": "https://download.sysinternals.com/files/SysinternalsSuite.zip",
+    "size": 44534184,
+    "checksum": "EBA52B395FD78779F288C1C718438B70FB3CFDF2FD0C547BA26B57639A036B52",
+    "file_type": ".exe"
   }
 }
