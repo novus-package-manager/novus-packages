@@ -50,7 +50,8 @@
   "1.58.2": {
     "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64",
     "size": 80529392,
-    "checksum": "B2E4019C129765F5425E8FD9139A90C6200577754D5B35F8F83C2615F1644935",
+    "checksum": "8065963E6251B91CF938CBB195CD912A56CB4F514C81B0A541AA42404586B813",
     "file_type": ".exe"
   }
 }
+

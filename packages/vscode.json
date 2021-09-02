@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "Microsoft",
   "description": "Visual Studio Code is a source-code editor.",
-  "latest_version": "1.58.2",
+  "latest_version": "1.59.1",
   "threads": 8,
   "iswitches": [
     "/SP-",
@@ -25,9 +25,9 @@
     "/FORCECLOSEAPPLICATIONS"
   ],
   "autoupdate": {
-    "download_page": "https://visual-studio-code.en.uptodown.com/windows/versions",
-    "download_url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user",
-    "regex": "\"(\\d+\\.\\d+\\.\\d)\""
+    "download_page": "https://code.visualstudio.com/updates",
+    "download_url": "https://az764295.vo.msecnd.net/stable/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/VSCodeUserSetup-x64-<version>.exe",
+    "regex": "Update (\\d+\\.\\d+\\.\\d+)"
   },
   "1.57.1": {
     "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user",
@@ -45,6 +45,12 @@
     "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user",
     "size": 80053656,
     "checksum": "A3422589E2985B763C8C08A1820229051A87716D2FBDC9AEC3EE17B29CE83501",
+    "file_type": ".exe"
+  },
+  "1.59.1": {
+    "url": "https://az764295.vo.msecnd.net/stable/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/VSCodeUserSetup-x64-1.59.1.exe",
+    "size": 83209960,
+    "checksum": "4D83A2DD563D0E61DD506D2BF577C73A4E092D5E5C308335F4F56E9145E36250",
     "file_type": ".exe"
   },
   "1.58.2": {
