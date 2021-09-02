@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "pdfforge GmbH",
   "description": "PDFCreator is an application for converting documents into Portable Document Format.",
-  "latest_version": "4.3.0",
+  "latest_version": "4.4.0",
   "threads": 8,
   "iswitches": [
     "/SP-",
@@ -20,6 +20,12 @@
     "download_page": "https://download.pdfforge.org/download/pdfcreator/list",
     "download_url": "https://azure.download.pdfforge.org/pdfcreator/4.3.0/PDFCreator-4_3_0-Setup.exe",
     "regex": "PDFCreator (\\d+\\.\\d+\\.\\d+)"
+  },
+  "4.4.0": {
+    "url": "https://azure.download.pdfforge.org/pdfcreator/4.3.0/PDFCreator-4_3_0-Setup.exe",
+    "size": 36406376,
+    "checksum": "7984A89D15343FDB9FD6BC1E3BCAB4E6680D664B80DF0390AC6B086B21536F29",
+    "file_type": ".exe"
   },
   "4.3.0": {
     "url": "https://azure.download.pdfforge.org/pdfcreator/4.3.0/PDFCreator-4_3_0-Setup.exe",
