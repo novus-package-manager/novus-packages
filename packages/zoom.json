@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "Zoom Video Communications",
   "description": "Zoom Cloud Meetings is a proprietary video teleconferencing software program.",
-  "latest_version": "5.6.6.961",
+  "latest_version": "5.7.7.1105",
   "threads": 8,
   "iswitches": [
     "ZoomAutoUpdate=True"
@@ -15,6 +15,12 @@
     "download_page": "https://zoom.en.softonic.com/download",
     "download_url": "https://cdn.zoom.us/prod/<version>/x64/ZoomInstallerFull.msi",
     "regex": "&nbsp;(\\d.\\d+\\.\\d+\\.\\d+)"
+  },
+  "5.7.7.1105": {
+    "url": "https://cdn.zoom.us/prod/5.7.7.1105/x64/ZoomInstallerFull.msi",
+    "size": 56905216,
+    "checksum": "8E7A2CA860EBCB9563A5903026A40A016B548B9B517044DBEB5F3CFC2C1640F8",
+    "file_type": ".msi"
   },
   "5.6.6.961": {
     "url": "https://cdn.zoom.us/prod/5.6.6.961/x64/ZoomInstallerFull.msi",
