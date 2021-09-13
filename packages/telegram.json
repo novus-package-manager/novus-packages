@@ -1,14 +1,25 @@
 {
   "package_name": "telegram",
   "display_name": "Telegram Desktop",
-  "exec_name": "none",
+  "exec_name": "Telegram",
   "portable": false,
   "creator": "Pavel Durov, Nikolai Durov",
   "description": "Telegram is a free and open source, cross-platform, cloud-based instant messaging software.",
   "latest_version": "3.0.1",
   "threads": 8,
-  "iswitches": [],
-  "uswitches": [],
+  "iswitches": [
+    "/SP-",
+    "/VERYSILENT",
+    "/SUPPRESSMSGBOXES",
+    "/NOCANCEL",
+    "/NORESTART",
+    "/FORCECLOSEAPPLICATIONS"
+  ],
+  "uswitches": [
+    "/VERYSILENT",
+    "/SUPPRESSMSGBOXES",
+    "/NORESTART"
+  ],
   "autoupdate": {
     "download_page": "https://github.com/telegramdesktop/tdesktop/releases/latest",
     "download_url": "https://github.com/telegramdesktop/tdesktop/releases/download/v<version>/tsetup-x64.<version>.exe",
