@@ -1,0 +1,23 @@
+{
+  "package_name": "telegram-portable",
+  "display_name": "Telegram Desktop (Portable)",
+  "exec_name": "Telegram",
+  "portable": true,
+  "creator": "Pavel Durov, Nikolai Durov",
+  "description": "Telegram is a free and open source, cross-platform, cloud-based instant messaging software.",
+  "latest_version": "3.0.1",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "https://github.com/telegramdesktop/tdesktop/releases/latest",
+    "download_url": "https://github.com/telegramdesktop/tdesktop/releases/download/v<version>/tportable-x64.<version>.zip",
+    "regex": "<title>Release v (\\d+\\.\\d+\\.\\d+)"
+  },
+  "3.0.1": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.0.1/tportable-x64.3.0.1.zip",
+    "size": 40886637,
+    "checksum": "9DA1765FBED6EA12BC42DA6FB7FF84B4000C72682E86F85044487058287065E2",
+    "file_type": ".zip"
+  }
+}
