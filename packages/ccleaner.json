@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "Piriform",
   "description": "CCleaner is a utility used to clean potentially unwanted files and invalid Windows Registry entries from a computer.",
-  "latest_version": "5.84.9143",
+  "latest_version": "5.85.9170",
   "threads": 8,
   "iswitches": [
     "/S"
@@ -18,22 +18,16 @@
     "download_url": "https://download.ccleaner.com/ccsetup<major-version-no-dot>.exe",
     "regex": "v(\\d+\\.\\d+\\.\\d+) \\("
   },
-  "5.83.9050": {
-    "url": "https://download.ccleaner.com/ccsetup583.exe",
-    "size": 36246064,
-    "checksum": "CDECCE5824E901BBBD97C0F933C15A14A4F2C1B260DA17D8081B6B87CF306C2F",
-    "file_type": ".exe"
-  },
-  "5.82.8950": {
-    "url": "https://download.ccleaner.com/ccsetup582.exe",
-    "size": 35958288,
-    "checksum": "23FA3272684C37A0C4B04531EEF9363DD7874D3BEAA1709995779B273AE56C47",
-    "file_type": ".exe"
-  },
   "5.84.9143": {
     "url": "https://download.ccleaner.com/ccsetup584.exe",
     "size": 36344784,
     "checksum": "82BF6DCF0436F738D8C41D256BAE51F136D3C5F3DF48EC8EF4FAEF1ED1E14B02",
+    "file_type": ".exe"
+  },
+  "5.85.9170": {
+    "url": "https://download.ccleaner.com/ccsetup585.exe",
+    "size": 36181616,
+    "checksum": "6075FD4DC0F315F086493DE9E970176CED27E1EC817C5710A647D271E4D364F1",
     "file_type": ".exe"
   },
   "5.80.8743": {
@@ -42,10 +36,22 @@
     "checksum": "AEB20EEC5600175F4F8CC1F5D38DBD98C54F1664CB44E8F18A579FE1F59C1D45",
     "file_type": ".exe"
   },
+  "5.83.9050": {
+    "url": "https://download.ccleaner.com/ccsetup583.exe",
+    "size": 36246064,
+    "checksum": "CDECCE5824E901BBBD97C0F933C15A14A4F2C1B260DA17D8081B6B87CF306C2F",
+    "file_type": ".exe"
+  },
   "5.84.9126": {
     "url": "https://download.ccleaner.com/ccsetup584.exe",
     "size": 36343056,
     "checksum": "BDC3E1F9F29969CE316B8A3A9EE4C939F832BE92E59937057A8FD9C995EC43C1",
+    "file_type": ".exe"
+  },
+  "5.82.8950": {
+    "url": "https://download.ccleaner.com/ccsetup582.exe",
+    "size": 35958288,
+    "checksum": "23FA3272684C37A0C4B04531EEF9363DD7874D3BEAA1709995779B273AE56C47",
     "file_type": ".exe"
   }
 }
