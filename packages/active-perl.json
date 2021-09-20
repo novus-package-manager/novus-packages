@@ -10,9 +10,9 @@
   "iswitches": [],
   "uswitches": [],
   "autoupdate": {
-    "download_page": "https://www.activestate.com/products/perl/downloads/",
+    "download_page": "",
     "download_url": "",
-    "regex": "Download Perl (\\d+\\.\\d+)"
+    "regex": ""
   },
   "5.28": {
     "url": "https://cli-msi.s3.amazonaws.com/ActivePerl-5.28.msi",
