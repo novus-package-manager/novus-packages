@@ -5,13 +5,13 @@
   "portable": false,
   "creator": "ActiveState",
   "description": "ActivePerl is used to develop both commercial and non-commercial applications, scripts, APIs and other code for individual developers and organizations",
-  "latest_version": "5.28",
+  "latest_version": "5.32",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
   "autoupdate": {
     "download_page": "https://www.activestate.com/products/perl/downloads/",
-    "download_url": "https://cli-msi.s3.amazonaws.com/ActivePerl-<version>.msi",
+    "download_url": "",
     "regex": "Download Perl (\\d+\\.\\d+)"
   },
   "5.28": {
