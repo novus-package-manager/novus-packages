@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "GIMP",
   "description": "GIMP is a cross-platform image editor available for GNU/Linux, OS X, Windows and more operating systems.",
-  "latest_version": "2.10.24",
+  "latest_version": "2.10.28",
   "threads": 8,
   "iswitches": [
     "/SP-",
@@ -15,11 +15,21 @@
     "/NORESTART",
     "/FORCECLOSEAPPLICATIONS"
   ],
-  "uswitches": ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART"],
+  "uswitches": [
+    "/VERYSILENT",
+    "/SUPPRESSMSGBOXES",
+    "/NORESTART"
+  ],
   "autoupdate": {
     "download_page": "https://www.gimp.org/downloads/",
     "download_url": "https://download.gimp.org/mirror/pub/gimp/v<major-version>/windows/gimp-<version>-setup.exe",
     "regex": "release of GIMP is <b>(\\d+.\\d+.\\d+)"
+  },
+  "2.10.28": {
+    "url": "https://download.gimp.org/mirror/pub/gimp/v2.10/windows/gimp-2.10.28-setup.exe",
+    "size": 249654104,
+    "checksum": "2C2E081CE541682BE1ABDD8BC6DF13768AD9482D68000B4A7A60C764D6CEC74E",
+    "file_type": ".exe"
   },
   "2.10.24": {
     "url": "https://download.gimp.org/pub/gimp/v2.10/windows/gimp-2.10.24-setup-3.exe",
