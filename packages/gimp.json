@@ -15,14 +15,10 @@
     "/NORESTART",
     "/FORCECLOSEAPPLICATIONS"
   ],
-  "uswitches": [
-    "/VERYSILENT",
-    "/SUPPRESSMSGBOXES",
-    "/NORESTART"
-  ],
+  "uswitches": ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART"],
   "autoupdate": {
     "download_page": "https://www.gimp.org/downloads/",
-    "download_url": "https://download.gimp.org/pub/gimp/v<major-version>/windows/gimp-<version>-setup-3.exe",
+    "download_url": "https://download.gimp.org/mirror/pub/gimp/v<major-version>/windows/gimp-<version>-setup.exe",
     "regex": "release of GIMP is <b>(\\d+.\\d+.\\d+)"
   },
   "2.10.24": {

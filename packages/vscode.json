@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "Microsoft",
   "description": "Visual Studio Code is a source-code editor.",
-  "latest_version": "1.59.1",
+  "latest_version": "1.60.1",
   "threads": 8,
   "iswitches": [
     "/SP-",
@@ -26,16 +26,16 @@
   ],
   "autoupdate": {
     "download_page": "https://code.visualstudio.com/updates",
-    "download_url": "https://az764295.vo.msecnd.net/stable/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/VSCodeUserSetup-x64-<version>.exe",
+    "download_url": "https://az764295.vo.msecnd.net/stable/83bd43bc519d15e50c4272c6cf5c1479df196a4d/VSCodeUserSetup-x64-<version>.exe",
     "regex": "Update (\\d+\\.\\d+\\.\\d+)"
   },
-  "1.57.1": {
+  "1.58.2": {
     "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user",
-    "size": 79931880,
-    "checksum": "12D3D220EA4CDD3E80DAACBC7B652B429CF2286EE58798725C7313537CF47808",
+    "size": 80529600,
+    "checksum": "2415015457CCF4F6C77E71B995588C1656DA1C03CCCE3312F1CADA2912860A7D",
     "file_type": ".exe"
   },
-  "1.57.0": {
+  "1.57.1": {
     "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user",
     "size": 79931880,
     "checksum": "12D3D220EA4CDD3E80DAACBC7B652B429CF2286EE58798725C7313537CF47808",
@@ -47,16 +47,22 @@
     "checksum": "A3422589E2985B763C8C08A1820229051A87716D2FBDC9AEC3EE17B29CE83501",
     "file_type": ".exe"
   },
+  "1.57.0": {
+    "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user",
+    "size": 79931880,
+    "checksum": "12D3D220EA4CDD3E80DAACBC7B652B429CF2286EE58798725C7313537CF47808",
+    "file_type": ".exe"
+  },
+  "1.60.1": {
+    "url": "https://az764295.vo.msecnd.net/stable/83bd43bc519d15e50c4272c6cf5c1479df196a4d/VSCodeUserSetup-x64-1.60.1.exe",
+    "size": 79591064,
+    "checksum": "A0BC105051D28209B506D8D9DDF57EE4C53FF90236DF4FAEBD05F9B50E07C5C4",
+    "file_type": ".exe"
+  },
   "1.59.1": {
     "url": "https://az764295.vo.msecnd.net/stable/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/VSCodeUserSetup-x64-1.59.1.exe",
     "size": 83209960,
     "checksum": "4D83A2DD563D0E61DD506D2BF577C73A4E092D5E5C308335F4F56E9145E36250",
-    "file_type": ".exe"
-  },
-  "1.58.2": {
-    "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user",
-    "size": 80529600,
-    "checksum": "2415015457CCF4F6C77E71B995588C1656DA1C03CCCE3312F1CADA2912860A7D",
     "file_type": ".exe"
   }
 }
