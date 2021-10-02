@@ -7,14 +7,8 @@
   "description": "Google Drive is a file storage and synchronization service.",
   "latest_version": "50.0",
   "threads": 8,
-  "iswitches": [
-    "--silent",
-    "--desktop_shortcut"
-  ],
-  "uswitches": [
-    "--silent",
-    "--force_stop"
-  ],
+  "iswitches": ["--silent", "--desktop_shortcut"],
+  "uswitches": ["--silent", "--force_stop"],
   "autoupdate": {
     "download_page": "https://support.google.com/a/answer/7577057?hl=en",
     "download_url": "https://dl.google.com/drive-file-stream/GoogleDriveSetup.exe",
@@ -23,7 +17,7 @@
   "50.0": {
     "url": "https://dl.google.com/drive-file-stream/GoogleDriveSetup.exe",
     "size": 260521304,
-    "checksum": "C659012843421859D869CDEDF658F3176D16BC31AE3442656534F801121466A2",
+    "checksum": "any",
     "file_type": ".exe"
   },
   "49.0": {
