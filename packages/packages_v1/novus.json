@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "Pranav Doshi",
   "description": "A blazingly fast and efficient package manager for windows.",
-  "latest_version": "1.1.2",
+  "latest_version": "1.1.3",
   "threads": 8,
   "iswitches": [
     "/VERYSILENT",
@@ -22,16 +22,16 @@
     "download_url": "https://github.com/novus-package-manager/novus/releases/download/v<version>/Novus.v<version>.Alpha.Setup.exe",
     "regex": "Novus Alpha v(\\d+\\.\\d+\\.\\d+)"
   },
-  "1.1.2": {
-    "url": "https://github.com/novus-package-manager/novus/releases/download/v1.1.2/Novus.v1.1.2.Alpha.Setup.exe",
-    "size": 3043561,
-    "checksum": "C2E781B6F45D5AFE4F3F3840809FCBE580A57E3244400ACC4E51E13E1AB6474B",
-    "file_type": ".exe"
-  },
   "1.0.0": {
     "url": "https://github.com/novus-package-manager/novus/releases/download/v1.0.0/Novus.v1.0.0.Setup.exe",
     "size": 2948742,
     "checksum": "C721CDD5C52C9C4D58AAA3DB926BDD4EB058A5AD189A4712DF269C5E4560C4F2",
+    "file_type": ".exe"
+  },
+  "1.1.0": {
+    "url": "https://github.com/novus-package-manager/novus/releases/download/v1.1.0/Novus.v1.1.0.Alpha.Setup.exe",
+    "size": 3029439,
+    "checksum": "E2C8E8EA31CA684F66139692D10FFCF6F8F348042AC10EAE7AB57B1B353FC8F2",
     "file_type": ".exe"
   },
   "1.1.1": {
@@ -40,10 +40,16 @@
     "checksum": "0CA67227E2247A6BE8DFB6B9E72381C831619833F8DDFBA932EE2AF4536D8642",
     "file_type": ".exe"
   },
-  "1.1.0": {
-    "url": "https://github.com/novus-package-manager/novus/releases/download/v1.1.0/Novus.v1.1.0.Alpha.Setup.exe",
-    "size": 3029439,
-    "checksum": "E2C8E8EA31CA684F66139692D10FFCF6F8F348042AC10EAE7AB57B1B353FC8F2",
+  "1.1.3": {
+    "url": "https://github.com/novus-package-manager/novus/releases/download/v1.1.3/Novus.v1.1.3.Alpha.Setup.exe",
+    "size": 3045137,
+    "checksum": "3CAAE68CEBC21ABF67ED0DB2AEC820C2C85CCE77A95879CA791BD7AF53B2B30B",
+    "file_type": ".exe"
+  },
+  "1.1.2": {
+    "url": "https://github.com/novus-package-manager/novus/releases/download/v1.1.2/Novus.v1.1.2.Alpha.Setup.exe",
+    "size": 3043561,
+    "checksum": "C2E781B6F45D5AFE4F3F3840809FCBE580A57E3244400ACC4E51E13E1AB6474B",
     "file_type": ".exe"
   }
 }
