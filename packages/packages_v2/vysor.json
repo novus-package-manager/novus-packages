@@ -1,0 +1,32 @@
+{
+  "package_name": "vysor",
+  "display_name": "Vysor",
+  "aliases": [
+    "vysor"
+  ],
+  "exec_name": "Vysor",
+  "portable": false,
+  "creator": "Vysor",
+  "description": "Vysor puts your iOS or Android on your desktop.",
+  "latest_version": "4.1.62",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "https://www.filehorse.com/download-vysor/",
+    "download_url": "https://vysornuts.clockworkmod.com/download/win32",
+    "regex": "<li>Vysor (\\d+\\.\\d+\\.\\d+)</li>"
+  },
+  "4.1.62": {
+    "url": "https://vysornuts.clockworkmod.com/download/win32",
+    "size": 115651304,
+    "checksum": "0984A30C0BC1A76376D675C92CEC47725E16A9A6A5816A39FB8C7124BCA50DC7",
+    "file_type": ".exe"
+  },
+  "3.1.4": {
+    "url": "https://vysornuts.clockworkmod.com/download/win32",
+    "size": 113980416,
+    "checksum": "986ACDF0E8C90C97DB8BFA2DEB77892FF08920E82B487B1441F966996DE3BE67",
+    "file_type": ".exe"
+  }
+}

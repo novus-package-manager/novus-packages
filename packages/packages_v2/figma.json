@@ -1,0 +1,44 @@
+{
+  "package_name": "figma",
+  "display_name": "Figma",
+  "aliases": [
+    "figma"
+  ],
+  "exec_name": "Figma",
+  "portable": false,
+  "creator": "Dylan Field",
+  "description": "Figma is a vector graphics editor and prototyping tool.",
+  "latest_version": "93.4.0",
+  "threads": 8,
+  "iswitches": [
+    "/s",
+    "/S",
+    "/q",
+    "/Q",
+    "/quiet",
+    "/silent",
+    "/SILENT",
+    "/VERYSILENT"
+  ],
+  "uswitches": [
+    "/s",
+    "/S",
+    "/q",
+    "/Q",
+    "/quiet",
+    "/silent",
+    "/SILENT",
+    "/VERYSILENT"
+  ],
+  "autoupdate": {
+    "download_page": "https://www.filehorse.com/download-figma/",
+    "download_url": "https://www.figma.com/download/desktop/win",
+    "regex": "Figma (\\d+\\.\\d+\\.\\d+)"
+  },
+  "93.4.0": {
+    "url": "https://www.figma.com/download/desktop/win",
+    "size": 83313888,
+    "checksum": "D1A240B28E21D495C3FBB007DAF893A315844C7D4788EFEDE7476F59667275CE",
+    "file_type": ".exe"
+  }
+}

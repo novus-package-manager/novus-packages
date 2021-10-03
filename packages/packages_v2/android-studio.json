@@ -1,0 +1,54 @@
+{
+  "package_name": "android-studio",
+  "display_name": "Android Studio",
+  "aliases": [
+    "android-studio"
+  ],
+  "exec_name": "java",
+  "portable": false,
+  "creator": "Google, JetBrains",
+  "description": "Android Studio is the official integrated development environment for Google's Android operating system.",
+  "latest_version": "2020.3.1.24",
+  "threads": 8,
+  "iswitches": [
+    "/S"
+  ],
+  "uswitches": [
+    "/S"
+  ],
+  "autoupdate": {
+    "download_page": "https://developer.android.com/studio",
+    "download_url": "https://redirector.gvt1.com/edgedl/android/studio/install/<version>/android-studio-<version>-windows.exe",
+    "regex": "href=\"https://redirector\\.gvt1\\.com/edgedl/android/studio/install/(\\d+\\.\\d+\\.\\d+\\.\\d+)/android-studio"
+  },
+  "4.2.2.0": {
+    "url": "https://redirector.gvt1.com/edgedl/android/studio/install/4.2.2.0/android-studio-ide-202.7351085-windows.exe",
+    "size": 1449,
+    "checksum": "BE5F674A5468791F22997A635FEE430358F86C938943AA4235256DE468BE212A",
+    "file_type": ".exe"
+  },
+  "2020.3.1.23": {
+    "url": "https://redirector.gvt1.com/edgedl/android/studio/install/2020.3.1.23/android-studio-2020.3.1.23-windows.exe",
+    "size": 957222848,
+    "checksum": "2389FBF2C3AA5B6BE48DA7FEA793FF495EAACD40BCE95552C869C4F3A044DCCC",
+    "file_type": ".exe"
+  },
+  "2020.3.1.24": {
+    "url": "https://redirector.gvt1.com/edgedl/android/studio/install/2020.3.1.24/android-studio-2020.3.1.24-windows.exe",
+    "size": 957232976,
+    "checksum": "4C6EC4029FEEA3672BFD17B359CC605FA96E74A0BB6A43DA83B06FA662EB71E7",
+    "file_type": ".exe"
+  },
+  "2020.3.1.22": {
+    "url": "https://redirector.gvt1.com/edgedl/android/studio/install/2020.3.1.22/android-studio-2020.3.1.22-windows.exe",
+    "size": 957435584,
+    "checksum": "9A95E747121830B7A62F276438DD4DF4390A4CCF785E09F226A9FB2AC0B576CF",
+    "file_type": ".exe"
+  },
+  "4.2.1.0": {
+    "url": "https://redirector.gvt1.com/edgedl/android/studio/install/4.2.1.0/android-studio-ide-202.7351085-windows.exe",
+    "size": 978607576,
+    "checksum": "1DB6AEF39055D4CD69DE26026AA0D3F17D10DD2B66051004580EB5175039934F",
+    "file_type": ".exe"
+  }
+}

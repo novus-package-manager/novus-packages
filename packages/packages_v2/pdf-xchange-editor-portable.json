@@ -1,0 +1,26 @@
+{
+  "package_name": "pdf-xchange-editor-portable",
+  "display_name": "PDF-XChange Editor (Portable)",
+  "aliases": [
+    "pdf-xchange-editor-portable"
+  ],
+  "exec_name": "PDFXEdit",
+  "portable": true,
+  "creator": "Tracker Software",
+  "description": "PDF-XChange Editor can be used to create PDF files from scanned documents, images, text files, Markdown files and much more.",
+  "latest_version": "9.1.356.0",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "https://www.tracker-software.com/product/pdf-xchange-editor",
+    "download_url": "https://downloads.pdf-xchange.com/PDFXEdit9_Portable.zip",
+    "regex": "<strong>Current version:</strong> (\\d+\\.\\d+\\.\\d+\\.\\d+)"
+  },
+  "9.1.356.0": {
+    "url": "https://downloads.pdf-xchange.com/PDFXEdit9_Portable.zip",
+    "size": 91621520,
+    "checksum": "35F8E4657D34CDD120A1F44012CEE04E9D77F3355E0EC93A9B309FE380510B8B",
+    "file_type": ".zip"
+  }
+}

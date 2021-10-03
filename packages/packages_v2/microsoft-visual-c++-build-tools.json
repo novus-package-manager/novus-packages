@@ -1,0 +1,26 @@
+{
+  "package_name": "microsoft-visual-c++-build-tools",
+  "display_name": "Microsoft Visual C++ Build Tools 2015",
+  "aliases": [
+    "microsoft-visual-c++-build-tools"
+  ],
+  "exec_name": "none",
+  "portable": false,
+  "creator": "Microsoft",
+  "description": "Microsoft Visual C++ Build Tools allow you to build C and C++ libraries and applications.",
+  "latest_version": "14.0.25420.1",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "",
+    "download_url": "https://download.microsoft.com/download/5/f/7/5f7acaeb-8363-451f-9425-68a90f98b238/visualcppbuildtools_full.exe",
+    "regex": ""
+  },
+  "14.0.25420.1": {
+    "url": "https://download.microsoft.com/download/5/f/7/5f7acaeb-8363-451f-9425-68a90f98b238/visualcppbuildtools_full.exe",
+    "size": 3287928,
+    "checksum": "1E1774869ABD953D05D10372B7C08BFA0C76116F5C6DF1F3D031418CCDCD8F7B",
+    "file_type": ".exe"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "package_name": "webex",
+  "display_name": "Webex",
+  "aliases": [
+    "webex"
+  ],
+  "exec_name": "CiscoCollabHost",
+  "portable": false,
+  "creator": "Cisco Systems",
+  "description": "Webex is the leading enterprise solution for video conferencing, online meetings, screen share, and webinars.",
+  "latest_version": "41.1.0.17621",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "https://www.filehorse.com/download-cisco-webex-meetings/",
+    "download_url": "https://binaries.webex.com/WebexTeamsDesktop-Windows-Gold/Webex_x86.msi",
+    "regex": "<li>Cisco Webex Meetings (\\d+\\.\\d+\\.\\d+\\.\\d+)</li>"
+  },
+  "41.1.0.17621": {
+    "url": "https://binaries.webex.com/WebexTeamsDesktop-Windows-Gold/Webex_x86.msi",
+    "size": 211357696,
+    "checksum": "507CF7226F95E2D3314C464E374198152E2463DC5643EF7F00CF423602473AF2",
+    "file_type": ".msi"
+  }
+}

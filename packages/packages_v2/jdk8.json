@@ -1,0 +1,28 @@
+{
+  "package_name": "jdk8",
+  "display_name": "Java SE Development Kit 8",
+  "aliases": [
+    "jdk8"
+  ],
+  "exec_name": "none",
+  "portable": false,
+  "creator": "Oracke",
+  "description": "The JDK is a key platform component for building Java applications.",
+  "latest_version": "8.0.211",
+  "threads": 8,
+  "iswitches": [
+    "/s"
+  ],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "",
+    "download_url": "https://javadl.oracle.com/webapps/download/GetFile/1.8.0_211-b12/478a62b7d4e34b78b671c754eaaf38ab/windows-i586/jdk-8u211-windows-x64.exe",
+    "regex": ""
+  },
+  "8.0.211": {
+    "url": "https://javadl.oracle.com/webapps/download/GetFile/1.8.0_211-b12/478a62b7d4e34b78b671c754eaaf38ab/windows-i586/jdk-8u211-windows-x64.exe",
+    "size": 225748832,
+    "checksum": "F46BE98D14A2B2D0451A005624B28E6B86A56FA96F580C4963B5EDED2BA09FC3",
+    "file_type": ".exe"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "package_name": "active-perl",
+  "display_name": "ActivePerl",
+  "aliases": [
+    "active-perl"
+  ],
+  "exec_name": "wperl",
+  "portable": false,
+  "creator": "ActiveState",
+  "description": "ActivePerl is used to develop both commercial and non-commercial applications, scripts, APIs and other code for individual developers and organizations",
+  "latest_version": "5.32",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "",
+    "download_url": "",
+    "regex": ""
+  },
+  "5.28": {
+    "url": "https://cli-msi.s3.amazonaws.com/ActivePerl-5.28.msi",
+    "size": 5787648,
+    "checksum": "any",
+    "file_type": ".msi"
+  }
+}

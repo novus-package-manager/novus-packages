@@ -1,1 +1,6 @@
 /target
+/novus_packages/target
+/classes/target
+
+# packages
+/packages_copy

@@ -1,0 +1,38 @@
+{
+  "package_name": "googledrive",
+  "display_name": "Google Drive",
+  "aliases": [
+    "googledrive"
+  ],
+  "exec_name": "GoogleDriveFS",
+  "portable": false,
+  "creator": "Google LLC",
+  "description": "Google Drive is a file storage and synchronization service.",
+  "latest_version": "50.0",
+  "threads": 8,
+  "iswitches": [
+    "--silent",
+    "--desktop_shortcut"
+  ],
+  "uswitches": [
+    "--silent",
+    "--force_stop"
+  ],
+  "autoupdate": {
+    "download_page": "https://support.google.com/a/answer/7577057?hl=en",
+    "download_url": "https://dl.google.com/drive-file-stream/GoogleDriveSetup.exe",
+    "regex": "<strong>Windows and macOS</strong>: Version (\\d+\\.\\d+)</em></p>"
+  },
+  "50.0": {
+    "url": "https://dl.google.com/drive-file-stream/GoogleDriveSetup.exe",
+    "size": 260521304,
+    "checksum": "any",
+    "file_type": ".exe"
+  },
+  "49.0": {
+    "url": "https://dl.google.com/drive-file-stream/GoogleDriveSetup.exe",
+    "size": 269997400,
+    "checksum": "6E32ABECBF2E074130DF5F7FAC24BCF80A9BA47981AEC543C824BBADE14E5593",
+    "file_type": ".exe"
+  }
+}

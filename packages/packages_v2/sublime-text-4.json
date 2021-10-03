@@ -1,0 +1,37 @@
+{
+  "package_name": "sublime-text-4",
+  "display_name": "Sublime Text",
+  "aliases": [
+    "sublime-text-4"
+  ],
+  "exec_name": "sublime_text",
+  "portable": false,
+  "creator": "Sublime HQ",
+  "description": "Sublime Text is a shareware cross-platform source code editor",
+  "latest_version": "4107",
+  "threads": 8,
+  "iswitches": [
+    "/SP-",
+    "/VERYSILENT",
+    "/SUPPRESSMSGBOXES",
+    "/NOCANCEL",
+    "/NORESTART",
+    "/FORCECLOSEAPPLICATIONS"
+  ],
+  "uswitches": [
+    "/VERYSILENT",
+    "/SUPPRESSMSGBOXES",
+    "/NORESTART"
+  ],
+  "autoupdate": {
+    "download_page": "https://www.sublimetext.com/download",
+    "download_url": "https://download.sublimetext.com/sublime_text_build_<version>_x64_setup.exe",
+    "regex": "4 \\(Build (\\d+)\\)"
+  },
+  "4107": {
+    "url": "https://download.sublimetext.com/sublime_text_build_4107_x64_setup.exe",
+    "size": 18980352,
+    "checksum": "10943C2D71DC97DCBF0DF96A43D1F34FDB90F6D85184424A5EFCFE2D08DAAD2F",
+    "file_type": ".exe"
+  }
+}

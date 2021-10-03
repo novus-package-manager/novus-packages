@@ -1,0 +1,49 @@
+{
+  "package_name": "git",
+  "display_name": "Git",
+  "aliases": [
+    "git"
+  ],
+  "exec_name": "none",
+  "portable": false,
+  "creator": "Github",
+  "description": "Git is a free and open source distributed version control system.",
+  "latest_version": "2.33.0",
+  "threads": 8,
+  "iswitches": [
+    "/SP-",
+    "/VERYSILENT",
+    "/SUPPRESSMSGBOXES",
+    "/NOCANCEL",
+    "/NORESTART",
+    "/FORCECLOSEAPPLICATIONS"
+  ],
+  "uswitches": [
+    "/VERYSILENT",
+    "/SUPPRESSMSGBOXES",
+    "/NORESTART"
+  ],
+  "autoupdate": {
+    "download_page": "https://git-scm.com/download/win",
+    "download_url": "https://github.com/git-for-windows/git/releases/download/v<version>.windows.1/Git-<version>-64-bit.exe",
+    "regex": "You are downloading the latest \\(<strong>(\\d+\\.\\d+\\.\\d+)</strong>\\)"
+  },
+  "2.33.0": {
+    "url": "https://github.com/git-for-windows/git/releases/download/v2.33.0.windows.1/Git-2.33.0-64-bit.exe",
+    "size": 50147632,
+    "checksum": "4E6E0EFBB7D35653907175F2735386F55B72D37D442B3A1BE9656C26F69C693D",
+    "file_type": ".exe"
+  },
+  "2.32.0": {
+    "url": "https://github.com/git-for-windows/git/releases/download/v2.32.0.windows.1/Git-2.32.0-64-bit.exe",
+    "size": 51179176,
+    "checksum": "EED601EF835C3DAC08D2E27F6F38B5DB7998747C753C87A45B326FBD6C710309",
+    "file_type": ".exe"
+  },
+  "2.31.1": {
+    "url": "https://github.com/git-for-windows/git/releases/download/v2.31.1.windows.1/Git-2.31.1-64-bit.exe",
+    "size": 49871216,
+    "checksum": "C43611EB73AD1F17F5C8CC82AE51C3041A2E7279E0197CCF5F739E9129CE426E",
+    "file_type": ".exe"
+  }
+}
