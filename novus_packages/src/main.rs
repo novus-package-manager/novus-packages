@@ -71,7 +71,7 @@ async fn main() {
         } else if args[1] == "remove" {
             remove(&args[2]);
         } else if args[1] == "update" {
-            update_package(&args[2], &args[3]).await;
+            update_package(&args[2], &args[3], &args[4]).await;
         } else {
             autoupdate(&args[1]).await;
         }
@@ -853,8 +853,49 @@ fn get_splits(i: u64, total_length: u64, threads: u64) -> (u64, u64) {
 //         to_writer_pretty(file, &temp_package).unwrap();
 //     }
 // }
-async fn update_package(package_name: String, field: String, value: String) {
-    let package: Package = get_package(&package_name).await;
+async fn update_package(package_name: &str, field: &str, value: &str) {
+    let mut package: Package = get_package(&package_name).await;
+    match field {
+        "package_name" => package.package_name = value.to_string(),
+        "display_name" => package.display_name = value.to_string(),
+        "aliases" => package.aliases = vec![value.to_string()],
+        "exec_name" => package.exec_name = value.to_string(),
+        "creator" => package.creator = value.to_string(),
+        "description" => package.description = value.to_string(),
+        "threads" => package.threads = value.parse().unwrap_or(8),
+        "download_page" => package.autoupdate.download_page = value.to_string(),
+        "download_url" => package.autoupdate.download_url = value.to_string(),
+        "regex" => package.autoupdate.regex = value.to_string(),
+        &_ => {}
+    }
+
+    let file = std::fs::File::create(format!(
+            r"D:\prana\Programming\My Projects\novus-package-manager\novus-packages\packages\packages_v2\{}.json",
+            package_name
+        ))
+        .unwrap();
+    to_writer_pretty(file, &package).unwrap();
+
+    let mut packagev1: Packagev1 = get_package_v1(&package_name).await;
+    match field {
+        "package_name" => packagev1.package_name = value.to_string(),
+        "display_name" => packagev1.display_name = value.to_string(),
+        "exec_name" => packagev1.exec_name = value.to_string(),
+        "creator" => packagev1.creator = value.to_string(),
+        "description" => packagev1.description = value.to_string(),
+        "threads" => packagev1.threads = value.parse().unwrap_or(8),
+        "download_page" => packagev1.autoupdate.download_page = value.to_string(),
+        "download_url" => packagev1.autoupdate.download_url = value.to_string(),
+        "regex" => packagev1.autoupdate.regex = value.to_string(),
+        &_ => {}
+    }
+
+    let file = std::fs::File::create(format!(
+        r"D:\prana\Programming\My Projects\novus-package-manager\novus-packages\packages\packages_v1\{}.json",
+        package_name
+    ))
+    .unwrap();
+    to_writer_pretty(file, &packagev1).unwrap();
 }
 
 async fn _add_aliases(package_list: Vec<&str>) {
