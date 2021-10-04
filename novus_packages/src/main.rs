@@ -7,13 +7,13 @@
 // #[path = "./classes/version_data.rs"]
 // mod version_data;
 
+use classes::auto_update::AutoUpdateData;
+use classes::package_v1::Packagev1;
+use classes::package_v2::Package;
+use classes::version_data::VersionData;
 use clipboard_win::{formats, set_clipboard};
 use colored::Colorize;
 use indicatif::{ProgressBar, ProgressStyle};
-use classes::package_v1::Packagev1;
-use classes::auto_update::AutoUpdateData;
-use classes::package_v2::Package;
-use classes::version_data::VersionData;
 use reqwest::get;
 use serde::{Deserialize, Serialize};
 use serde_json::{from_str, to_string_pretty, to_writer_pretty, Value};
@@ -102,12 +102,13 @@ fn new_package(package_name: &String) {
     for version_index in 0..PACKAGE_VERSIONS {
         let loc = format!(
             r"D:\prana\Programming\My Projects\novus-package-manager\novus-packages\packages\packages_v{}{}.json",
-            version_index,
-            package_name
+            version_index, package_name
         );
         let path = std::path::Path::new(&loc);
-        let loc = format!(r"D:\prana\Programming\My Projects\novus-package-manager\novus-packages\packages\packages_v{}\package-list\package-list.json",
-        version_index);
+        let loc = format!(
+            r"D:\prana\Programming\My Projects\novus-package-manager\novus-packages\packages\packages_v{}\package-list\package-list.json",
+            version_index
+        );
         let package_list_loc = std::path::Path::new(&loc);
         let file_contents = std::fs::read_to_string(package_list_loc).unwrap();
         let package_list: PackageList =
@@ -138,7 +139,7 @@ fn new_package(package_name: &String) {
             },
             versions: HashMap::new(),
         };
-        to_writer_pretty(package_file, &package).unwrap();   
+        to_writer_pretty(package_file, &package).unwrap();
     }
 }
 
@@ -271,7 +272,8 @@ async fn autoupdate(package_name: &str) {
                 if package.clone().autoupdate.download_url == "" {
                     update_version(package.clone(), packagev1, &version_new, package_name);
                 } else {
-                    update_url_and_version(package.clone(), packagev1, &version_new, package_name).await;
+                    update_url_and_version(package.clone(), packagev1, &version_new, package_name)
+                        .await;
                 }
             }
         }
@@ -399,10 +401,17 @@ fn update_version(package: Package, packagev1: Packagev1, version: &str, package
         .expect("Failed to deploy to github");
 }
 
-async fn update_url_and_version(package: Package, packagev1: Packagev1, version: &str, package_name: &str) {
+async fn update_url_and_version(
+    package: Package,
+    packagev1: Packagev1,
+    version: &str,
+    package_name: &str,
+) {
     let mut temp_package: Package = package.clone();
     let mut temp_package_v1: Packagev1 = packagev1.clone();
     let mut url = package.autoupdate.download_url.clone();
+
+    // println!("Response Status -> {}", response_status);
     let portable = package.portable.unwrap_or(false);
     let mut file_type: String = ".exe".to_string();
     if package.autoupdate.download_url.contains(".msi") {
@@ -473,61 +482,65 @@ async fn update_url_and_version(package: Package, packagev1: Packagev1, version:
     let appdata = std::env::var("APPDATA")
         .unwrap_or_else(|e| handle_error_and_exit(format!("{}: line {}", e.to_string(), line!())));
     let mut loc = format!(r"{}\novus\{}_check{}", appdata, package_name, file_type);
-    threadeddownload(
-        url.clone(),
-        loc.clone(),
-        package.threads,
-        package_name.to_string(),
-        "".to_string(),
-        false,
-        false,
-    )
-    .await;
 
-    if file_type == ".zip" && !portable {
-        let (filetype_temp, loc_temp) =
-            extract_file(loc.clone(), appdata, package_name.to_string());
-        file_type = filetype_temp;
-        loc = loc_temp;
-    }
-
-    // println!("filetype: {}\n loc: {};", file_type, loc.clone());
-
-    let hash = get_checksum(loc.clone());
-
-    let _ = std::fs::remove_file(loc)
-        .unwrap_or_else(|e| handle_error_and_exit(format!("{}: line {}", e.to_string(), line!())));
-
-    let version_data: VersionData = VersionData {
-        url: url.clone(),
-        size: file_size,
-        checksum: hash,
-        file_type: file_type.clone(),
-    };
+    // println!("Downloading from url\n    -> {}\n    -> {}", url.clone().bright_cyan(), loc.clone().bright_magenta());
 
     if response.status() == 200 {
+        threadeddownload(
+            url.clone(),
+            loc.clone(),
+            package.threads,
+            package_name.to_string(),
+            "".to_string(),
+            false,
+            false,
+        )
+        .await;
+
+        if file_type == ".zip" && !portable {
+            let (filetype_temp, loc_temp) =
+                extract_file(loc.clone(), appdata, package_name.to_string());
+            file_type = filetype_temp;
+            loc = loc_temp;
+        }
+
+        // println!("filetype: {}\n loc: {};", file_type, loc.clone());
+
+        let hash = get_checksum(loc.clone());
+
+        let _ = std::fs::remove_file(loc).unwrap_or_else(|e| {
+            handle_error_and_exit(format!("{}: line {}", e.to_string(), line!()))
+        });
+
+        let version_data: VersionData = VersionData {
+            url: url.clone(),
+            size: file_size,
+            checksum: hash,
+            file_type: file_type.clone(),
+        };
+
         // make changes to data
         temp_package
             .versions
             .insert(version.clone().to_string(), version_data.clone());
         temp_package.latest_version = version.to_string();
-        
+
         temp_package_v1
-        .versions
-        .insert(version.clone().to_string(), version_data);
+            .versions
+            .insert(version.clone().to_string(), version_data);
         temp_package_v1.latest_version = version.to_string();
 
         // Re-open file to replace the contents:
         let file = std::fs::File::create(format!(
-            r"D:\prana\Programming\My Projects\novus-package-manager\novus-packages\packages\packages_v2\{}.json",
-            package_name
-        )).unwrap();
+                r"D:\prana\Programming\My Projects\novus-package-manager\novus-packages\packages\packages_v2\{}.json",
+                package_name
+            )).unwrap();
 
         let file_v1 = std::fs::File::create(format!(
-            r"D:\prana\Programming\My Projects\novus-package-manager\novus-packages\packages\packages_v1\{}.json",
-            package_name
-        ))
-        .unwrap();
+                r"D:\prana\Programming\My Projects\novus-package-manager\novus-packages\packages\packages_v1\{}.json",
+                package_name
+            ))
+            .unwrap();
 
         to_writer_pretty(file, &temp_package).unwrap();
         to_writer_pretty(file_v1, &temp_package_v1).unwrap();
@@ -840,7 +853,8 @@ fn get_splits(i: u64, total_length: u64, threads: u64) -> (u64, u64) {
 // }
 
 async fn _add_aliases(package_list: Vec<&str>) {
-    let packages_v2_dir = r"D:\prana\Programming\My Projects\novus-package-manager\novus-packages\packages_v2";
+    let packages_v2_dir =
+        r"D:\prana\Programming\My Projects\novus-package-manager\novus-packages\packages_v2";
     let _ = std::fs::create_dir(std::path::Path::new(packages_v2_dir));
     for pkg in package_list {
         let package: Packagev1 = get_package_v1(pkg.clone()).await;
