@@ -16,5 +16,11 @@
     "download_page": "https://github.com/QL-Win/QuickLook/releases/latest",
     "download_url": "https://github.com/QL-Win/QuickLook/releases/download/<version>/QuickLook-<version>.msi",
     "regex": "<title>Release (\\d+\\.\\d+\\.\\d+) · QL-Win/QuickLook"
+  },
+  "3.7.0": {
+    "url": "https://github.com/QL-Win/QuickLook/releases/download/3.7.0/QuickLook-3.7.0.msi",
+    "size": 60008691,
+    "checksum": "FA6731210700C7948039B868285E286858F0898A184F3D8E3FCE76B701D0EE30",
+    "file_type": ".msi"
   }
 }
