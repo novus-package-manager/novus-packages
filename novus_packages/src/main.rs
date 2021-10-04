@@ -950,10 +950,29 @@ async fn mirror_package(package_name: &str) {
     .unwrap();
     to_writer_pretty(file, &packagev1).unwrap();
 
+    let mut commit = format!(
+        "autoupdate: mirrored {} to all package versions",
+        package_name
+    );
+    commit = "\"".to_string() + commit.as_str() + "\"";
     std::process::Command::new("powershell")
         .arg("novus_update")
         .output()
         .expect("Failed to update gcp bucket");
+    let dir = std::path::Path::new(
+        r"D:\prana\Programming\My Projects\novus-package-manager\novus-packages\",
+    );
+    let _ = std::env::set_current_dir(dir);
+    std::process::Command::new("powershell")
+        .args(&["deploy", commit.as_str(), "main"])
+        .output()
+        .expect("Failed to deploy to github");
+    println!(
+        "{} {} {}",
+        "Mirrored".bright_green(),
+        package_name.bright_green(),
+        "to all package versions".bright_green()
+    );
 }
 
 async fn _add_aliases(package_list: Vec<&str>) {
