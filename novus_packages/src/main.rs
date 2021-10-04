@@ -853,8 +853,8 @@ fn get_splits(i: u64, total_length: u64, threads: u64) -> (u64, u64) {
 //         to_writer_pretty(file, &temp_package).unwrap();
 //     }
 // }
-async fn update_package(field: String, value: String) {
-    
+async fn update_package(package: String, field: String, value: String) {
+    let package: Package = get_package(package_name: &str)
 }
 
 async fn _add_aliases(package_list: Vec<&str>) {
