@@ -70,6 +70,8 @@ async fn main() {
             get_contents(&args[2]).await;
         } else if args[1] == "remove" {
             remove(&args[2]);
+        } else if args[1] == "update" {
+            update_package(&args[2], &args[3]).await;
         } else {
             autoupdate(&args[1]).await;
         }
@@ -851,6 +853,9 @@ fn get_splits(i: u64, total_length: u64, threads: u64) -> (u64, u64) {
 //         to_writer_pretty(file, &temp_package).unwrap();
 //     }
 // }
+async fn update_package(field: String, value: String) {
+    
+}
 
 async fn _add_aliases(package_list: Vec<&str>) {
     let packages_v2_dir =
