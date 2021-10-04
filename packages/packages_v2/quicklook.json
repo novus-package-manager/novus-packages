@@ -4,7 +4,7 @@
   "aliases": [
     "quicklook"
   ],
-  "exec_name": "none",
+  "exec_name": "QuickLook",
   "portable": false,
   "creator": "Apple",
   "description": "Quick Look is a quick preview feature developed by Apple Inc.",
