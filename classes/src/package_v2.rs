@@ -1,7 +1,7 @@
+use crate::auto_update::AutoUpdateData;
+use crate::version_data::VersionData;
 use serde::{Deserialize, Serialize};
 use std::collections::HashMap;
-use crate::version_data::VersionData;
-use crate::auto_update::AutoUpdateData;
 
 #[derive(Deserialize, Serialize, Debug, Clone)]
 pub struct Package {
@@ -20,6 +20,3 @@ pub struct Package {
   #[serde(flatten)]
   pub versions: HashMap<String, VersionData>,
 }
-
-
-

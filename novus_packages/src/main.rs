@@ -72,6 +72,8 @@ async fn main() {
             remove(&args[2]);
         } else if args[1] == "update" {
             update_package(&args[2], &args[3], &args[4]).await;
+        } else if args[1] == "mirror" {
+            mirror_package(&args[2]).await;
         } else {
             autoupdate(&args[1]).await;
         }
@@ -101,9 +103,9 @@ async fn get_contents(package_name: &str) {
 }
 
 fn new_package(package_name: &String) {
-    for version_index in 0..PACKAGE_VERSIONS {
+    for version_index in 1..PACKAGE_VERSIONS + 1 {
         let loc = format!(
-            r"D:\prana\Programming\My Projects\novus-package-manager\novus-packages\packages\packages_v{}{}.json",
+            r"D:\prana\Programming\My Projects\novus-package-manager\novus-packages\packages\packages_v{}\{}.json",
             version_index, package_name
         );
         let path = std::path::Path::new(&loc);
@@ -122,26 +124,48 @@ fn new_package(package_name: &String) {
         let file = std::fs::File::create(format!(r"D:\prana\Programming\My Projects\novus-package-manager\novus-packages\packages\packages_v{}\package-list\package-list.json", version_index)).unwrap();
         to_writer_pretty(file, &package_list).unwrap();
         let package_file = std::fs::File::create(path).unwrap();
-        let package: Package = Package {
-            package_name: package_name.clone(),
-            display_name: String::new(),
-            aliases: vec![package_name.clone()],
-            exec_name: "none".to_string(),
-            portable: Some(false),
-            creator: String::new(),
-            description: String::new(),
-            latest_version: "0".to_string(),
-            threads: 8,
-            iswitches: vec![],
-            uswitches: vec![],
-            autoupdate: AutoUpdateData {
-                download_page: String::new(),
-                download_url: String::new(),
-                regex: String::new(),
-            },
-            versions: HashMap::new(),
-        };
-        to_writer_pretty(package_file, &package).unwrap();
+        if version_index == 1 {
+            let package: Packagev1 = Packagev1 {
+                package_name: package_name.clone(),
+                display_name: String::new(),
+                exec_name: "none".to_string(),
+                portable: Some(false),
+                creator: String::new(),
+                description: String::new(),
+                latest_version: "0".to_string(),
+                threads: 8,
+                iswitches: vec![],
+                uswitches: vec![],
+                autoupdate: AutoUpdateData {
+                    download_page: String::new(),
+                    download_url: String::new(),
+                    regex: String::new(),
+                },
+                versions: HashMap::new(),
+            };
+            to_writer_pretty(package_file, &package).unwrap();
+        } else if version_index == 2 {
+            let package: Package = Package {
+                package_name: package_name.clone(),
+                display_name: String::new(),
+                aliases: vec![package_name.clone()],
+                exec_name: "none".to_string(),
+                portable: Some(false),
+                creator: String::new(),
+                description: String::new(),
+                latest_version: "0".to_string(),
+                threads: 8,
+                iswitches: vec![],
+                uswitches: vec![],
+                autoupdate: AutoUpdateData {
+                    download_page: String::new(),
+                    download_url: String::new(),
+                    regex: String::new(),
+                },
+                versions: HashMap::new(),
+            };
+            to_writer_pretty(package_file, &package).unwrap();
+        }
     }
 }
 
@@ -637,11 +661,11 @@ async fn get_packages() -> String {
     let file_contents = response
         .text()
         .await
-        .unwrap_or_else(|e| handle_error_and_exit(format!("{} get_package.rs:36", e.to_string())));
+        .unwrap_or_else(|e| handle_error_and_exit(format!("{}: line {}", e.to_string(), line!())));
     let content: Value = from_str(file_contents.as_str())
-        .unwrap_or_else(|e| handle_error_and_exit(format!("{} get_package.rs:53", e.to_string())));
+        .unwrap_or_else(|e| handle_error_and_exit(format!("{}: line {}", e.to_string(), line!())));
     to_string_pretty(&content)
-        .unwrap_or_else(|e| handle_error_and_exit(format!("{} get_package.rs:54", e.to_string())))
+        .unwrap_or_else(|e| handle_error_and_exit(format!("{}: line {}", e.to_string(), line!())))
 }
 
 #[allow(dead_code)]
@@ -661,10 +685,10 @@ async fn get_package_v1(package_name: &str) -> Packagev1 {
     let file_contents = response
         .text()
         .await
-        .unwrap_or_else(|e| handle_error_and_exit(format!("{} get_package.rs:36", e.to_string())));
+        .unwrap_or_else(|e| handle_error_and_exit(format!("{}: line {}", e.to_string(), line!())));
 
     from_str::<Packagev1>(&file_contents)
-        .unwrap_or_else(|e| handle_error_and_exit(format!("{} get_package.rs:29", e.to_string())))
+        .unwrap_or_else(|e| handle_error_and_exit(format!("{}: line {}", e.to_string(), line!())))
 }
 
 async fn get_package(package_name: &str) -> Package {
@@ -889,6 +913,35 @@ async fn update_package(package_name: &str, field: &str, value: &str) {
         "regex" => packagev1.autoupdate.regex = value.to_string(),
         &_ => {}
     }
+
+    let file = std::fs::File::create(format!(
+        r"D:\prana\Programming\My Projects\novus-package-manager\novus-packages\packages\packages_v1\{}.json",
+        package_name
+    ))
+    .unwrap();
+    to_writer_pretty(file, &packagev1).unwrap();
+
+    std::process::Command::new("powershell")
+        .arg("novus_update")
+        .output()
+        .expect("Failed to update gcp bucket");
+}
+
+async fn mirror_package(package_name: &str) {
+    let package: Package = get_package(&package_name).await;
+    let mut packagev1: Packagev1 = get_package_v1(&package_name).await;
+    packagev1.display_name = package.display_name;
+    packagev1.package_name = package.package_name;
+    packagev1.exec_name = package.exec_name;
+    packagev1.portable = package.portable;
+    packagev1.creator = package.creator;
+    packagev1.description = package.description;
+    packagev1.latest_version = package.latest_version;
+    packagev1.threads = package.threads;
+    packagev1.iswitches = package.iswitches;
+    packagev1.uswitches = package.uswitches;
+    packagev1.autoupdate = package.autoupdate;
+    packagev1.versions = package.versions;
 
     let file = std::fs::File::create(format!(
         r"D:\prana\Programming\My Projects\novus-package-manager\novus-packages\packages\packages_v1\{}.json",
