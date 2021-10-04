@@ -13,7 +13,7 @@
   "iswitches": [],
   "uswitches": [],
   "autoupdate": {
-    "download_page": "https://github.com/brave/brave-browser/releases/tag/v1.30.87",
+    "download_page": "https://github.com/brave/brave-browser/releases",
     "download_url": "https://github.com/brave/brave-browser/releases/download/v<version>/BraveBrowserStandaloneSilentSetup.exe",
     "regex": "Release v(\\d+\\.\\d+\\.\\d+)"
   },
