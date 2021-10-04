@@ -896,6 +896,11 @@ async fn update_package(package_name: &str, field: &str, value: &str) {
     ))
     .unwrap();
     to_writer_pretty(file, &packagev1).unwrap();
+
+    std::process::Command::new("powershell")
+        .arg("novus_update")
+        .output()
+        .expect("Failed to update gcp bucket");
 }
 
 async fn _add_aliases(package_list: Vec<&str>) {

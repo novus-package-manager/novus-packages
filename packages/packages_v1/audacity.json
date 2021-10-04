@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "Audacity",
   "description": "Audacity is a free and open-source digital audio editor and recording application software",
-  "latest_version": "3.0.4",
+  "latest_version": "3.0.5",
   "threads": 8,
   "iswitches": [
     "/SP-",
@@ -22,8 +22,20 @@
   ],
   "autoupdate": {
     "download_page": "https://github.com/audacity/audacity/releases/latest",
-    "download_url": "https://github.com/audacity/audacity/releases/download/Audacity-<version>/audacity-win-<version>-x64.exe",
+    "download_url": "https://github.com/audacity/audacity/releases/download/Audacity-<version>/audacity-win-<version>-64bit.exe",
     "regex": "<title>Release Audacity (\\d+\\.\\d+\\.\\d+) · audacity/audacity"
+  },
+  "3.0.5": {
+    "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.0.5/audacity-win-3.0.5-64bit.exe",
+    "size": 57319984,
+    "checksum": "DE2FED286A819090EC416C02A0593F586A4527AB145C81C0CE108E0D7FC79BEE",
+    "file_type": ".exe"
+  },
+  "3.0.2": {
+    "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.0.2/audacity-win-3.0.2.exe",
+    "size": 29534144,
+    "checksum": "2FA8E586A339D9DA8DCF49C21F4CD1CBAA24691B1DCC0D02F6C9F451AC8BEA47",
+    "file_type": ".exe"
   },
   "3.0.4": {
     "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.0.4/audacity-win-3.0.4-x64.exe",
@@ -35,12 +47,6 @@
     "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.0.3/audacity-win-3.0.3-64bit.exe",
     "size": 34947992,
     "checksum": "585C23D3CE19BE2E60584004D03AD23AF981F2681C0AE9EA22117376BFF58D3C",
-    "file_type": ".exe"
-  },
-  "3.0.2": {
-    "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.0.2/audacity-win-3.0.2.exe",
-    "size": 29534144,
-    "checksum": "2FA8E586A339D9DA8DCF49C21F4CD1CBAA24691B1DCC0D02F6C9F451AC8BEA47",
     "file_type": ".exe"
   }
 }
