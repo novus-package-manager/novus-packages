@@ -1,0 +1,26 @@
+{
+  "package_name": "google-assistant-unofficial",
+  "display_name": "Google Assistant Unofficial Desktop Client",
+  "aliases": [
+    "google-assistant-unofficial"
+  ],
+  "exec_name": "none",
+  "portable": false,
+  "creator": "Melvin-Abraham",
+  "description": "Google Assistant Unofficial Desktop Client is a cross-platform desktop client for Google Assistant based on Google Assistant SDK.",
+  "latest_version": "1.0.0-rc.2",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "https://github.com/Melvin-Abraham/Google-Assistant-Unofficial-Desktop-Client/releases/latest",
+    "download_url": "https://github.com/Melvin-Abraham/Google-Assistant-Unofficial-Desktop-Client/releases/download/v<version>/Google_Assistant-Setup-<version>.exe",
+    "regex": "Release v(\\d+\\.\\d+\\.\\d+-.{2}\\.\\d+)"
+  },
+  "1.0.0-rc.2": {
+    "url": "https://github.com/Melvin-Abraham/Google-Assistant-Unofficial-Desktop-Client/releases/download/v1.0.0-rc.2/Google_Assistant-Setup-1.0.0-rc.2.exe",
+    "size": 132860036,
+    "checksum": "2277E085C3BDC1F2F5B09281B403517CAEFEEC45E443777BAEE3D90A9A571929",
+    "file_type": ".exe"
+  }
+}

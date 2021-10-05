@@ -196,6 +196,7 @@ async fn autoupdate(package_name: &str) {
         let mut new_match;
 
         for captures in regex.captures_iter(file_contents.as_str()) {
+            // println!("Captures: {:?}", captures);
             if captures.len() > 2 {
                 for cap in captures.iter() {
                     let cap = &cap.unwrap().as_str();
@@ -263,9 +264,13 @@ async fn autoupdate(package_name: &str) {
                 versions.push(ver);
                 let year_dot_split: Vec<&str> = _match.split(".").collect();
                 let year_string = year_dot_split.concat();
+                let year_dash_split: Vec<&str> = year_string.split("-").collect();
+                let year_string = year_dash_split.concat();
+
                 versions_calc.push(year_string);
             }
-            // println!("version final: {:?}", versions);
+
+            println!("version final: {:?}", versions_calc);
 
             let mut new_versions_calc = vec![];
 
@@ -346,23 +351,26 @@ const MONTHS: [&str; 12] = [
 fn parse_number_with_letters(s: &str) -> Result<u64, std::num::ParseIntError> {
     let with_letters_replaced: String = s
         .chars()
-        .map(|c| letter_to_number(c).unwrap_or(c))
+        .map(|c| letter_to_number(c).unwrap_or(c.to_string()))
         .collect();
+
+    // println!("letters replaced: {}", with_letters_replaced);
 
     with_letters_replaced.trim().parse::<u64>()
 }
 
-fn letter_to_number(c: char) -> Option<char> {
+fn letter_to_number(c: char) -> Option<String> {
     let number = match c {
-        'a' => '1',
-        'b' => '2',
-        'c' => '3',
-        'd' => '4',
-        'e' => '5',
-        'f' => '6',
-        'g' => '7',
-        'h' => '8',
-        'i' => '9',
+        'a' => "1".to_string(),
+        'b' => "2".to_string(),
+        'c' => "3".to_string(),
+        'd' => "4".to_string(),
+        'e' => "5".to_string(),
+        'f' => "6".to_string(),
+        'g' => "7".to_string(),
+        'h' => "8".to_string(),
+        'i' => "9".to_string(),
+        'r' => "18".to_string(),
         _ => return None,
     };
 
