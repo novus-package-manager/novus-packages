@@ -1,18 +1,18 @@
 {
   "package_name": "clipto",
-  "display_name": "",
+  "display_name": "Clipto",
   "exec_name": "none",
   "portable": false,
-  "creator": "",
-  "description": "",
+  "creator": "Clipto",
+  "description": "Effortless, super fast and flexible notes taking app and clipboard manager.",
   "latest_version": "7.2.6",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
   "autoupdate": {
-    "download_page": "",
-    "download_url": "",
-    "regex": ""
+    "download_page": "https://github.com/clipto-pro/Desktop/releases/latest",
+    "download_url": "https://github.com/clipto-pro/Desktop/releases/download/v<version>/clipto-<version>.exe",
+    "regex": "Release (\\d+\\.\\d+\\.\\d+)"
   },
   "7.2.6": {
     "url": "https://github.com/clipto-pro/Desktop/releases/download/v7.2.6/clipto-7.2.6.exe",
