@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "Opera Software",
   "description": "Opera is a multi-platform web browser.",
-  "latest_version": "79.0.4143.72",
+  "latest_version": "80.0.4170.16",
   "threads": 8,
   "iswitches": [
     "/silent",
@@ -26,22 +26,10 @@
     "checksum": "9AC4EAD834F9DC0B7B30C558F8EC63F6F171380309786DFA2A9B23C0CC348311",
     "file_type": ".exe"
   },
-  "78.0.4093.112": {
-    "url": "https://get.geo.opera.com/pub/opera/desktop/78.0.4093.112/win/Opera_78.0.4093.112_Setup_x64.exe",
-    "size": 82521344,
-    "checksum": "4E3154FB0317670A84268371244F5FC0FFD38C9FD0C834445E81316225ADD5F9",
-    "file_type": ".exe"
-  },
-  "74.0.3911.160": {
-    "url": "https://get.geo.opera.com/pub/opera/desktop/74.0.3911.160/win/Opera_74.0.3911.160_Setup_x64.exe",
-    "size": 69470688,
-    "checksum": "8CBEB2130FFEFBCD033078BFAD5E5E600BBEF8C364CC8FDF91FAD064422C1E82",
-    "file_type": ".exe"
-  },
-  "79.0.4143.72": {
-    "url": "https://get.geo.opera.com/pub/opera/desktop/79.0.4143.72/win/Opera_79.0.4143.72_Setup_x64.exe",
-    "size": 83149728,
-    "checksum": "A52CD052B006E14A0136D2E85BFB2F459D492EBDA02931DF5DE215B769AF0208",
+  "80.0.4170.16": {
+    "url": "https://get.geo.opera.com/pub/opera/desktop/80.0.4170.16/win/Opera_80.0.4170.16_Setup_x64.exe",
+    "size": 85360800,
+    "checksum": "0E382E6371165D682A66232C0857C851D0DA2918A03F7E285F1349540F1EACF2",
     "file_type": ".exe"
   },
   "77.0.4054.277": {
@@ -56,10 +44,28 @@
     "checksum": "6420BB8EB41C2F7AFD14BAAAEDCFEC7DDC3BD015D7AE83E8B9D19A2579214FDD",
     "file_type": ".exe"
   },
+  "74.0.3911.160": {
+    "url": "https://get.geo.opera.com/pub/opera/desktop/74.0.3911.160/win/Opera_74.0.3911.160_Setup_x64.exe",
+    "size": 69470688,
+    "checksum": "8CBEB2130FFEFBCD033078BFAD5E5E600BBEF8C364CC8FDF91FAD064422C1E82",
+    "file_type": ".exe"
+  },
+  "79.0.4143.72": {
+    "url": "https://get.geo.opera.com/pub/opera/desktop/79.0.4143.72/win/Opera_79.0.4143.72_Setup_x64.exe",
+    "size": 83149728,
+    "checksum": "A52CD052B006E14A0136D2E85BFB2F459D492EBDA02931DF5DE215B769AF0208",
+    "file_type": ".exe"
+  },
   "78.0.4093.147": {
     "url": "https://get.geo.opera.com/pub/opera/desktop/78.0.4093.147/win/Opera_78.0.4093.147_Setup_x64.exe",
     "size": 82545600,
     "checksum": "5C37F84A3FAABFA49B09AD4A29529B2698697C466793A44CA5D38F8FA7199DC7",
+    "file_type": ".exe"
+  },
+  "78.0.4093.112": {
+    "url": "https://get.geo.opera.com/pub/opera/desktop/78.0.4093.112/win/Opera_78.0.4093.112_Setup_x64.exe",
+    "size": 82521344,
+    "checksum": "4E3154FB0317670A84268371244F5FC0FFD38C9FD0C834445E81316225ADD5F9",
     "file_type": ".exe"
   }
 }
