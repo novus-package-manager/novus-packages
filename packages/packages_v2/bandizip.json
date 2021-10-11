@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "Bandisoft",
   "description": "Bandizip is a powerful archiver which provides an ultrafast processing speed and convenient features.",
-  "latest_version": "7.19",
+  "latest_version": "7.20",
   "threads": 8,
   "iswitches": [
     "/S"
@@ -20,6 +20,12 @@
     "download_page": "https://en.bandisoft.com/bandizip/",
     "download_url": "https://dl.bandisoft.com/bandizip.std/BANDIZIP-SETUP-STD-X64.EXE?1",
     "regex": "Free Download - Bandizip \\(v(\\d+\\.\\d+)\\)"
+  },
+  "7.20": {
+    "url": "https://dl.bandisoft.com/bandizip.std/BANDIZIP-SETUP-STD-X64.EXE?1",
+    "size": 6387592,
+    "checksum": "818A37D8263998A54F6FC186E70CE4054B1F8218801CFA659BF2713AEC8610E2",
+    "file_type": ".exe"
   },
   "7.17": {
     "url": "https://dl.bandisoft.com/bandizip.std/BANDIZIP-SETUP-STD-X64.EXE?1",

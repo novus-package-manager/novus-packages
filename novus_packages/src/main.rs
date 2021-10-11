@@ -270,7 +270,7 @@ async fn autoupdate(package_name: &str) {
                 versions_calc.push(year_string);
             }
 
-            println!("version final: {:?}", versions_calc);
+            // println!("version final: {:?}", versions_calc);
 
             let mut new_versions_calc = vec![];
 
