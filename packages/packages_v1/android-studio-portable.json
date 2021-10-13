@@ -5,7 +5,7 @@
   "portable": true,
   "creator": "Google, JetBrains",
   "description": "Android Studio is the official integrated development environment for Google's Android operating system.",
-  "latest_version": "2020.3.1.24",
+  "latest_version": "2020.3.1.25",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -14,10 +14,16 @@
     "download_url": "https://redirector.gvt1.com/edgedl/android/studio/ide-zips/<version>/android-studio-<version>-windows.zip",
     "regex": "href=\"https://redirector\\.gvt1\\.com/edgedl/android/studio/install/(\\d+\\.\\d+\\.\\d+\\.\\d+)/android-studio"
   },
-  "2020.3.1.24": {
-    "url": "https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2020.3.1.24/android-studio-2020.3.1.24-windows.zip",
-    "size": 967558484,
-    "checksum": "EFB15E41FB6AADF7B54D9E98BA430162C49873A3585408501D6898B9E110E903",
+  "2020.3.1.25": {
+    "url": "https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2020.3.1.25/android-studio-2020.3.1.25-windows.zip",
+    "size": 967565248,
+    "checksum": "37BA6592E8F11EFE96A4A48AE82847452CA7D42D4EBA3E5690F63EEB896734D1",
+    "file_type": ".zip"
+  },
+  "2020.3.1.23": {
+    "url": "https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2020.3.1.23/android-studio-2020.3.1.23-windows.zip",
+    "size": 967547318,
+    "checksum": "DD619DAB9E7A8A3DA811B817BA8D0BDD1B2B7887AA19D573AEEFA62875096A13",
     "file_type": ".zip"
   },
   "2020.3.1.22": {
@@ -26,10 +32,10 @@
     "checksum": "41C5F8A17294E1FE81B45C66273878EA067CFB5C2FD9BE7FAC2F8F82EC5B1DC3",
     "file_type": ".zip"
   },
-  "2020.3.1.23": {
-    "url": "https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2020.3.1.23/android-studio-2020.3.1.23-windows.zip",
-    "size": 967547318,
-    "checksum": "DD619DAB9E7A8A3DA811B817BA8D0BDD1B2B7887AA19D573AEEFA62875096A13",
+  "2020.3.1.24": {
+    "url": "https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2020.3.1.24/android-studio-2020.3.1.24-windows.zip",
+    "size": 967558484,
+    "checksum": "EFB15E41FB6AADF7B54D9E98BA430162C49873A3585408501D6898B9E110E903",
     "file_type": ".zip"
   }
 }
