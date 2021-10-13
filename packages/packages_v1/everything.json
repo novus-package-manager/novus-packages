@@ -1,0 +1,23 @@
+{
+  "package_name": "everything",
+  "display_name": "",
+  "exec_name": "none",
+  "portable": false,
+  "creator": "",
+  "description": "",
+  "latest_version": "1.4.1.1009",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "",
+    "download_url": "",
+    "regex": ""
+  },
+  "1.4.1.1009": {
+    "url": "https://www.voidtools.com/Everything-1.4.1.1009.x64-Setup.exe",
+    "size": 1730784,
+    "checksum": "B734CC26CC7AAC9E142FC5153165E017FE4A4627ED8F4578EFB2F8F919EC5CC2",
+    "file_type": ".exe"
+  }
+}
