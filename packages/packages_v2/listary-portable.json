@@ -1,0 +1,26 @@
+{
+  "package_name": "listary-portable",
+  "display_name": "Listary (Portable)",
+  "aliases": [
+    "listary"
+  ],
+  "exec_name": "Listary",
+  "portable": true,
+  "creator": "Bopsoft",
+  "description": "Listary is a desktop search utility for Windows that can search for files on a computer.",
+  "latest_version": "5.00.2843",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "https://www.listary.com/download",
+    "download_url": "https://www.listary.com/download/ListaryPortable.zip?version=<version>",
+    "regex": "v(\\d+\\.\\d+\\.\\d+) \\(.+\\) for Windows 10"
+  },
+  "5.00.2843": {
+    "url": "https://www.listary.com/download/ListaryPortable.zip?version=5.00.2843",
+    "size": 4726109,
+    "checksum": "52C82C32FD719E782FD66C0A87F08BA073A93EDC06FCE60C64219EA0530B5682",
+    "file_type": ".zip"
+  }
+}
