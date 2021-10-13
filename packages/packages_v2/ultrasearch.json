@@ -1,9 +1,7 @@
 {
   "package_name": "ultrasearch",
   "display_name": "UltraSearch",
-  "aliases": [
-    "ultrasearch"
-  ],
+  "aliases": ["ultrasearch"],
   "exec_name": "none",
   "portable": false,
   "creator": "JAM Software",
@@ -18,18 +16,14 @@
     "/NORESTART",
     "/FORCECLOSEAPPLICATIONS"
   ],
-  "uswitches": [
-    "/VERYSILENT",
-    "/SUPPRESSMSGBOXES",
-    "/NORESTART"
-  ],
+  "uswitches": ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART"],
   "autoupdate": {
     "download_page": "https://www.jam-software.com/ultrasearch_free/changes.shtml",
-    "download_url": "https://downloads.jam-software.de/ultrasearch_free/UltraSearch-x86-Free-Portable.zip",
+    "download_url": "https://downloads.jam-software.de/ultrasearch_free/UltraSearch-x64-Free-Setup.exe",
     "regex": "Version (\\d+\\.\\d+\\.\\d+)"
   },
   "3.1.2": {
-    "url": "https://downloads.jam-software.de/ultrasearch_free/UltraSearch-x86-Free-Portable.zip",
+    "url": "https://downloads.jam-software.de/ultrasearch_free/UltraSearch-x64-Free-Setup.exe",
     "size": 14417999,
     "checksum": "8A31FF5CCA98ADE0AC3684564EC1F7F4FD98E4478A1BD99377FE0ABDE8096774",
     "file_type": ".exe"

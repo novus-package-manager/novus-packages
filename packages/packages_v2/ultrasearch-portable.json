@@ -1,20 +1,37 @@
 {
   "package_name": "ultrasearch-portable",
-  "display_name": "",
+  "display_name": "UltraSearch (Portable)",
   "aliases": [
     "ultrasearch-portable"
   ],
   "exec_name": "none",
-  "portable": false,
-  "creator": "",
-  "description": "",
-  "latest_version": "0",
+  "portable": true,
+  "creator": "JAM Software",
+  "description": "UltraSearch Free enables you to group files in file type groups and search entire groups.",
+  "latest_version": "3.1.2",
   "threads": 8,
-  "iswitches": [],
-  "uswitches": [],
+  "iswitches": [
+    "/SP-",
+    "/VERYSILENT",
+    "/SUPPRESSMSGBOXES",
+    "/NOCANCEL",
+    "/NORESTART",
+    "/FORCECLOSEAPPLICATIONS"
+  ],
+  "uswitches": [
+    "/VERYSILENT",
+    "/SUPPRESSMSGBOXES",
+    "/NORESTART"
+  ],
   "autoupdate": {
-    "download_page": "",
-    "download_url": "",
-    "regex": ""
+    "download_page": "https://www.jam-software.com/ultrasearch_free/changes.shtml",
+    "download_url": "https://downloads.jam-software.de/ultrasearch_free/UltraSearch-x86-Free-Portable.zip",
+    "regex": "Version (\\d+\\.\\d+\\.\\d+)"
+  },
+  "3.1.2": {
+    "url": "https://downloads.jam-software.de/ultrasearch_free/UltraSearch-x86-Free-Portable.zip",
+    "size": 14417999,
+    "checksum": "255EB5E0AB2A778BB612F8D2AD955B8C50680DA556F8DED8EEBFE642C9A23AB5",
+    "file_type": ".zip"
   }
 }
