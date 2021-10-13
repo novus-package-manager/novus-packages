@@ -5,7 +5,7 @@
   "portable": true,
   "creator": "Microsoft",
   "description": "This utility shows you what programs are configured to run during system bootup or login, and when you start various built-in Windows applications like Internet Explorer, Explorer and media players.",
-  "latest_version": "14.03",
+  "latest_version": "14.04",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -14,10 +14,10 @@
     "download_url": "https://download.sysinternals.com/files/Autoruns.zip",
     "regex": "Autoruns for Windows v(\\d+\\.\\d+)"
   },
-  "14.0": {
+  "14.02": {
     "url": "https://download.sysinternals.com/files/Autoruns.zip",
-    "size": 2592317,
-    "checksum": "67CF0F6897C8BBE7DDBB8B1934E75A983EBD1270762260BADB900AB34DB1F17C",
+    "size": 2670280,
+    "checksum": "1BEF9C495F7C1184D0A36691AEBFFD5C00F21D999D57171FC97FC9F506FF46E7",
     "file_type": ".zip"
   },
   "14.03": {
@@ -32,10 +32,16 @@
     "checksum": "8888F33EB64E009B1A592857C41E10413C0613409AF76FED609B0DCC9EF59714",
     "file_type": ".zip"
   },
-  "14.02": {
+  "14.0": {
     "url": "https://download.sysinternals.com/files/Autoruns.zip",
-    "size": 2670280,
-    "checksum": "1BEF9C495F7C1184D0A36691AEBFFD5C00F21D999D57171FC97FC9F506FF46E7",
+    "size": 2592317,
+    "checksum": "67CF0F6897C8BBE7DDBB8B1934E75A983EBD1270762260BADB900AB34DB1F17C",
+    "file_type": ".zip"
+  },
+  "14.04": {
+    "url": "https://download.sysinternals.com/files/Autoruns.zip",
+    "size": 3850194,
+    "checksum": "7E2E3091EF4B0579BC19C876CCB79D8B5ACF6784734352159AECFBEBC71C79E7",
     "file_type": ".zip"
   }
 }
