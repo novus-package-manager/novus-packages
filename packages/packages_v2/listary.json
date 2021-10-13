@@ -1,20 +1,25 @@
 {
   "package_name": "listary",
   "display_name": "Listary",
-  "aliases": [
-    "listary"
-  ],
-  "exec_name": "none",
+  "aliases": ["listary"],
+  "exec_name": "Listary",
   "portable": false,
   "creator": "Bopsoft",
-  "description": "Listary is a desktop search utility for Windows that can search for files on a computer",
+  "description": "Listary is a desktop search utility for Windows that can search for files on a computer.",
   "latest_version": "5.00.2843",
   "threads": 8,
-  "iswitches": [],
-  "uswitches": [],
+  "iswitches": [
+    "/SP-",
+    "/VERYSILENT",
+    "/SUPPRESSMSGBOXES",
+    "/NOCANCEL",
+    "/NORESTART",
+    "/FORCECLOSEAPPLICATIONS"
+  ],
+  "uswitches": ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART"],
   "autoupdate": {
     "download_page": "https://www.listary.com/download",
-    "download_url": "https://www.listary.com/download/Listary.exe?version=5.00.2843",
+    "download_url": "https://www.listary.com/download/Listary.exe?version=<version>",
     "regex": "v(\\d+\\.\\d+\\.\\d+) \\(.+\\) for Windows 10"
   },
   "5.00.2843": {
