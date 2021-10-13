@@ -15,9 +15,9 @@
     "regex": ""
   },
   "3.1.2": {
-    "url": "https://downloads.jam-software.de/ultrasearch_free/UltraSearch-x86-Free-Portable.zip",
-    "size": 14417999,
-    "checksum": "8A31FF5CCA98ADE0AC3684564EC1F7F4FD98E4478A1BD99377FE0ABDE8096774",
+    "url": "https://downloads.jam-software.de/ultrasearch_free/UltraSearch-x64-Free-Setup.exe",
+    "size": 13248792,
+    "checksum": "7153D1B77E75FFF403A22AB2614A6413AE62F43A5BE2006C3ECCF8DA9FB025A5",
     "file_type": ".exe"
   }
 }
