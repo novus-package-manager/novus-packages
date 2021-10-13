@@ -1,10 +1,8 @@
 {
   "package_name": "ultrasearch",
   "display_name": "UltraSearch",
-  "aliases": [
-    "ultrasearch"
-  ],
-  "exec_name": "none",
+  "aliases": ["ultrasearch"],
+  "exec_name": "UltraSearch",
   "portable": false,
   "creator": "JAM Software",
   "description": "UltraSearch Free enables you to group files in file type groups and search entire groups.",
@@ -18,11 +16,7 @@
     "/NORESTART",
     "/FORCECLOSEAPPLICATIONS"
   ],
-  "uswitches": [
-    "/VERYSILENT",
-    "/SUPPRESSMSGBOXES",
-    "/NORESTART"
-  ],
+  "uswitches": ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART"],
   "autoupdate": {
     "download_page": "https://www.jam-software.com/ultrasearch_free/changes.shtml",
     "download_url": "https://downloads.jam-software.de/ultrasearch_free/UltraSearch-x64-Free-Setup.exe",
