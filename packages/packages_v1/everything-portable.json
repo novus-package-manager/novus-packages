@@ -1,0 +1,23 @@
+{
+  "package_name": "everything-portable",
+  "display_name": "",
+  "exec_name": "none",
+  "portable": false,
+  "creator": "",
+  "description": "",
+  "latest_version": "1.4.1.1009",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "",
+    "download_url": "",
+    "regex": ""
+  },
+  "1.4.1.1009": {
+    "url": "https://www.voidtools.com/Everything-1.4.1.1009.x64.zip",
+    "size": 1661262,
+    "checksum": "F61B601ACBA59D61FB0631A654E48A564DB34E279B6F2CC45E20A42CE9D9C466",
+    "file_type": ".zip"
+  }
+}

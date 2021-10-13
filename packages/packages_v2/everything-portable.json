@@ -1,0 +1,26 @@
+{
+  "package_name": "everything-portable",
+  "display_name": "Everything (Portable)",
+  "aliases": [
+    "everything-portable"
+  ],
+  "exec_name": "Everything",
+  "portable": true,
+  "creator": "Voidtools",
+  "description": "Everything is a desktop search utility for Windows that can rapidly find files and folders by name",
+  "latest_version": "1.4.1.1009",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "https://www.voidtools.com/downloads/",
+    "download_url": "https://www.voidtools.com/Everything-<version>.x64.zip",
+    "regex": "Download Everything (\\d+\\.\\d+\\.\\d+\\.\\d+)"
+  },
+  "1.4.1.1009": {
+    "url": "https://www.voidtools.com/Everything-1.4.1.1009.x64.zip",
+    "size": 1661262,
+    "checksum": "F61B601ACBA59D61FB0631A654E48A564DB34E279B6F2CC45E20A42CE9D9C466",
+    "file_type": ".zip"
+  }
+}
