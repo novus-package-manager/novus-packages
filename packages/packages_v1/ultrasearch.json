@@ -1,0 +1,23 @@
+{
+  "package_name": "ultrasearch",
+  "display_name": "",
+  "exec_name": "none",
+  "portable": false,
+  "creator": "",
+  "description": "",
+  "latest_version": "3.1.2",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "",
+    "download_url": "",
+    "regex": ""
+  },
+  "3.1.2": {
+    "url": "https://downloads.jam-software.de/ultrasearch_free/UltraSearch-x86-Free-Portable.zip",
+    "size": 14417999,
+    "checksum": "8A31FF5CCA98ADE0AC3684564EC1F7F4FD98E4478A1BD99377FE0ABDE8096774",
+    "file_type": ".exe"
+  }
+}

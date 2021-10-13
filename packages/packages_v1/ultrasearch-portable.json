@@ -1,0 +1,17 @@
+{
+  "package_name": "ultrasearch-portable",
+  "display_name": "",
+  "exec_name": "none",
+  "portable": false,
+  "creator": "",
+  "description": "",
+  "latest_version": "0",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "",
+    "download_url": "",
+    "regex": ""
+  }
+}
