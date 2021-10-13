@@ -1,0 +1,26 @@
+{
+  "package_name": "everything-toolbar",
+  "display_name": "Everything Toolbar",
+  "aliases": [
+    "everything-toolbar"
+  ],
+  "exec_name": "none",
+  "portable": false,
+  "creator": "stnkl",
+  "description": "EverythingToolbar lets you locate files, folders, and more from the Windows taskbar.",
+  "latest_version": "0.7.2",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "https://github.com/stnkl/EverythingToolbar/releases/latest",
+    "download_url": "https://github.com/stnkl/EverythingToolbar/releases/download/<version>/EverythingToolbar-<version>.msi",
+    "regex": "<title>Release (\\d+\\.\\d+\\.\\d+)"
+  },
+  "0.7.2": {
+    "url": "https://github.com/stnkl/EverythingToolbar/releases/download/0.7.2/EverythingToolbar-0.7.2.msi",
+    "size": 997000,
+    "checksum": "592A163C725A44968625ADDB771BD51F99BD7A5D2691FC17C924865730CFDDF6",
+    "file_type": ".msi"
+  }
+}
