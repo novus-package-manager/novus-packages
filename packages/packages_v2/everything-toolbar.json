@@ -1,9 +1,7 @@
 {
   "package_name": "everything-toolbar",
-  "display_name": "Everything Toolbar",
-  "aliases": [
-    "everything-toolbar"
-  ],
+  "display_name": "EverythingToolbar",
+  "aliases": ["everything-toolbar"],
   "exec_name": "none",
   "portable": false,
   "creator": "stnkl",

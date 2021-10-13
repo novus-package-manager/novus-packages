@@ -1,0 +1,23 @@
+{
+  "package_name": "listary",
+  "display_name": "",
+  "exec_name": "none",
+  "portable": false,
+  "creator": "",
+  "description": "",
+  "latest_version": "5.00.2843",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "",
+    "download_url": "",
+    "regex": ""
+  },
+  "5.00.2843": {
+    "url": "https://www.listary.com/download/Listary.exe?version=5.00.2843",
+    "size": 3515184,
+    "checksum": "83060DD1E3DFE2A345BFBEC2265E6D6DAC5BC7AD0AD037C26B082972D95DB4C4",
+    "file_type": ".exe"
+  }
+}
