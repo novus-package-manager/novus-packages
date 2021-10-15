@@ -14,7 +14,7 @@
   "uswitches": [],
   "autoupdate": {
     "download_page": "https://github.com/Kitware/CMake/releases/latest",
-    "download_url": "https://github.com/Kitware/CMake/releases/download/v<version>/cmake-<version>-windows-x86_64.msi",
+    "download_url": "https://github.com/Kitware/CMake/releases/download/v3.22.0-rc1/cmake-3.22.0-rc1-windows-x86_64.msi",
     "regex": "v(\\d+\\.\\d+\\.\\d+)"
   },
   "3.20.4": {
