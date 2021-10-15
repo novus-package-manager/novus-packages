@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "AIMP DevTeam",
   "description": "AIMP is a freeware audio player for Windows",
-  "latest_version": "4.70.2254",
+  "latest_version": "5.00.2334",
   "threads": 8,
   "iswitches": [
     "/SILENT",
@@ -22,6 +22,12 @@
     "download_page": "https://www.filepuma.com/search/aimp/#gsc.tab=0&gsc.ie=UTF8&gsc.sort=&gsc.q=aimp",
     "download_url": "https://www.filepuma.com/download/aimp_<version>-30165/download/",
     "regex": "alt=\"AIMP (\\d+\\.\\d+\\.\\d+)\" /></td>"
+  },
+  "5.00.2334": {
+    "url": "https://www.filepuma.com/download/aimp_5.00.2334-30165/download/",
+    "size": 10000,
+    "checksum": "FC4A2B7F18853E1A48578830348FA75780BE90C16E633070EBE71239F30163D6",
+    "file_type": ".exe"
   },
   "4.70.2251": {
     "url": "https://aimp.ru/files/windows/builds/aimp_4.70.2251.exe",
