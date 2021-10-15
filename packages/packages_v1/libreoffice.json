@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "The Document Foundation",
   "description": "LibreOffice is a free and open-source office productivity software suite.",
-  "latest_version": "7.2.0",
+  "latest_version": "7.2.2",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -24,6 +24,12 @@
     "url": "https://download.documentfoundation.org/libreoffice/stable/7.1.5/win/x86_64/LibreOffice_7.1.5_Win_x64.msi",
     "size": 329641984,
     "checksum": "0512D1015473956B501B695FF003EDC942B1EA0D52595934F0CE4BEB9929D8B7",
+    "file_type": ".msi"
+  },
+  "7.2.2": {
+    "url": "https://download.documentfoundation.org/libreoffice/stable/7.2.2/win/x86_64/LibreOffice_7.2.2_Win_x64.msi",
+    "size": 339062784,
+    "checksum": "422E733813BD853F37EF7731D75E554E73D3230C78B9BD58E39C0A8C2B6A45D0",
     "file_type": ".msi"
   }
 }
