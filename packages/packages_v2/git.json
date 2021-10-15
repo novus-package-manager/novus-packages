@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "Github",
   "description": "Git is a free and open source distributed version control system.",
-  "latest_version": "2.33.0",
+  "latest_version": "2.33.1",
   "threads": 8,
   "iswitches": [
     "/SP-",
@@ -44,6 +44,12 @@
     "url": "https://github.com/git-for-windows/git/releases/download/v2.31.1.windows.1/Git-2.31.1-64-bit.exe",
     "size": 49871216,
     "checksum": "C43611EB73AD1F17F5C8CC82AE51C3041A2E7279E0197CCF5F739E9129CE426E",
+    "file_type": ".exe"
+  },
+  "2.33.1": {
+    "url": "https://github.com/git-for-windows/git/releases/download/v2.33.1.windows.1/Git-2.33.1-64-bit.exe",
+    "size": 50186136,
+    "checksum": "B1B69FCF56D50199536F7E6FC79B75AB16734D4D9A4B85C8E931596F02DD0688",
     "file_type": ".exe"
   }
 }
