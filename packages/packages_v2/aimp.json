@@ -20,7 +20,7 @@
   ],
   "autoupdate": {
     "download_page": "https://www.filepuma.com/search/aimp/#gsc.tab=0&gsc.ie=UTF8&gsc.sort=&gsc.q=aimp",
-    "download_url": "https://aimp.ru/files/windows/builds/aimp_<version>.exe",
+    "download_url": "https://www.filepuma.com/download/aimp_<version>-30165/download/",
     "regex": "alt=\"AIMP (\\d+\\.\\d+\\.\\d+)\" /></td>"
   },
   "4.70.2251": {
