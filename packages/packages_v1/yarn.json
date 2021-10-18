@@ -1,0 +1,23 @@
+{
+  "package_name": "yarn",
+  "display_name": "",
+  "exec_name": "none",
+  "portable": false,
+  "creator": "",
+  "description": "",
+  "latest_version": "1.22.15",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "",
+    "download_url": "",
+    "regex": ""
+  },
+  "1.22.15": {
+    "url": "https://github.com/yarnpkg/yarn/releases/download/v1.22.15/yarn-1.22.15.msi",
+    "size": 1679360,
+    "checksum": "8E812AC4D27B4C04A54F32EB8823CFB54D02F5A4EC429E4091CCA38FA17E4113",
+    "file_type": ".msi"
+  }
+}
