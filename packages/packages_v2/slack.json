@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "Slack Technologies",
   "description": "Slack is a proprietary business communication platform.",
-  "latest_version": "4.20.0",
+  "latest_version": "4.21.0",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -17,10 +17,10 @@
     "download_url": "https://downloads.slack-edge.com/releases/windows/<version>/prod/x64/slack-standalone-<version>.0.msi",
     "regex": "Version (\\d+\\.\\d+\\.\\d+)"
   },
-  "4.20.0": {
-    "url": "https://downloads.slack-edge.com/releases/windows/4.20.0/prod/x64/slack-standalone-4.20.0.0.msi",
-    "size": 96333824,
-    "checksum": "D717D5A2DA57235BF93766BA66303D7BF941B5FDA77BCA5B5ACAF80C2DA27A06",
+  "4.19.0": {
+    "url": "https://downloads.slack-edge.com/releases/windows/4.19.0/prod/x64/slack-standalone-4.19.0.0.msi",
+    "size": 93806592,
+    "checksum": "DC3D22E4A698D99608D64B1EE4B3F24CF270937149580FFC2DE6DAC5E6C42E61",
     "file_type": ".msi"
   },
   "4.19.3": {
@@ -29,16 +29,22 @@
     "checksum": "33BF8E0AB732E758BCF06CA339D1A26E40D18890EEBB267A2A1128C30E5EF204",
     "file_type": ".msi"
   },
-  "4.19.0": {
-    "url": "https://downloads.slack-edge.com/releases/windows/4.19.0/prod/x64/slack-standalone-4.19.0.0.msi",
-    "size": 93806592,
-    "checksum": "DC3D22E4A698D99608D64B1EE4B3F24CF270937149580FFC2DE6DAC5E6C42E61",
+  "4.21.0": {
+    "url": "https://downloads.slack-edge.com/releases/windows/4.21.0/prod/x64/slack-standalone-4.21.0.0.msi",
+    "size": 98140160,
+    "checksum": "7A93CFCDA4499724C542E7F551B62E31F90DA489BE09B48FDDD1788FFE4C2518",
     "file_type": ".msi"
   },
   "4.18.0": {
     "url": "https://downloads.slack-edge.com/releases/windows/4.18.0/prod/x64/slack-standalone-4.18.0.0.msi",
     "size": 92438528,
     "checksum": "7821699675BC67B63D1C7F2EB08DFC41CE3359D4D3CB37742DDB74090073EB1C",
+    "file_type": ".msi"
+  },
+  "4.20.0": {
+    "url": "https://downloads.slack-edge.com/releases/windows/4.20.0/prod/x64/slack-standalone-4.20.0.0.msi",
+    "size": 96333824,
+    "checksum": "D717D5A2DA57235BF93766BA66303D7BF941B5FDA77BCA5B5ACAF80C2DA27A06",
     "file_type": ".msi"
   },
   "4.16.1": {

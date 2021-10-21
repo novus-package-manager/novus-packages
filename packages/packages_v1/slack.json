@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "Slack Technologies",
   "description": "Slack is a proprietary business communication platform.",
-  "latest_version": "4.20.0",
+  "latest_version": "4.21.0",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -18,12 +18,6 @@
     "url": "https://downloads.slack-edge.com/releases/windows/4.16.1/prod/x64/slack-standalone-4.16.1.0.msi",
     "size": 92356608,
     "checksum": "2DF775430A6C4E006DBFC7EE1317FA2E8294F63269142365269B6504830E62E6",
-    "file_type": ".msi"
-  },
-  "4.19.0": {
-    "url": "https://downloads.slack-edge.com/releases/windows/4.19.0/prod/x64/slack-standalone-4.19.0.0.msi",
-    "size": 93806592,
-    "checksum": "DC3D22E4A698D99608D64B1EE4B3F24CF270937149580FFC2DE6DAC5E6C42E61",
     "file_type": ".msi"
   },
   "4.18.0": {
@@ -42,6 +36,18 @@
     "url": "https://downloads.slack-edge.com/releases/windows/4.20.0/prod/x64/slack-standalone-4.20.0.0.msi",
     "size": 96333824,
     "checksum": "D717D5A2DA57235BF93766BA66303D7BF941B5FDA77BCA5B5ACAF80C2DA27A06",
+    "file_type": ".msi"
+  },
+  "4.19.0": {
+    "url": "https://downloads.slack-edge.com/releases/windows/4.19.0/prod/x64/slack-standalone-4.19.0.0.msi",
+    "size": 93806592,
+    "checksum": "DC3D22E4A698D99608D64B1EE4B3F24CF270937149580FFC2DE6DAC5E6C42E61",
+    "file_type": ".msi"
+  },
+  "4.21.0": {
+    "url": "https://downloads.slack-edge.com/releases/windows/4.21.0/prod/x64/slack-standalone-4.21.0.0.msi",
+    "size": 98140160,
+    "checksum": "7A93CFCDA4499724C542E7F551B62E31F90DA489BE09B48FDDD1788FFE4C2518",
     "file_type": ".msi"
   }
 }
