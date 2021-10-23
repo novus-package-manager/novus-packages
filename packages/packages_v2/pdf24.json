@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "geek Software GmbH",
   "description": "PDF24 Creator is an application software for the creation of PDF files from any application and for converting files to PDF.",
-  "latest_version": "10.6.1",
+  "latest_version": "10.6.2",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -17,22 +17,10 @@
     "download_url": "https://stx.pdf24.org/download/pdf24-creator-<version>.msi",
     "regex": "<span>PDF24 Creator</span>\n<span>(\\d+\\.\\d+\\.\\d+)</span>"
   },
-  "10.0.12": {
-    "url": "https://stx.pdf24.org/download/pdf24-creator-10.0.12.msi",
-    "size": 149127168,
-    "checksum": "CC056EAA622BBE2421FAC33271EBF3BD3A59B3B0AACA483E3C4AB2B168BE3E99",
-    "file_type": ".msi"
-  },
-  "10.2.0": {
-    "url": "https://stx.pdf24.org/download/pdf24-creator-10.2.0.msi",
-    "size": 151433216,
-    "checksum": "62D33AB5433CA42DA5042DA8FEB133A9037767F6AC5D9599ACFDDE980494C166",
-    "file_type": ".msi"
-  },
-  "10.1.1": {
-    "url": "https://stx.pdf24.org/download/pdf24-creator-10.1.1.msi",
-    "size": 151392256,
-    "checksum": "8A54228B352D641F8216019098E1DD332F7BDA55833327E517503ED5D2B4E79B",
+  "10.6.0": {
+    "url": "https://stx.pdf24.org/download/pdf24-creator-10.6.0.msi",
+    "size": 151719936,
+    "checksum": "E1963C50EEE8C9775A4261AFF8E35F4995318C1F78ED1B41618E48A065DDB83F",
     "file_type": ".msi"
   },
   "10.4.0": {
@@ -41,16 +29,22 @@
     "checksum": "255228D1D67431C1338CD0AAE4CFED4B1C1F9FBF00C2422F1E193AA755296F8D",
     "file_type": ".msi"
   },
+  "10.1.0": {
+    "url": "https://stx.pdf24.org/download/pdf24-creator-10.1.0.msi",
+    "size": 149446656,
+    "checksum": "E2D19E748A040CF611F8C36845711CA65EA1456311D75CB0C3BEDEB75E36E142",
+    "file_type": ".msi"
+  },
+  "10.2.0": {
+    "url": "https://stx.pdf24.org/download/pdf24-creator-10.2.0.msi",
+    "size": 151433216,
+    "checksum": "62D33AB5433CA42DA5042DA8FEB133A9037767F6AC5D9599ACFDDE980494C166",
+    "file_type": ".msi"
+  },
   "10.6.1": {
     "url": "https://stx.pdf24.org/download/pdf24-creator-10.6.1.msi",
     "size": 151719936,
     "checksum": "670083FBB9E9E39C4567E0C4B15F33CCE0EBB3BB69819DE28B89B702866049B1",
-    "file_type": ".msi"
-  },
-  "10.6.0": {
-    "url": "https://stx.pdf24.org/download/pdf24-creator-10.6.0.msi",
-    "size": 151719936,
-    "checksum": "E1963C50EEE8C9775A4261AFF8E35F4995318C1F78ED1B41618E48A065DDB83F",
     "file_type": ".msi"
   },
   "10.5.0": {
@@ -59,10 +53,22 @@
     "checksum": "4FDA7AF02A88301AA8265AF23AFDB505F5D3AFA66E6AA2568F620B6081ADFCF0",
     "file_type": ".msi"
   },
-  "10.1.0": {
-    "url": "https://stx.pdf24.org/download/pdf24-creator-10.1.0.msi",
-    "size": 149446656,
-    "checksum": "E2D19E748A040CF611F8C36845711CA65EA1456311D75CB0C3BEDEB75E36E142",
+  "10.6.2": {
+    "url": "https://stx.pdf24.org/download/pdf24-creator-10.6.2.msi",
+    "size": 160051200,
+    "checksum": "382FA9C51B781F857393E9699903D95D6BEC249E3CDA2ACE5B9416B67EB0A997",
+    "file_type": ".msi"
+  },
+  "10.1.1": {
+    "url": "https://stx.pdf24.org/download/pdf24-creator-10.1.1.msi",
+    "size": 151392256,
+    "checksum": "8A54228B352D641F8216019098E1DD332F7BDA55833327E517503ED5D2B4E79B",
+    "file_type": ".msi"
+  },
+  "10.0.12": {
+    "url": "https://stx.pdf24.org/download/pdf24-creator-10.0.12.msi",
+    "size": 149127168,
+    "checksum": "CC056EAA622BBE2421FAC33271EBF3BD3A59B3B0AACA483E3C4AB2B168BE3E99",
     "file_type": ".msi"
   }
 }
