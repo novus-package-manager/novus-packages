@@ -8,7 +8,7 @@
   "portable": true,
   "creator": "Tracker Software",
   "description": "PDF-XChange Editor can be used to create PDF files from scanned documents, images, text files, Markdown files and much more.",
-  "latest_version": "9.2.357.0",
+  "latest_version": "9.2.358.0",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -27,6 +27,12 @@
     "url": "https://downloads.pdf-xchange.com/PDFXEdit9_Portable.zip",
     "size": 91621520,
     "checksum": "35F8E4657D34CDD120A1F44012CEE04E9D77F3355E0EC93A9B309FE380510B8B",
+    "file_type": ".zip"
+  },
+  "9.2.358.0": {
+    "url": "https://downloads.pdf-xchange.com/PDFXEdit9_Portable.zip",
+    "size": 92306034,
+    "checksum": "8C39E5EAA133C585AF9232340F736AA7E2C95609F19F377187DB78C95986ADE8",
     "file_type": ".zip"
   }
 }
