@@ -21,16 +21,16 @@
     "download_url": "https://azure.download.pdfforge.org/pdfcreator/4.3.0/PDFCreator-4_3_0-Setup.exe",
     "regex": "PDFCreator (\\d+\\.\\d+\\.\\d+)"
   },
-  "4.4.0": {
+  "4.3.0": {
     "url": "https://azure.download.pdfforge.org/pdfcreator/4.3.0/PDFCreator-4_3_0-Setup.exe",
     "size": 36406376,
     "checksum": "7984A89D15343FDB9FD6BC1E3BCAB4E6680D664B80DF0390AC6B086B21536F29",
     "file_type": ".exe"
   },
-  "4.3.0": {
-    "url": "https://azure.download.pdfforge.org/pdfcreator/4.3.0/PDFCreator-4_3_0-Setup.exe",
-    "size": 36406376,
-    "checksum": "7984A89D15343FDB9FD6BC1E3BCAB4E6680D664B80DF0390AC6B086B21536F29",
+  "4.4.0": {
+    "url": "https://cdn.download.pdfforge.org/pdfcreator/4.4.0/PDFCreator-4_4_0-Setup.exe",
+    "size": 40668232,
+    "checksum": "42AEDE724A1A8ED60174F4F469449FC1238AF30085B8CDDDE9E58E517BC6BDD8",
     "file_type": ".exe"
   }
 }
