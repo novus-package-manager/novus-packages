@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "Slack Technologies",
   "description": "Slack is a proprietary business communication platform.",
-  "latest_version": "4.21.0",
+  "latest_version": "4.21.1",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -18,18 +18,6 @@
     "url": "https://downloads.slack-edge.com/releases/windows/4.16.1/prod/x64/slack-standalone-4.16.1.0.msi",
     "size": 92356608,
     "checksum": "2DF775430A6C4E006DBFC7EE1317FA2E8294F63269142365269B6504830E62E6",
-    "file_type": ".msi"
-  },
-  "4.18.0": {
-    "url": "https://downloads.slack-edge.com/releases/windows/4.18.0/prod/x64/slack-standalone-4.18.0.0.msi",
-    "size": 92438528,
-    "checksum": "7821699675BC67B63D1C7F2EB08DFC41CE3359D4D3CB37742DDB74090073EB1C",
-    "file_type": ".msi"
-  },
-  "4.19.3": {
-    "url": "https://downloads.slack-edge.com/releases/windows/4.19.3/prod/x64/slack-standalone-4.19.3.0.msi",
-    "size": 96063488,
-    "checksum": "33BF8E0AB732E758BCF06CA339D1A26E40D18890EEBB267A2A1128C30E5EF204",
     "file_type": ".msi"
   },
   "4.20.0": {
@@ -48,6 +36,24 @@
     "url": "https://downloads.slack-edge.com/releases/windows/4.21.0/prod/x64/slack-standalone-4.21.0.0.msi",
     "size": 98140160,
     "checksum": "7A93CFCDA4499724C542E7F551B62E31F90DA489BE09B48FDDD1788FFE4C2518",
+    "file_type": ".msi"
+  },
+  "4.19.3": {
+    "url": "https://downloads.slack-edge.com/releases/windows/4.19.3/prod/x64/slack-standalone-4.19.3.0.msi",
+    "size": 96063488,
+    "checksum": "33BF8E0AB732E758BCF06CA339D1A26E40D18890EEBB267A2A1128C30E5EF204",
+    "file_type": ".msi"
+  },
+  "4.21.1": {
+    "url": "https://downloads.slack-edge.com/releases/windows/4.21.1/prod/x64/slack-standalone-4.21.1.0.msi",
+    "size": 98152448,
+    "checksum": "7174737D3EC8DA4EE6FC7A58D9D7111C3F085810855E164C1FFB392973181305",
+    "file_type": ".msi"
+  },
+  "4.18.0": {
+    "url": "https://downloads.slack-edge.com/releases/windows/4.18.0/prod/x64/slack-standalone-4.18.0.0.msi",
+    "size": 92438528,
+    "checksum": "7821699675BC67B63D1C7F2EB08DFC41CE3359D4D3CB37742DDB74090073EB1C",
     "file_type": ".msi"
   }
 }
