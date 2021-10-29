@@ -5,14 +5,24 @@
   "portable": false,
   "creator": "FileZilla",
   "description": "The free FTP solution for both client and server.",
-  "latest_version": "3.55.1",
+  "latest_version": "3.56.2",
   "threads": 1,
-  "iswitches": ["/S"],
-  "uswitches": ["/S"],
+  "iswitches": [
+    "/S"
+  ],
+  "uswitches": [
+    "/S"
+  ],
   "autoupdate": {
     "download_page": "https://filezilla.en.uptodown.com/windows/versions",
     "download_url": "https://download.filezilla-project.org/client/FileZilla_<version>_win64_sponsored-setup.exe",
     "regex": "class=version>(\\d+\\.\\d+\\.\\d+)"
+  },
+  "3.56.2": {
+    "url": "https://download.filezilla-project.org/client/FileZilla_3.56.2_win64_sponsored-setup.exe",
+    "size": 11794504,
+    "checksum": "5B13FB5957B84EF7BB9D0B6CD509C947FF6A37D67EFDAC2B896DDD3B908AAD10",
+    "file_type": ".exe"
   },
   "3.55.1": {
     "url": "https://download.filezilla-project.org/client/FileZilla_3.55.1_win64_sponsored-setup.exe",

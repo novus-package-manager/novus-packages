@@ -507,10 +507,19 @@ async fn update_url_and_version(
         url = url.replace("<version-no-dot>", &version.replace(".", ""));
     }
     // println!("url: {}", url);
-    let response = get(url.clone())
+    // let response = get(url.clone())
+    //     .await
+    //     .unwrap_or_else(|e| handle_error_and_exit(format!("{}: line {}", e.to_string(), line!())));
+    // println!("response status: {:?}", response.status());
+
+    let client = reqwest::Client::new();
+    let mut response = client
+        .get(url.clone())
+        .header("user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36")
+        .send()
         .await
         .unwrap_or_else(|e| handle_error_and_exit(format!("{}: line {}", e.to_string(), line!())));
-    // println!("response status: {:?}", response.status());
+
     let file_size = response.content_length().unwrap_or(10000);
 
     let appdata = std::env::var("APPDATA")
@@ -601,9 +610,11 @@ async fn update_url_and_version(
         );
     } else {
         println!(
-            "{} {}\n    -> {}",
+            "{} {}\n    -> {}: {}\n    -> {}",
             "Detected Corrupted Dowload For".bright_red(),
             package_name.bright_red(),
+            "Response Status:",
+            response.status(),
             url.bright_cyan()
         );
     }
