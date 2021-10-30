@@ -513,7 +513,7 @@ async fn update_url_and_version(
     // println!("response status: {:?}", response.status());
 
     let client = reqwest::Client::new();
-    let mut response = client
+    let response = client
         .get(url.clone())
         .header("user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36")
         .send()
