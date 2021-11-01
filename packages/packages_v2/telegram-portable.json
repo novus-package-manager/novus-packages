@@ -8,7 +8,7 @@
   "portable": true,
   "creator": "Pavel Durov, Nikolai Durov",
   "description": "Telegram is a free and open source, cross-platform, cloud-based instant messaging software.",
-  "latest_version": "3.1.1",
+  "latest_version": "3.1.11",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -23,16 +23,22 @@
     "checksum": "9DA1765FBED6EA12BC42DA6FB7FF84B4000C72682E86F85044487058287065E2",
     "file_type": ".zip"
   },
+  "3.1.1": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.1.1/tportable-x64.3.1.1.zip",
+    "size": 41921266,
+    "checksum": "3C0B34AB0757C19D0B5E1D5DE8A34FBFB864D9FFC4C2836B8C61B9481489B1EC",
+    "file_type": ".zip"
+  },
   "3.1.0": {
     "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.1.0/tportable-x64.3.1.0.zip",
     "size": 41925163,
     "checksum": "6D5222B1341578639769731B5F2393222A838F52F78344CB6B0F579DBF0AE3EA",
     "file_type": ".zip"
   },
-  "3.1.1": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.1.1/tportable-x64.3.1.1.zip",
-    "size": 41921266,
-    "checksum": "3C0B34AB0757C19D0B5E1D5DE8A34FBFB864D9FFC4C2836B8C61B9481489B1EC",
+  "3.1.11": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.1.11/tportable-x64.3.1.11.zip",
+    "size": 42403791,
+    "checksum": "2D14CAD46913A82C580C285FDC8687883B3297F7975C0E26AC6F78B92CF5A91D",
     "file_type": ".zip"
   }
 }
