@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "Pavel Durov, Nikolai Durov",
   "description": "Telegram is a free and open source, cross-platform, cloud-based instant messaging software.",
-  "latest_version": "3.1.1",
+  "latest_version": "3.1.11",
   "threads": 8,
   "iswitches": [
     "/SP-",
@@ -24,6 +24,12 @@
     "download_page": "https://github.com/telegramdesktop/tdesktop/releases/latest",
     "download_url": "https://github.com/telegramdesktop/tdesktop/releases/download/v<version>/tsetup-x64.<version>.exe",
     "regex": "<title>Release v (\\d+\\.\\d+\\.\\d+)"
+  },
+  "3.1.11": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.1.11/tsetup-x64.3.1.11.exe",
+    "size": 34815024,
+    "checksum": "C23A8143569E69BEE69C42B0B3EF8C9DE88C9B682D39C33F05AF88631B9102C5",
+    "file_type": ".exe"
   },
   "3.1.1": {
     "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.1.1/tsetup-x64.3.1.1.exe",
