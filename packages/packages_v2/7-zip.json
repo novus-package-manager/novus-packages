@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "Igor Pavlov",
   "description": "7-Zip is a file archiver with a high compression ratio.",
-  "latest_version": "21.03",
+  "latest_version": "21.04",
   "threads": 8,
   "iswitches": [
     "/S"
@@ -20,6 +20,12 @@
     "download_page": "https://www.7-zip.org/download.html",
     "download_url": "https://www.7-zip.org/a/7z<version-no-dot>-x64.exe",
     "regex": "(7-Zip \\d....)"
+  },
+  "19.00": {
+    "url": "https://www.7-zip.org/a/7z1900-x64.exe",
+    "size": 1447178,
+    "checksum": "0F5D4DBBE5E55B7AA31B91E5925ED901FDF46A367491D81381846F05AD54C45E",
+    "file_type": ".exe"
   },
   "21.02": {
     "url": "https://www.7-zip.org/a/7z2102-x64.exe",
@@ -33,10 +39,10 @@
     "checksum": "69B755F462D7D9018F4D8F004FFE7CA0FC64EF663246050DFBC864DF039084B5",
     "file_type": ".exe"
   },
-  "19.00": {
-    "url": "https://www.7-zip.org/a/7z1900-x64.exe",
-    "size": 1447178,
-    "checksum": "0F5D4DBBE5E55B7AA31B91E5925ED901FDF46A367491D81381846F05AD54C45E",
+  "21.04": {
+    "url": "https://www.7-zip.org/a/7z2104-x64.exe",
+    "size": 1518951,
+    "checksum": "A95A98619F0AD4308F0FE446CAE71921743CB8C66324CEC5F97CD3485369A71B",
     "file_type": ".exe"
   }
 }
