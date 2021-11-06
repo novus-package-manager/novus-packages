@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "Microsoft",
   "description": "Azure PowerShell is a set of cmdlets for managing Azure resources directly from the PowerShell command line.",
-  "latest_version": "3.4.1",
+  "latest_version": "6.6.0",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -14,22 +14,28 @@
     "download_url": "https://github.com/Azure/azure-powershell/releases/download/v<version>-May2021/Az-Cmdlets-<version>.34351-x64.msi",
     "regex": "Version (\\d+\\.\\d+\\.\\d+)"
   },
-  "4.1.1": {
-    "url": "https://github.com/Azure/azure-powershell/releases/download/v4.1.1-May2021/Az-Cmdlets-4.1.1.34351-x64.msi",
-    "size": 9,
-    "checksum": "2840FCA0EC8C01A1C6395487D5E5E971578F1BD520A754DED4F74295386A4426",
-    "file_type": ".msi"
-  },
   "3.4.1": {
     "url": "https://github.com/Azure/azure-powershell/releases/download/v3.4.1-May2021/Az-Cmdlets-3.4.1.34351-x64.msi",
     "size": 9,
     "checksum": "2840FCA0EC8C01A1C6395487D5E5E971578F1BD520A754DED4F74295386A4426",
     "file_type": ".msi"
   },
+  "6.6.0": {
+    "url": "https://github.com/Azure/azure-powershell/releases/download/v6.6.0-November2021/Az-Cmdlets-6.6.0.34903-x64.msi",
+    "size": 48463872,
+    "checksum": "01311A474F6B1BA0BA0FA8670FCFC59CA0D25A2D548DB82CD7296138F9684655",
+    "file_type": ".msi"
+  },
   "6.0.0": {
     "url": "https://github.com/Azure/azure-powershell/releases/download/v6.0.0-May2021/Az-Cmdlets-6.0.0.34351-x64.msi",
     "size": 45277184,
     "checksum": "09F4FCB360D58474CBA907FED98F6AF8D9CCEA0A5449D6C614FC11B0ACF3CCDE",
+    "file_type": ".msi"
+  },
+  "4.1.1": {
+    "url": "https://github.com/Azure/azure-powershell/releases/download/v4.1.1-May2021/Az-Cmdlets-4.1.1.34351-x64.msi",
+    "size": 9,
+    "checksum": "2840FCA0EC8C01A1C6395487D5E5E971578F1BD520A754DED4F74295386A4426",
     "file_type": ".msi"
   }
 }
