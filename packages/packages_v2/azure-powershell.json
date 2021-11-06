@@ -1,23 +1,21 @@
 {
   "package_name": "azure-powershell",
   "display_name": "Microsoft Azure Powershell",
-  "aliases": [
-    "azure-powershell"
-  ],
+  "aliases": ["azure-powershell"],
   "exec_name": "none",
   "portable": false,
   "creator": "Microsoft",
   "description": "Azure PowerShell is a set of cmdlets for managing Azure resources directly from the PowerShell command line.",
-  "latest_version": "478.987.987",
+  "latest_version": "6.6.0",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
   "autoupdate": {
-    "download_page": "https://github.com/Azure/azure-powershell/releases/tag/v5.4.0-January2021",
-    "download_url": "https://github.com/Azure/azure-powershell/releases/download/v5.4.0-January2021/Az-Cmdlets-5.4.0.33905-x64.msi",
-    "regex": "(\\d+\\.\\d+\\.\\d+)"
+    "download_page": "https://github.com/Azure/azure-powershell/releases",
+    "download_url": "https://github.com/Azure/azure-powershell/releases/download/v<version>-November2021/Az-Cmdlets-<version>.34903-x64.msi",
+    "regex": "Az (\\d+\\.\\d+\\.\\d+)"
   },
-  "478.987.987": {
+  "5.4.0": {
     "url": "https://github.com/Azure/azure-powershell/releases/download/v5.4.0-January2021/Az-Cmdlets-5.4.0.33905-x64.msi",
     "size": 39661568,
     "checksum": "4E5DB259A231E16F9491FA2153C2D417E2427E489E4458AEFC71E1274016554F",
