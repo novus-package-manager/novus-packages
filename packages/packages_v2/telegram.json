@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "Pavel Durov, Nikolai Durov",
   "description": "Telegram is a free and open source, cross-platform, cloud-based instant messaging software.",
-  "latest_version": "3.1.11",
+  "latest_version": "3.2.2",
   "threads": 8,
   "iswitches": [
     "/SP-",
@@ -28,16 +28,10 @@
     "download_url": "https://github.com/telegramdesktop/tdesktop/releases/download/v<version>/tsetup-x64.<version>.exe",
     "regex": "<title>Release v (\\d+\\.\\d+\\.\\d+)"
   },
-  "3.1.1": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.1.1/tsetup-x64.3.1.1.exe",
-    "size": 34486688,
-    "checksum": "78769DDFF2D3ED07256983E6C087B9A7822F056CFFD4A3198C07AC92403B3143",
-    "file_type": ".exe"
-  },
-  "3.1.11": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.1.11/tsetup-x64.3.1.11.exe",
-    "size": 34815024,
-    "checksum": "C23A8143569E69BEE69C42B0B3EF8C9DE88C9B682D39C33F05AF88631B9102C5",
+  "3.2.2": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.2.2/tsetup-x64.3.2.2.exe",
+    "size": 34835872,
+    "checksum": "CF4B0ABD9527F45A1E5649A8296F94893048F85A9D624543898908A7245BB38E",
     "file_type": ".exe"
   },
   "3.0.1": {
@@ -50,6 +44,18 @@
     "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.1.0/tsetup-x64.3.1.0.exe",
     "size": 34408296,
     "checksum": "D3D6E02310AC0A7392F2FFA9A96F50A66C33A4D612A55CA8309B47F1EA1E06B2",
+    "file_type": ".exe"
+  },
+  "3.1.1": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.1.1/tsetup-x64.3.1.1.exe",
+    "size": 34486688,
+    "checksum": "78769DDFF2D3ED07256983E6C087B9A7822F056CFFD4A3198C07AC92403B3143",
+    "file_type": ".exe"
+  },
+  "3.1.11": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.1.11/tsetup-x64.3.1.11.exe",
+    "size": 34815024,
+    "checksum": "C23A8143569E69BEE69C42B0B3EF8C9DE88C9B682D39C33F05AF88631B9102C5",
     "file_type": ".exe"
   }
 }
