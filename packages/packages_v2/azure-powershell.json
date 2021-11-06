@@ -8,25 +8,25 @@
   "portable": false,
   "creator": "Microsoft",
   "description": "Azure PowerShell is a set of cmdlets for managing Azure resources directly from the PowerShell command line.",
-  "latest_version": "6.5.0",
+  "latest_version": "6.3.0",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
   "autoupdate": {
-    "download_page": "https://github.com/Azure/azure-powershell/releases?page=2",
-    "download_url": "https://github.com/Azure/azure-powershell/releases/download/v6.5.0-October2021/Az-Cmdlets-6.5.0.34802-x64.msi",
+    "download_page": "https://github.com/Azure/azure-powershell/releases/tag/v6.3.0-August2021",
+    "download_url": "https://github.com/Azure/azure-powershell/releases/download/v6.3.0-August2021/Az-Cmdlets-6.3.0.34604-x64.msi",
     "regex": "Az v(\\d+\\.\\d+\\.\\d+)"
+  },
+  "6.3.0": {
+    "url": "https://github.com/Azure/azure-powershell/releases/download/v6.3.0-August2021/Az-Cmdlets-6.3.0.34604-x64.msi",
+    "size": 46997504,
+    "checksum": "930062D05ED282ED21398C32BE97B4119DAA6B6C29C1294A495EDACF41FCB3CD",
+    "file_type": ".msi"
   },
   "6.0.0": {
     "url": "https://github.com/Azure/azure-powershell/releases/download/v6.0.0-May2021/Az-Cmdlets-6.0.0.34351-x64.msi",
     "size": 45277184,
     "checksum": "09F4FCB360D58474CBA907FED98F6AF8D9CCEA0A5449D6C614FC11B0ACF3CCDE",
-    "file_type": ".msi"
-  },
-  "4.1.1": {
-    "url": "https://github.com/Azure/azure-powershell/releases/download/v4.1.1-May2021/Az-Cmdlets-4.1.1.34351-x64.msi",
-    "size": 9,
-    "checksum": "2840FCA0EC8C01A1C6395487D5E5E971578F1BD520A754DED4F74295386A4426",
     "file_type": ".msi"
   },
   "6.4.0": {
@@ -43,6 +43,12 @@
   },
   "3.4.1": {
     "url": "https://github.com/Azure/azure-powershell/releases/download/v3.4.1-May2021/Az-Cmdlets-3.4.1.34351-x64.msi",
+    "size": 9,
+    "checksum": "2840FCA0EC8C01A1C6395487D5E5E971578F1BD520A754DED4F74295386A4426",
+    "file_type": ".msi"
+  },
+  "4.1.1": {
+    "url": "https://github.com/Azure/azure-powershell/releases/download/v4.1.1-May2021/Az-Cmdlets-4.1.1.34351-x64.msi",
     "size": 9,
     "checksum": "2840FCA0EC8C01A1C6395487D5E5E971578F1BD520A754DED4F74295386A4426",
     "file_type": ".msi"
