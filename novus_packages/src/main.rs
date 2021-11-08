@@ -511,14 +511,24 @@ async fn update_url_and_version(
     //     .await
     //     .unwrap_or_else(|e| handle_error_and_exit(format!("{}: line {}", e.to_string(), line!())));
     // println!("response status: {:?}", response.status());
-
+    
     let client = reqwest::Client::new();
-    let response = client
+    let response;
+    if package_name == "whatsapp" {
+        response = client
         .get(url.clone())
-        // .header("user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36")
+        .send()
+        .await
+        .unwrap_or_else(|e| handle_error_and_exit(format!("{}: line {}", e.to_string(), line!())));   
+    }
+    else {
+        response = client
+        .get(url.clone())
+        .header("user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36")
         .send()
         .await
         .unwrap_or_else(|e| handle_error_and_exit(format!("{}: line {}", e.to_string(), line!())));
+    }
 
     let file_size = response.content_length().unwrap_or(10000);
 
