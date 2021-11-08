@@ -515,7 +515,7 @@ async fn update_url_and_version(
     let client = reqwest::Client::new();
     let response = client
         .get(url.clone())
-        .header("user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36")
+        // .header("user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36")
         .send()
         .await
         .unwrap_or_else(|e| handle_error_and_exit(format!("{}: line {}", e.to_string(), line!())));
