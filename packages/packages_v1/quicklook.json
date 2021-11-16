@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "Apple",
   "description": "Quick Look is a quick preview feature developed by Apple Inc.",
-  "latest_version": "3.7.0",
+  "latest_version": "3.7.1",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -13,6 +13,12 @@
     "download_page": "https://github.com/QL-Win/QuickLook/releases/latest",
     "download_url": "https://github.com/QL-Win/QuickLook/releases/download/<version>/QuickLook-<version>.msi",
     "regex": "<title>Release (\\d+\\.\\d+\\.\\d+) · QL-Win/QuickLook"
+  },
+  "3.7.1": {
+    "url": "https://github.com/QL-Win/QuickLook/releases/download/3.7.1/QuickLook-3.7.1.msi",
+    "size": 59585966,
+    "checksum": "16641DB14617C403100AD890CCF1706082A9F08B38812D566E4D4CFCD627EC59",
+    "file_type": ".msi"
   },
   "3.7.0": {
     "url": "https://github.com/QL-Win/QuickLook/releases/download/3.7.0/QuickLook-3.7.0.msi",
