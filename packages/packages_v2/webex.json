@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "Cisco Systems",
   "description": "Webex is the leading enterprise solution for video conferencing, online meetings, screen share, and webinars.",
-  "latest_version": "41.1.0.17621",
+  "latest_version": "41.12.2.15",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -21,6 +21,12 @@
     "url": "https://binaries.webex.com/WebexTeamsDesktop-Windows-Gold/Webex_x86.msi",
     "size": 211357696,
     "checksum": "507CF7226F95E2D3314C464E374198152E2463DC5643EF7F00CF423602473AF2",
+    "file_type": ".msi"
+  },
+  "41.12.2.15": {
+    "url": "https://binaries.webex.com/WebexTeamsDesktop-Windows-Gold/Webex_x86.msi",
+    "size": 245407744,
+    "checksum": "538F487BC3A2C5612807BC65910BA22AE6E041A838F77056836D17BEEC80C642",
     "file_type": ".msi"
   }
 }
