@@ -8,7 +8,7 @@
   "portable": true,
   "creator": "Audacity",
   "description": "Audacity is a free and open-source digital audio editor and recording application software",
-  "latest_version": "3.1.1",
+  "latest_version": "3.1.2",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -17,16 +17,10 @@
     "download_url": "https://github.com/audacity/audacity/releases/download/Audacity-<version>/audacity-win-<version>-64bit.zip",
     "regex": "<title>Release Audacity (\\d+\\.\\d+\\.\\d+) · audacity/audacity"
   },
-  "3.1.1": {
-    "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.1.1/audacity-win-3.1.1-64bit.zip",
-    "size": 43842945,
-    "checksum": "6D7C1D9D34DB4180865A1A72D13E06327634AD7205743EBFC6ADACD2E45C47BC",
-    "file_type": ".zip"
-  },
-  "3.0.5": {
-    "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.0.5/audacity-win-3.0.5-64bit.zip",
-    "size": 68050657,
-    "checksum": "9EDB7C0806244A8C870B4E087DAFD7E7D3DEB11DD70E6A8D64DA3A8A68538F27",
+  "3.0.4": {
+    "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.0.4/audacity-win-3.0.4-64bit.zip",
+    "size": 42230979,
+    "checksum": "C1D21EE50F609C0BBB3D02C55CBB819DD7A2E4D63630B1326A08C0D7BC2A779C",
     "file_type": ".zip"
   },
   "3.1.0": {
@@ -35,10 +29,22 @@
     "checksum": "1E6C9829BF8252C934E5FBFA70AE0DF5E015C8E92D2ACAF165D4412DF8D4C745",
     "file_type": ".zip"
   },
-  "3.0.4": {
-    "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.0.4/audacity-win-3.0.4-64bit.zip",
-    "size": 42230979,
-    "checksum": "C1D21EE50F609C0BBB3D02C55CBB819DD7A2E4D63630B1326A08C0D7BC2A779C",
+  "3.0.5": {
+    "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.0.5/audacity-win-3.0.5-64bit.zip",
+    "size": 68050657,
+    "checksum": "9EDB7C0806244A8C870B4E087DAFD7E7D3DEB11DD70E6A8D64DA3A8A68538F27",
+    "file_type": ".zip"
+  },
+  "3.1.1": {
+    "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.1.1/audacity-win-3.1.1-64bit.zip",
+    "size": 43842945,
+    "checksum": "6D7C1D9D34DB4180865A1A72D13E06327634AD7205743EBFC6ADACD2E45C47BC",
+    "file_type": ".zip"
+  },
+  "3.1.2": {
+    "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.1.2/audacity-win-3.1.2-64bit.zip",
+    "size": 43436007,
+    "checksum": "3D1D4E097C48B7D685C8061920B84AC4AC0257D40AE17567DE223D75F41BBB40",
     "file_type": ".zip"
   }
 }
