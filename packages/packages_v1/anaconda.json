@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "Anaconda Inc.",
   "description": "Anaconda is a distribution of the Python and R programming languages for scientific computing",
-  "latest_version": "2021.05",
+  "latest_version": "2021.11",
   "threads": 8,
   "iswitches": [
     "/InstallationType=AllUsers",
@@ -13,7 +13,9 @@
     "/AddToPath=1",
     "/S"
   ],
-  "uswitches": ["/S"],
+  "uswitches": [
+    "/S"
+  ],
   "autoupdate": {
     "download_page": "https://www.anaconda.com/products/individual",
     "download_url": "https://repo.continuum.io/archive/Anaconda3-<version>-Windows-x86_64.exe",
@@ -23,6 +25,12 @@
     "url": "https://repo.continuum.io/archive/Anaconda3-2021.05-Windows-x86_64.exe",
     "size": 500375944,
     "checksum": "93DB42390444019E98B442AB281E1091671B6DCE64DAF08928D337FFC83CF3D2",
+    "file_type": ".exe"
+  },
+  "2021.11": {
+    "url": "https://repo.continuum.io/archive/Anaconda3-2021.11-Windows-x86_64.exe",
+    "size": 535052832,
+    "checksum": "1B3D593D1DEB22B835BE5C68897075E0FC9DEA240AB4191C55674ABA259A78FF",
     "file_type": ".exe"
   }
 }
