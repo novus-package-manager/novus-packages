@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "dotPDN, LLC",
   "description": "Paint.net is a freeware raster graphics editor program for Microsoft Windows.",
-  "latest_version": "4.3.2",
+  "latest_version": "4.3.3",
   "threads": 8,
   "iswitches": [
     "/auto"
@@ -18,6 +18,18 @@
     "download_page": "https://www.getpaint.net/",
     "download_url": "https://www.dotpdn.com/files/paint.net.<version>.install.anycpu.web.zip",
     "regex": "(\\d+\\.\\d+\\.\\d+)</b></font></a>"
+  },
+  "4.3.3": {
+    "url": "https://www.dotpdn.com/files/paint.net.4.3.3.install.anycpu.web.zip",
+    "size": 825098,
+    "checksum": "6D79A486C2C8F8D17D84B0D57C2A60D9354E26CB05EA0B3F88DE784D8BAAC0BC",
+    "file_type": ".exe"
+  },
+  "4.2.16": {
+    "url": "https://www.dotpdn.com/files/paint.net.4.2.16.install.zip",
+    "size": 12872272,
+    "checksum": "AA4225D361B5CF28F59A6BA2E908DC16DCB9086D7849FC3489E4F0BBAF522DE1",
+    "file_type": ".exe"
   },
   "4.3.2": {
     "url": "https://www.dotpdn.com/files/paint.net.4.3.2.install.anycpu.web.zip",
@@ -29,12 +41,6 @@
     "url": "https://www.dotpdn.com/files/paint.net.4.3.1.install.anycpu.web.zip",
     "size": 1768012,
     "checksum": "0E48EBD4EE6537F07098E1920F2542AD7B7DDEE86E13358FD39932601CDC863B",
-    "file_type": ".exe"
-  },
-  "4.2.16": {
-    "url": "https://www.dotpdn.com/files/paint.net.4.2.16.install.zip",
-    "size": 12872272,
-    "checksum": "AA4225D361B5CF28F59A6BA2E908DC16DCB9086D7849FC3489E4F0BBAF522DE1",
     "file_type": ".exe"
   }
 }
