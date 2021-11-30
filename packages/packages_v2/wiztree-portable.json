@@ -1,0 +1,26 @@
+{
+  "package_name": "wiztree-portable",
+  "display_name": "WizTree (Portable)",
+  "aliases": [
+    "wiztree-portable"
+  ],
+  "exec_name": "WizTree64",
+  "portable": true,
+  "creator": "WizTree",
+  "description": "WizTree is the fastest disk space analyzer available for Windows.",
+  "latest_version": "4.06",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "https://diskanalyzer.com/download",
+    "download_url": "https://diskanalyzer.com/files/wiztree_<version-underscore>_portable.zip",
+    "regex": "V&nbsp;(\\d+\\.\\d+)&nbsp;"
+  },
+  "4.06": {
+    "url": "https://diskanalyzer.com/files/wiztree_4_06_portable.zip",
+    "size": 6311237,
+    "checksum": "B412253DF227A2113E3321BADF4328B3E12E55215CB9F670CEA8ABC39896772A",
+    "file_type": ".zip"
+  }
+}

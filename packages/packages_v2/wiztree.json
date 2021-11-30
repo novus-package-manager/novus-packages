@@ -4,7 +4,7 @@
   "aliases": [
     "wiztree"
   ],
-  "exec_name": "none",
+  "exec_name": "WizTree64",
   "portable": false,
   "creator": "WizTree",
   "description": "WizTree is the fastest disk space analyzer available for Windows.",
@@ -26,7 +26,7 @@
   "autoupdate": {
     "download_page": "https://diskanalyzer.com/download",
     "download_url": "https://diskanalyzer.com/files/wiztree_<version-underscore>_setup.exe",
-    "regex": "V&nbsp;(\\d+\\.\\d+)&nbsp"
+    "regex": "V&nbsp;(\\d+\\.\\d+)&nbsp;"
   },
   "4.06": {
     "url": "https://diskanalyzer.com/files/wiztree_4_06_setup.exe",

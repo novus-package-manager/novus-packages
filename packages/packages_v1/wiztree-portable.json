@@ -1,0 +1,23 @@
+{
+  "package_name": "wiztree-portable",
+  "display_name": "",
+  "exec_name": "none",
+  "portable": false,
+  "creator": "",
+  "description": "",
+  "latest_version": "4.06",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "",
+    "download_url": "",
+    "regex": ""
+  },
+  "4.06": {
+    "url": "https://diskanalyzer.com/files/wiztree_4_06_portable.zip",
+    "size": 6311237,
+    "checksum": "B412253DF227A2113E3321BADF4328B3E12E55215CB9F670CEA8ABC39896772A",
+    "file_type": ".zip"
+  }
+}
