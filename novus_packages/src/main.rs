@@ -457,6 +457,9 @@ async fn update_url_and_version(
     if package.autoupdate.download_url.contains("<version>") {
         url = url.replace("<version>", version);
     }
+    if package.autoupdate.download_url.contains("<version-underscore>") {
+        url = url.replace("<version-underscore>", &version.replace(".", "_"));
+    }
     if package.autoupdate.download_url.contains("<major-version>") {
         let version_split: Vec<&str> = version.split(".").collect();
         let mut version_new = String::new();

@@ -1,0 +1,23 @@
+{
+  "package_name": "wiztree",
+  "display_name": "",
+  "exec_name": "none",
+  "portable": false,
+  "creator": "",
+  "description": "",
+  "latest_version": "4.06",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "",
+    "download_url": "",
+    "regex": ""
+  },
+  "4.06": {
+    "url": "https://diskanalyzer.com/files/wiztree_4_06_setup.exe",
+    "size": 4335656,
+    "checksum": "7D307410BB456BE794360355F648CD20247896F93F91A3BEB2B04549CA809BA1",
+    "file_type": ".exe"
+  }
+}
