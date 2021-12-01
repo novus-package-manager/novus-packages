@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "Microsoft",
   "description": "Microsoft Visual Studio is an integrated development environment (IDE).",
-  "latest_version": "",
+  "latest_version": "16.11",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -16,5 +16,11 @@
     "download_page": "https://docs.microsoft.com/en-us/visualstudio/releases/2019/release-notes",
     "download_url": "https://aka.ms/vs/16/release/vs_enterprise.exe",
     "regex": "Visual Studio 2019 version (\\d+\\.\\d+) Release Notes"
+  },
+  "16.11": {
+    "url": "https://aka.ms/vs/16/release/vs_enterprise.exe",
+    "size": 1465408,
+    "checksum": "034A613542E782DA8FFE06D09C20983A31346ADC5D0349100C8503C6FF3A4351",
+    "file_type": ".exe"
   }
 }

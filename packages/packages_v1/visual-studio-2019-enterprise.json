@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "",
   "description": "",
-  "latest_version": "0",
+  "latest_version": "16.11",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -13,5 +13,11 @@
     "download_page": "",
     "download_url": "",
     "regex": ""
+  },
+  "16.11": {
+    "url": "https://aka.ms/vs/16/release/vs_enterprise.exe",
+    "size": 1465408,
+    "checksum": "034A613542E782DA8FFE06D09C20983A31346ADC5D0349100C8503C6FF3A4351",
+    "file_type": ".exe"
   }
 }
