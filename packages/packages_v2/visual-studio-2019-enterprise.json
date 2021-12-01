@@ -1,0 +1,20 @@
+{
+  "package_name": "visual-studio-2019-enterprise",
+  "display_name": "Visual Studio Enterprise 2019",
+  "aliases": [
+    "visual-studio-2019-enterprise"
+  ],
+  "exec_name": "devenv",
+  "portable": false,
+  "creator": "Microsoft",
+  "description": "Microsoft Visual Studio is an integrated development environment (IDE).",
+  "latest_version": "",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "https://docs.microsoft.com/en-us/visualstudio/releases/2019/release-notes",
+    "download_url": "https://aka.ms/vs/16/release/vs_enterprise.exe",
+    "regex": "Visual Studio 2019 version (\\d+\\.\\d+) Release Notes"
+  }
+}

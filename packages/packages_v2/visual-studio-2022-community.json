@@ -1,0 +1,20 @@
+{
+  "package_name": "visual-studio-2022-community",
+  "display_name": "Visual Studio Community 2022",
+  "aliases": [
+    "visual-studio-2022-community"
+  ],
+  "exec_name": "none",
+  "portable": false,
+  "creator": "Microsoft",
+  "description": "Microsoft Visual Studio is an integrated development environment (IDE).",
+  "latest_version": "0",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes",
+    "download_url": "https://aka.ms/vs/<major-version>/release/vs_community.exe",
+    "regex": "Visual Studio 2022 version (\\d+\\.\\d+) Release Notes"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "package_name": "visual-studio-2019-professional",
+  "display_name": "",
+  "exec_name": "none",
+  "portable": false,
+  "creator": "",
+  "description": "",
+  "latest_version": "16.11",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "",
+    "download_url": "",
+    "regex": ""
+  },
+  "16.11": {
+    "url": "https://aka.ms/vs/16/release/vs_professional.exe",
+    "size": 1464784,
+    "checksum": "10D06C736307365956CB371F2F4886B7213557EC99DE4265CCF5C140DC2426CD",
+    "file_type": ".exe"
+  }
+}

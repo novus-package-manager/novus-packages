@@ -13,9 +13,9 @@
   "iswitches": [],
   "uswitches": [],
   "autoupdate": {
-    "download_page": "https://visualstudio.microsoft.com/downloads/",
-    "download_url": "https://download.visualstudio.microsoft.com/download/pr/9665567e-f580-4acd-85f2-bc94a1db745f/e44597271957d6bdacdea127ff62455d536b6a9d9b8c34f10bc555800ba3e4e2/vs_Community.exe",
-    "regex": "Visual Studio 2019</a></h2>\n<p class=\"notes-top\">Version (\\d+\\.\\d+)"
+    "download_page": "https://docs.microsoft.com/en-us/visualstudio/releases/2019/release-notes",
+    "download_url": "https://aka.ms/vs/16/release/vs_community.exe",
+    "regex": "Visual Studio 2019 version (\\d+\\.\\d+) Release Notes"
   },
   "16.10": {
     "url": "https://download.visualstudio.microsoft.com/download/pr/9665567e-f580-4acd-85f2-bc94a1db745f/e44597271957d6bdacdea127ff62455d536b6a9d9b8c34f10bc555800ba3e4e2/vs_Community.exe",

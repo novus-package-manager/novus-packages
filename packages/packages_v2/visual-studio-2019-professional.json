@@ -1,0 +1,26 @@
+{
+  "package_name": "visual-studio-2019-professional",
+  "display_name": "Visual Studio Professional 2019",
+  "aliases": [
+    "visual-studio-2019-professional"
+  ],
+  "exec_name": "devenv",
+  "portable": false,
+  "creator": "Microsoft",
+  "description": "Microsoft Visual Studio is an integrated development environment (IDE).",
+  "latest_version": "16.11",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "https://docs.microsoft.com/en-us/visualstudio/releases/2019/release-notes",
+    "download_url": "https://aka.ms/vs/16/release/vs_professional.exe",
+    "regex": "Visual Studio 2019 version (\\d+\\.\\d+) Release Notes"
+  },
+  "16.11": {
+    "url": "https://aka.ms/vs/16/release/vs_professional.exe",
+    "size": 1464784,
+    "checksum": "10D06C736307365956CB371F2F4886B7213557EC99DE4265CCF5C140DC2426CD",
+    "file_type": ".exe"
+  }
+}
