@@ -10,7 +10,7 @@
   "description": "Scalable, end-to-end solution for teams of any size",
   "latest_version": "16.11",
   "threads": 8,
-  "iswitches": [],
+  "iswitches": ["--passive", "--norestart"],
   "uswitches": [],
   "autoupdate": {
     "download_page": "https://docs.microsoft.com/en-us/visualstudio/releases/2019/release-notes",
