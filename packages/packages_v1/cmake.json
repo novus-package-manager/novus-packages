@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "CMake",
   "description": "CMake is cross-platform free and open-source software for build automation, testing, packaging and installation of software.",
-  "latest_version": "3.22.0-rc3",
+  "latest_version": "3.22",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],

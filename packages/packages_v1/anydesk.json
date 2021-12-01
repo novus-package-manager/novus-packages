@@ -12,7 +12,7 @@
   "autoupdate": {
     "download_page": "https://anydesk.com/en/downloads/windows",
     "download_url": "https://download.anydesk.com/AnyDesk.msi",
-    "regex": "<div class=\"d-block\" >v(\\d+\\.\\d+\\.\\d+) .+</div>"
+    "regex": "<div class=\"d-block\"  >v(\\d+\\.\\d+\\.\\d+) .+</div>"
   },
   "6.3.2": {
     "url": "https://download.anydesk.com/AnyDesk.msi",

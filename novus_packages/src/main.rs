@@ -308,6 +308,9 @@ async fn autoupdate(package_name: &str) {
                 }
             }
         }
+        else {
+            println!("{} {}{}", "No Matches Found For".bright_cyan(), package_name.bright_cyan(), ". Check the Regex.".bright_cyan());
+        }
     }
 }
 
