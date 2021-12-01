@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "Tracker Software",
   "description": "PDF-XChange Editor can be used to create PDF files from scanned documents, images, text files, Markdown files and much more.",
-  "latest_version": "9.2.358.0",
+  "latest_version": "9.2.359.0",
   "threads": 8,
   "iswitches": [
     "/qn",
@@ -23,18 +23,24 @@
   "autoupdate": {
     "download_page": "https://www.tracker-software.com/product/pdf-xchange-editor",
     "download_url": "https://downloads.pdf-xchange.com/EditorV9.x64.msi",
-    "regex": "<strong>Current version:</strong> (\\d+\\.\\d+\\.\\d+\\.\\d+)"
-  },
-  "9.2.357.0": {
-    "url": "https://downloads.pdf-xchange.com/EditorV9.x64.msi",
-    "size": 318750720,
-    "checksum": "EEDC0D68EBCDA9F082066C939AC095138D96A21E5F7CB2D3AC0DAEA11EB62D8C",
-    "file_type": ".msi"
+    "regex": "<strong>Current version:</strong>\n.+(\\d+\\.\\d+\\.\\d+\\.\\d+)"
   },
   "9.1.356.0": {
     "url": "https://downloads.pdf-xchange.com/EditorV9.x64.msi",
     "size": 325197824,
     "checksum": "4D9936656FFA9826B4B1B2279DF7D722D10DD77DE10D8C89D8BDA329C4529EC0",
+    "file_type": ".msi"
+  },
+  "9.2.359.0": {
+    "url": "https://downloads.pdf-xchange.com/EditorV9.x64.msi",
+    "size": 318996480,
+    "checksum": "30260D5B253C0F25E1FF8D85C56E65C513A1A9399FB9A5E4702BEBB4C9EC2C7B",
+    "file_type": ".msi"
+  },
+  "9.2.357.0": {
+    "url": "https://downloads.pdf-xchange.com/EditorV9.x64.msi",
+    "size": 318750720,
+    "checksum": "EEDC0D68EBCDA9F082066C939AC095138D96A21E5F7CB2D3AC0DAEA11EB62D8C",
     "file_type": ".msi"
   },
   "9.2.358.0": {
