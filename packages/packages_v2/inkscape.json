@@ -14,13 +14,13 @@
   "uswitches": [],
   "autoupdate": {
     "download_page": "https://inkscape.org/release",
-    "download_url": "https://inkscape.org/gallery/item/26939/inkscape-<version>-x64.msi",
+    "download_url": "https://media.inkscape.org/dl/resources/file/inkscape-<version>_2021-09-20_3bf5ae0d25-x64.msi",
     "regex": "<title>Download Inkscape (\\d+\\.\\d+\\.\\d+)"
   },
   "1.1.1": {
-    "url": "https://inkscape.org/gallery/item/26939/inkscape-1.1.1-x64.msi",
-    "size": 20066,
-    "checksum": "AC0C7D43C349A519C51043CDBD1C7924AA036A1253EC9C172D94EDAF2D2C84F9",
+    "url": "https://media.inkscape.org/dl/resources/file/inkscape-1.1.1_2021-09-20_3bf5ae0d25-x64.msi",
+    "size": 126346240,
+    "checksum": "60260F865F1A0CA9E538CF24A7999276281B130810C792DCE131F73DF4914CBC",
     "file_type": ".msi"
   },
   "1.1": {
