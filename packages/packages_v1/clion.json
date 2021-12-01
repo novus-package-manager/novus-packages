@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "JetBrains",
   "description": "A cross-platform IDE for C and C++",
-  "latest_version": "2021.2",
+  "latest_version": "2021.3",
   "threads": 8,
   "iswitches": [
     "/S"
@@ -28,6 +28,12 @@
     "url": "https://download-cf.jetbrains.com/cpp/CLion-2021.1.exe",
     "size": 550554856,
     "checksum": "213965EF0D1CAD47712AAA90D2831AB8ACF4DACB3C82A154FF5AF7782145C67F",
+    "file_type": ".exe"
+  },
+  "2021.3": {
+    "url": "https://download-cf.jetbrains.com/cpp/CLion-2021.3.exe",
+    "size": 613118016,
+    "checksum": "EFDE6DCD20CDDA92CB77422BD32CDB9DB746EB49B638EDB2CE3E55A082C4ED1A",
     "file_type": ".exe"
   }
 }
