@@ -7,7 +7,7 @@
   "exec_name": "devenv",
   "portable": false,
   "creator": "Microsoft",
-  "description": "Microsoft Visual Studio is an integrated development environment (IDE).",
+  "description": "Professional IDE best suited to small teams",
   "latest_version": "16.11",
   "threads": 8,
   "iswitches": [],
