@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "Microsoft",
   "description": "Microsoft Visual Studio is an integrated development environment (IDE).",
-  "latest_version": "0",
+  "latest_version": "17.0",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -16,5 +16,11 @@
     "download_page": "https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes",
     "download_url": "https://aka.ms/vs/<major-version>/release/vs_professional.exe",
     "regex": "Visual Studio 2022 version (\\d+\\.\\d+) Release Notes"
+  },
+  "17.0": {
+    "url": "https://aka.ms/vs/17/release/vs_professional.exe",
+    "size": 1648736,
+    "checksum": "FF45383F2BB79ABF9F0560E4FC6B12166C87A7B5131F8E00ECE9F63231A41742",
+    "file_type": ".exe"
   }
 }
