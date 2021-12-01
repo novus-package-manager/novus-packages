@@ -14,7 +14,7 @@
   "uswitches": [],
   "autoupdate": {
     "download_page": "https://docs.microsoft.com/en-us/visualstudio/releases/2019/release-notes",
-    "download_url": "https://aka.ms/vs/16/release/vs_professional.exe",
+    "download_url": "https://aka.ms/vs/<major-version>/release/vs_professional.exe",
     "regex": "Visual Studio 2019 version (\\d+\\.\\d+) Release Notes"
   },
   "16.11": {

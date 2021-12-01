@@ -1,0 +1,26 @@
+{
+  "package_name": "visual-studio-2022-enterprise",
+  "display_name": "Visual Studio Enterprise 2022",
+  "aliases": [
+    "visual-studio-2022-enterprise"
+  ],
+  "exec_name": "none",
+  "portable": false,
+  "creator": "Microsoft",
+  "description": "Microsoft Visual Studio is an integrated development environment (IDE).",
+  "latest_version": "17.0",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes",
+    "download_url": "https://aka.ms/vs/<major-version>/release/vs_enterprise.exe",
+    "regex": "Visual Studio 2022 version (\\d+\\.\\d+) Release Notes"
+  },
+  "17.0": {
+    "url": "https://aka.ms/vs/17/release/vs_enterprise.exe",
+    "size": 1649920,
+    "checksum": "39919EDF18CF16E1DB38032AEC636177C948A61A4F5EC8E84443335EB4B21194",
+    "file_type": ".exe"
+  }
+}

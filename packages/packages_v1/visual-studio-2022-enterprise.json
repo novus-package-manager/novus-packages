@@ -1,0 +1,23 @@
+{
+  "package_name": "visual-studio-2022-enterprise",
+  "display_name": "",
+  "exec_name": "none",
+  "portable": false,
+  "creator": "",
+  "description": "",
+  "latest_version": "17.0",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "",
+    "download_url": "",
+    "regex": ""
+  },
+  "17.0": {
+    "url": "https://aka.ms/vs/17/release/vs_enterprise.exe",
+    "size": 1649920,
+    "checksum": "39919EDF18CF16E1DB38032AEC636177C948A61A4F5EC8E84443335EB4B21194",
+    "file_type": ".exe"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "package_name": "visual-studio-2022-build-tools",
+  "display_name": "Visual Studio Build Tools 2022",
+  "aliases": [
+    "visual-studio-2022-build-tools"
+  ],
+  "exec_name": "none",
+  "portable": false,
+  "creator": "Microsoft",
+  "description": "Visual Studio Build Tools allow you to build Visual Studio projects from a command-line interface.",
+  "latest_version": "17.0",
+  "threads": 8,
+  "iswitches": [],
+  "uswitches": [],
+  "autoupdate": {
+    "download_page": "https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes",
+    "download_url": "https://aka.ms/vs/<major-version>/release/vs_BuildTools.exe",
+    "regex": "Visual Studio 2022 version (\\d+\\.\\d+) Release Notes"
+  },
+  "17.0": {
+    "url": "https://aka.ms/vs/17/release/vs_BuildTools.exe",
+    "size": 1648752,
+    "checksum": "5B1E6342112291665B8055B209DCB5058A5720570CB688986849B79C91D4FFD7",
+    "file_type": ".exe"
+  }
+}
