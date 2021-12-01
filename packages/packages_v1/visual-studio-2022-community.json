@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "",
   "description": "",
-  "latest_version": "0",
+  "latest_version": "17.0",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -13,5 +13,11 @@
     "download_page": "",
     "download_url": "",
     "regex": ""
+  },
+  "17.0": {
+    "url": "https://aka.ms/vs/17/release/vs_community.exe",
+    "size": 1650112,
+    "checksum": "887B04132031C9F09A83614D5D8AFE6F75ED27632CC794FA6C6DC189334D7D9D",
+    "file_type": ".exe"
   }
 }
