@@ -77,7 +77,7 @@ async fn main() {
                 for package in package_list {
                     println!("Mirroring {}", package);
                     mirror_package(package).await;
-                } 
+                }
             } else {
                 mirror_package(&args[2]).await;
             }
@@ -314,9 +314,13 @@ async fn autoupdate(package_name: &str) {
                         .await;
                 }
             }
-        }
-        else {
-            println!("{} {}{}", "No Matches Found For".bright_cyan(), package_name.bright_cyan(), ". Check the Regex.".bright_cyan());
+        } else {
+            println!(
+                "{} {}{}",
+                "No Matches Found For".bright_cyan(),
+                package_name.bright_cyan(),
+                ". Check the Regex.".bright_cyan()
+            );
         }
     }
 }
@@ -467,7 +471,11 @@ async fn update_url_and_version(
     if package.autoupdate.download_url.contains("<version>") {
         url = url.replace("<version>", version);
     }
-    if package.autoupdate.download_url.contains("<version-underscore>") {
+    if package
+        .autoupdate
+        .download_url
+        .contains("<version-underscore>")
+    {
         url = url.replace("<version-underscore>", &version.replace(".", "_"));
     }
     if package.autoupdate.download_url.contains("<major-version>") {
@@ -524,17 +532,13 @@ async fn update_url_and_version(
     //     .await
     //     .unwrap_or_else(|e| handle_error_and_exit(format!("{}: line {}", e.to_string(), line!())));
     // println!("response status: {:?}", response.status());
-    
     let client = reqwest::Client::new();
     let response;
     if package_name == "whatsapp" {
-        response = client
-        .get(url.clone())
-        .send()
-        .await
-        .unwrap_or_else(|e| handle_error_and_exit(format!("{}: line {}", e.to_string(), line!())));   
-    }
-    else {
+        response = client.get(url.clone()).send().await.unwrap_or_else(|e| {
+            handle_error_and_exit(format!("{}: line {}", e.to_string(), line!()))
+        });
+    } else {
         response = client
         .get(url.clone())
         .header("user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36")
@@ -972,6 +976,44 @@ async fn update_package(package_name: &str, field: &str, value: &str) {
 async fn mirror_package(package_name: &str) {
     let package: Package = get_package(&package_name).await;
     let mut packagev1: Packagev1 = get_package_v1(&package_name).await;
+
+    if packagev1.display_name != package.display_name
+        || packagev1.latest_version != package.latest_version
+        || packagev1.description != package.description
+        || packagev1.package_name != package.package_name
+        || packagev1.versions.len() != package.versions.len()
+        || packagev1.exec_name != package.exec_name
+        || packagev1.portable != package.portable
+        || packagev1.creator != package.creator
+        || packagev1.threads != package.threads
+        || packagev1.iswitches != package.iswitches
+        || packagev1.uswitches != package.uswitches
+        || packagev1.autoupdate.download_page != package.autoupdate.download_page
+        || packagev1.autoupdate.download_url != package.autoupdate.download_url
+        || packagev1.autoupdate.regex != package.autoupdate.regex
+    {
+        packagev1.description = package.display_name.clone();
+        packagev1.package_name = package.package_name.clone();
+        packagev1.exec_name = package.exec_name.clone();
+        packagev1.creator = package.creator.clone();
+        packagev1.threads = package.threads;
+        packagev1.autoupdate.download_page = package.autoupdate.download_page.clone();
+        packagev1.autoupdate.download_url = package.autoupdate.download_url.clone();
+        packagev1.autoupdate.regex = package.autoupdate.regex.clone();
+
+        let file = std::fs::File::create(format!(
+            r"D:\prana\Programming\My Projects\novus-package-manager\novus-packages\packages\packages_v1\{}.json",
+            package_name
+        ))
+        .unwrap();
+        to_writer_pretty(file, &packagev1).unwrap();
+
+        std::process::Command::new("powershell")
+            .arg("novus_update")
+            .output()
+            .expect("Failed to update gcp bucket");
+    }
+
     packagev1.display_name = package.display_name;
     packagev1.package_name = package.package_name;
     packagev1.exec_name = package.exec_name;
