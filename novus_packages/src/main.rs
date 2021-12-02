@@ -73,7 +73,14 @@ async fn main() {
         } else if args[1] == "update" {
             update_package(&args[2], &args[3], &args[4]).await;
         } else if args[1] == "mirror" {
-            mirror_package(&args[2]).await;
+            if args.len() == 2 {
+                for package in package_list {
+                    println!("Mirroring {}", package);
+                    mirror_package(package).await;
+                } 
+            } else {
+                mirror_package(&args[2]).await;
+            }
         } else {
             autoupdate(&args[1]).await;
         }
