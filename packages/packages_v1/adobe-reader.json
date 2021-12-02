@@ -16,28 +16,28 @@
     "download_url": "https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/<version-no-dot>/AcroRdrDC<version-no-dot>_en_US.exe",
     "regex": "(21\\.\\d+\\.\\d+)"
   },
-  "21.005.20048": {
-    "url": "https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/2100520048/AcroRdrDC2100520048_en_US.exe",
-    "size": 192061152,
-    "checksum": "366998611F48E400B25ADDB85AA42D052A296ABBBDF0EEE392526C127705A5AA",
-    "file_type": ".exe"
-  },
   "21.001.20145": {
     "url": "https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/2100120145/AcroRdrDC2100120145_en_US.exe",
     "size": 190154408,
     "checksum": "F1E5CBBACE69EDBA23E7A2557B9BE59D916AF06AD27D99526E6FF356429FF4F2",
     "file_type": ".exe"
   },
-  "21.005.20058": {
-    "url": "https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/2100520058/AcroRdrDC2100520058_en_US.exe",
-    "size": 192092384,
-    "checksum": "FECD94C0077C5C69EE7B5CA2909DB4BC3BADE5D898C2972A8B85DD6FB1AD8BB3",
-    "file_type": ".exe"
-  },
   "21.005.20060": {
     "url": "https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/2100520060/AcroRdrDC2100520060_en_US.exe",
     "size": 192124640,
     "checksum": "A7B48539976BBEC9132C1722563BAC69E6D154F88E675644A25DCF3D231F665B",
+    "file_type": ".exe"
+  },
+  "21.005.20048": {
+    "url": "https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/2100520048/AcroRdrDC2100520048_en_US.exe",
+    "size": 192061152,
+    "checksum": "366998611F48E400B25ADDB85AA42D052A296ABBBDF0EEE392526C127705A5AA",
+    "file_type": ".exe"
+  },
+  "21.005.20058": {
+    "url": "https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/2100520058/AcroRdrDC2100520058_en_US.exe",
+    "size": 192092384,
+    "checksum": "FECD94C0077C5C69EE7B5CA2909DB4BC3BADE5D898C2972A8B85DD6FB1AD8BB3",
     "file_type": ".exe"
   },
   "21.007.20099": {
