@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "Go Authors",
   "description": "Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.",
-  "latest_version": "1.17.3",
+  "latest_version": "1.17.4",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -16,6 +16,12 @@
     "download_page": "https://golang.org/dl/",
     "download_url": "https://golang.org/dl/go<version>.windows-amd64.msi",
     "regex": "<a class=\"download downloadBox\" href=\"/dl/go(\\d+\\.\\d+\\.\\d+)\\.windows-amd64\\.msi\">\\n<div class=\"platform\">Microsoft Windows</div>"
+  },
+  "1.17.3": {
+    "url": "https://golang.org/dl/go1.17.3.windows-amd64.msi",
+    "size": 130314240,
+    "checksum": "BF3C475726C9165EB5D809E1BB4CE33550A25850495AAC0A5DF6D0DF05930936",
+    "file_type": ".msi"
   },
   "1.16.4": {
     "url": "https://golang.org/dl/go1.16.4.windows-amd64.msi",
@@ -41,22 +47,22 @@
     "checksum": "7A360967708350354EA479500A8EADA6A032E07EAC5BD43142367EE5B0AB1DF9",
     "file_type": ".msi"
   },
-  "1.17.3": {
-    "url": "https://golang.org/dl/go1.17.3.windows-amd64.msi",
-    "size": 130314240,
-    "checksum": "BF3C475726C9165EB5D809E1BB4CE33550A25850495AAC0A5DF6D0DF05930936",
+  "1.16.7": {
+    "url": "https://golang.org/dl/go1.16.7.windows-amd64.msi",
+    "size": 124407808,
+    "checksum": "75597307C368AE1F728F9E7A2C2D5814225664B5B8D915D34C0D4EB2D53D0831",
+    "file_type": ".msi"
+  },
+  "1.17.4": {
+    "url": "https://golang.org/dl/go1.17.4.windows-amd64.msi",
+    "size": 130355200,
+    "checksum": "581157E5141BBCA55FB99959DBAEE1AC1BCE9A748ECAC68FB315CA71C2487E33",
     "file_type": ".msi"
   },
   "1.17.2": {
     "url": "https://golang.org/dl/go1.17.2.windows-amd64.msi",
     "size": 130322432,
     "checksum": "F7D54883E9BB653B1A50061A7FA42A6503C680A25CEE32F16CCBA51A77B0C83B",
-    "file_type": ".msi"
-  },
-  "1.16.7": {
-    "url": "https://golang.org/dl/go1.16.7.windows-amd64.msi",
-    "size": 124407808,
-    "checksum": "75597307C368AE1F728F9E7A2C2D5814225664B5B8D915D34C0D4EB2D53D0831",
     "file_type": ".msi"
   }
 }
