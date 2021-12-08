@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "Python Software Foundation",
   "description": "Python is an interpreted high-level general-purpose programming language.",
-  "latest_version": "3.10.0",
+  "latest_version": "3.10.1",
   "threads": 8,
   "iswitches": [
     "/silent"
@@ -22,16 +22,22 @@
     "checksum": "84D5243088BA00C11E51905C704DBE041040DFFF044F4E1CE5476844EE2E6EAC",
     "file_type": ".exe"
   },
-  "3.10.0": {
-    "url": "https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe",
-    "size": 28315928,
-    "checksum": "CB580EB7DC55F9198E650F016645023E8B2224CF7D033857D12880B46C5C94EF",
-    "file_type": ".exe"
-  },
   "3.9.7": {
     "url": "https://www.python.org/ftp/python/3.9.7/python-3.9.7-amd64.exe",
     "size": 28895456,
     "checksum": "3F63F4C77A6DA13F9BAE715EB6644A48BD5F900601E0F1F233862E8CA1A96DD8",
+    "file_type": ".exe"
+  },
+  "3.10.1": {
+    "url": "https://www.python.org/ftp/python/3.10.1/python-3.10.1-amd64.exe",
+    "size": 28179056,
+    "checksum": "8B89B75032DDFBDAC80225DC288F5EC276F5CDA00D4000226ABDA1158F90F7A4",
+    "file_type": ".exe"
+  },
+  "3.10.0": {
+    "url": "https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe",
+    "size": 28315928,
+    "checksum": "CB580EB7DC55F9198E650F016645023E8B2224CF7D033857D12880B46C5C94EF",
     "file_type": ".exe"
   },
   "3.9.6": {
