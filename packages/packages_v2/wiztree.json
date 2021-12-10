@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "WizTree",
   "description": "WizTree is the fastest disk space analyzer available for Windows.",
-  "latest_version": "4.06",
+  "latest_version": "4.07",
   "threads": 8,
   "iswitches": [
     "/SP-",
@@ -32,6 +32,12 @@
     "url": "https://diskanalyzer.com/files/wiztree_4_06_setup.exe",
     "size": 4335656,
     "checksum": "7D307410BB456BE794360355F648CD20247896F93F91A3BEB2B04549CA809BA1",
+    "file_type": ".exe"
+  },
+  "4.07": {
+    "url": "https://diskanalyzer.com/files/wiztree_4_07_setup.exe",
+    "size": 4349088,
+    "checksum": "6A6EEC848348E254ECFDB88FED1F280EA2ECB61363522AE5B22A4AE7415B5C2D",
     "file_type": ".exe"
   }
 }

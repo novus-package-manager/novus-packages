@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "",
   "description": "",
-  "latest_version": "4.06",
+  "latest_version": "4.07",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -13,6 +13,12 @@
     "download_page": "",
     "download_url": "",
     "regex": ""
+  },
+  "4.07": {
+    "url": "https://diskanalyzer.com/files/wiztree_4_07_setup.exe",
+    "size": 4349088,
+    "checksum": "6A6EEC848348E254ECFDB88FED1F280EA2ECB61363522AE5B22A4AE7415B5C2D",
+    "file_type": ".exe"
   },
   "4.06": {
     "url": "https://diskanalyzer.com/files/wiztree_4_06_setup.exe",
