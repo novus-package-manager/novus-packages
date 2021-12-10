@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "",
   "description": "",
-  "latest_version": "4.06",
+  "latest_version": "4.07",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -18,6 +18,12 @@
     "url": "https://diskanalyzer.com/files/wiztree_4_06_portable.zip",
     "size": 6311237,
     "checksum": "B412253DF227A2113E3321BADF4328B3E12E55215CB9F670CEA8ABC39896772A",
+    "file_type": ".zip"
+  },
+  "4.07": {
+    "url": "https://diskanalyzer.com/files/wiztree_4_07_portable.zip",
+    "size": 6324259,
+    "checksum": "21514E2921E49D743D7C6141CD35C42CBDBE64E91EEFDF92C75F27350112C49C",
     "file_type": ".zip"
   }
 }
