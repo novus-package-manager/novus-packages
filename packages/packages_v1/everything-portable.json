@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "",
   "description": "",
-  "latest_version": "1.4.1.1009",
+  "latest_version": "1.4.1.1014",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -13,6 +13,12 @@
     "download_page": "",
     "download_url": "",
     "regex": ""
+  },
+  "1.4.1.1014": {
+    "url": "https://www.voidtools.com/Everything-1.4.1.1014.x64.zip",
+    "size": 1738468,
+    "checksum": "CCA3236C113EC2312555F7D57137D2A6A7425E5BBA10D58B682A4B0D891DD4EA",
+    "file_type": ".zip"
   },
   "1.4.1.1009": {
     "url": "https://www.voidtools.com/Everything-1.4.1.1009.x64.zip",
