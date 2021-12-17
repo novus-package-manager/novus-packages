@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "Voidtools",
   "description": "Everything is a desktop search utility for Windows that can rapidly find files and folders by name",
-  "latest_version": "1.4.1.1014",
+  "latest_version": "1.4.1.1015",
   "threads": 8,
   "iswitches": [
     "/S"
@@ -31,6 +31,12 @@
     "url": "https://www.voidtools.com/Everything-1.4.1.1009.x64-Setup.exe",
     "size": 1730784,
     "checksum": "B734CC26CC7AAC9E142FC5153165E017FE4A4627ED8F4578EFB2F8F919EC5CC2",
+    "file_type": ".exe"
+  },
+  "1.4.1.1015": {
+    "url": "https://www.voidtools.com/Everything-1.4.1.1015.x64-Setup.exe",
+    "size": 1806136,
+    "checksum": "793AD39E3CE2F8422BF7A11118B00EE0006F48AC1F6212C42780725BE236DF1D",
     "file_type": ".exe"
   }
 }
