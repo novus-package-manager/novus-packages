@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "Jump Desktop",
   "description": "Jump Desktop is a remote desktop application that lets you control your computer from your phone or tablet.",
-  "latest_version": "8.4.26",
+  "latest_version": "8.4.27",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -18,12 +18,6 @@
     "regex": "Jump Desktop for Windows (\\d+\\.\\d+\\.\\d+)"
   },
   "8.4.21": {
-    "url": "https://mirror.jumpdesktop.com/downloads/connect/JumpDesktopConnect.exe",
-    "size": 24888944,
-    "checksum": "0C678A92B7F514B186900A1B034AEC1BE83F94DD81D228ED369745AB3FBAE8B6",
-    "file_type": ".exe"
-  },
-  "8.4.18": {
     "url": "https://mirror.jumpdesktop.com/downloads/connect/JumpDesktopConnect.exe",
     "size": 24888944,
     "checksum": "0C678A92B7F514B186900A1B034AEC1BE83F94DD81D228ED369745AB3FBAE8B6",
@@ -39,6 +33,18 @@
     "url": "https://mirror.jumpdesktop.com/downloads/connect/JumpDesktopConnect.exe",
     "size": 24892512,
     "checksum": "05249E940D898745AD99907D21AC7758D48DD641507F468AF29810F3037B96DA",
+    "file_type": ".exe"
+  },
+  "8.4.27": {
+    "url": "https://mirror.jumpdesktop.com/downloads/connect/JumpDesktopConnect.exe",
+    "size": 24927368,
+    "checksum": "51F10B8C44FD9FAD6633FB59908BE573DE6B3F391C2427163391E03402C48CCD",
+    "file_type": ".exe"
+  },
+  "8.4.18": {
+    "url": "https://mirror.jumpdesktop.com/downloads/connect/JumpDesktopConnect.exe",
+    "size": 24888944,
+    "checksum": "0C678A92B7F514B186900A1B034AEC1BE83F94DD81D228ED369745AB3FBAE8B6",
     "file_type": ".exe"
   }
 }
