@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "Microsoft",
   "description": "Azure PowerShell is a set of cmdlets for managing Azure resources directly from the PowerShell command line.",
-  "latest_version": "478.987.987",
+  "latest_version": "7.0.0",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -14,10 +14,10 @@
     "download_url": "https://github.com/Azure/azure-powershell/releases/download/v<version>-May2021/Az-Cmdlets-<version>.34351-x64.msi",
     "regex": "Version (\\d+\\.\\d+\\.\\d+)"
   },
-  "5.7.0": {
-    "url": "https://github.com/Azure/azure-powershell/releases/download/v5.7.0-March2021/Az-Cmdlets-5.7.0.34162-x64.msi",
-    "size": 42479616,
-    "checksum": "CA92B9F588BA3038BC4597F1570DAC904657E092C30E9648898E557D73F583E3",
+  "6.3.0": {
+    "url": "https://github.com/Azure/azure-powershell/releases/download/v6.3.0-August2021/Az-Cmdlets-6.3.0.34604-x64.msi",
+    "size": 46997504,
+    "checksum": "930062D05ED282ED21398C32BE97B4119DAA6B6C29C1294A495EDACF41FCB3CD",
     "file_type": ".msi"
   },
   "5.8.0": {
@@ -26,16 +26,10 @@
     "checksum": "8DD742B4CC89A347546DA140F122EEAEF0053ABC49968E1D9A06B418176D6964",
     "file_type": ".msi"
   },
-  "6.6.0": {
-    "url": "https://github.com/Azure/azure-powershell/releases/download/v6.6.0-November2021/Az-Cmdlets-6.6.0.34903-x64.msi",
-    "size": 48463872,
-    "checksum": "01311A474F6B1BA0BA0FA8670FCFC59CA0D25A2D548DB82CD7296138F9684655",
-    "file_type": ".msi"
-  },
-  "478.987.987": {
-    "url": "https://github.com/Azure/azure-powershell/releases/download/v5.4.0-January2021/Az-Cmdlets-5.4.0.33905-x64.msi",
-    "size": 39661568,
-    "checksum": "4E5DB259A231E16F9491FA2153C2D417E2427E489E4458AEFC71E1274016554F",
+  "6.2.0": {
+    "url": "https://github.com/Azure/azure-powershell/releases/download/v6.2.0-July2021/Az-Cmdlets-6.2.0.34513-x64.msi",
+    "size": 46112768,
+    "checksum": "C7EC6E12F93A7253F1892508B7C5738D15AD2BFAC6CED27F1F205342DBD38FF3",
     "file_type": ".msi"
   },
   "6.0.0": {
@@ -44,34 +38,28 @@
     "checksum": "09F4FCB360D58474CBA907FED98F6AF8D9CCEA0A5449D6C614FC11B0ACF3CCDE",
     "file_type": ".msi"
   },
-  "5.6.0": {
-    "url": "https://github.com/Azure/azure-powershell/releases/download/v5.5.0-February2021/Az-Cmdlets-5.5.0.33978-x64.msi",
-    "size": 39792640,
-    "checksum": "2EA5606B08BB017C7F07930A49D783EDD17548BE3F73586B35EDE8C43110DE15",
+  "5.9.0": {
+    "url": "https://github.com/Azure/azure-powershell/releases/download/v5.9.0-May2021/Az-Cmdlets-5.9.0.34269-x64.msi",
+    "size": 42987520,
+    "checksum": "E8C882B6EB3A3C861DA73A9728D7AC0424AF284D6F98802618275FEE69924876",
     "file_type": ".msi"
   },
-  "6.1.0": {
-    "url": "https://github.com/Azure/azure-powershell/releases/download/v6.1.0-June2021/Az-Cmdlets-6.1.0.34441-x64.msi",
-    "size": 45551616,
-    "checksum": "6D55C114C7155A88090B343E6497EDDD68DF510C41674BE0D07C18980BAB9B98",
+  "4.1.1": {
+    "url": "https://github.com/Azure/azure-powershell/releases/download/v4.1.1-May2021/Az-Cmdlets-4.1.1.34351-x64.msi",
+    "size": 9,
+    "checksum": "2840FCA0EC8C01A1C6395487D5E5E971578F1BD520A754DED4F74295386A4426",
     "file_type": ".msi"
   },
-  "6.4.0": {
-    "url": "https://github.com/Azure/azure-powershell/releases/download/v6.4.0-September2021/Az-Cmdlets-6.4.0.34709-x64.msi",
-    "size": 47157248,
-    "checksum": "C69DD7B9070A9A7DE73E389B10A95E4DD4FE76062B6A3BEB6CDC5B0B2D7A1AFF",
+  "478.987.987": {
+    "url": "https://github.com/Azure/azure-powershell/releases/download/v5.4.0-January2021/Az-Cmdlets-5.4.0.33905-x64.msi",
+    "size": 39661568,
+    "checksum": "4E5DB259A231E16F9491FA2153C2D417E2427E489E4458AEFC71E1274016554F",
     "file_type": ".msi"
   },
-  "6.2.1": {
-    "url": "https://github.com/Azure/azure-powershell/releases/download/v6.2.1-July2021/Az-Cmdlets-6.2.1.34515-x64.msi",
-    "size": 46088192,
-    "checksum": "16D634FDFEDE659CC05CA7CD8AD9B7CEDC09DCACD7264FC55F4D0C93CA3036F2",
-    "file_type": ".msi"
-  },
-  "6.2.0": {
-    "url": "https://github.com/Azure/azure-powershell/releases/download/v6.2.0-July2021/Az-Cmdlets-6.2.0.34513-x64.msi",
-    "size": 46112768,
-    "checksum": "C7EC6E12F93A7253F1892508B7C5738D15AD2BFAC6CED27F1F205342DBD38FF3",
+  "7.0.0": {
+    "url": "https://github.com/Azure/azure-powershell/releases/download/v7.0.0-December2021/Az-Cmdlets-7.0.0.35044-x64.msi",
+    "size": 51675136,
+    "checksum": "BD58D271BE0FEC61FB85E5DF2079E52935A9A83796DB1510D7D53132B05464F7",
     "file_type": ".msi"
   },
   "6.5.0": {
@@ -80,16 +68,10 @@
     "checksum": "0C81917992E782AE21695EF712BAF3A36EBFD2DC31FE0041DDBC3CCB065ACBCA",
     "file_type": ".msi"
   },
-  "5.9.0": {
-    "url": "https://github.com/Azure/azure-powershell/releases/download/v5.9.0-May2021/Az-Cmdlets-5.9.0.34269-x64.msi",
-    "size": 42987520,
-    "checksum": "E8C882B6EB3A3C861DA73A9728D7AC0424AF284D6F98802618275FEE69924876",
-    "file_type": ".msi"
-  },
-  "6.3.0": {
-    "url": "https://github.com/Azure/azure-powershell/releases/download/v6.3.0-August2021/Az-Cmdlets-6.3.0.34604-x64.msi",
-    "size": 46997504,
-    "checksum": "930062D05ED282ED21398C32BE97B4119DAA6B6C29C1294A495EDACF41FCB3CD",
+  "6.1.0": {
+    "url": "https://github.com/Azure/azure-powershell/releases/download/v6.1.0-June2021/Az-Cmdlets-6.1.0.34441-x64.msi",
+    "size": 45551616,
+    "checksum": "6D55C114C7155A88090B343E6497EDDD68DF510C41674BE0D07C18980BAB9B98",
     "file_type": ".msi"
   },
   "3.4.1": {
@@ -98,10 +80,34 @@
     "checksum": "2840FCA0EC8C01A1C6395487D5E5E971578F1BD520A754DED4F74295386A4426",
     "file_type": ".msi"
   },
-  "4.1.1": {
-    "url": "https://github.com/Azure/azure-powershell/releases/download/v4.1.1-May2021/Az-Cmdlets-4.1.1.34351-x64.msi",
-    "size": 9,
-    "checksum": "2840FCA0EC8C01A1C6395487D5E5E971578F1BD520A754DED4F74295386A4426",
+  "6.4.0": {
+    "url": "https://github.com/Azure/azure-powershell/releases/download/v6.4.0-September2021/Az-Cmdlets-6.4.0.34709-x64.msi",
+    "size": 47157248,
+    "checksum": "C69DD7B9070A9A7DE73E389B10A95E4DD4FE76062B6A3BEB6CDC5B0B2D7A1AFF",
+    "file_type": ".msi"
+  },
+  "5.6.0": {
+    "url": "https://github.com/Azure/azure-powershell/releases/download/v5.5.0-February2021/Az-Cmdlets-5.5.0.33978-x64.msi",
+    "size": 39792640,
+    "checksum": "2EA5606B08BB017C7F07930A49D783EDD17548BE3F73586B35EDE8C43110DE15",
+    "file_type": ".msi"
+  },
+  "6.6.0": {
+    "url": "https://github.com/Azure/azure-powershell/releases/download/v6.6.0-November2021/Az-Cmdlets-6.6.0.34903-x64.msi",
+    "size": 48463872,
+    "checksum": "01311A474F6B1BA0BA0FA8670FCFC59CA0D25A2D548DB82CD7296138F9684655",
+    "file_type": ".msi"
+  },
+  "6.2.1": {
+    "url": "https://github.com/Azure/azure-powershell/releases/download/v6.2.1-July2021/Az-Cmdlets-6.2.1.34515-x64.msi",
+    "size": 46088192,
+    "checksum": "16D634FDFEDE659CC05CA7CD8AD9B7CEDC09DCACD7264FC55F4D0C93CA3036F2",
+    "file_type": ".msi"
+  },
+  "5.7.0": {
+    "url": "https://github.com/Azure/azure-powershell/releases/download/v5.7.0-March2021/Az-Cmdlets-5.7.0.34162-x64.msi",
+    "size": 42479616,
+    "checksum": "CA92B9F588BA3038BC4597F1570DAC904657E092C30E9648898E557D73F583E3",
     "file_type": ".msi"
   }
 }
