@@ -1,9 +1,7 @@
 {
   "package_name": "yarn",
   "display_name": "Yarn",
-  "aliases": [
-    "yarn"
-  ],
+  "aliases": ["yarn"],
   "exec_name": "none",
   "portable": false,
   "creator": "Yarn",

@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "GIMP",
   "description": "GIMP is a cross-platform image editor available for GNU/Linux, OS X, Windows and more operating systems.",
-  "latest_version": "2.10.28",
+  "latest_version": "2.10.30",
   "threads": 8,
   "iswitches": [
     "/SP-",
@@ -35,6 +35,12 @@
     "url": "https://download.gimp.org/pub/gimp/v2.10/windows/gimp-2.10.24-setup-3.exe",
     "size": 253914240,
     "checksum": "5E9EABE5739523A9FC347B4614D919418F3335E7AAB082A65F71705421E85E04",
+    "file_type": ".exe"
+  },
+  "2.10.30": {
+    "url": "https://download.gimp.org/mirror/pub/gimp/v2.10/windows/gimp-2.10.30-setup.exe",
+    "size": 257259032,
+    "checksum": "5B8DB574966D2427FA02202B591173905F64806559E37FBDCA4654E55B568C8E",
     "file_type": ".exe"
   }
 }
