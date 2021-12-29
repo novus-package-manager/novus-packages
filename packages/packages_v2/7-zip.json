@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "Igor Pavlov",
   "description": "7-Zip is a file archiver with a high compression ratio.",
-  "latest_version": "21.06",
+  "latest_version": "21.07",
   "threads": 8,
   "iswitches": [
     "/S"
@@ -21,10 +21,22 @@
     "download_url": "https://www.7-zip.org/a/7z<version-no-dot>-x64.exe",
     "regex": "(7-Zip \\d....)"
   },
+  "21.04": {
+    "url": "https://www.7-zip.org/a/7z2104-x64.exe",
+    "size": 1518951,
+    "checksum": "A95A98619F0AD4308F0FE446CAE71921743CB8C66324CEC5F97CD3485369A71B",
+    "file_type": ".exe"
+  },
   "21.02": {
     "url": "https://www.7-zip.org/a/7z2102-x64.exe",
     "size": 154,
     "checksum": "4ED310C3A54E28D98F4500987DA5391FC1FFA1C62301B96482E693C3CE76B741",
+    "file_type": ".exe"
+  },
+  "21.06": {
+    "url": "https://www.7-zip.org/a/7z2106-x64.exe",
+    "size": 1523634,
+    "checksum": "7E7436175B708D60816B186B7AFB72F2F000334A77E7636460630C895B2A75FF",
     "file_type": ".exe"
   },
   "21.05": {
@@ -45,16 +57,10 @@
     "checksum": "0F5D4DBBE5E55B7AA31B91E5925ED901FDF46A367491D81381846F05AD54C45E",
     "file_type": ".exe"
   },
-  "21.04": {
-    "url": "https://www.7-zip.org/a/7z2104-x64.exe",
-    "size": 1518951,
-    "checksum": "A95A98619F0AD4308F0FE446CAE71921743CB8C66324CEC5F97CD3485369A71B",
-    "file_type": ".exe"
-  },
-  "21.06": {
-    "url": "https://www.7-zip.org/a/7z2106-x64.exe",
-    "size": 1523634,
-    "checksum": "7E7436175B708D60816B186B7AFB72F2F000334A77E7636460630C895B2A75FF",
+  "21.07": {
+    "url": "https://www.7-zip.org/a/7z2107-x64.exe",
+    "size": 1533613,
+    "checksum": "0B461F0A0ECCFC4F39733A80D70FD1210FDD69F600FB6B657E03940A734E5FC1",
     "file_type": ".exe"
   }
 }
