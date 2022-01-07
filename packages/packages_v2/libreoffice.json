@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "The Document Foundation",
   "description": "LibreOffice is a free and open-source office productivity software suite.",
-  "latest_version": "7.2.4",
+  "latest_version": "7.2.5",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -16,6 +16,18 @@
     "download_page": "https://libreoffice.en.uptodown.com/windows/versions",
     "download_url": "https://download.documentfoundation.org/libreoffice/stable/<version>/win/x86_64/LibreOffice_<version>_Win_x64.msi",
     "regex": "class=version>(\\d+\\.\\d+\\.\\d+)</div>"
+  },
+  "7.2.5": {
+    "url": "https://download.documentfoundation.org/libreoffice/stable/7.2.5/win/x86_64/LibreOffice_7.2.5_Win_x64.msi",
+    "size": 341024768,
+    "checksum": "DFBF02FD97515E06E55C53D5DC0108FB680F92146B093CD4BA9C43E87FDD0DC5",
+    "file_type": ".msi"
+  },
+  "7.1.5": {
+    "url": "https://download.documentfoundation.org/libreoffice/stable/7.1.5/win/x86_64/LibreOffice_7.1.5_Win_x64.msi",
+    "size": 329641984,
+    "checksum": "0512D1015473956B501B695FF003EDC942B1EA0D52595934F0CE4BEB9929D8B7",
+    "file_type": ".msi"
   },
   "7.2.3": {
     "url": "https://download.documentfoundation.org/libreoffice/stable/7.2.3/win/x86_64/LibreOffice_7.2.3_Win_x64.msi",
@@ -39,12 +51,6 @@
     "url": "https://download.documentfoundation.org/libreoffice/stable/7.2.4/win/x86_64/LibreOffice_7.2.4_Win_x64.msi",
     "size": 339103744,
     "checksum": "D8A4B685144C26FE57766F24EB9037FC9A53A82E6C7DFDAC6B54EA212E063B05",
-    "file_type": ".msi"
-  },
-  "7.1.5": {
-    "url": "https://download.documentfoundation.org/libreoffice/stable/7.1.5/win/x86_64/LibreOffice_7.1.5_Win_x64.msi",
-    "size": 329641984,
-    "checksum": "0512D1015473956B501B695FF003EDC942B1EA0D52595934F0CE4BEB9929D8B7",
     "file_type": ".msi"
   }
 }
