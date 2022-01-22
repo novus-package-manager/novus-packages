@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "",
   "description": "",
-  "latest_version": "0.7.3",
+  "latest_version": "0.7.4",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -14,16 +14,22 @@
     "download_url": "",
     "regex": ""
   },
-  "0.7.2": {
-    "url": "https://github.com/stnkl/EverythingToolbar/releases/download/0.7.2/EverythingToolbar-0.7.2.msi",
-    "size": 997000,
-    "checksum": "592A163C725A44968625ADDB771BD51F99BD7A5D2691FC17C924865730CFDDF6",
-    "file_type": ".msi"
-  },
   "0.7.3": {
     "url": "https://github.com/stnkl/EverythingToolbar/releases/download/0.7.3/EverythingToolbar-0.7.3.msi",
     "size": 997000,
     "checksum": "7577A3B3F021C9BB25A4C8B637C3DFED3A5A7DA70EF0969B4DB6DE47650AE1D9",
+    "file_type": ".msi"
+  },
+  "0.7.4": {
+    "url": "https://github.com/stnkl/EverythingToolbar/releases/download/0.7.4/EverythingToolbar-0.7.4.msi",
+    "size": 997000,
+    "checksum": "3982C5605ED0C440CCC24A04EF48870F2546EE34D516471C54AF93D8F9C9CF88",
+    "file_type": ".msi"
+  },
+  "0.7.2": {
+    "url": "https://github.com/stnkl/EverythingToolbar/releases/download/0.7.2/EverythingToolbar-0.7.2.msi",
+    "size": 997000,
+    "checksum": "592A163C725A44968625ADDB771BD51F99BD7A5D2691FC17C924865730CFDDF6",
     "file_type": ".msi"
   }
 }
