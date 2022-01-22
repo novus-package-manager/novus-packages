@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "Bazel",
   "description": "Bazel is a free software tool that allows for the automation of building and testing of software.",
-  "latest_version": "4.2.2",
+  "latest_version": "5.0.0",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -16,18 +16,6 @@
     "download_page": "https://github.com/bazelbuild/bazel/releases/latest",
     "download_url": "https://github.com/bazelbuild/bazel/releases/download/<version>/bazel-<version>-windows-x86_64.exe",
     "regex": "<title>Release (\\d+\\.\\d+\\.\\d+) · bazelbuild/bazel"
-  },
-  "4.2.0": {
-    "url": "https://github.com/bazelbuild/bazel/releases/download/4.2.0/bazel-4.2.0-windows-x86_64.exe",
-    "size": 46155649,
-    "checksum": "93051779602CB3B5B2E4A31D758623719C68F4BFEDBD5ACB1ECB00E8C1581476",
-    "file_type": ".exe"
-  },
-  "4.2.1": {
-    "url": "https://github.com/bazelbuild/bazel/releases/download/4.2.1/bazel-4.2.1-windows-x86_64.exe",
-    "size": 46155804,
-    "checksum": "8FA10DFDC8B2F610A8891B68E2A132540E6FAC4FEA62174CFFD9994B9147586E",
-    "file_type": ".exe"
   },
   "4.1.0": {
     "url": "https://github.com/bazelbuild/bazel/releases/download/4.1.0/bazel-4.1.0-windows-x86_64.exe",
@@ -39,6 +27,24 @@
     "url": "https://github.com/bazelbuild/bazel/releases/download/4.2.2/bazel-4.2.2-windows-x86_64.exe",
     "size": 46156308,
     "checksum": "EBF52F798BD5DD52004B7128235A0989826E68184450813D9EBE8DCFBB0679B5",
+    "file_type": ".exe"
+  },
+  "5.0.0": {
+    "url": "https://github.com/bazelbuild/bazel/releases/download/5.0.0/bazel-5.0.0-windows-x86_64.exe",
+    "size": 46779643,
+    "checksum": "452217BCC4F8153C521FD985256316CD0BCAD869FD192E1AFD406DCB16F880D6",
+    "file_type": ".exe"
+  },
+  "4.2.1": {
+    "url": "https://github.com/bazelbuild/bazel/releases/download/4.2.1/bazel-4.2.1-windows-x86_64.exe",
+    "size": 46155804,
+    "checksum": "8FA10DFDC8B2F610A8891B68E2A132540E6FAC4FEA62174CFFD9994B9147586E",
+    "file_type": ".exe"
+  },
+  "4.2.0": {
+    "url": "https://github.com/bazelbuild/bazel/releases/download/4.2.0/bazel-4.2.0-windows-x86_64.exe",
+    "size": 46155649,
+    "checksum": "93051779602CB3B5B2E4A31D758623719C68F4BFEDBD5ACB1ECB00E8C1581476",
     "file_type": ".exe"
   }
 }
