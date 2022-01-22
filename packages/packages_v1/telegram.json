@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "Pavel Durov, Nikolai Durov",
   "description": "Telegram is a free and open source, cross-platform, cloud-based instant messaging software.",
-  "latest_version": "3.4.3",
+  "latest_version": "3.4.8",
   "threads": 8,
   "iswitches": [
     "/SP-",
@@ -25,28 +25,10 @@
     "download_url": "https://github.com/telegramdesktop/tdesktop/releases/download/v<version>/tsetup-x64.<version>.exe",
     "regex": "<title>Release v (\\d+\\.\\d+\\.\\d+)"
   },
-  "3.3.0": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.3.0/tsetup-x64.3.3.0.exe",
-    "size": 35070048,
-    "checksum": "EA45E91A2F994073CFC51E230395D9321A7096B03289FC52DCBED3210CD6B713",
-    "file_type": ".exe"
-  },
-  "3.4.2": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.4.2/tsetup-x64.3.4.2.exe",
-    "size": 34990064,
-    "checksum": "995B6BF08BD47DF470EB03EFD538CF07AD7E9E7DFC5B82D43DAF0AFF600E6AB1",
-    "file_type": ".exe"
-  },
   "3.1.1": {
     "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.1.1/tsetup-x64.3.1.1.exe",
     "size": 34486688,
     "checksum": "78769DDFF2D3ED07256983E6C087B9A7822F056CFFD4A3198C07AC92403B3143",
-    "file_type": ".exe"
-  },
-  "3.1.0": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.1.0/tsetup-x64.3.1.0.exe",
-    "size": 34408296,
-    "checksum": "D3D6E02310AC0A7392F2FFA9A96F50A66C33A4D612A55CA8309B47F1EA1E06B2",
     "file_type": ".exe"
   },
   "3.2.2": {
@@ -55,16 +37,22 @@
     "checksum": "CF4B0ABD9527F45A1E5649A8296F94893048F85A9D624543898908A7245BB38E",
     "file_type": ".exe"
   },
-  "3.4.3": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.4.3/tsetup-x64.3.4.3.exe",
-    "size": 34992104,
-    "checksum": "D7F3D7066C7E6A652FCFB277E6B049177F36E5F4AEDEE817A0FB0A770CC5F2FD",
-    "file_type": ".exe"
-  },
   "3.1.11": {
     "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.1.11/tsetup-x64.3.1.11.exe",
     "size": 34815024,
     "checksum": "C23A8143569E69BEE69C42B0B3EF8C9DE88C9B682D39C33F05AF88631B9102C5",
+    "file_type": ".exe"
+  },
+  "3.4.8": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.4.8/tsetup-x64.3.4.8.exe",
+    "size": 35044296,
+    "checksum": "4FB4709544E9EC35CE47AE24CA63C4149CBF29545BDF233D01F5153FD03124BA",
+    "file_type": ".exe"
+  },
+  "3.2.5": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.2.5/tsetup-x64.3.2.5.exe",
+    "size": 34826400,
+    "checksum": "F61966D3B08BD8BE20AB4CBF69E737D188E3822D1D65A15DF720E188A14F9412",
     "file_type": ".exe"
   },
   "3.0.1": {
@@ -73,10 +61,28 @@
     "checksum": "6D4E784600372B0F53B74AFE132EFEE075F15492F327EBC472A68B79BF0A6D29",
     "file_type": ".exe"
   },
-  "3.2.5": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.2.5/tsetup-x64.3.2.5.exe",
-    "size": 34826400,
-    "checksum": "F61966D3B08BD8BE20AB4CBF69E737D188E3822D1D65A15DF720E188A14F9412",
+  "3.1.0": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.1.0/tsetup-x64.3.1.0.exe",
+    "size": 34408296,
+    "checksum": "D3D6E02310AC0A7392F2FFA9A96F50A66C33A4D612A55CA8309B47F1EA1E06B2",
+    "file_type": ".exe"
+  },
+  "3.4.2": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.4.2/tsetup-x64.3.4.2.exe",
+    "size": 34990064,
+    "checksum": "995B6BF08BD47DF470EB03EFD538CF07AD7E9E7DFC5B82D43DAF0AFF600E6AB1",
+    "file_type": ".exe"
+  },
+  "3.3.0": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.3.0/tsetup-x64.3.3.0.exe",
+    "size": 35070048,
+    "checksum": "EA45E91A2F994073CFC51E230395D9321A7096B03289FC52DCBED3210CD6B713",
+    "file_type": ".exe"
+  },
+  "3.4.3": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.4.3/tsetup-x64.3.4.3.exe",
+    "size": 34992104,
+    "checksum": "D7F3D7066C7E6A652FCFB277E6B049177F36E5F4AEDEE817A0FB0A770CC5F2FD",
     "file_type": ".exe"
   }
 }
