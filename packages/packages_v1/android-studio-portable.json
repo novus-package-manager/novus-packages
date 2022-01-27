@@ -5,7 +5,7 @@
   "portable": true,
   "creator": "Google, JetBrains",
   "description": "Android Studio is the official integrated development environment for Google's Android operating system.",
-  "latest_version": "2020.3.1.26",
+  "latest_version": "2021.1.1.20",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -14,22 +14,10 @@
     "download_url": "https://redirector.gvt1.com/edgedl/android/studio/ide-zips/<version>/android-studio-<version>-windows.zip",
     "regex": "href=\"https://redirector\\.gvt1\\.com/edgedl/android/studio/install/(\\d+\\.\\d+\\.\\d+\\.\\d+)/android-studio"
   },
-  "2020.3.1.25": {
-    "url": "https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2020.3.1.25/android-studio-2020.3.1.25-windows.zip",
-    "size": 967565248,
-    "checksum": "37BA6592E8F11EFE96A4A48AE82847452CA7D42D4EBA3E5690F63EEB896734D1",
-    "file_type": ".zip"
-  },
-  "2020.3.1.23": {
-    "url": "https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2020.3.1.23/android-studio-2020.3.1.23-windows.zip",
-    "size": 967547318,
-    "checksum": "DD619DAB9E7A8A3DA811B817BA8D0BDD1B2B7887AA19D573AEEFA62875096A13",
-    "file_type": ".zip"
-  },
-  "2020.3.1.22": {
-    "url": "https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2020.3.1.22/android-studio-2020.3.1.22-windows.zip",
-    "size": 967761306,
-    "checksum": "41C5F8A17294E1FE81B45C66273878EA067CFB5C2FD9BE7FAC2F8F82EC5B1DC3",
+  "2021.1.1.20": {
+    "url": "https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2021.1.1.20/android-studio-2021.1.1.20-windows.zip",
+    "size": 925417592,
+    "checksum": "A293227519B09B5DAD9B41432F1FA1FA91E298C70C5968EE06A112A5F0A869DD",
     "file_type": ".zip"
   },
   "2020.3.1.24": {
@@ -42,6 +30,24 @@
     "url": "https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2020.3.1.26/android-studio-2020.3.1.26-windows.zip",
     "size": 967570596,
     "checksum": "218CC88562F06DDB5C4B61E0D7059D37688E91E9AF55AB0A7BD2C0485050BD4B",
+    "file_type": ".zip"
+  },
+  "2020.3.1.22": {
+    "url": "https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2020.3.1.22/android-studio-2020.3.1.22-windows.zip",
+    "size": 967761306,
+    "checksum": "41C5F8A17294E1FE81B45C66273878EA067CFB5C2FD9BE7FAC2F8F82EC5B1DC3",
+    "file_type": ".zip"
+  },
+  "2020.3.1.25": {
+    "url": "https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2020.3.1.25/android-studio-2020.3.1.25-windows.zip",
+    "size": 967565248,
+    "checksum": "37BA6592E8F11EFE96A4A48AE82847452CA7D42D4EBA3E5690F63EEB896734D1",
+    "file_type": ".zip"
+  },
+  "2020.3.1.23": {
+    "url": "https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2020.3.1.23/android-studio-2020.3.1.23-windows.zip",
+    "size": 967547318,
+    "checksum": "DD619DAB9E7A8A3DA811B817BA8D0BDD1B2B7887AA19D573AEEFA62875096A13",
     "file_type": ".zip"
   }
 }
