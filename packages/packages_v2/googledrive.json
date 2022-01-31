@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "Google LLC",
   "description": "Google Drive is a file storage and synchronization service.",
-  "latest_version": "54.0",
+  "latest_version": "55.0",
   "threads": 8,
   "iswitches": [
     "--silent",
@@ -29,7 +29,7 @@
     "checksum": "any",
     "file_type": ".exe"
   },
-  "53.0": {
+  "54.0": {
     "url": "https://dl.google.com/drive-file-stream/GoogleDriveSetup.exe",
     "size": 262132056,
     "checksum": "AAE24303CEF4C7E1101816C3CF20B970B8442451D901FCE64B68AAFC31AF5D84",
@@ -41,13 +41,19 @@
     "checksum": "6E32ABECBF2E074130DF5F7FAC24BCF80A9BA47981AEC543C824BBADE14E5593",
     "file_type": ".exe"
   },
+  "55.0": {
+    "url": "https://dl.google.com/drive-file-stream/GoogleDriveSetup.exe",
+    "size": 290071896,
+    "checksum": "3BC1A31BF41290DBAEFE2D5C1688DF68E2134C79AF08A6A89BAF477EC4C66E4B",
+    "file_type": ".exe"
+  },
   "52.0": {
     "url": "https://dl.google.com/drive-file-stream/GoogleDriveSetup.exe",
     "size": 261945688,
     "checksum": "ECAAAE333F570C67B0139221DF467D86350F140DF563DEC6836D7EE2D92C31CA",
     "file_type": ".exe"
   },
-  "54.0": {
+  "53.0": {
     "url": "https://dl.google.com/drive-file-stream/GoogleDriveSetup.exe",
     "size": 262132056,
     "checksum": "AAE24303CEF4C7E1101816C3CF20B970B8442451D901FCE64B68AAFC31AF5D84",
