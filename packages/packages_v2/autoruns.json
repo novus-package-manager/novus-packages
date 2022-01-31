@@ -8,7 +8,7 @@
   "portable": true,
   "creator": "Microsoft",
   "description": "This utility shows you what programs are configured to run during system bootup or login, and when you start various built-in Windows applications like Internet Explorer, Explorer and media players.",
-  "latest_version": "14.07",
+  "latest_version": "14.08",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -17,16 +17,16 @@
     "download_url": "https://download.sysinternals.com/files/Autoruns.zip",
     "regex": "Autoruns for Windows v(\\d+\\.\\d+)"
   },
-  "14.05": {
+  "14.0": {
     "url": "https://download.sysinternals.com/files/Autoruns.zip",
-    "size": 3850159,
-    "checksum": "66DAEBB425206153727AB44FD47F099A0141A549CBB9AA12A2A2491454293F2C",
+    "size": 2592317,
+    "checksum": "67CF0F6897C8BBE7DDBB8B1934E75A983EBD1270762260BADB900AB34DB1F17C",
     "file_type": ".zip"
   },
-  "14.02": {
+  "14.08": {
     "url": "https://download.sysinternals.com/files/Autoruns.zip",
-    "size": 2670280,
-    "checksum": "1BEF9C495F7C1184D0A36691AEBFFD5C00F21D999D57171FC97FC9F506FF46E7",
+    "size": 3862991,
+    "checksum": "B7D042BA7302A74722DDCE16F9F373F2644F5196D000AEAF29F6583698769BA0",
     "file_type": ".zip"
   },
   "14.06": {
@@ -35,10 +35,10 @@
     "checksum": "D95C6023E2D4581CD5D63963E8AC67A6AC08DDE17EC7F21BB0951224D51074A4",
     "file_type": ".zip"
   },
-  "14.0": {
+  "14.02": {
     "url": "https://download.sysinternals.com/files/Autoruns.zip",
-    "size": 2592317,
-    "checksum": "67CF0F6897C8BBE7DDBB8B1934E75A983EBD1270762260BADB900AB34DB1F17C",
+    "size": 2670280,
+    "checksum": "1BEF9C495F7C1184D0A36691AEBFFD5C00F21D999D57171FC97FC9F506FF46E7",
     "file_type": ".zip"
   },
   "14.07": {
@@ -47,22 +47,28 @@
     "checksum": "35F7697A920763A8DDC759DCD3222930DBDC8D234E75766F3F95F19D81F6A64A",
     "file_type": ".zip"
   },
-  "14.03": {
-    "url": "https://download.sysinternals.com/files/Autoruns.zip",
-    "size": 2678815,
-    "checksum": "B6031327C8A19DDB04A7994EB5555455F79DFE19881B2B7CF4EA1E6810321643",
-    "file_type": ".zip"
-  },
   "14.01": {
     "url": "https://download.sysinternals.com/files/Autoruns.zip",
     "size": 2666939,
     "checksum": "8888F33EB64E009B1A592857C41E10413C0613409AF76FED609B0DCC9EF59714",
     "file_type": ".zip"
   },
+  "14.05": {
+    "url": "https://download.sysinternals.com/files/Autoruns.zip",
+    "size": 3850159,
+    "checksum": "66DAEBB425206153727AB44FD47F099A0141A549CBB9AA12A2A2491454293F2C",
+    "file_type": ".zip"
+  },
   "14.04": {
     "url": "https://download.sysinternals.com/files/Autoruns.zip",
     "size": 3850194,
     "checksum": "7E2E3091EF4B0579BC19C876CCB79D8B5ACF6784734352159AECFBEBC71C79E7",
+    "file_type": ".zip"
+  },
+  "14.03": {
+    "url": "https://download.sysinternals.com/files/Autoruns.zip",
+    "size": 2678815,
+    "checksum": "B6031327C8A19DDB04A7994EB5555455F79DFE19881B2B7CF4EA1E6810321643",
     "file_type": ".zip"
   }
 }
