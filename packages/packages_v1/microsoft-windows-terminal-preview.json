@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "Microsoft",
   "description": "Windows Terminal is a multi-tabbed command-line front-end.",
-  "latest_version": "1.12.3472.0",
+  "latest_version": "1.13.10336.0",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -13,18 +13,6 @@
     "download_page": "https://github.com/microsoft/terminal/releases/latest",
     "download_url": "https://github.com/microsoft/terminal/releases/download/v<version>/Microsoft.WindowsTerminalPreview_<version>_8wekyb3d8bbwe.msixbundle",
     "regex": "Windows Terminal Preview v(\\d+\\.\\d+\\.\\d+\\.\\d+)"
-  },
-  "1.11.2731.0": {
-    "url": "https://github.com/microsoft/terminal/releases/download/v1.11.2731.0/Microsoft.WindowsTerminalPreview_1.11.2731.0_8wekyb3d8bbwe.msixbundle",
-    "size": 30958835,
-    "checksum": "C8C40ED8273ADEAEE35FEC3960012F4D8E9E56D96DF45569205692937C7E42C4",
-    "file_type": ".msi"
-  },
-  "1.10.1933.0": {
-    "url": "https://github.com/microsoft/terminal/releases/download/v1.10.1933.0/Microsoft.WindowsTerminalPreview_1.10.1933.0_8wekyb3d8bbwe.msixbundle",
-    "size": 30441875,
-    "checksum": "3C6594EB7CFB59BE417ADFA64DA339B2605B16E131397CBF0D02C050B28EA852",
-    "file_type": ".msi"
   },
   "1.9.1445.0": {
     "url": "https://github.com/microsoft/terminal/releases/download/v1.9.1445.0/Microsoft.WindowsTerminalPreview_1.9.1445.0_8wekyb3d8bbwe.msixbundle",
@@ -38,10 +26,28 @@
     "checksum": "D8526C2AC2190D760B51E17FAEE29A64D61A698730821F85615C020DC305E094",
     "file_type": ".msixbundle"
   },
+  "1.11.2731.0": {
+    "url": "https://github.com/microsoft/terminal/releases/download/v1.11.2731.0/Microsoft.WindowsTerminalPreview_1.11.2731.0_8wekyb3d8bbwe.msixbundle",
+    "size": 30958835,
+    "checksum": "C8C40ED8273ADEAEE35FEC3960012F4D8E9E56D96DF45569205692937C7E42C4",
+    "file_type": ".msi"
+  },
   "1.12.3472.0": {
     "url": "https://github.com/microsoft/terminal/releases/download/v1.12.3472.0/Microsoft.WindowsTerminalPreview_1.12.3472.0_8wekyb3d8bbwe.msixbundle",
     "size": 41244643,
     "checksum": "715F0CA49AD280F441DE8EDF48F7498C7A3B36AE7DD3796AAA7E2DA4DC5F4761",
+    "file_type": ".msi"
+  },
+  "1.13.10336.0": {
+    "url": "https://github.com/microsoft/terminal/releases/download/v1.13.10336.0/Microsoft.WindowsTerminalPreview_1.13.10336.0_8wekyb3d8bbwe.msixbundle",
+    "size": 41752723,
+    "checksum": "1B303A6C28890A9BD37E5739D86E226D325617F14D9B0DD3D039108E6A1450AE",
+    "file_type": ".msi"
+  },
+  "1.10.1933.0": {
+    "url": "https://github.com/microsoft/terminal/releases/download/v1.10.1933.0/Microsoft.WindowsTerminalPreview_1.10.1933.0_8wekyb3d8bbwe.msixbundle",
+    "size": 30441875,
+    "checksum": "3C6594EB7CFB59BE417ADFA64DA339B2605B16E131397CBF0D02C050B28EA852",
     "file_type": ".msi"
   }
 }
