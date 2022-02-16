@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "",
   "description": "",
-  "latest_version": "17.0",
+  "latest_version": "17.1",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -13,6 +13,12 @@
     "download_page": "",
     "download_url": "",
     "regex": ""
+  },
+  "17.1": {
+    "url": "https://aka.ms/vs/17/release/vs_professional.exe",
+    "size": 1660304,
+    "checksum": "0206781D0FF174F01F74EF26FC09A19609A6CAB951231DF7A65402F205CEC879",
+    "file_type": ".exe"
   },
   "17.0": {
     "url": "https://aka.ms/vs/17/release/vs_professional.exe",
