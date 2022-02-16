@@ -8,14 +8,23 @@
   "portable": false,
   "creator": "Microsoft",
   "description": "Powerful IDE, free for students, open-source contributers, and individuals.",
-  "latest_version": "17.0",
+  "latest_version": "17.1",
   "threads": 8,
-  "iswitches": ["--passive", "--norestart"],
+  "iswitches": [
+    "--passive",
+    "--norestart"
+  ],
   "uswitches": [],
   "autoupdate": {
     "download_page": "https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes",
     "download_url": "https://aka.ms/vs/<major-version>/release/vs_community.exe",
     "regex": "Visual Studio 2022 version (\\d+\\.\\d+) Release Notes"
+  },
+  "17.1": {
+    "url": "https://aka.ms/vs/17/release/vs_community.exe",
+    "size": 1660296,
+    "checksum": "2896CEBB3C0107C4F564C57814EE9A2B0AB3FE24B7C32B6A9D8B668FB3F45249",
+    "file_type": ".exe"
   },
   "17.0": {
     "url": "https://aka.ms/vs/17/release/vs_community.exe",
