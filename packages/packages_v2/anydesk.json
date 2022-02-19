@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "AnyDesk GmbH",
   "description": "AnyDesk allows you to establish remote desktop connections",
-  "latest_version": "7.0.4",
+  "latest_version": "7.0.5",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -23,16 +23,22 @@
     "checksum": "498E639701C5F73787E02B94EC0A26C88850206F499E89EE9CE484FFAADD8124",
     "file_type": ".msi"
   },
+  "6.3.2": {
+    "url": "https://download.anydesk.com/AnyDesk.msi",
+    "size": 7778304,
+    "checksum": "8BEBE6CE0C9FE9AD58CD07872A567C30234E933B95AD324C5BCF0F95A83809D0",
+    "file_type": ".msi"
+  },
   "6.3.3": {
     "url": "https://download.anydesk.com/AnyDesk.msi",
     "size": 7778304,
     "checksum": "6A9035892050A1806032B070F292F0427273D68935FFB55C6CAA5895F9261F50",
     "file_type": ".msi"
   },
-  "6.3.2": {
+  "7.0.5": {
     "url": "https://download.anydesk.com/AnyDesk.msi",
-    "size": 7778304,
-    "checksum": "8BEBE6CE0C9FE9AD58CD07872A567C30234E933B95AD324C5BCF0F95A83809D0",
+    "size": 7880704,
+    "checksum": "15CF9D49C46F5A2525BC8CA56591A74C30017F304ED6EA9601A384A19081C607",
     "file_type": ".msi"
   },
   "6.3.1": {
