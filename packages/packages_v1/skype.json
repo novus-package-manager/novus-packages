@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "Microsoft",
   "description": "Skype is a proprietary telecommunications application.",
-  "latest_version": "8.80.0.195",
+  "latest_version": "8.81.0.268",
   "threads": 8,
   "iswitches": [
     "/SP-",
@@ -28,10 +28,34 @@
     "download_url": "https://download.skype.com/s4l/download/win/Skype-<version>.exe",
     "regex": "class=version>(\\d+\\.\\d+\\.\\d+\\.\\d+)"
   },
+  "8.81.0.268": {
+    "url": "https://download.skype.com/s4l/download/win/Skype-8.81.0.268.exe",
+    "size": 86909456,
+    "checksum": "C6300660C08B95BE0544AA9AF7FC4E4664202D613DE0EF75ED17E5C74B05F833",
+    "file_type": ".exe"
+  },
+  "8.75.0.140": {
+    "url": "https://download.skype.com/s4l/download/win/Skype-8.75.0.140.exe",
+    "size": 84362600,
+    "checksum": "820D2BD6B5BE01772C70FC1A1B6DA43C0474B7D2566E4E971D52064EAD9FC145",
+    "file_type": ".exe"
+  },
+  "8.73.0.92": {
+    "url": "https://download.skype.com/s4l/download/win/Skype-8.73.0.92.exe",
+    "size": 81006400,
+    "checksum": "BC17B1D6AAA8BC188094A0CA61089FBF84461D725F0388DE06753C5828FE8235",
+    "file_type": ".exe"
+  },
   "8.72.0.94": {
     "url": "https://download.skype.com/s4l/download/win/Skype-8.72.0.94.exe",
     "size": 80831264,
     "checksum": "0528918453F2682F98A6BC6D9DFC532044B01077D59BB860AAE734A2A9D3E245",
+    "file_type": ".exe"
+  },
+  "8.73.0.124": {
+    "url": "https://download.skype.com/s4l/download/win/Skype-8.73.0.124.exe",
+    "size": 84286176,
+    "checksum": "B3AA4A77BBD4B3CDEFDB9576C3C4F4F4614C4EED9A130A9F4D6D0F8E482C2663",
     "file_type": ".exe"
   },
   "8.78.0.159": {
@@ -46,22 +70,10 @@
     "checksum": "3F0B3DCBFDF1BB007E2AD26A6D865309580D67F2723223A8F9D7F9162C59BFB5",
     "file_type": ".exe"
   },
-  "8.77.0.97": {
-    "url": "https://download.skype.com/s4l/download/win/Skype-8.77.0.97.exe",
-    "size": 84839904,
-    "checksum": "60D45E4F55EA33E52C476DC3C55BEA3F1C2B3C9FF3B8C9667973A6127981C2C3",
-    "file_type": ".exe"
-  },
-  "8.73.0.92": {
-    "url": "https://download.skype.com/s4l/download/win/Skype-8.73.0.92.exe",
-    "size": 81006400,
-    "checksum": "BC17B1D6AAA8BC188094A0CA61089FBF84461D725F0388DE06753C5828FE8235",
-    "file_type": ".exe"
-  },
-  "8.75.0.140": {
-    "url": "https://download.skype.com/s4l/download/win/Skype-8.75.0.140.exe",
-    "size": 84362600,
-    "checksum": "820D2BD6B5BE01772C70FC1A1B6DA43C0474B7D2566E4E971D52064EAD9FC145",
+  "8.80.0.195": {
+    "url": "https://download.skype.com/s4l/download/win/Skype-8.80.0.195.exe",
+    "size": 82685992,
+    "checksum": "711942DB14A20323F13699ECBEA7A52F922D6E6DE34F0D28ACC0F5D68803E1CE",
     "file_type": ".exe"
   },
   "8.79.0.95": {
@@ -76,22 +88,16 @@
     "checksum": "B0080B004786A243DF241BAE700960C7DB54750613BDC4461D79A55E008B2DC6",
     "file_type": ".exe"
   },
-  "8.80.0.195": {
-    "url": "https://download.skype.com/s4l/download/win/Skype-8.80.0.195.exe",
-    "size": 82685992,
-    "checksum": "711942DB14A20323F13699ECBEA7A52F922D6E6DE34F0D28ACC0F5D68803E1CE",
-    "file_type": ".exe"
-  },
   "8.77.0.90": {
     "url": "https://download.skype.com/s4l/download/win/Skype-8.77.0.90.exe",
     "size": 84844720,
     "checksum": "C30737F96676BC7956599E0B7E72CAE48B4DE2F417F0E4AFDD8021D36CCCC261",
     "file_type": ".exe"
   },
-  "8.73.0.124": {
-    "url": "https://download.skype.com/s4l/download/win/Skype-8.73.0.124.exe",
-    "size": 84286176,
-    "checksum": "B3AA4A77BBD4B3CDEFDB9576C3C4F4F4614C4EED9A130A9F4D6D0F8E482C2663",
+  "8.77.0.97": {
+    "url": "https://download.skype.com/s4l/download/win/Skype-8.77.0.97.exe",
+    "size": 84839904,
+    "checksum": "60D45E4F55EA33E52C476DC3C55BEA3F1C2B3C9FF3B8C9667973A6127981C2C3",
     "file_type": ".exe"
   }
 }
