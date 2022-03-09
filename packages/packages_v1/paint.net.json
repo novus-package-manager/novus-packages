@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "dotPDN, LLC",
   "description": "Paint.net is a freeware raster graphics editor program for Microsoft Windows.",
-  "latest_version": "4.3.8",
+  "latest_version": "4.3.9",
   "threads": 8,
   "iswitches": [
     "/auto"
@@ -22,10 +22,10 @@
     "checksum": "F232E9A8FE6000E646543FE59CC50AF57B3D24263E17B3FE098956E68E263E15",
     "file_type": ".exe"
   },
-  "4.2.16": {
-    "url": "https://www.dotpdn.com/files/paint.net.4.2.16.install.zip",
-    "size": 12872272,
-    "checksum": "AA4225D361B5CF28F59A6BA2E908DC16DCB9086D7849FC3489E4F0BBAF522DE1",
+  "4.3.9": {
+    "url": "https://www.dotpdn.com/files/paint.net.4.3.9.install.anycpu.web.zip",
+    "size": 825468,
+    "checksum": "288F1B86286F6E9690483EE470340121123FAABFE8E1A967BEC8B78F890E844A",
     "file_type": ".exe"
   },
   "4.3.4": {
@@ -34,16 +34,10 @@
     "checksum": "2791CA8467E77F774233CE8920F5F40DA37B16B602BE9FAAC9EBFBA24DEFFE98",
     "file_type": ".exe"
   },
-  "4.3.8": {
-    "url": "https://www.dotpdn.com/files/paint.net.4.3.8.install.anycpu.web.zip",
-    "size": 825585,
-    "checksum": "477AA007BD7A206AE66F6B1DB1FD7C3E2CE03A14F8EBB2DE9D2F6DDD0DAC3BA1",
-    "file_type": ".exe"
-  },
-  "4.3.2": {
-    "url": "https://www.dotpdn.com/files/paint.net.4.3.2.install.anycpu.web.zip",
-    "size": 1770134,
-    "checksum": "FEA9967252A46DE89B1D4253AF51C5F253BF97CFBA412CC1418A132540AB0AA7",
+  "4.2.16": {
+    "url": "https://www.dotpdn.com/files/paint.net.4.2.16.install.zip",
+    "size": 12872272,
+    "checksum": "AA4225D361B5CF28F59A6BA2E908DC16DCB9086D7849FC3489E4F0BBAF522DE1",
     "file_type": ".exe"
   },
   "4.3.1": {
@@ -56,6 +50,18 @@
     "url": "https://www.dotpdn.com/files/paint.net.4.3.3.install.anycpu.web.zip",
     "size": 825098,
     "checksum": "6D79A486C2C8F8D17D84B0D57C2A60D9354E26CB05EA0B3F88DE784D8BAAC0BC",
+    "file_type": ".exe"
+  },
+  "4.3.8": {
+    "url": "https://www.dotpdn.com/files/paint.net.4.3.8.install.anycpu.web.zip",
+    "size": 825585,
+    "checksum": "477AA007BD7A206AE66F6B1DB1FD7C3E2CE03A14F8EBB2DE9D2F6DDD0DAC3BA1",
+    "file_type": ".exe"
+  },
+  "4.3.2": {
+    "url": "https://www.dotpdn.com/files/paint.net.4.3.2.install.anycpu.web.zip",
+    "size": 1770134,
+    "checksum": "FEA9967252A46DE89B1D4253AF51C5F253BF97CFBA412CC1418A132540AB0AA7",
     "file_type": ".exe"
   }
 }

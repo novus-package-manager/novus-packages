@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "dotPDN, LLC",
   "description": "Paint.net is a freeware raster graphics editor program for Microsoft Windows.",
-  "latest_version": "4.3.8",
+  "latest_version": "4.3.9",
   "threads": 8,
   "iswitches": [
     "/auto"
@@ -19,10 +19,28 @@
     "download_url": "https://www.dotpdn.com/files/paint.net.<version>.install.anycpu.web.zip",
     "regex": "(\\d+\\.\\d+\\.\\d+)</b></font></a>"
   },
+  "4.3.4": {
+    "url": "https://www.dotpdn.com/files/paint.net.4.3.4.install.anycpu.web.zip",
+    "size": 825173,
+    "checksum": "2791CA8467E77F774233CE8920F5F40DA37B16B602BE9FAAC9EBFBA24DEFFE98",
+    "file_type": ".exe"
+  },
   "4.3.3": {
     "url": "https://www.dotpdn.com/files/paint.net.4.3.3.install.anycpu.web.zip",
     "size": 825098,
     "checksum": "6D79A486C2C8F8D17D84B0D57C2A60D9354E26CB05EA0B3F88DE784D8BAAC0BC",
+    "file_type": ".exe"
+  },
+  "4.3.9": {
+    "url": "https://www.dotpdn.com/files/paint.net.4.3.9.install.anycpu.web.zip",
+    "size": 825468,
+    "checksum": "288F1B86286F6E9690483EE470340121123FAABFE8E1A967BEC8B78F890E844A",
+    "file_type": ".exe"
+  },
+  "4.3.2": {
+    "url": "https://www.dotpdn.com/files/paint.net.4.3.2.install.anycpu.web.zip",
+    "size": 1770134,
+    "checksum": "FEA9967252A46DE89B1D4253AF51C5F253BF97CFBA412CC1418A132540AB0AA7",
     "file_type": ".exe"
   },
   "4.2.16": {
@@ -35,18 +53,6 @@
     "url": "https://www.dotpdn.com/files/paint.net.4.3.1.install.anycpu.web.zip",
     "size": 1768012,
     "checksum": "0E48EBD4EE6537F07098E1920F2542AD7B7DDEE86E13358FD39932601CDC863B",
-    "file_type": ".exe"
-  },
-  "4.3.2": {
-    "url": "https://www.dotpdn.com/files/paint.net.4.3.2.install.anycpu.web.zip",
-    "size": 1770134,
-    "checksum": "FEA9967252A46DE89B1D4253AF51C5F253BF97CFBA412CC1418A132540AB0AA7",
-    "file_type": ".exe"
-  },
-  "4.3.4": {
-    "url": "https://www.dotpdn.com/files/paint.net.4.3.4.install.anycpu.web.zip",
-    "size": 825173,
-    "checksum": "2791CA8467E77F774233CE8920F5F40DA37B16B602BE9FAAC9EBFBA24DEFFE98",
     "file_type": ".exe"
   },
   "4.3.8": {
