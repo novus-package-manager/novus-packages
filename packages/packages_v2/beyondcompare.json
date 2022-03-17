@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "Scooter Software",
   "description": "Beyond Compare is a data comparison utility.",
-  "latest_version": "4.4.1.26165",
+  "latest_version": "4.4.2.26348",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -17,16 +17,22 @@
     "download_url": "https://www.scootersoftware.com/BCompare-<version>_x64.msi",
     "regex": "href=\"/BCompare-(\\d+\\.\\d+\\.\\d+\\.\\d+)_x64.msi\""
   },
-  "4.3.7.25118": {
-    "url": "https://www.scootersoftware.com/BCompare-4.3.7.25118_x64.msi",
-    "size": 18161664,
-    "checksum": "780048EA537860A8A706FB61483CEE0A1118039E25AB72C805E042B5C70BB781",
-    "file_type": ".msi"
-  },
   "4.4.1.26165": {
     "url": "https://www.scootersoftware.com/BCompare-4.4.1.26165_x64.msi",
     "size": 17960960,
     "checksum": "9C50944316CFDAF19EE7EA29BE0BD04C4940609D66ADFF81076B2061AC6F9E8E",
+    "file_type": ".msi"
+  },
+  "4.4.2.26348": {
+    "url": "https://www.scootersoftware.com/BCompare-4.4.2.26348_x64.msi",
+    "size": 17960960,
+    "checksum": "15552A40632070210798584F0F6DAFEE81EF14DF65105112D2E8D95A1F756DC7",
+    "file_type": ".msi"
+  },
+  "4.3.7.25118": {
+    "url": "https://www.scootersoftware.com/BCompare-4.3.7.25118_x64.msi",
+    "size": 18161664,
+    "checksum": "780048EA537860A8A706FB61483CEE0A1118039E25AB72C805E042B5C70BB781",
     "file_type": ".msi"
   },
   "4.4.0.25886": {
