@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "",
   "description": "",
-  "latest_version": "1.22.15",
+  "latest_version": "1.22.18",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -13,6 +13,12 @@
     "download_page": "",
     "download_url": "",
     "regex": ""
+  },
+  "1.22.18": {
+    "url": "https://github.com/yarnpkg/yarn/releases/download/v1.22.18/yarn-1.22.18.msi",
+    "size": 1647104,
+    "checksum": "CE2876ABE2CC5DFB07614DBB630C0565A1A8C6909D728DF22850959C2AD45FDF",
+    "file_type": ".msi"
   },
   "1.22.15": {
     "url": "https://github.com/yarnpkg/yarn/releases/download/v1.22.15/yarn-1.22.15.msi",
