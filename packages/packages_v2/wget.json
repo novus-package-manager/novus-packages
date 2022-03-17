@@ -8,7 +8,7 @@
   "portable": true,
   "creator": "GNU",
   "description": "GNU Wget is a free utility for non-interactive download of files from the Web.",
-  "latest_version": "1.21.2",
+  "latest_version": "1.21.3",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -21,6 +21,12 @@
     "url": "https://eternallybored.org/misc/wget/releases/wget-1.21.2-win64.zip",
     "size": 3959598,
     "checksum": "B0DF89F80AFF540F9EFEE4FC6EBE9F484F442866CC03896BCD5B21E9813D380A",
+    "file_type": ".zip"
+  },
+  "1.21.3": {
+    "url": "https://eternallybored.org/misc/wget/releases/wget-1.21.3-win64.zip",
+    "size": 7870483,
+    "checksum": "370F873CC7834B7182FEAA4D04638711880DB1938CC7863099BAFD53769D074F",
     "file_type": ".zip"
   },
   "1.21.1": {
