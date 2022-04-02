@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "CMake",
   "description": "CMake is cross-platform free and open-source software for build automation, testing, packaging and installation of software.",
-  "latest_version": "3.22.3",
+  "latest_version": "3.23.0",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -13,6 +13,30 @@
     "download_page": "https://github.com/Kitware/CMake/releases/latest",
     "download_url": "https://github.com/Kitware/CMake/releases/download/v<version>/cmake-<version>-windows-x86_64.msi",
     "regex": "v(\\d+\\.\\d+\\.\\d+)"
+  },
+  "3.22.0-rc1": {
+    "url": "https://github.com/Kitware/CMake/releases/download/v3.22.0-rc1/cmake-3.22.0-rc1-windows-x86_64.msi",
+    "size": 28860416,
+    "checksum": "60ABD189195B419176FFB38FBD09264FB037D7A6A08F42C29BFF9DE138BF2700",
+    "file_type": ".msi"
+  },
+  "3.22.2": {
+    "url": "https://github.com/Kitware/CMake/releases/download/v3.22.2/cmake-3.22.2-windows-x86_64.msi",
+    "size": 28872704,
+    "checksum": "AAB9FB9D6A7A18458DF2F3900C9D31218A2D38076F3C3F2C6004B800A9BE0A3D",
+    "file_type": ".msi"
+  },
+  "3.20.3": {
+    "url": "https://github.com/Kitware/CMake/releases/download/v3.20.3/cmake-3.20.3-windows-x86_64.msi",
+    "size": 27758592,
+    "checksum": "EDF7D8D26D653053E71B4C3FFE8CC410C52EF536AB194DFA3EC116A11620D9C7",
+    "file_type": ".msi"
+  },
+  "3.22.0-rc3": {
+    "url": "https://github.com/Kitware/CMake/releases/download/v3.22.0-rc3/cmake-3.22.0-rc3-windows-x86_64.msi",
+    "size": 28884992,
+    "checksum": "CC284B17545D07DD482DA857350148C44459D3987C86B75DA13141784D27BCD7",
+    "file_type": ".msi"
   },
   "3.22.0-rc2": {
     "url": "https://github.com/Kitware/CMake/releases/download/v3.22.0-rc2/cmake-3.22.0-rc2-windows-x86_64.msi",
@@ -26,22 +50,10 @@
     "checksum": "540C05114224D64392046F72E3FA63673FD6D51B2FD49735FF4994AE177B8E08",
     "file_type": ".msi"
   },
-  "3.21.2": {
-    "url": "https://github.com/Kitware/CMake/releases/download/v3.21.2/cmake-3.21.2-windows-x86_64.msi",
-    "size": 28307456,
-    "checksum": "6319819D2166144430FD7ADFD0C26D2AC76061F2F1B0649A602CE9DFD60FD9E1",
-    "file_type": ".msi"
-  },
-  "3.22.0-rc1": {
-    "url": "https://github.com/Kitware/CMake/releases/download/v3.22.0-rc1/cmake-3.22.0-rc1-windows-x86_64.msi",
-    "size": 28860416,
-    "checksum": "60ABD189195B419176FFB38FBD09264FB037D7A6A08F42C29BFF9DE138BF2700",
-    "file_type": ".msi"
-  },
-  "3.20.3": {
-    "url": "https://github.com/Kitware/CMake/releases/download/v3.20.3/cmake-3.20.3-windows-x86_64.msi",
-    "size": 27758592,
-    "checksum": "EDF7D8D26D653053E71B4C3FFE8CC410C52EF536AB194DFA3EC116A11620D9C7",
+  "3.20.5": {
+    "url": "https://github.com/Kitware/CMake/releases/download/v3.20.5/cmake-3.20.5-windows-x86_64.msi",
+    "size": 27750400,
+    "checksum": "BAA7A09C8EB04E235277909D7211999605A2F10B766DBCFB87F625F743D998E3",
     "file_type": ".msi"
   },
   "3.21.5": {
@@ -50,22 +62,28 @@
     "checksum": "694B939E07F6BA352EE82D926449AF58BB22FC2471FE462BFF7B7835435E2ECC",
     "file_type": ".msi"
   },
-  "3.22.3": {
-    "url": "https://github.com/Kitware/CMake/releases/download/v3.22.3/cmake-3.22.3-windows-x86_64.msi",
-    "size": 28876800,
-    "checksum": "5BEBBD44ABC339C02FD525DCE7C2931F9668D7D1A4A11E42E32BE49301BA3658",
+  "3.22.0": {
+    "url": "https://github.com/Kitware/CMake/releases/download/v3.22.0/cmake-3.22.0-windows-x86_64.msi",
+    "size": 28860416,
+    "checksum": "0A758F9687443F74D7172C7D6FD1E96F9A4577600DE86B97A86016863BFD657A",
     "file_type": ".msi"
   },
-  "3.21.3": {
-    "url": "https://github.com/Kitware/CMake/releases/download/v3.21.3/cmake-3.21.3-windows-x86_64.msi",
-    "size": 28303360,
-    "checksum": "548EE0A0EEE2B1B4DED36EB935362D24BF7537DCE6F93F42C4D34C6F83EED6DE",
+  "3.21.0": {
+    "url": "https://github.com/Kitware/CMake/releases/download/v3.21.0/cmake-3.21.0-windows-x86_64.msi",
+    "size": 9,
+    "checksum": "2840FCA0EC8C01A1C6395487D5E5E971578F1BD520A754DED4F74295386A4426",
     "file_type": ".msi"
   },
-  "3.22.0-rc3": {
-    "url": "https://github.com/Kitware/CMake/releases/download/v3.22.0-rc3/cmake-3.22.0-rc3-windows-x86_64.msi",
-    "size": 28884992,
-    "checksum": "CC284B17545D07DD482DA857350148C44459D3987C86B75DA13141784D27BCD7",
+  "3.23.0": {
+    "url": "https://github.com/Kitware/CMake/releases/download/v3.23.0/cmake-3.23.0-windows-x86_64.msi",
+    "size": 29245440,
+    "checksum": "1E772025844F1CC648D28F42090038E5CA5CF72E2889DE26D8D05EE25DA17061",
+    "file_type": ".msi"
+  },
+  "3.21.2": {
+    "url": "https://github.com/Kitware/CMake/releases/download/v3.21.2/cmake-3.21.2-windows-x86_64.msi",
+    "size": 28307456,
+    "checksum": "6319819D2166144430FD7ADFD0C26D2AC76061F2F1B0649A602CE9DFD60FD9E1",
     "file_type": ".msi"
   },
   "3.21.1": {
@@ -80,28 +98,16 @@
     "checksum": "2A6FA766187812BB2A4DB1746AD119A8F215FB1B57DEBE8A5EF66B9757E0B8DB",
     "file_type": ".msi"
   },
-  "3.20.5": {
-    "url": "https://github.com/Kitware/CMake/releases/download/v3.20.5/cmake-3.20.5-windows-x86_64.msi",
-    "size": 27750400,
-    "checksum": "BAA7A09C8EB04E235277909D7211999605A2F10B766DBCFB87F625F743D998E3",
+  "3.21.3": {
+    "url": "https://github.com/Kitware/CMake/releases/download/v3.21.3/cmake-3.21.3-windows-x86_64.msi",
+    "size": 28303360,
+    "checksum": "548EE0A0EEE2B1B4DED36EB935362D24BF7537DCE6F93F42C4D34C6F83EED6DE",
     "file_type": ".msi"
   },
-  "3.22.2": {
-    "url": "https://github.com/Kitware/CMake/releases/download/v3.22.2/cmake-3.22.2-windows-x86_64.msi",
-    "size": 28872704,
-    "checksum": "AAB9FB9D6A7A18458DF2F3900C9D31218A2D38076F3C3F2C6004B800A9BE0A3D",
-    "file_type": ".msi"
-  },
-  "3.21.0": {
-    "url": "https://github.com/Kitware/CMake/releases/download/v3.21.0/cmake-3.21.0-windows-x86_64.msi",
-    "size": 9,
-    "checksum": "2840FCA0EC8C01A1C6395487D5E5E971578F1BD520A754DED4F74295386A4426",
-    "file_type": ".msi"
-  },
-  "3.22.0": {
-    "url": "https://github.com/Kitware/CMake/releases/download/v3.22.0/cmake-3.22.0-windows-x86_64.msi",
-    "size": 28860416,
-    "checksum": "0A758F9687443F74D7172C7D6FD1E96F9A4577600DE86B97A86016863BFD657A",
+  "3.22.3": {
+    "url": "https://github.com/Kitware/CMake/releases/download/v3.22.3/cmake-3.22.3-windows-x86_64.msi",
+    "size": 28876800,
+    "checksum": "5BEBBD44ABC339C02FD525DCE7C2931F9668D7D1A4A11E42E32BE49301BA3658",
     "file_type": ".msi"
   }
 }
