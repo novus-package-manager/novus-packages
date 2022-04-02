@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "Microsoft",
   "description": "Microsoft Teams is a proprietary business communication platform.",
-  "latest_version": "1.4.00.20211",
+  "latest_version": "1.5.00.5967",
   "threads": 8,
   "iswitches": [
     "--silent"
@@ -21,6 +21,12 @@
     "download_page": "https://microsoft-teams.en.uptodown.com/windows/versions",
     "download_url": "https://statics.teams.cdn.office.net/production-windows-x64/<version>/Teams_windows_x64.exe",
     "regex": "class=version>(\\d+\\.\\d+\\.\\d+\\.\\d+)"
+  },
+  "1.5.00.5967": {
+    "url": "https://statics.teams.cdn.office.net/production-windows-x64/1.5.00.5967/Teams_windows_x64.exe",
+    "size": 126085368,
+    "checksum": "4612240E0A8F4E7F5BF490B2BCCB568354922F82DE10ABFB9F14C4A2E09BCF30",
+    "file_type": ".exe"
   },
   "1.4.00.20211": {
     "url": "https://statics.teams.cdn.office.net/production-windows-x64/1.4.00.20211/Teams_windows_x64.exe",
