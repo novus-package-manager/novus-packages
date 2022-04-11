@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "Bandisoft",
   "description": "Bandizip is a powerful archiver which provides an ultrafast processing speed and convenient features.",
-  "latest_version": "7.23",
+  "latest_version": "7.24",
   "threads": 8,
   "iswitches": [
     "/S"
@@ -21,28 +21,34 @@
     "download_url": "https://dl.bandisoft.com/bandizip.std/BANDIZIP-SETUP-STD-X64.EXE?1",
     "regex": "Free Download - Bandizip \\(v(\\d+\\.\\d+)\\)"
   },
-  "7.21": {
-    "url": "https://dl.bandisoft.com/bandizip.std/BANDIZIP-SETUP-STD-X64.EXE?1",
-    "size": 6386680,
-    "checksum": "31CC63CF0178F9D19E6A9E8744BB53FEE83D44F8A42D930B6CE1A031204F248C",
-    "file_type": ".exe"
-  },
-  "7.20": {
-    "url": "https://dl.bandisoft.com/bandizip.std/BANDIZIP-SETUP-STD-X64.EXE?1",
-    "size": 6387592,
-    "checksum": "818A37D8263998A54F6FC186E70CE4054B1F8218801CFA659BF2713AEC8610E2",
-    "file_type": ".exe"
-  },
   "7.17": {
     "url": "https://dl.bandisoft.com/bandizip.std/BANDIZIP-SETUP-STD-X64.EXE?1",
     "size": 6327848,
     "checksum": "73D3CDFFE90925AA1D4CAE4AC10B8DB9100BB61FAB82DA68CFC3993DA2C8B9A3",
     "file_type": ".exe"
   },
+  "7.24": {
+    "url": "https://dl.bandisoft.com/bandizip.std/BANDIZIP-SETUP-STD-X64.EXE?1",
+    "size": 6756008,
+    "checksum": "FE6BEB09A2C8AD0CCDF809869C81582B886B2D08D060183EBD78764897CDFF70",
+    "file_type": ".exe"
+  },
+  "7.21": {
+    "url": "https://dl.bandisoft.com/bandizip.std/BANDIZIP-SETUP-STD-X64.EXE?1",
+    "size": 6386680,
+    "checksum": "31CC63CF0178F9D19E6A9E8744BB53FEE83D44F8A42D930B6CE1A031204F248C",
+    "file_type": ".exe"
+  },
   "7.23": {
     "url": "https://dl.bandisoft.com/bandizip.std/BANDIZIP-SETUP-STD-X64.EXE?1",
     "size": 6637864,
     "checksum": "5E090CC04EFD0A5011E9825B49C29727330688001BD7A3DB39C640F1CCBA384A",
+    "file_type": ".exe"
+  },
+  "7.20": {
+    "url": "https://dl.bandisoft.com/bandizip.std/BANDIZIP-SETUP-STD-X64.EXE?1",
+    "size": 6387592,
+    "checksum": "818A37D8263998A54F6FC186E70CE4054B1F8218801CFA659BF2713AEC8610E2",
     "file_type": ".exe"
   },
   "7.19": {
