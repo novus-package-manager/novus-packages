@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "Tracker Software",
   "description": "PDF-XChange Editor can be used to create PDF files from scanned documents, images, text files, Markdown files and much more.",
-  "latest_version": "9.3.360.0",
+  "latest_version": "9.3.361.0",
   "threads": 8,
   "iswitches": [
     "/qn",
@@ -22,22 +22,16 @@
     "download_url": "https://downloads.pdf-xchange.com/EditorV9.x64.msi",
     "regex": "<strong>Current version:</strong> (\\d+\\.\\d+\\.\\d+\\.\\d+)"
   },
-  "9.3.360.0": {
-    "url": "https://downloads.pdf-xchange.com/EditorV9.x64.msi",
-    "size": 319717376,
-    "checksum": "D70636CD652D67864AC21138E7069F52E6C6278EF2324D43123431FA5646DAF8",
-    "file_type": ".msi"
-  },
-  "9.2.357.0": {
-    "url": "https://downloads.pdf-xchange.com/EditorV9.x64.msi",
-    "size": 318750720,
-    "checksum": "EEDC0D68EBCDA9F082066C939AC095138D96A21E5F7CB2D3AC0DAEA11EB62D8C",
-    "file_type": ".msi"
-  },
   "9.1.356.0": {
     "url": "https://downloads.pdf-xchange.com/EditorV9.x64.msi",
     "size": 325197824,
     "checksum": "4D9936656FFA9826B4B1B2279DF7D722D10DD77DE10D8C89D8BDA329C4529EC0",
+    "file_type": ".msi"
+  },
+  "9.3.360.0": {
+    "url": "https://downloads.pdf-xchange.com/EditorV9.x64.msi",
+    "size": 319717376,
+    "checksum": "D70636CD652D67864AC21138E7069F52E6C6278EF2324D43123431FA5646DAF8",
     "file_type": ".msi"
   },
   "9.2.359.0": {
@@ -50,6 +44,18 @@
     "url": "https://downloads.pdf-xchange.com/EditorV9.x64.msi",
     "size": 318787584,
     "checksum": "CA884736BF341259DF7C7200A62EF1933538F59F2951392025260713614A4388",
+    "file_type": ".msi"
+  },
+  "9.3.361.0": {
+    "url": "https://downloads.pdf-xchange.com/EditorV9.x64.msi",
+    "size": 320630784,
+    "checksum": "4876D8A787E4AC865212356581D0290AA1BC558A8B15B83916C60E0365E3439F",
+    "file_type": ".msi"
+  },
+  "9.2.357.0": {
+    "url": "https://downloads.pdf-xchange.com/EditorV9.x64.msi",
+    "size": 318750720,
+    "checksum": "EEDC0D68EBCDA9F082066C939AC095138D96A21E5F7CB2D3AC0DAEA11EB62D8C",
     "file_type": ".msi"
   }
 }
