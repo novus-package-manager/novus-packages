@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "HyperTerminal",
   "description": "A terminal built on web technologies.",
-  "latest_version": "3.2.2",
+  "latest_version": "3.2.3",
   "threads": 8,
   "iswitches": [
     "/S"
@@ -31,28 +31,16 @@
     "checksum": "FD506C3B3A711C459127996FEC2E89CF61308AA3F366C1FFEBE5EAA4203262F5",
     "file_type": ".exe"
   },
-  "3.1.5": {
-    "url": "https://github.com/vercel/hyper/releases/download/v3.1.5/Hyper-Setup-3.1.5.exe",
-    "size": 64699736,
-    "checksum": "BADCE6621FEE713BD118B986A72C2A71665B80E772DE4B5E867C178DE5BD23FB",
-    "file_type": ".exe"
-  },
-  "3.1.1": {
-    "url": "https://github.com/vercel/hyper/releases/download/v3.1.1/Hyper-Setup-3.1.1.exe",
-    "size": 63615352,
-    "checksum": "95C78438FBA9BC55185BB2CB7E9B3338FBCF048BDDF91CE932A476250120DD55",
-    "file_type": ".exe"
-  },
-  "3.2.0": {
-    "url": "https://github.com/vercel/hyper/releases/download/v3.2.0/Hyper-Setup-3.2.0.exe",
-    "size": 66118304,
-    "checksum": "B4B699D37DEFB938766293C8CA84971C4865FB0F89375E05E051DC6887D300B6",
-    "file_type": ".exe"
-  },
   "3.1.4": {
     "url": "https://github.com/vercel/hyper/releases/download/v3.1.4/Hyper-Setup-3.1.4.exe",
     "size": 63668896,
     "checksum": "E1815E27BCE2514B3B8FFC4615C8A1F122D062702B2DE50E21A859E83430A18D",
+    "file_type": ".exe"
+  },
+  "3.2.3": {
+    "url": "https://github.com/vercel/hyper/releases/download/v3.2.3/Hyper-Setup-3.2.3.exe",
+    "size": 67179984,
+    "checksum": "DDDC5CF41F42EC578AAEA588E315E1EDC50E4DEC67C8CDD24183648EA6487AF0",
     "file_type": ".exe"
   },
   "3.1.3": {
@@ -61,10 +49,28 @@
     "checksum": "7CCAAF301C90CF66F2034FC58B697A9A89D915958E628C2B15B06EA7BF4C3FF6",
     "file_type": ".exe"
   },
+  "3.2.0": {
+    "url": "https://github.com/vercel/hyper/releases/download/v3.2.0/Hyper-Setup-3.2.0.exe",
+    "size": 66118304,
+    "checksum": "B4B699D37DEFB938766293C8CA84971C4865FB0F89375E05E051DC6887D300B6",
+    "file_type": ".exe"
+  },
+  "3.1.5": {
+    "url": "https://github.com/vercel/hyper/releases/download/v3.1.5/Hyper-Setup-3.1.5.exe",
+    "size": 64699736,
+    "checksum": "BADCE6621FEE713BD118B986A72C2A71665B80E772DE4B5E867C178DE5BD23FB",
+    "file_type": ".exe"
+  },
   "3.1.2": {
     "url": "https://github.com/vercel/hyper/releases/download/v3.1.2/Hyper-Setup-3.1.2.exe",
     "size": 63616904,
     "checksum": "4E226B04EE69C0345918D2618A9D6EE852D9DEAAE7B00847FA751000AE7057EB",
+    "file_type": ".exe"
+  },
+  "3.1.1": {
+    "url": "https://github.com/vercel/hyper/releases/download/v3.1.1/Hyper-Setup-3.1.1.exe",
+    "size": 63615352,
+    "checksum": "95C78438FBA9BC55185BB2CB7E9B3338FBCF048BDDF91CE932A476250120DD55",
     "file_type": ".exe"
   }
 }
