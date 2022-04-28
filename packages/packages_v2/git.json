@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "Github",
   "description": "Git is a free and open source distributed version control system.",
-  "latest_version": "2.34.1",
+  "latest_version": "2.36.0",
   "threads": 8,
   "iswitches": [
     "/SP-",
@@ -34,6 +34,24 @@
     "checksum": "EED601EF835C3DAC08D2E27F6F38B5DB7998747C753C87A45B326FBD6C710309",
     "file_type": ".exe"
   },
+  "2.34.1": {
+    "url": "https://github.com/git-for-windows/git/releases/download/v2.34.1.windows.1/Git-2.34.1-64-bit.exe",
+    "size": 50403600,
+    "checksum": "D8769A1D90B2F1F7D85AE91E724C8DAD16F340C5B130D49368A308DD086A5F52",
+    "file_type": ".exe"
+  },
+  "2.36.0": {
+    "url": "https://github.com/git-for-windows/git/releases/download/v2.36.0.windows.1/Git-2.36.0-64-bit.exe",
+    "size": 49371696,
+    "checksum": "5196563BA07031257D972C0B3C2EBD3227D98A40587278E11930DBC2F78D4E69",
+    "file_type": ".exe"
+  },
+  "2.33.1": {
+    "url": "https://github.com/git-for-windows/git/releases/download/v2.33.1.windows.1/Git-2.33.1-64-bit.exe",
+    "size": 50186136,
+    "checksum": "B1B69FCF56D50199536F7E6FC79B75AB16734D4D9A4B85C8E931596F02DD0688",
+    "file_type": ".exe"
+  },
   "2.33.0": {
     "url": "https://github.com/git-for-windows/git/releases/download/v2.33.0.windows.1/Git-2.33.0-64-bit.exe",
     "size": 50147632,
@@ -50,18 +68,6 @@
     "url": "https://github.com/git-for-windows/git/releases/download/v2.34.0.windows.1/Git-2.34.0-64-bit.exe",
     "size": 50351408,
     "checksum": "2A833D15F97539E845B3883E375A8A152E8199B63AC345282D80F834F7D6A9B6",
-    "file_type": ".exe"
-  },
-  "2.33.1": {
-    "url": "https://github.com/git-for-windows/git/releases/download/v2.33.1.windows.1/Git-2.33.1-64-bit.exe",
-    "size": 50186136,
-    "checksum": "B1B69FCF56D50199536F7E6FC79B75AB16734D4D9A4B85C8E931596F02DD0688",
-    "file_type": ".exe"
-  },
-  "2.34.1": {
-    "url": "https://github.com/git-for-windows/git/releases/download/v2.34.1.windows.1/Git-2.34.1-64-bit.exe",
-    "size": 50403600,
-    "checksum": "D8769A1D90B2F1F7D85AE91E724C8DAD16F340C5B130D49368A308DD086A5F52",
     "file_type": ".exe"
   }
 }
