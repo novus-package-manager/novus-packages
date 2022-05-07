@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "Slack Technologies",
   "description": "Slack is a proprietary business communication platform.",
-  "latest_version": "4.26.1",
+  "latest_version": "4.25.2",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -17,10 +17,10 @@
     "download_url": "https://downloads.slack-edge.com/releases/windows/<version>/prod/x64/slack-standalone-<version>.0.msi",
     "regex": "Version (\\d+\\.\\d+\\.\\d+)"
   },
-  "4.25.0": {
-    "url": "https://downloads.slack-edge.com/releases/windows/4.25.0/prod/x64/slack-standalone-4.25.0.0.msi",
-    "size": 100110336,
-    "checksum": "DF9ECC927929439AA2CB15030200B063EA372CE74E137F544F37570E215D5323",
+  "4.26.0": {
+    "url": "https://downloads.slack-edge.com/releases/windows/4.26.0/prod/x64/slack-standalone-4.26.0.0.msi",
+    "size": 102719488,
+    "checksum": "4E3C3403901F1B7B8B39E7C7CB6E1DD124C74A8BD05277D5CA57D0E80280EB91",
     "file_type": ".msi"
   },
   "4.23.0": {
@@ -29,10 +29,58 @@
     "checksum": "97EC9C677B1A73AC784FCCAEE31246F41A782ECAD09F269A3690190F7E939EEF",
     "file_type": ".msi"
   },
+  "4.21.0": {
+    "url": "https://downloads.slack-edge.com/releases/windows/4.21.0/prod/x64/slack-standalone-4.21.0.0.msi",
+    "size": 98140160,
+    "checksum": "7A93CFCDA4499724C542E7F551B62E31F90DA489BE09B48FDDD1788FFE4C2518",
+    "file_type": ".msi"
+  },
+  "4.16.1": {
+    "url": "https://downloads.slack-edge.com/releases/windows/4.16.1/prod/x64/slack-standalone-4.16.1.0.msi",
+    "size": 92356608,
+    "checksum": "2DF775430A6C4E006DBFC7EE1317FA2E8294F63269142365269B6504830E62E6",
+    "file_type": ".msi"
+  },
+  "4.20.0": {
+    "url": "https://downloads.slack-edge.com/releases/windows/4.20.0/prod/x64/slack-standalone-4.20.0.0.msi",
+    "size": 96333824,
+    "checksum": "D717D5A2DA57235BF93766BA66303D7BF941B5FDA77BCA5B5ACAF80C2DA27A06",
+    "file_type": ".msi"
+  },
+  "4.24.0": {
+    "url": "https://downloads.slack-edge.com/releases/windows/4.24.0/prod/x64/slack-standalone-4.24.0.0.msi",
+    "size": 99733504,
+    "checksum": "8F9B0375827D58CEEBE54D8AF9D4BAABF2503DC976D10528A07A3DF923598C9E",
+    "file_type": ".msi"
+  },
+  "4.19.0": {
+    "url": "https://downloads.slack-edge.com/releases/windows/4.19.0/prod/x64/slack-standalone-4.19.0.0.msi",
+    "size": 93806592,
+    "checksum": "DC3D22E4A698D99608D64B1EE4B3F24CF270937149580FFC2DE6DAC5E6C42E61",
+    "file_type": ".msi"
+  },
   "4.21.1": {
     "url": "https://downloads.slack-edge.com/releases/windows/4.21.1/prod/x64/slack-standalone-4.21.1.0.msi",
     "size": 98152448,
     "checksum": "7174737D3EC8DA4EE6FC7A58D9D7111C3F085810855E164C1FFB392973181305",
+    "file_type": ".msi"
+  },
+  "4.19.3": {
+    "url": "https://downloads.slack-edge.com/releases/windows/4.19.3/prod/x64/slack-standalone-4.19.3.0.msi",
+    "size": 96063488,
+    "checksum": "33BF8E0AB732E758BCF06CA339D1A26E40D18890EEBB267A2A1128C30E5EF204",
+    "file_type": ".msi"
+  },
+  "4.26.1": {
+    "url": "https://downloads.slack-edge.com/releases/windows/4.26.1/prod/x64/slack-standalone-4.26.1.0.msi",
+    "size": 102723584,
+    "checksum": "89504B92A26CBF8E6EE3499BABF791493B657C27C8C114387E15D97591897CFC",
+    "file_type": ".msi"
+  },
+  "4.25.0": {
+    "url": "https://downloads.slack-edge.com/releases/windows/4.25.0/prod/x64/slack-standalone-4.25.0.0.msi",
+    "size": 100110336,
+    "checksum": "DF9ECC927929439AA2CB15030200B063EA372CE74E137F544F37570E215D5323",
     "file_type": ".msi"
   },
   "4.18.0": {
@@ -45,54 +93,6 @@
     "url": "https://downloads.slack-edge.com/releases/windows/4.25.2/prod/x64/slack-standalone-4.25.2.0.msi",
     "size": 100167680,
     "checksum": "16B7DAB0D2A89D0C48153D3729710A650BEA3DEF04DAC2DBB7AA00726B7A258C",
-    "file_type": ".msi"
-  },
-  "4.20.0": {
-    "url": "https://downloads.slack-edge.com/releases/windows/4.20.0/prod/x64/slack-standalone-4.20.0.0.msi",
-    "size": 96333824,
-    "checksum": "D717D5A2DA57235BF93766BA66303D7BF941B5FDA77BCA5B5ACAF80C2DA27A06",
-    "file_type": ".msi"
-  },
-  "4.16.1": {
-    "url": "https://downloads.slack-edge.com/releases/windows/4.16.1/prod/x64/slack-standalone-4.16.1.0.msi",
-    "size": 92356608,
-    "checksum": "2DF775430A6C4E006DBFC7EE1317FA2E8294F63269142365269B6504830E62E6",
-    "file_type": ".msi"
-  },
-  "4.21.0": {
-    "url": "https://downloads.slack-edge.com/releases/windows/4.21.0/prod/x64/slack-standalone-4.21.0.0.msi",
-    "size": 98140160,
-    "checksum": "7A93CFCDA4499724C542E7F551B62E31F90DA489BE09B48FDDD1788FFE4C2518",
-    "file_type": ".msi"
-  },
-  "4.24.0": {
-    "url": "https://downloads.slack-edge.com/releases/windows/4.24.0/prod/x64/slack-standalone-4.24.0.0.msi",
-    "size": 99733504,
-    "checksum": "8F9B0375827D58CEEBE54D8AF9D4BAABF2503DC976D10528A07A3DF923598C9E",
-    "file_type": ".msi"
-  },
-  "4.19.3": {
-    "url": "https://downloads.slack-edge.com/releases/windows/4.19.3/prod/x64/slack-standalone-4.19.3.0.msi",
-    "size": 96063488,
-    "checksum": "33BF8E0AB732E758BCF06CA339D1A26E40D18890EEBB267A2A1128C30E5EF204",
-    "file_type": ".msi"
-  },
-  "4.26.0": {
-    "url": "https://downloads.slack-edge.com/releases/windows/4.26.0/prod/x64/slack-standalone-4.26.0.0.msi",
-    "size": 102719488,
-    "checksum": "4E3C3403901F1B7B8B39E7C7CB6E1DD124C74A8BD05277D5CA57D0E80280EB91",
-    "file_type": ".msi"
-  },
-  "4.19.0": {
-    "url": "https://downloads.slack-edge.com/releases/windows/4.19.0/prod/x64/slack-standalone-4.19.0.0.msi",
-    "size": 93806592,
-    "checksum": "DC3D22E4A698D99608D64B1EE4B3F24CF270937149580FFC2DE6DAC5E6C42E61",
-    "file_type": ".msi"
-  },
-  "4.26.1": {
-    "url": "https://downloads.slack-edge.com/releases/windows/4.26.1/prod/x64/slack-standalone-4.26.1.0.msi",
-    "size": 102723584,
-    "checksum": "89504B92A26CBF8E6EE3499BABF791493B657C27C8C114387E15D97591897CFC",
     "file_type": ".msi"
   },
   "4.22.0": {
