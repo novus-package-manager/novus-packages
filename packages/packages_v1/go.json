@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "Go Authors",
   "description": "Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.",
-  "latest_version": "1.18.1",
+  "latest_version": "1.18.2",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -14,16 +14,10 @@
     "download_url": "https://golang.org/dl/go<version>.windows-amd64.msi",
     "regex": "<a class=\"download downloadBox\" href=\"/dl/go(\\d+\\.\\d+\\.\\d+)\\.windows-amd64\\.msi\">\\n<div class=\"platform\">Microsoft Windows</div>"
   },
-  "1.17.5": {
-    "url": "https://golang.org/dl/go1.17.5.windows-amd64.msi",
-    "size": 130363392,
-    "checksum": "93DE2B6B56B21940BC061A9C5D68C8B32CA6DFF6F947C3D2AC8D3E54728F6D18",
-    "file_type": ".msi"
-  },
-  "1.17.3": {
-    "url": "https://golang.org/dl/go1.17.3.windows-amd64.msi",
-    "size": 130314240,
-    "checksum": "BF3C475726C9165EB5D809E1BB4CE33550A25850495AAC0A5DF6D0DF05930936",
+  "1.17.6": {
+    "url": "https://golang.org/dl/go1.17.6.windows-amd64.msi",
+    "size": 130347008,
+    "checksum": "43A67C37BE6699F3FC58C3D7F52CD0D6117D8777F65C79F73C44A58C6ED98F22",
     "file_type": ".msi"
   },
   "1.18.1": {
@@ -38,34 +32,28 @@
     "checksum": "F7D54883E9BB653B1A50061A7FA42A6503C680A25CEE32F16CCBA51A77B0C83B",
     "file_type": ".msi"
   },
-  "1.16.5": {
-    "url": "https://golang.org/dl/go1.16.5.windows-amd64.msi",
-    "size": 124416000,
-    "checksum": "322DD8C585F37B62C9E603C84747B97A7A65B56FCEF56B64E3021CCAD90785B2",
-    "file_type": ".msi"
-  },
   "1.17.8": {
     "url": "https://golang.org/dl/go1.17.8.windows-amd64.msi",
     "size": 130486272,
     "checksum": "40F672EC28EC9108EDB60D1207A6C5CE83ADAC1D5C767DC4B5E0F54BAE069E03",
     "file_type": ".msi"
   },
-  "1.16.4": {
-    "url": "https://golang.org/dl/go1.16.4.windows-amd64.msi",
-    "size": 124403712,
-    "checksum": "9AE1CAFAD5F206F004CFE4E9E9B64E4710CB69C83F6221DA89C113B6F2E8DEC8",
+  "1.16.7": {
+    "url": "https://golang.org/dl/go1.16.7.windows-amd64.msi",
+    "size": 124407808,
+    "checksum": "75597307C368AE1F728F9E7A2C2D5814225664B5B8D915D34C0D4EB2D53D0831",
+    "file_type": ".msi"
+  },
+  "1.18.2": {
+    "url": "https://golang.org/dl/go1.18.2.windows-amd64.msi",
+    "size": 136085504,
+    "checksum": "3C6ECEA0966AEDAC4DD2E21A8DB5D67B984D979F69670CB4A6D767C5E0160296",
     "file_type": ".msi"
   },
   "1.17.1": {
     "url": "https://golang.org/dl/go1.17.1.windows-amd64.msi",
     "size": 130314240,
     "checksum": "7A360967708350354EA479500A8EADA6A032E07EAC5BD43142367EE5B0AB1DF9",
-    "file_type": ".msi"
-  },
-  "1.16.7": {
-    "url": "https://golang.org/dl/go1.16.7.windows-amd64.msi",
-    "size": 124407808,
-    "checksum": "75597307C368AE1F728F9E7A2C2D5814225664B5B8D915D34C0D4EB2D53D0831",
     "file_type": ".msi"
   },
   "1.17.4": {
@@ -80,16 +68,34 @@
     "checksum": "8CAA75A1604A8519ABC92A0CA55B60ADFC675BB4EB13F1C9F6FAB9CCA54B617D",
     "file_type": ".msi"
   },
+  "1.16.4": {
+    "url": "https://golang.org/dl/go1.16.4.windows-amd64.msi",
+    "size": 124403712,
+    "checksum": "9AE1CAFAD5F206F004CFE4E9E9B64E4710CB69C83F6221DA89C113B6F2E8DEC8",
+    "file_type": ".msi"
+  },
+  "1.17.3": {
+    "url": "https://golang.org/dl/go1.17.3.windows-amd64.msi",
+    "size": 130314240,
+    "checksum": "BF3C475726C9165EB5D809E1BB4CE33550A25850495AAC0A5DF6D0DF05930936",
+    "file_type": ".msi"
+  },
+  "1.16.5": {
+    "url": "https://golang.org/dl/go1.16.5.windows-amd64.msi",
+    "size": 124416000,
+    "checksum": "322DD8C585F37B62C9E603C84747B97A7A65B56FCEF56B64E3021CCAD90785B2",
+    "file_type": ".msi"
+  },
   "1.17.7": {
     "url": "https://golang.org/dl/go1.17.7.windows-amd64.msi",
     "size": 130383872,
     "checksum": "7AA1A850DDAEDB2F1A54E97848B40D84BF9521D5E5E5BCA96684DC60A6503F1E",
     "file_type": ".msi"
   },
-  "1.17.6": {
-    "url": "https://golang.org/dl/go1.17.6.windows-amd64.msi",
-    "size": 130347008,
-    "checksum": "43A67C37BE6699F3FC58C3D7F52CD0D6117D8777F65C79F73C44A58C6ED98F22",
+  "1.17.5": {
+    "url": "https://golang.org/dl/go1.17.5.windows-amd64.msi",
+    "size": 130363392,
+    "checksum": "93DE2B6B56B21940BC061A9C5D68C8B32CA6DFF6F947C3D2AC8D3E54728F6D18",
     "file_type": ".msi"
   }
 }
