@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "",
   "description": "",
-  "latest_version": "17.1",
+  "latest_version": "17.2",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -18,6 +18,12 @@
     "url": "https://aka.ms/vs/17/release/vs_BuildTools.exe",
     "size": 1659256,
     "checksum": "167DAA8A4C9C242A49400CB5DAAE6ED2077A41465B9E817B568C5369127168DF",
+    "file_type": ".exe"
+  },
+  "17.2": {
+    "url": "https://aka.ms/vs/17/release/vs_BuildTools.exe",
+    "size": 1678552,
+    "checksum": "06293B7DB26D35BF19253F8059BF9FEEB97D34236C02970AFD1931F5E4DA6DA7",
     "file_type": ".exe"
   },
   "17.0": {
