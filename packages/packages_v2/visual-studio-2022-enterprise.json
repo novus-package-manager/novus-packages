@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "Microsoft",
   "description": "Scalable, end-to-end solution for teams of any size",
-  "latest_version": "17.1",
+  "latest_version": "17.2",
   "threads": 8,
   "iswitches": [
     "--passive",
@@ -24,6 +24,12 @@
     "url": "https://aka.ms/vs/17/release/vs_enterprise.exe",
     "size": 1660152,
     "checksum": "8D64D5D492B34214C60B05424AE213AF18DD768AE59A598470F929B6C8F1C35C",
+    "file_type": ".exe"
+  },
+  "17.2": {
+    "url": "https://aka.ms/vs/17/release/vs_enterprise.exe",
+    "size": 1678408,
+    "checksum": "29BC1EB43B18E1002F00866173209B63E42229A81D7FD8250C8B9DF00264CCB1",
     "file_type": ".exe"
   },
   "17.0": {

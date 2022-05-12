@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "",
   "description": "",
-  "latest_version": "17.1",
+  "latest_version": "17.2",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -18,6 +18,12 @@
     "url": "https://aka.ms/vs/17/release/vs_enterprise.exe",
     "size": 1649920,
     "checksum": "39919EDF18CF16E1DB38032AEC636177C948A61A4F5EC8E84443335EB4B21194",
+    "file_type": ".exe"
+  },
+  "17.2": {
+    "url": "https://aka.ms/vs/17/release/vs_enterprise.exe",
+    "size": 1678408,
+    "checksum": "29BC1EB43B18E1002F00866173209B63E42229A81D7FD8250C8B9DF00264CCB1",
     "file_type": ".exe"
   },
   "17.1": {
