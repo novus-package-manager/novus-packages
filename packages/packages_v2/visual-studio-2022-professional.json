@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "Microsoft",
   "description": "Professional IDE best suited to small teams",
-  "latest_version": "17.1",
+  "latest_version": "17.2",
   "threads": 8,
   "iswitches": [
     "--passive",
@@ -24,6 +24,12 @@
     "url": "https://aka.ms/vs/17/release/vs_professional.exe",
     "size": 1648736,
     "checksum": "FF45383F2BB79ABF9F0560E4FC6B12166C87A7B5131F8E00ECE9F63231A41742",
+    "file_type": ".exe"
+  },
+  "17.2": {
+    "url": "https://aka.ms/vs/17/release/vs_professional.exe",
+    "size": 1677808,
+    "checksum": "475ADA04E571C3F88393E7568282FA8EA41CF7A98B43327876F7FB5CA0C057AB",
     "file_type": ".exe"
   },
   "17.1": {
