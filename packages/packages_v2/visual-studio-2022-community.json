@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "Microsoft",
   "description": "Powerful IDE, free for students, open-source contributers, and individuals.",
-  "latest_version": "17.1",
+  "latest_version": "17.2",
   "threads": 8,
   "iswitches": [
     "--passive",
@@ -30,6 +30,12 @@
     "url": "https://aka.ms/vs/17/release/vs_community.exe",
     "size": 1650112,
     "checksum": "887B04132031C9F09A83614D5D8AFE6F75ED27632CC794FA6C6DC189334D7D9D",
+    "file_type": ".exe"
+  },
+  "17.2": {
+    "url": "https://aka.ms/vs/17/release/vs_community.exe",
+    "size": 1678504,
+    "checksum": "3E99B3943DCEEBD42D08E48C1D86422BCE270DAC46BB718D4E8E4A61034D52CE",
     "file_type": ".exe"
   }
 }
