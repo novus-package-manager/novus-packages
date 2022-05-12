@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "Opera Software",
   "description": "Opera is a multi-platform web browser.",
-  "latest_version": "86.0.4363.50",
+  "latest_version": "86.0.4363.59",
   "threads": 8,
   "iswitches": [
     "/silent",
@@ -23,118 +23,10 @@
     "download_url": "https://get.geo.opera.com/pub/opera/desktop/<version>/win/Opera_<version>_Setup_x64.exe",
     "regex": "class=version>(\\d+\\.\\d+\\.\\d+\\.\\d+)"
   },
-  "82.0.4227.33": {
-    "url": "https://get.geo.opera.com/pub/opera/desktop/82.0.4227.33/win/Opera_82.0.4227.33_Setup_x64.exe",
-    "size": 80916128,
-    "checksum": "984EF4E4ADED4B855808DC1964B445075EB04F4E30C5279CE79B4511D2AFB640",
-    "file_type": ".exe"
-  },
-  "86.0.4363.50": {
-    "url": "https://get.geo.opera.com/pub/opera/desktop/86.0.4363.50/win/Opera_86.0.4363.50_Setup_x64.exe",
-    "size": 85245088,
-    "checksum": "C03F7E81AC58D1C6608F39D502C3FEC2235969C33BE429BABD7F51F0D34F7B72",
-    "file_type": ".exe"
-  },
-  "83.0.4254.54": {
-    "url": "https://get.geo.opera.com/pub/opera/desktop/83.0.4254.54/win/Opera_83.0.4254.54_Setup_x64.exe",
-    "size": 83006080,
-    "checksum": "36EF5FD84454430FA2D74DA90986352FB3F0B0ECD75C0D43180D6E6B501457E5",
-    "file_type": ".exe"
-  },
-  "84.0.4316.42": {
-    "url": "https://get.geo.opera.com/pub/opera/desktop/84.0.4316.42/win/Opera_84.0.4316.42_Setup_x64.exe",
-    "size": 84933616,
-    "checksum": "8937237644FEA9A97B1822A1C844BC813F3AB1432341FD567212A063B7693C41",
-    "file_type": ".exe"
-  },
-  "82.0.4227.43": {
-    "url": "https://get.geo.opera.com/pub/opera/desktop/82.0.4227.43/win/Opera_82.0.4227.43_Setup_x64.exe",
-    "size": 80930128,
-    "checksum": "24570194083BE85DA81D1A3DB46ED4BED971704107C77A1F090EE039A5FA429D",
-    "file_type": ".exe"
-  },
-  "74.0.3911.160": {
-    "url": "https://get.geo.opera.com/pub/opera/desktop/74.0.3911.160/win/Opera_74.0.3911.160_Setup_x64.exe",
-    "size": 69470688,
-    "checksum": "8CBEB2130FFEFBCD033078BFAD5E5E600BBEF8C364CC8FDF91FAD064422C1E82",
-    "file_type": ".exe"
-  },
-  "80.0.4170.16": {
-    "url": "https://get.geo.opera.com/pub/opera/desktop/80.0.4170.16/win/Opera_80.0.4170.16_Setup_x64.exe",
-    "size": 85360800,
-    "checksum": "0E382E6371165D682A66232C0857C851D0DA2918A03F7E285F1349540F1EACF2",
-    "file_type": ".exe"
-  },
-  "85.0.4341.18": {
-    "url": "https://get.geo.opera.com/pub/opera/desktop/85.0.4341.18/win/Opera_85.0.4341.18_Setup_x64.exe",
-    "size": 85182576,
-    "checksum": "040E9A7FE6ACC2C4118017C528FB4B8742DC2AE8CDA2F28185E9B9E6BBE4184A",
-    "file_type": ".exe"
-  },
-  "82.0.4227.58": {
-    "url": "https://get.geo.opera.com/pub/opera/desktop/82.0.4227.58/win/Opera_82.0.4227.58_Setup_x64.exe",
-    "size": 80920112,
-    "checksum": "E87838A058C003AE24B6C69057804D733083608BBED3C0FB71C64F2B9F821C76",
-    "file_type": ".exe"
-  },
-  "77.0.4054.277": {
-    "url": "https://get.geo.opera.com/pub/opera/desktop/77.0.4054.277/win/Opera_77.0.4054.277_Setup_x64.exe",
-    "size": 79076336,
-    "checksum": "8F47EAB8E0BD90562EEFE6BA89DB36DBBE01622056A02A4CC6E8D53244A46E30",
-    "file_type": ".exe"
-  },
-  "83.0.4254.19": {
-    "url": "https://get.geo.opera.com/pub/opera/desktop/83.0.4254.19/win/Opera_83.0.4254.19_Setup_x64.exe",
-    "size": 83207456,
-    "checksum": "3921451072FD379797266CD1045B2AD73238CCBDA3AD2A973F6B95778E80F2FE",
-    "file_type": ".exe"
-  },
   "78.0.4093.147": {
     "url": "https://get.geo.opera.com/pub/opera/desktop/78.0.4093.147/win/Opera_78.0.4093.147_Setup_x64.exe",
     "size": 82545600,
     "checksum": "5C37F84A3FAABFA49B09AD4A29529B2698697C466793A44CA5D38F8FA7199DC7",
-    "file_type": ".exe"
-  },
-  "81.0.4196.37": {
-    "url": "https://get.geo.opera.com/pub/opera/desktop/81.0.4196.37/win/Opera_81.0.4196.37_Setup_x64.exe",
-    "size": 81587328,
-    "checksum": "9412A3A44A805E0B5D5B03A685AA1B32CEF256F01A8FEAE93A16BBF38FB348A9",
-    "file_type": ".exe"
-  },
-  "86.0.4363.23": {
-    "url": "https://get.geo.opera.com/pub/opera/desktop/86.0.4363.23/win/Opera_86.0.4363.23_Setup_x64.exe",
-    "size": 85210400,
-    "checksum": "40E20336D9DFF2216693DCEA387FFB9E3F7254E07C2D3A48C0C287EBE6FB3BBC",
-    "file_type": ".exe"
-  },
-  "85.0.4341.39": {
-    "url": "https://get.geo.opera.com/pub/opera/desktop/85.0.4341.39/win/Opera_85.0.4341.39_Setup_x64.exe",
-    "size": 85211184,
-    "checksum": "30E71FF031A911975B6639567125E939D9776685769BC315127FF41DC60929A3",
-    "file_type": ".exe"
-  },
-  "84.0.4316.31": {
-    "url": "https://get.geo.opera.com/pub/opera/desktop/84.0.4316.31/win/Opera_84.0.4316.31_Setup_x64.exe",
-    "size": 84878832,
-    "checksum": "A8B708CDE27B3C0223CF6A809167A976DED7926BE0B0E2CE2319DC7D27AFB816",
-    "file_type": ".exe"
-  },
-  "81.0.4196.31": {
-    "url": "https://get.geo.opera.com/pub/opera/desktop/81.0.4196.31/win/Opera_81.0.4196.31_Setup_x64.exe",
-    "size": 81585424,
-    "checksum": "E6FDB78542D4C4B8275A95E2FC576DB035B289C1C13960D6E4B9CD6C33EA449F",
-    "file_type": ".exe"
-  },
-  "78.0.4093.112": {
-    "url": "https://get.geo.opera.com/pub/opera/desktop/78.0.4093.112/win/Opera_78.0.4093.112_Setup_x64.exe",
-    "size": 82521344,
-    "checksum": "4E3154FB0317670A84268371244F5FC0FFD38C9FD0C834445E81316225ADD5F9",
-    "file_type": ".exe"
-  },
-  "79.0.4143.22": {
-    "url": "https://get.geo.opera.com/pub/opera/desktop/79.0.4143.22/win/Opera_79.0.4143.22_Setup_x64.exe",
-    "size": 83143872,
-    "checksum": "6420BB8EB41C2F7AFD14BAAAEDCFEC7DDC3BD015D7AE83E8B9D19A2579214FDD",
     "file_type": ".exe"
   },
   "80.0.4170.72": {
@@ -149,10 +41,94 @@
     "checksum": "A52CD052B006E14A0136D2E85BFB2F459D492EBDA02931DF5DE215B769AF0208",
     "file_type": ".exe"
   },
+  "83.0.4254.54": {
+    "url": "https://get.geo.opera.com/pub/opera/desktop/83.0.4254.54/win/Opera_83.0.4254.54_Setup_x64.exe",
+    "size": 83006080,
+    "checksum": "36EF5FD84454430FA2D74DA90986352FB3F0B0ECD75C0D43180D6E6B501457E5",
+    "file_type": ".exe"
+  },
+  "86.0.4363.50": {
+    "url": "https://get.geo.opera.com/pub/opera/desktop/86.0.4363.50/win/Opera_86.0.4363.50_Setup_x64.exe",
+    "size": 85245088,
+    "checksum": "C03F7E81AC58D1C6608F39D502C3FEC2235969C33BE429BABD7F51F0D34F7B72",
+    "file_type": ".exe"
+  },
+  "82.0.4227.58": {
+    "url": "https://get.geo.opera.com/pub/opera/desktop/82.0.4227.58/win/Opera_82.0.4227.58_Setup_x64.exe",
+    "size": 80920112,
+    "checksum": "E87838A058C003AE24B6C69057804D733083608BBED3C0FB71C64F2B9F821C76",
+    "file_type": ".exe"
+  },
+  "85.0.4341.39": {
+    "url": "https://get.geo.opera.com/pub/opera/desktop/85.0.4341.39/win/Opera_85.0.4341.39_Setup_x64.exe",
+    "size": 85211184,
+    "checksum": "30E71FF031A911975B6639567125E939D9776685769BC315127FF41DC60929A3",
+    "file_type": ".exe"
+  },
+  "81.0.4196.37": {
+    "url": "https://get.geo.opera.com/pub/opera/desktop/81.0.4196.37/win/Opera_81.0.4196.37_Setup_x64.exe",
+    "size": 81587328,
+    "checksum": "9412A3A44A805E0B5D5B03A685AA1B32CEF256F01A8FEAE93A16BBF38FB348A9",
+    "file_type": ".exe"
+  },
+  "86.0.4363.59": {
+    "url": "https://get.geo.opera.com/pub/opera/desktop/86.0.4363.59/win/Opera_86.0.4363.59_Setup_x64.exe",
+    "size": 85247040,
+    "checksum": "66BEED125E2178B92DFDBE9124B92F95A69CA8D28931E632C3C181604B7E1FA3",
+    "file_type": ".exe"
+  },
+  "83.0.4254.19": {
+    "url": "https://get.geo.opera.com/pub/opera/desktop/83.0.4254.19/win/Opera_83.0.4254.19_Setup_x64.exe",
+    "size": 83207456,
+    "checksum": "3921451072FD379797266CD1045B2AD73238CCBDA3AD2A973F6B95778E80F2FE",
+    "file_type": ".exe"
+  },
+  "82.0.4227.43": {
+    "url": "https://get.geo.opera.com/pub/opera/desktop/82.0.4227.43/win/Opera_82.0.4227.43_Setup_x64.exe",
+    "size": 80930128,
+    "checksum": "24570194083BE85DA81D1A3DB46ED4BED971704107C77A1F090EE039A5FA429D",
+    "file_type": ".exe"
+  },
+  "80.0.4170.16": {
+    "url": "https://get.geo.opera.com/pub/opera/desktop/80.0.4170.16/win/Opera_80.0.4170.16_Setup_x64.exe",
+    "size": 85360800,
+    "checksum": "0E382E6371165D682A66232C0857C851D0DA2918A03F7E285F1349540F1EACF2",
+    "file_type": ".exe"
+  },
+  "78.0.4093.112": {
+    "url": "https://get.geo.opera.com/pub/opera/desktop/78.0.4093.112/win/Opera_78.0.4093.112_Setup_x64.exe",
+    "size": 82521344,
+    "checksum": "4E3154FB0317670A84268371244F5FC0FFD38C9FD0C834445E81316225ADD5F9",
+    "file_type": ".exe"
+  },
+  "81.0.4196.31": {
+    "url": "https://get.geo.opera.com/pub/opera/desktop/81.0.4196.31/win/Opera_81.0.4196.31_Setup_x64.exe",
+    "size": 81585424,
+    "checksum": "E6FDB78542D4C4B8275A95E2FC576DB035B289C1C13960D6E4B9CD6C33EA449F",
+    "file_type": ".exe"
+  },
   "79.0.4143.50": {
     "url": "https://get.geo.opera.com/pub/opera/desktop/79.0.4143.50/win/Opera_79.0.4143.50_Setup_x64.exe",
     "size": 83144768,
     "checksum": "9AC4EAD834F9DC0B7B30C558F8EC63F6F171380309786DFA2A9B23C0CC348311",
+    "file_type": ".exe"
+  },
+  "85.0.4341.18": {
+    "url": "https://get.geo.opera.com/pub/opera/desktop/85.0.4341.18/win/Opera_85.0.4341.18_Setup_x64.exe",
+    "size": 85182576,
+    "checksum": "040E9A7FE6ACC2C4118017C528FB4B8742DC2AE8CDA2F28185E9B9E6BBE4184A",
+    "file_type": ".exe"
+  },
+  "74.0.3911.160": {
+    "url": "https://get.geo.opera.com/pub/opera/desktop/74.0.3911.160/win/Opera_74.0.3911.160_Setup_x64.exe",
+    "size": 69470688,
+    "checksum": "8CBEB2130FFEFBCD033078BFAD5E5E600BBEF8C364CC8FDF91FAD064422C1E82",
+    "file_type": ".exe"
+  },
+  "84.0.4316.42": {
+    "url": "https://get.geo.opera.com/pub/opera/desktop/84.0.4316.42/win/Opera_84.0.4316.42_Setup_x64.exe",
+    "size": 84933616,
+    "checksum": "8937237644FEA9A97B1822A1C844BC813F3AB1432341FD567212A063B7693C41",
     "file_type": ".exe"
   },
   "81.0.4196.60": {
@@ -161,16 +137,46 @@
     "checksum": "7503A19801652CC5C661BDA8E2739BE1D13849CCB232D056BFF1F80ED21AD3A3",
     "file_type": ".exe"
   },
+  "86.0.4363.23": {
+    "url": "https://get.geo.opera.com/pub/opera/desktop/86.0.4363.23/win/Opera_86.0.4363.23_Setup_x64.exe",
+    "size": 85210400,
+    "checksum": "40E20336D9DFF2216693DCEA387FFB9E3F7254E07C2D3A48C0C287EBE6FB3BBC",
+    "file_type": ".exe"
+  },
   "83.0.4254.27": {
     "url": "https://get.geo.opera.com/pub/opera/desktop/83.0.4254.27/win/Opera_83.0.4254.27_Setup_x64.exe",
     "size": 82998208,
     "checksum": "6CDE22AE9B56E1A9E3A01D1554AA241C152F6C53B9E33A94B7F35968617EFEC0",
     "file_type": ".exe"
   },
+  "79.0.4143.22": {
+    "url": "https://get.geo.opera.com/pub/opera/desktop/79.0.4143.22/win/Opera_79.0.4143.22_Setup_x64.exe",
+    "size": 83143872,
+    "checksum": "6420BB8EB41C2F7AFD14BAAAEDCFEC7DDC3BD015D7AE83E8B9D19A2579214FDD",
+    "file_type": ".exe"
+  },
+  "84.0.4316.31": {
+    "url": "https://get.geo.opera.com/pub/opera/desktop/84.0.4316.31/win/Opera_84.0.4316.31_Setup_x64.exe",
+    "size": 84878832,
+    "checksum": "A8B708CDE27B3C0223CF6A809167A976DED7926BE0B0E2CE2319DC7D27AFB816",
+    "file_type": ".exe"
+  },
   "86.0.4363.32": {
     "url": "https://get.geo.opera.com/pub/opera/desktop/86.0.4363.32/win/Opera_86.0.4363.32_Setup_x64.exe",
     "size": 85247472,
     "checksum": "68AE8E8DB1B43EC2A526CEE5132771B5C192A3F915B45468D99DF731D8198ACC",
+    "file_type": ".exe"
+  },
+  "82.0.4227.33": {
+    "url": "https://get.geo.opera.com/pub/opera/desktop/82.0.4227.33/win/Opera_82.0.4227.33_Setup_x64.exe",
+    "size": 80916128,
+    "checksum": "984EF4E4ADED4B855808DC1964B445075EB04F4E30C5279CE79B4511D2AFB640",
+    "file_type": ".exe"
+  },
+  "77.0.4054.277": {
+    "url": "https://get.geo.opera.com/pub/opera/desktop/77.0.4054.277/win/Opera_77.0.4054.277_Setup_x64.exe",
+    "size": 79076336,
+    "checksum": "8F47EAB8E0BD90562EEFE6BA89DB36DBBE01622056A02A4CC6E8D53244A46E30",
     "file_type": ".exe"
   }
 }
