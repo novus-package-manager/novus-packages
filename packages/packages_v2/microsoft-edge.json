@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "Microsoft",
   "description": "Microsoft Edge is a cross-platform web browser.",
-  "latest_version": "100.0.1185.36",
+  "latest_version": "101.0.1210.47",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -17,25 +17,13 @@
     "download_url": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/ab3145f9-eb8d-4fc9-94fc-4a240d1aaf80/MicrosoftEdgeEnterpriseX64.msi",
     "regex": "class=version>(\\d+\\.\\d+\\.\\d+\\.\\d+)"
   },
-  "96.0.1054.53": {
-    "url": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/ab3145f9-eb8d-4fc9-94fc-4a240d1aaf80/MicrosoftEdgeEnterpriseX64.msi",
-    "size": 107880448,
-    "checksum": "45E0C200E2F95AE77D5BDBDBCA2DE106DBFB210246741DE0BF3F3369CC620540",
-    "file_type": ".msi"
-  },
-  "96.0.1054.41": {
-    "url": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/ab3145f9-eb8d-4fc9-94fc-4a240d1aaf80/MicrosoftEdgeEnterpriseX64.msi",
-    "size": 107880448,
-    "checksum": "45E0C200E2F95AE77D5BDBDBCA2DE106DBFB210246741DE0BF3F3369CC620540",
-    "file_type": ".msi"
-  },
-  "91.0.864.53": {
-    "url": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/ab3145f9-eb8d-4fc9-94fc-4a240d1aaf80/MicrosoftEdgeEnterpriseX64.msi",
-    "size": 107880448,
-    "checksum": "45E0C200E2F95AE77D5BDBDBCA2DE106DBFB210246741DE0BF3F3369CC620540",
-    "file_type": ".msi"
-  },
   "92.0.902.55": {
+    "url": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/ab3145f9-eb8d-4fc9-94fc-4a240d1aaf80/MicrosoftEdgeEnterpriseX64.msi",
+    "size": 107880448,
+    "checksum": "45E0C200E2F95AE77D5BDBDBCA2DE106DBFB210246741DE0BF3F3369CC620540",
+    "file_type": ".msi"
+  },
+  "96.0.1054.53": {
     "url": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/ab3145f9-eb8d-4fc9-94fc-4a240d1aaf80/MicrosoftEdgeEnterpriseX64.msi",
     "size": 107880448,
     "checksum": "45E0C200E2F95AE77D5BDBDBCA2DE106DBFB210246741DE0BF3F3369CC620540",
@@ -47,7 +35,19 @@
     "checksum": "45E0C200E2F95AE77D5BDBDBCA2DE106DBFB210246741DE0BF3F3369CC620540",
     "file_type": ".msi"
   },
+  "97.0.1072.55": {
+    "url": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/ab3145f9-eb8d-4fc9-94fc-4a240d1aaf80/MicrosoftEdgeEnterpriseX64.msi",
+    "size": 107880448,
+    "checksum": "45E0C200E2F95AE77D5BDBDBCA2DE106DBFB210246741DE0BF3F3369CC620540",
+    "file_type": ".msi"
+  },
   "99.0.1150.46": {
+    "url": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/ab3145f9-eb8d-4fc9-94fc-4a240d1aaf80/MicrosoftEdgeEnterpriseX64.msi",
+    "size": 107880448,
+    "checksum": "45E0C200E2F95AE77D5BDBDBCA2DE106DBFB210246741DE0BF3F3369CC620540",
+    "file_type": ".msi"
+  },
+  "90.0.818.62": {
     "url": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/ab3145f9-eb8d-4fc9-94fc-4a240d1aaf80/MicrosoftEdgeEnterpriseX64.msi",
     "size": 107880448,
     "checksum": "45E0C200E2F95AE77D5BDBDBCA2DE106DBFB210246741DE0BF3F3369CC620540",
@@ -59,7 +59,49 @@
     "checksum": "45E0C200E2F95AE77D5BDBDBCA2DE106DBFB210246741DE0BF3F3369CC620540",
     "file_type": ".msi"
   },
-  "90.0.818.62": {
+  "96.0.1054.41": {
+    "url": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/ab3145f9-eb8d-4fc9-94fc-4a240d1aaf80/MicrosoftEdgeEnterpriseX64.msi",
+    "size": 107880448,
+    "checksum": "45E0C200E2F95AE77D5BDBDBCA2DE106DBFB210246741DE0BF3F3369CC620540",
+    "file_type": ".msi"
+  },
+  "101.0.1210.47": {
+    "url": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/ab3145f9-eb8d-4fc9-94fc-4a240d1aaf80/MicrosoftEdgeEnterpriseX64.msi",
+    "size": 107880448,
+    "checksum": "45E0C200E2F95AE77D5BDBDBCA2DE106DBFB210246741DE0BF3F3369CC620540",
+    "file_type": ".msi"
+  },
+  "94.0.992.37": {
+    "url": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/ab3145f9-eb8d-4fc9-94fc-4a240d1aaf80/MicrosoftEdgeEnterpriseX64.msi",
+    "size": 107880448,
+    "checksum": "45E0C200E2F95AE77D5BDBDBCA2DE106DBFB210246741DE0BF3F3369CC620540",
+    "file_type": ".msi"
+  },
+  "100.0.1185.36": {
+    "url": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/ab3145f9-eb8d-4fc9-94fc-4a240d1aaf80/MicrosoftEdgeEnterpriseX64.msi",
+    "size": 107880448,
+    "checksum": "45E0C200E2F95AE77D5BDBDBCA2DE106DBFB210246741DE0BF3F3369CC620540",
+    "file_type": ".msi"
+  },
+  "97.0.1072.62": {
+    "url": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/ab3145f9-eb8d-4fc9-94fc-4a240d1aaf80/MicrosoftEdgeEnterpriseX64.msi",
+    "size": 107880448,
+    "checksum": "45E0C200E2F95AE77D5BDBDBCA2DE106DBFB210246741DE0BF3F3369CC620540",
+    "file_type": ".msi"
+  },
+  "91.0.864.53": {
+    "url": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/ab3145f9-eb8d-4fc9-94fc-4a240d1aaf80/MicrosoftEdgeEnterpriseX64.msi",
+    "size": 107880448,
+    "checksum": "45E0C200E2F95AE77D5BDBDBCA2DE106DBFB210246741DE0BF3F3369CC620540",
+    "file_type": ".msi"
+  },
+  "91.0.864.71": {
+    "url": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/ab3145f9-eb8d-4fc9-94fc-4a240d1aaf80/MicrosoftEdgeEnterpriseX64.msi",
+    "size": 107880448,
+    "checksum": "45E0C200E2F95AE77D5BDBDBCA2DE106DBFB210246741DE0BF3F3369CC620540",
+    "file_type": ".msi"
+  },
+  "91.0.864.70": {
     "url": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/ab3145f9-eb8d-4fc9-94fc-4a240d1aaf80/MicrosoftEdgeEnterpriseX64.msi",
     "size": 107880448,
     "checksum": "45E0C200E2F95AE77D5BDBDBCA2DE106DBFB210246741DE0BF3F3369CC620540",
@@ -77,43 +119,7 @@
     "checksum": "45E0C200E2F95AE77D5BDBDBCA2DE106DBFB210246741DE0BF3F3369CC620540",
     "file_type": ".msi"
   },
-  "100.0.1185.36": {
-    "url": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/ab3145f9-eb8d-4fc9-94fc-4a240d1aaf80/MicrosoftEdgeEnterpriseX64.msi",
-    "size": 107880448,
-    "checksum": "45E0C200E2F95AE77D5BDBDBCA2DE106DBFB210246741DE0BF3F3369CC620540",
-    "file_type": ".msi"
-  },
-  "97.0.1072.55": {
-    "url": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/ab3145f9-eb8d-4fc9-94fc-4a240d1aaf80/MicrosoftEdgeEnterpriseX64.msi",
-    "size": 107880448,
-    "checksum": "45E0C200E2F95AE77D5BDBDBCA2DE106DBFB210246741DE0BF3F3369CC620540",
-    "file_type": ".msi"
-  },
-  "97.0.1072.62": {
-    "url": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/ab3145f9-eb8d-4fc9-94fc-4a240d1aaf80/MicrosoftEdgeEnterpriseX64.msi",
-    "size": 107880448,
-    "checksum": "45E0C200E2F95AE77D5BDBDBCA2DE106DBFB210246741DE0BF3F3369CC620540",
-    "file_type": ".msi"
-  },
-  "91.0.864.70": {
-    "url": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/ab3145f9-eb8d-4fc9-94fc-4a240d1aaf80/MicrosoftEdgeEnterpriseX64.msi",
-    "size": 107880448,
-    "checksum": "45E0C200E2F95AE77D5BDBDBCA2DE106DBFB210246741DE0BF3F3369CC620540",
-    "file_type": ".msi"
-  },
-  "91.0.864.71": {
-    "url": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/ab3145f9-eb8d-4fc9-94fc-4a240d1aaf80/MicrosoftEdgeEnterpriseX64.msi",
-    "size": 107880448,
-    "checksum": "45E0C200E2F95AE77D5BDBDBCA2DE106DBFB210246741DE0BF3F3369CC620540",
-    "file_type": ".msi"
-  },
   "97.0.1072.69": {
-    "url": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/ab3145f9-eb8d-4fc9-94fc-4a240d1aaf80/MicrosoftEdgeEnterpriseX64.msi",
-    "size": 107880448,
-    "checksum": "45E0C200E2F95AE77D5BDBDBCA2DE106DBFB210246741DE0BF3F3369CC620540",
-    "file_type": ".msi"
-  },
-  "94.0.992.37": {
     "url": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/ab3145f9-eb8d-4fc9-94fc-4a240d1aaf80/MicrosoftEdgeEnterpriseX64.msi",
     "size": 107880448,
     "checksum": "45E0C200E2F95AE77D5BDBDBCA2DE106DBFB210246741DE0BF3F3369CC620540",
