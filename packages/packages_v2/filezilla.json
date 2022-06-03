@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "FileZilla",
   "description": "The free FTP solution for both client and server.",
-  "latest_version": "3.60.0",
+  "latest_version": "3.60.1",
   "threads": 1,
   "iswitches": [
     "/S"
@@ -21,33 +21,9 @@
     "download_url": "https://download.filezilla-project.org/client/FileZilla_<version>_win64_sponsored-setup.exe",
     "regex": "class=version>(\\d+\\.\\d+\\.\\d+)"
   },
-  "3.55.0": {
-    "url": "https://download.filezilla-project.org/client/FileZilla_3.55.0_win64_sponsored-setup.exe",
-    "size": 4317653,
-    "checksum": "F8CA8972C9140EDA69FA36E8B72DA5EB84CACDE8E2E8095600004AF813CB5A5A",
-    "file_type": ".exe"
-  },
-  "3.58.0": {
-    "url": "https://download.filezilla-project.org/client/FileZilla_3.58.0_win64_sponsored-setup.exe",
-    "size": 11812368,
-    "checksum": "5B13FB5957B84EF7BB9D0B6CD509C947FF6A37D67EFDAC2B896DDD3B908AAD10",
-    "file_type": ".exe"
-  },
   "3.59.0": {
     "url": "https://download.filezilla-project.org/client/FileZilla_3.59.0_win64_sponsored-setup.exe",
     "size": 11830488,
-    "checksum": "5B13FB5957B84EF7BB9D0B6CD509C947FF6A37D67EFDAC2B896DDD3B908AAD10",
-    "file_type": ".exe"
-  },
-  "3.57.0": {
-    "url": "https://download.filezilla-project.org/client/FileZilla_3.57.0_win64_sponsored-setup.exe",
-    "size": 11800816,
-    "checksum": "5B13FB5957B84EF7BB9D0B6CD509C947FF6A37D67EFDAC2B896DDD3B908AAD10",
-    "file_type": ".exe"
-  },
-  "3.56.2": {
-    "url": "https://download.filezilla-project.org/client/FileZilla_3.56.2_win64_sponsored-setup.exe",
-    "size": 11794504,
     "checksum": "5B13FB5957B84EF7BB9D0B6CD509C947FF6A37D67EFDAC2B896DDD3B908AAD10",
     "file_type": ".exe"
   },
@@ -60,6 +36,36 @@
   "3.60.0": {
     "url": "https://download.filezilla-project.org/client/FileZilla_3.60.0_win64_sponsored-setup.exe",
     "size": 11831784,
+    "checksum": "5B13FB5957B84EF7BB9D0B6CD509C947FF6A37D67EFDAC2B896DDD3B908AAD10",
+    "file_type": ".exe"
+  },
+  "3.55.0": {
+    "url": "https://download.filezilla-project.org/client/FileZilla_3.55.0_win64_sponsored-setup.exe",
+    "size": 4317653,
+    "checksum": "F8CA8972C9140EDA69FA36E8B72DA5EB84CACDE8E2E8095600004AF813CB5A5A",
+    "file_type": ".exe"
+  },
+  "3.57.0": {
+    "url": "https://download.filezilla-project.org/client/FileZilla_3.57.0_win64_sponsored-setup.exe",
+    "size": 11800816,
+    "checksum": "5B13FB5957B84EF7BB9D0B6CD509C947FF6A37D67EFDAC2B896DDD3B908AAD10",
+    "file_type": ".exe"
+  },
+  "3.58.0": {
+    "url": "https://download.filezilla-project.org/client/FileZilla_3.58.0_win64_sponsored-setup.exe",
+    "size": 11812368,
+    "checksum": "5B13FB5957B84EF7BB9D0B6CD509C947FF6A37D67EFDAC2B896DDD3B908AAD10",
+    "file_type": ".exe"
+  },
+  "3.60.1": {
+    "url": "https://download.filezilla-project.org/client/FileZilla_3.60.1_win64_sponsored-setup.exe",
+    "size": 11830888,
+    "checksum": "5B13FB5957B84EF7BB9D0B6CD509C947FF6A37D67EFDAC2B896DDD3B908AAD10",
+    "file_type": ".exe"
+  },
+  "3.56.2": {
+    "url": "https://download.filezilla-project.org/client/FileZilla_3.56.2_win64_sponsored-setup.exe",
+    "size": 11794504,
     "checksum": "5B13FB5957B84EF7BB9D0B6CD509C947FF6A37D67EFDAC2B896DDD3B908AAD10",
     "file_type": ".exe"
   }
