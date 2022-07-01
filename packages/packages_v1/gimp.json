@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "GIMP",
   "description": "GIMP is a cross-platform image editor available for GNU/Linux, OS X, Windows and more operating systems.",
-  "latest_version": "2.10.30",
+  "latest_version": "2.10.32",
   "threads": 8,
   "iswitches": [
     "/SP-",
@@ -31,16 +31,22 @@
     "checksum": "2C2E081CE541682BE1ABDD8BC6DF13768AD9482D68000B4A7A60C764D6CEC74E",
     "file_type": ".exe"
   },
-  "2.10.24": {
-    "url": "https://download.gimp.org/pub/gimp/v2.10/windows/gimp-2.10.24-setup-3.exe",
-    "size": 253914240,
-    "checksum": "5E9EABE5739523A9FC347B4614D919418F3335E7AAB082A65F71705421E85E04",
+  "2.10.32": {
+    "url": "https://download.gimp.org/mirror/pub/gimp/v2.10/windows/gimp-2.10.32-setup.exe",
+    "size": 264830496,
+    "checksum": "5503C3057A023F781E32E6B8FEC83DFC45263B9005E76626B4C43CB257295A67",
     "file_type": ".exe"
   },
   "2.10.30": {
     "url": "https://download.gimp.org/mirror/pub/gimp/v2.10/windows/gimp-2.10.30-setup.exe",
     "size": 257259032,
     "checksum": "5B8DB574966D2427FA02202B591173905F64806559E37FBDCA4654E55B568C8E",
+    "file_type": ".exe"
+  },
+  "2.10.24": {
+    "url": "https://download.gimp.org/pub/gimp/v2.10/windows/gimp-2.10.24-setup-3.exe",
+    "size": 253914240,
+    "checksum": "5E9EABE5739523A9FC347B4614D919418F3335E7AAB082A65F71705421E85E04",
     "file_type": ".exe"
   }
 }
