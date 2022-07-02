@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "",
   "description": "",
-  "latest_version": "3.1.2",
+  "latest_version": "3.3.1",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -13,6 +13,12 @@
     "download_page": "",
     "download_url": "",
     "regex": ""
+  },
+  "3.3.1": {
+    "url": "https://downloads.jam-software.de/ultrasearch_free/UltraSearch-x64-Free-Setup.exe",
+    "size": 14372536,
+    "checksum": "95E52DCBC76F6D59A41BDD87589F10EDBE7E0CF9CD8D546105737377FA081D2C",
+    "file_type": ".exe"
   },
   "3.1.2": {
     "url": "https://downloads.jam-software.de/ultrasearch_free/UltraSearch-x64-Free-Setup.exe",
