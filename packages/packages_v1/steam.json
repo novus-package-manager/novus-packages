@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "Valve",
   "description": "Steam is a video game digital distribution service",
-  "latest_version": "2021.12.04",
+  "latest_version": "2021.12.10",
   "threads": 8,
   "iswitches": [
     "/S"
@@ -18,13 +18,19 @@
     "download_url": "https://cdn.cloudflare.steamstatic.com/client/installer/SteamSetup.exe",
     "regex": "(2021\\.\\d+\\.\\d+)"
   },
-  "2021.05.18": {
+  "2021.12.04": {
     "url": "https://cdn.cloudflare.steamstatic.com/client/installer/SteamSetup.exe",
     "size": 1770744,
     "checksum": "874788B45DFC043289BA05387E83F27B4A046004A88A4C5EE7C073187FF65B9D",
     "file_type": ".exe"
   },
-  "2021.12.04": {
+  "2021.12.10": {
+    "url": "https://cdn.cloudflare.steamstatic.com/client/installer/SteamSetup.exe",
+    "size": 2296488,
+    "checksum": "3B616CB0BEAACFFB53884B5BA0453312D2577DB598D2A877A3B251125FB281A1",
+    "file_type": ".exe"
+  },
+  "2021.05.18": {
     "url": "https://cdn.cloudflare.steamstatic.com/client/installer/SteamSetup.exe",
     "size": 1770744,
     "checksum": "874788B45DFC043289BA05387E83F27B4A046004A88A4C5EE7C073187FF65B9D",
