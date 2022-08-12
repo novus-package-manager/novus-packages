@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "Microsoft",
   "description": "Microsoft Teams is a proprietary business communication platform.",
-  "latest_version": "1.5.00.17656",
+  "latest_version": "1.5.00.21463",
   "threads": 8,
   "iswitches": [
     "--silent"
@@ -25,16 +25,22 @@
     "checksum": "C29360A748F653FA5FA417A1FAE158D2AC08F90455B34089BFD8384B7E396FEB",
     "file_type": ".exe"
   },
-  "1.5.00.8070": {
-    "url": "https://statics.teams.cdn.office.net/production-windows-x64/1.5.00.8070/Teams_windows_x64.exe",
-    "size": 126403424,
-    "checksum": "5CD3BADF6BF0C963748FB808C613912565D521DECD7FF34DC3109C7C4BB0D859",
-    "file_type": ".exe"
-  },
   "1.5.00.17656": {
     "url": "https://statics.teams.cdn.office.net/production-windows-x64/1.5.00.17656/Teams_windows_x64.exe",
     "size": 126726456,
     "checksum": "941753DAB32433B0383078C1B889FC380CA8AC1D576D2A5B49BF9912A7404CFD",
+    "file_type": ".exe"
+  },
+  "1.5.00.21463": {
+    "url": "https://statics.teams.cdn.office.net/production-windows-x64/1.5.00.21463/Teams_windows_x64.exe",
+    "size": 127629600,
+    "checksum": "5D2BFF1518102589DC51ED1C33BDE72920684F76EDC40A49B06C3BA44FB8A5CD",
+    "file_type": ".exe"
+  },
+  "1.5.00.8070": {
+    "url": "https://statics.teams.cdn.office.net/production-windows-x64/1.5.00.8070/Teams_windows_x64.exe",
+    "size": 126403424,
+    "checksum": "5CD3BADF6BF0C963748FB808C613912565D521DECD7FF34DC3109C7C4BB0D859",
     "file_type": ".exe"
   },
   "1.5.00.5967": {
