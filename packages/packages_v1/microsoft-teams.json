@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "Microsoft",
   "description": "Microsoft Teams is a proprietary business communication platform.",
-  "latest_version": "1.5.00.21463",
+  "latest_version": "1.5.00.21668",
   "threads": 8,
   "iswitches": [
     "--silent"
@@ -19,6 +19,12 @@
     "download_url": "https://statics.teams.cdn.office.net/production-windows-x64/<version>/Teams_windows_x64.exe",
     "regex": "class=version>(\\d+\\.\\d+\\.\\d+\\.\\d+)"
   },
+  "1.5.00.21668": {
+    "url": "https://statics.teams.cdn.office.net/production-windows-x64/1.5.00.21668/Teams_windows_x64.exe",
+    "size": 128324896,
+    "checksum": "0B9E295ED80C7DBA64B1F0307E12FB46B0295E1F25A8229CD4E237F7A01BEC27",
+    "file_type": ".exe"
+  },
   "1.4.00.11161": {
     "url": "https://statics.teams.cdn.office.net/production-windows-x64/1.4.00.11161/Teams_windows_x64.exe",
     "size": 110777624,
@@ -31,6 +37,18 @@
     "checksum": "941753DAB32433B0383078C1B889FC380CA8AC1D576D2A5B49BF9912A7404CFD",
     "file_type": ".exe"
   },
+  "1.4.00.20211": {
+    "url": "https://statics.teams.cdn.office.net/production-windows-x64/1.4.00.20211/Teams_windows_x64.exe",
+    "size": 125125376,
+    "checksum": "C57B2D7F15A2E87CC9AD77D16C6897FE56244D1502A03EF21E779626D3AEFCC5",
+    "file_type": ".exe"
+  },
+  "1.5.00.5967": {
+    "url": "https://statics.teams.cdn.office.net/production-windows-x64/1.5.00.5967/Teams_windows_x64.exe",
+    "size": 126085368,
+    "checksum": "4612240E0A8F4E7F5BF490B2BCCB568354922F82DE10ABFB9F14C4A2E09BCF30",
+    "file_type": ".exe"
+  },
   "1.5.00.21463": {
     "url": "https://statics.teams.cdn.office.net/production-windows-x64/1.5.00.21463/Teams_windows_x64.exe",
     "size": 127629600,
@@ -41,18 +59,6 @@
     "url": "https://statics.teams.cdn.office.net/production-windows-x64/1.5.00.8070/Teams_windows_x64.exe",
     "size": 126403424,
     "checksum": "5CD3BADF6BF0C963748FB808C613912565D521DECD7FF34DC3109C7C4BB0D859",
-    "file_type": ".exe"
-  },
-  "1.5.00.5967": {
-    "url": "https://statics.teams.cdn.office.net/production-windows-x64/1.5.00.5967/Teams_windows_x64.exe",
-    "size": 126085368,
-    "checksum": "4612240E0A8F4E7F5BF490B2BCCB568354922F82DE10ABFB9F14C4A2E09BCF30",
-    "file_type": ".exe"
-  },
-  "1.4.00.20211": {
-    "url": "https://statics.teams.cdn.office.net/production-windows-x64/1.4.00.20211/Teams_windows_x64.exe",
-    "size": 125125376,
-    "checksum": "C57B2D7F15A2E87CC9AD77D16C6897FE56244D1502A03EF21E779626D3AEFCC5",
     "file_type": ".exe"
   }
 }
