@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "",
   "description": "",
-  "latest_version": "1.4.1.1018",
+  "latest_version": "1.4.1.1020",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -20,6 +20,12 @@
     "checksum": "0999140E8FB2983A7E9DD7EB85F362E3B0B0873F89AF6C9194F84D2E769C9806",
     "file_type": ".exe"
   },
+  "1.4.1.1017": {
+    "url": "https://www.voidtools.com/Everything-1.4.1.1017.x64-Setup.exe",
+    "size": 1862488,
+    "checksum": "3FA21697C132FB04B9C2FE539CB86ACC995605323165520FF902924DD48D88B7",
+    "file_type": ".exe"
+  },
   "1.4.1.1015": {
     "url": "https://www.voidtools.com/Everything-1.4.1.1015.x64-Setup.exe",
     "size": 1806136,
@@ -32,16 +38,16 @@
     "checksum": "B734CC26CC7AAC9E142FC5153165E017FE4A4627ED8F4578EFB2F8F919EC5CC2",
     "file_type": ".exe"
   },
+  "1.4.1.1020": {
+    "url": "https://www.voidtools.com/Everything-1.4.1.1020.x64-Setup.exe",
+    "size": 1885592,
+    "checksum": "B641DA481AB58B0E1C8A1D2C372700455A9BBF9243B3548F29D39538AAA45C0D",
+    "file_type": ".exe"
+  },
   "1.4.1.1018": {
     "url": "https://www.voidtools.com/Everything-1.4.1.1018.x64-Setup.exe",
     "size": 1886256,
     "checksum": "A387EB0C906E2243EB125D5B1091DF3AB6D0183A6BA7DAD9BF10EF0037B0CFB6",
-    "file_type": ".exe"
-  },
-  "1.4.1.1017": {
-    "url": "https://www.voidtools.com/Everything-1.4.1.1017.x64-Setup.exe",
-    "size": 1862488,
-    "checksum": "3FA21697C132FB04B9C2FE539CB86ACC995605323165520FF902924DD48D88B7",
     "file_type": ".exe"
   }
 }
