@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "Microsoft",
   "description": "The Azure CLI is a set of commands used to create and manage Azure resources.",
-  "latest_version": "2.40.0",
+  "latest_version": "2.41.0",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -17,82 +17,22 @@
     "download_url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-<version>/azure-cli-<version>.msi",
     "regex": "Azure CLI (\\d+\\.\\d+\\.\\d+)"
   },
-  "2.29.0": {
-    "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.29.0/azure-cli-2.29.0.msi",
-    "size": 52654080,
-    "checksum": "E76CEFE6B9D3484622D26D85D4D35BC2B10E7FBB29492E48D2CEA667024D204F",
-    "file_type": ".msi"
-  },
-  "2.37.0": {
-    "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.37.0/azure-cli-2.37.0.msi",
-    "size": 57475072,
-    "checksum": "EBF78130E09BE7D4D6B8474B3758F97BB290F9E501278DC60868FBD047043320",
-    "file_type": ".msi"
-  },
-  "2.27.0": {
-    "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.27.0/azure-cli-2.27.0.msi",
-    "size": 50708480,
-    "checksum": "A1CACCEFFA610AAE6134C144B74F35E76E0BF69DBF0CBBCA161450A013EEE2D1",
-    "file_type": ".msi"
-  },
-  "2.35.0": {
-    "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.35.0/azure-cli-2.35.0.msi",
-    "size": 57094144,
-    "checksum": "8BA6407B1325FE9295815B782245AD0BC9A3A6868C2A1BF6A359447D5B09288D",
-    "file_type": ".msi"
-  },
-  "2.24.0": {
-    "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.24.0/azure-cli-2.24.0.msi",
-    "size": 50319360,
-    "checksum": "A46864E46A649AE4E17F6046C20504282E50CF5AB55633B7E2E47B71A3AE616E",
-    "file_type": ".msi"
-  },
-  "2.27.2": {
-    "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.27.2/azure-cli-2.27.2.msi",
-    "size": 50733056,
-    "checksum": "65AEDDCCB5489B7673B7292388753297701BF750C9277C2BC15AED8D166CDAA8",
-    "file_type": ".msi"
-  },
-  "2.36.0": {
-    "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.36.0/azure-cli-2.36.0.msi",
-    "size": 57212928,
-    "checksum": "16D5988C9E612B00B8A7A9E61C634EFE778D6E7AE918E53B3EF3DEAD43BC79B1",
-    "file_type": ".msi"
-  },
-  "2.38.0": {
-    "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.38.0/azure-cli-2.38.0.msi",
-    "size": 56127488,
-    "checksum": "F34EC718F429913AC49294F0E026D6A1E61AFEE0B4AA1AE11F025900648D7671",
-    "file_type": ".msi"
-  },
-  "2.33.0": {
-    "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.33.0/azure-cli-2.33.0.msi",
-    "size": 54415360,
-    "checksum": "B16BAF91E9AC425BBA8E5CB202FE487DF548FCA581AF860BB0723510C985BBF6",
-    "file_type": ".msi"
-  },
-  "2.24.2": {
-    "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.24.2/azure-cli-2.24.2.msi",
-    "size": 50315264,
-    "checksum": "82C615D8799000020DEDCF9029E5131C984C838741C27E38E6FE2AF3513B4C73",
-    "file_type": ".msi"
-  },
-  "2.26.0": {
-    "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.26.0/azure-cli-2.26.0.msi",
-    "size": 50438144,
-    "checksum": "73FAC54D895C414BD10DA043EB2ED4282B388A734C9547068E49CD7ACBFA476C",
-    "file_type": ".msi"
-  },
   "2.31.0": {
     "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.31.0/azure-cli-2.31.0.msi",
     "size": 48988160,
     "checksum": "5B9B554845EB581854C07CD269F2963B7FC2E7D2052AFAB4D3CF4B8769C79B60",
     "file_type": ".msi"
   },
-  "2.33.1": {
-    "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.33.1/azure-cli-2.33.1.msi",
-    "size": 54448128,
-    "checksum": "AC26065391A70ED6C694BCE3E15DB029C562352CB7C7EC9A473DC5C4D3F3FCF1",
+  "2.29.0": {
+    "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.29.0/azure-cli-2.29.0.msi",
+    "size": 52654080,
+    "checksum": "E76CEFE6B9D3484622D26D85D4D35BC2B10E7FBB29492E48D2CEA667024D204F",
+    "file_type": ".msi"
+  },
+  "2.26.0": {
+    "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.26.0/azure-cli-2.26.0.msi",
+    "size": 50438144,
+    "checksum": "73FAC54D895C414BD10DA043EB2ED4282B388A734C9547068E49CD7ACBFA476C",
     "file_type": ".msi"
   },
   "2.34.0": {
@@ -107,34 +47,16 @@
     "checksum": "1EA93CA3259D0656DFE2DC880F9E43A15739EF15F6C74815EED8E23DB3D5FD8E",
     "file_type": ".msi"
   },
-  "2.34.1": {
-    "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.34.1/azure-cli-2.34.1.msi",
-    "size": 54849536,
-    "checksum": "FE34DAF5154FFAF7AFC2B289B9993E5C7D92F627D10B0D029E86C693365FC4AE",
-    "file_type": ".msi"
-  },
-  "2.30.0": {
-    "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.30.0/azure-cli-2.30.0.msi",
-    "size": 51970048,
-    "checksum": "DF672434FC13ECE8CCB96E6D965A8B737E2C1346EAEFCB3143871B04FC8977AE",
-    "file_type": ".msi"
-  },
   "2.24.1": {
     "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.24.1/azure-cli-2.24.1.msi",
     "size": 50319360,
     "checksum": "75C6F20ECFADC3E54A7CC2E1A0B2A098657B976F0694BEA58AA62BC7EA00C85D",
     "file_type": ".msi"
   },
-  "2.29.2": {
-    "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.29.2/azure-cli-2.29.2.msi",
-    "size": 52699136,
-    "checksum": "3D532A23FE6EC629723AFE0181E0BF7F04A7611D4686E41E11AAE485BAB432BB",
-    "file_type": ".msi"
-  },
-  "2.28.0": {
-    "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.28.0/azure-cli-2.28.0.msi",
-    "size": 50982912,
-    "checksum": "9C6A6B1CC45051F81E140B3A383C970B514B0FB56F1FF60DE2A8E4EAE7AF4998",
+  "2.36.0": {
+    "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.36.0/azure-cli-2.36.0.msi",
+    "size": 57212928,
+    "checksum": "16D5988C9E612B00B8A7A9E61C634EFE778D6E7AE918E53B3EF3DEAD43BC79B1",
     "file_type": ".msi"
   },
   "2.26.1": {
@@ -143,22 +65,10 @@
     "checksum": "4AA41F32372479FC99EE058F555D6B7B36886552BC3992FCE7B89A435FA77D42",
     "file_type": ".msi"
   },
-  "2.29.1": {
-    "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.29.1/azure-cli-2.29.1.msi",
-    "size": 52666368,
-    "checksum": "0567EF2466834F927C9DA2139EFDC252BA3D7C16EEDADDF3FEA7C876AA82890A",
-    "file_type": ".msi"
-  },
   "2.32.0": {
     "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.32.0/azure-cli-2.32.0.msi",
     "size": 49283072,
     "checksum": "3811E0DA074B78993756CE2C074035432C3EE78B0575115436FFCDF7073D64B8",
-    "file_type": ".msi"
-  },
-  "2.25.0": {
-    "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.25.0/azure-cli-2.25.0.msi",
-    "size": 50532352,
-    "checksum": "240C4C73CE0CBCC1D2A9414E6A559D8108476F7785C4F40DE452080A80119A32",
     "file_type": ".msi"
   },
   "2.40.0": {
@@ -167,10 +77,106 @@
     "checksum": "563C21EE4DE445912D6D86DF57D25C73574B421B41B3E7AFAF20063C81A20BCF",
     "file_type": ".msi"
   },
+  "2.24.0": {
+    "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.24.0/azure-cli-2.24.0.msi",
+    "size": 50319360,
+    "checksum": "A46864E46A649AE4E17F6046C20504282E50CF5AB55633B7E2E47B71A3AE616E",
+    "file_type": ".msi"
+  },
+  "2.28.0": {
+    "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.28.0/azure-cli-2.28.0.msi",
+    "size": 50982912,
+    "checksum": "9C6A6B1CC45051F81E140B3A383C970B514B0FB56F1FF60DE2A8E4EAE7AF4998",
+    "file_type": ".msi"
+  },
   "2.39.0": {
     "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.39.0/azure-cli-2.39.0.msi",
     "size": 56799232,
     "checksum": "47483BC634B259857674E73C19EF3CB670A084F395994BF323E6B7BC890C9686",
+    "file_type": ".msi"
+  },
+  "2.37.0": {
+    "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.37.0/azure-cli-2.37.0.msi",
+    "size": 57475072,
+    "checksum": "EBF78130E09BE7D4D6B8474B3758F97BB290F9E501278DC60868FBD047043320",
+    "file_type": ".msi"
+  },
+  "2.27.2": {
+    "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.27.2/azure-cli-2.27.2.msi",
+    "size": 50733056,
+    "checksum": "65AEDDCCB5489B7673B7292388753297701BF750C9277C2BC15AED8D166CDAA8",
+    "file_type": ".msi"
+  },
+  "2.35.0": {
+    "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.35.0/azure-cli-2.35.0.msi",
+    "size": 57094144,
+    "checksum": "8BA6407B1325FE9295815B782245AD0BC9A3A6868C2A1BF6A359447D5B09288D",
+    "file_type": ".msi"
+  },
+  "2.24.2": {
+    "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.24.2/azure-cli-2.24.2.msi",
+    "size": 50315264,
+    "checksum": "82C615D8799000020DEDCF9029E5131C984C838741C27E38E6FE2AF3513B4C73",
+    "file_type": ".msi"
+  },
+  "2.25.0": {
+    "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.25.0/azure-cli-2.25.0.msi",
+    "size": 50532352,
+    "checksum": "240C4C73CE0CBCC1D2A9414E6A559D8108476F7785C4F40DE452080A80119A32",
+    "file_type": ".msi"
+  },
+  "2.41.0": {
+    "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.41.0/azure-cli-2.41.0.msi",
+    "size": 62566400,
+    "checksum": "5BD887270D973E10414FE8E911C0CDBB3155B8EE5981DA2CAA66ECAABDEBC5D4",
+    "file_type": ".msi"
+  },
+  "2.38.0": {
+    "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.38.0/azure-cli-2.38.0.msi",
+    "size": 56127488,
+    "checksum": "F34EC718F429913AC49294F0E026D6A1E61AFEE0B4AA1AE11F025900648D7671",
+    "file_type": ".msi"
+  },
+  "2.29.1": {
+    "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.29.1/azure-cli-2.29.1.msi",
+    "size": 52666368,
+    "checksum": "0567EF2466834F927C9DA2139EFDC252BA3D7C16EEDADDF3FEA7C876AA82890A",
+    "file_type": ".msi"
+  },
+  "2.33.1": {
+    "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.33.1/azure-cli-2.33.1.msi",
+    "size": 54448128,
+    "checksum": "AC26065391A70ED6C694BCE3E15DB029C562352CB7C7EC9A473DC5C4D3F3FCF1",
+    "file_type": ".msi"
+  },
+  "2.30.0": {
+    "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.30.0/azure-cli-2.30.0.msi",
+    "size": 51970048,
+    "checksum": "DF672434FC13ECE8CCB96E6D965A8B737E2C1346EAEFCB3143871B04FC8977AE",
+    "file_type": ".msi"
+  },
+  "2.34.1": {
+    "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.34.1/azure-cli-2.34.1.msi",
+    "size": 54849536,
+    "checksum": "FE34DAF5154FFAF7AFC2B289B9993E5C7D92F627D10B0D029E86C693365FC4AE",
+    "file_type": ".msi"
+  },
+  "2.29.2": {
+    "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.29.2/azure-cli-2.29.2.msi",
+    "size": 52699136,
+    "checksum": "3D532A23FE6EC629723AFE0181E0BF7F04A7611D4686E41E11AAE485BAB432BB",
+    "file_type": ".msi"
+  },
+  "2.27.0": {
+    "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.27.0/azure-cli-2.27.0.msi",
+    "size": 50708480,
+    "checksum": "A1CACCEFFA610AAE6134C144B74F35E76E0BF69DBF0CBBCA161450A013EEE2D1",
+    "file_type": ".msi"
+  },
+  "2.33.0": {
+    "url": "https://github.com/Azure/azure-cli/releases/download/azure-cli-2.33.0/azure-cli-2.33.0.msi",
+    "size": 54415360,
+    "checksum": "B16BAF91E9AC425BBA8E5CB202FE487DF548FCA581AF860BB0723510C985BBF6",
     "file_type": ".msi"
   }
 }
