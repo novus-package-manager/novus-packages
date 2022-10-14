@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "",
   "description": "",
-  "latest_version": "1.4.1.1021",
+  "latest_version": "1.4.1.1022",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -13,6 +13,18 @@
     "download_page": "",
     "download_url": "",
     "regex": ""
+  },
+  "1.4.1.1014": {
+    "url": "https://www.voidtools.com/Everything-1.4.1.1014.x64-Setup.exe",
+    "size": 1807120,
+    "checksum": "0999140E8FB2983A7E9DD7EB85F362E3B0B0873F89AF6C9194F84D2E769C9806",
+    "file_type": ".exe"
+  },
+  "1.4.1.1022": {
+    "url": "https://www.voidtools.com/Everything-1.4.1.1022.x64-Setup.exe",
+    "size": 1885800,
+    "checksum": "488D285760EB1AEB148E2AEC18A2F063571A6630ACB26A02B6751C56CA4A95BE",
+    "file_type": ".exe"
   },
   "1.4.1.1021": {
     "url": "https://www.voidtools.com/Everything-1.4.1.1021.x64-Setup.exe",
@@ -24,6 +36,12 @@
     "url": "https://www.voidtools.com/Everything-1.4.1.1017.x64-Setup.exe",
     "size": 1862488,
     "checksum": "3FA21697C132FB04B9C2FE539CB86ACC995605323165520FF902924DD48D88B7",
+    "file_type": ".exe"
+  },
+  "1.4.1.1015": {
+    "url": "https://www.voidtools.com/Everything-1.4.1.1015.x64-Setup.exe",
+    "size": 1806136,
+    "checksum": "793AD39E3CE2F8422BF7A11118B00EE0006F48AC1F6212C42780725BE236DF1D",
     "file_type": ".exe"
   },
   "1.4.1.1009": {
@@ -42,18 +60,6 @@
     "url": "https://www.voidtools.com/Everything-1.4.1.1018.x64-Setup.exe",
     "size": 1886256,
     "checksum": "A387EB0C906E2243EB125D5B1091DF3AB6D0183A6BA7DAD9BF10EF0037B0CFB6",
-    "file_type": ".exe"
-  },
-  "1.4.1.1014": {
-    "url": "https://www.voidtools.com/Everything-1.4.1.1014.x64-Setup.exe",
-    "size": 1807120,
-    "checksum": "0999140E8FB2983A7E9DD7EB85F362E3B0B0873F89AF6C9194F84D2E769C9806",
-    "file_type": ".exe"
-  },
-  "1.4.1.1015": {
-    "url": "https://www.voidtools.com/Everything-1.4.1.1015.x64-Setup.exe",
-    "size": 1806136,
-    "checksum": "793AD39E3CE2F8422BF7A11118B00EE0006F48AC1F6212C42780725BE236DF1D",
     "file_type": ".exe"
   }
 }

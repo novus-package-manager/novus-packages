@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "Voidtools",
   "description": "Everything is a desktop search utility for Windows that can rapidly find files and folders by name",
-  "latest_version": "1.4.1.1021",
+  "latest_version": "1.4.1.1022",
   "threads": 8,
   "iswitches": [
     "/S"
@@ -27,16 +27,16 @@
     "checksum": "A387EB0C906E2243EB125D5B1091DF3AB6D0183A6BA7DAD9BF10EF0037B0CFB6",
     "file_type": ".exe"
   },
+  "1.4.1.1014": {
+    "url": "https://www.voidtools.com/Everything-1.4.1.1014.x64-Setup.exe",
+    "size": 1807120,
+    "checksum": "0999140E8FB2983A7E9DD7EB85F362E3B0B0873F89AF6C9194F84D2E769C9806",
+    "file_type": ".exe"
+  },
   "1.4.1.1020": {
     "url": "https://www.voidtools.com/Everything-1.4.1.1020.x64-Setup.exe",
     "size": 1885592,
     "checksum": "B641DA481AB58B0E1C8A1D2C372700455A9BBF9243B3548F29D39538AAA45C0D",
-    "file_type": ".exe"
-  },
-  "1.4.1.1015": {
-    "url": "https://www.voidtools.com/Everything-1.4.1.1015.x64-Setup.exe",
-    "size": 1806136,
-    "checksum": "793AD39E3CE2F8422BF7A11118B00EE0006F48AC1F6212C42780725BE236DF1D",
     "file_type": ".exe"
   },
   "1.4.1.1017": {
@@ -45,22 +45,28 @@
     "checksum": "3FA21697C132FB04B9C2FE539CB86ACC995605323165520FF902924DD48D88B7",
     "file_type": ".exe"
   },
-  "1.4.1.1014": {
-    "url": "https://www.voidtools.com/Everything-1.4.1.1014.x64-Setup.exe",
-    "size": 1807120,
-    "checksum": "0999140E8FB2983A7E9DD7EB85F362E3B0B0873F89AF6C9194F84D2E769C9806",
+  "1.4.1.1021": {
+    "url": "https://www.voidtools.com/Everything-1.4.1.1021.x64-Setup.exe",
+    "size": 1885984,
+    "checksum": "27033A4911D43E7C745D3EEF9E9F5C1490B1755082A5708C3385794413C64D95",
+    "file_type": ".exe"
+  },
+  "1.4.1.1022": {
+    "url": "https://www.voidtools.com/Everything-1.4.1.1022.x64-Setup.exe",
+    "size": 1885800,
+    "checksum": "488D285760EB1AEB148E2AEC18A2F063571A6630ACB26A02B6751C56CA4A95BE",
+    "file_type": ".exe"
+  },
+  "1.4.1.1015": {
+    "url": "https://www.voidtools.com/Everything-1.4.1.1015.x64-Setup.exe",
+    "size": 1806136,
+    "checksum": "793AD39E3CE2F8422BF7A11118B00EE0006F48AC1F6212C42780725BE236DF1D",
     "file_type": ".exe"
   },
   "1.4.1.1009": {
     "url": "https://www.voidtools.com/Everything-1.4.1.1009.x64-Setup.exe",
     "size": 1730784,
     "checksum": "B734CC26CC7AAC9E142FC5153165E017FE4A4627ED8F4578EFB2F8F919EC5CC2",
-    "file_type": ".exe"
-  },
-  "1.4.1.1021": {
-    "url": "https://www.voidtools.com/Everything-1.4.1.1021.x64-Setup.exe",
-    "size": 1885984,
-    "checksum": "27033A4911D43E7C745D3EEF9E9F5C1490B1755082A5708C3385794413C64D95",
     "file_type": ".exe"
   }
 }
