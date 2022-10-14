@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "Oracle Corporation",
   "description": "MySQL Workbench is a unified visual tool for database architects, developers, and DBAs.",
-  "latest_version": "8.0.30",
+  "latest_version": "8.0.31",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -17,28 +17,10 @@
     "download_url": "https://cdn.mysql.com/Downloads/MySQLGUITools/mysql-workbench-community-<version>-winx64.msi",
     "regex": "<h1>MySQL Workbench (\\d+\\.\\d+\\.\\d+)"
   },
-  "8.0.26": {
-    "url": "https://cdn.mysql.com/Downloads/MySQLGUITools/mysql-workbench-community-8.0.26-winx64.msi",
-    "size": 44265472,
-    "checksum": "F8659EDDABAA5675263BC9D11924B291A3F8AA6F6F9FC62513EAA11EF05262A4",
-    "file_type": ".msi"
-  },
-  "8.0.29": {
-    "url": "https://cdn.mysql.com/Downloads/MySQLGUITools/mysql-workbench-community-8.0.29-winx64.msi",
-    "size": 44986368,
-    "checksum": "5FE2274298A35A51D06E1D262AC4E15132C7919176744E4FC2A5BE71F8EB2931",
-    "file_type": ".msi"
-  },
   "8.0.30": {
     "url": "https://cdn.mysql.com/Downloads/MySQLGUITools/mysql-workbench-community-8.0.30-winx64.msi",
     "size": 46710784,
     "checksum": "7C5B67D654BC1B45E73E6E49ECE3F3B0C2419E85FA4F7C60AF0DF7F298B34E9A",
-    "file_type": ".msi"
-  },
-  "8.0.25": {
-    "url": "https://cdn.mysql.com/Downloads/MySQLGUITools/mysql-workbench-community-8.0.25-winx64.msi",
-    "size": 44257280,
-    "checksum": "B5BE94E76EA87F0290B720E54829228DB6C1101DD505682790006F3AA3CF3C75",
     "file_type": ".msi"
   },
   "8.0.27": {
@@ -47,10 +29,34 @@
     "checksum": "14B98AA83474E6E4AB9238F6EC536CFF5ED761FDD4FF0A299818CB730089C28A",
     "file_type": ".msi"
   },
+  "8.0.25": {
+    "url": "https://cdn.mysql.com/Downloads/MySQLGUITools/mysql-workbench-community-8.0.25-winx64.msi",
+    "size": 44257280,
+    "checksum": "B5BE94E76EA87F0290B720E54829228DB6C1101DD505682790006F3AA3CF3C75",
+    "file_type": ".msi"
+  },
+  "8.0.29": {
+    "url": "https://cdn.mysql.com/Downloads/MySQLGUITools/mysql-workbench-community-8.0.29-winx64.msi",
+    "size": 44986368,
+    "checksum": "5FE2274298A35A51D06E1D262AC4E15132C7919176744E4FC2A5BE71F8EB2931",
+    "file_type": ".msi"
+  },
   "8.0.28": {
     "url": "https://cdn.mysql.com/Downloads/MySQLGUITools/mysql-workbench-community-8.0.28-winx64.msi",
     "size": 44810240,
     "checksum": "5A4A83E3DD20A07F89F85E85438A82230D0F3E8910735724DD325907DFFD5D2A",
+    "file_type": ".msi"
+  },
+  "8.0.26": {
+    "url": "https://cdn.mysql.com/Downloads/MySQLGUITools/mysql-workbench-community-8.0.26-winx64.msi",
+    "size": 44265472,
+    "checksum": "F8659EDDABAA5675263BC9D11924B291A3F8AA6F6F9FC62513EAA11EF05262A4",
+    "file_type": ".msi"
+  },
+  "8.0.31": {
+    "url": "https://cdn.mysql.com/Downloads/MySQLGUITools/mysql-workbench-community-8.0.31-winx64.msi",
+    "size": 46788608,
+    "checksum": "AA08256733CF84069366D7A98996DBC1D757674AABADCC8FAA3C899CC66FAFB1",
     "file_type": ".msi"
   }
 }
