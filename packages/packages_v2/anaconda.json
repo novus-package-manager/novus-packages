@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "Anaconda Inc.",
   "description": "Anaconda is a distribution of the Python and R programming languages for scientific computing",
-  "latest_version": "2022.05",
+  "latest_version": "2022.10",
   "threads": 8,
   "iswitches": [
     "/InstallationType=AllUsers",
@@ -24,10 +24,16 @@
     "download_url": "https://repo.continuum.io/archive/Anaconda3-<version>-Windows-x86_64.exe",
     "regex": "(\\d+\\.\\d+)-Windows-x86_64\\.exe"
   },
-  "2021.11": {
-    "url": "https://repo.continuum.io/archive/Anaconda3-2021.11-Windows-x86_64.exe",
-    "size": 535052832,
-    "checksum": "1B3D593D1DEB22B835BE5C68897075E0FC9DEA240AB4191C55674ABA259A78FF",
+  "2021.05": {
+    "url": "https://repo.continuum.io/archive/Anaconda3-2021.05-Windows-x86_64.exe",
+    "size": 500375944,
+    "checksum": "93DB42390444019E98B442AB281E1091671B6DCE64DAF08928D337FFC83CF3D2",
+    "file_type": ".exe"
+  },
+  "2022.10": {
+    "url": "https://repo.continuum.io/archive/Anaconda3-2022.10-Windows-x86_64.exe",
+    "size": 651399256,
+    "checksum": "38B9D53A579843FE41FD05FD3C4F9AC3887F580E7BD9B43F220BBC3AEA2367EB",
     "file_type": ".exe"
   },
   "2022.05": {
@@ -36,10 +42,10 @@
     "checksum": "2766EB102F9D65DA36D262B651777358DE39FBE5F1A74F9854A2E5E29CAEEEEC",
     "file_type": ".exe"
   },
-  "2021.05": {
-    "url": "https://repo.continuum.io/archive/Anaconda3-2021.05-Windows-x86_64.exe",
-    "size": 500375944,
-    "checksum": "93DB42390444019E98B442AB281E1091671B6DCE64DAF08928D337FFC83CF3D2",
+  "2021.11": {
+    "url": "https://repo.continuum.io/archive/Anaconda3-2021.11-Windows-x86_64.exe",
+    "size": 535052832,
+    "checksum": "1B3D593D1DEB22B835BE5C68897075E0FC9DEA240AB4191C55674ABA259A78FF",
     "file_type": ".exe"
   }
 }
