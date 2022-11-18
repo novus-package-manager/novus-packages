@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "AIMP DevTeam",
   "description": "AIMP is a freeware audio player for Windows",
-  "latest_version": "5.03.2398",
+  "latest_version": "5.10.2412",
   "threads": 8,
   "iswitches": [
     "/SILENT",
@@ -23,52 +23,10 @@
     "download_url": "https://www.filepuma.com/download/aimp_<version>-30165/download/",
     "regex": "alt=\"AIMP (\\d+\\.\\d+\\.\\d+)\" /></td>"
   },
-  "5.00.2335": {
-    "url": "https://www.filepuma.com/download/aimp_5.00.2335-30165/download/",
-    "size": 10000,
-    "checksum": "95C13C31E6AA57CC6C4CB619D61755FB104F4146706099E077CF04949C2DACE9",
-    "file_type": ".exe"
-  },
   "5.02.2369": {
     "url": "https://www.filepuma.com/download/aimp_5.02.2369-30165/download/",
     "size": 10000,
     "checksum": "508082C42397B3D3CC9AEDD924A34CC3261E627F7385EC4446B827A8A26320EB",
-    "file_type": ".exe"
-  },
-  "5.03.2398": {
-    "url": "https://www.filepuma.com/download/aimp_5.03.2398-30165/download/",
-    "size": 10000,
-    "checksum": "F6AE1926A87DC69019977902B58088CD459A35F6694F29F2E91FFF4D150D4724",
-    "file_type": ".exe"
-  },
-  "5.00.2334": {
-    "url": "https://www.filepuma.com/download/aimp_5.00.2334-30165/download/",
-    "size": 10000,
-    "checksum": "FC4A2B7F18853E1A48578830348FA75780BE90C16E633070EBE71239F30163D6",
-    "file_type": ".exe"
-  },
-  "5.00.2344": {
-    "url": "https://www.filepuma.com/download/aimp_5.00.2344-30165/download/",
-    "size": 10000,
-    "checksum": "95494C0BFC7FB7CFBC98ED0DA987CECF76CEE9BE1296B85C0A74CB1E6FC7C648",
-    "file_type": ".exe"
-  },
-  "5.03.2397": {
-    "url": "https://www.filepuma.com/download/aimp_5.03.2397-30165/download/",
-    "size": 10000,
-    "checksum": "12DFE95FF626B78788C407AB7DCF22D5439BCC6F0A2964E09A159791D5510F21",
-    "file_type": ".exe"
-  },
-  "5.01.2356": {
-    "url": "https://www.filepuma.com/download/aimp_5.01.2356-30165/download/",
-    "size": 10000,
-    "checksum": "A0486B5B674AF8D452BCAB2F5C24191AE4C763E46C32358F83BF76DAD4C519BD",
-    "file_type": ".exe"
-  },
-  "5.01.2358": {
-    "url": "https://www.filepuma.com/download/aimp_5.01.2358-30165/download/",
-    "size": 10000,
-    "checksum": "0FAA978F70DD85D862B75896906931939F6A687F8670B554D9288C500C70A32D",
     "file_type": ".exe"
   },
   "5.02.2365": {
@@ -77,10 +35,52 @@
     "checksum": "011471664F9CD4172FD5E8F1C1B1C3EF11398A38C436BB05EFC462EDBA6D00DC",
     "file_type": ".exe"
   },
+  "5.00.2344": {
+    "url": "https://www.filepuma.com/download/aimp_5.00.2344-30165/download/",
+    "size": 10000,
+    "checksum": "95494C0BFC7FB7CFBC98ED0DA987CECF76CEE9BE1296B85C0A74CB1E6FC7C648",
+    "file_type": ".exe"
+  },
+  "5.00.2334": {
+    "url": "https://www.filepuma.com/download/aimp_5.00.2334-30165/download/",
+    "size": 10000,
+    "checksum": "FC4A2B7F18853E1A48578830348FA75780BE90C16E633070EBE71239F30163D6",
+    "file_type": ".exe"
+  },
+  "5.00.2338": {
+    "url": "https://www.filepuma.com/download/aimp_5.00.2338-30165/download/",
+    "size": 10000,
+    "checksum": "1DE167EF56A2ED304EA0E28A67A31BA47A7105A0101294C74A7F08A6F5EA2C1A",
+    "file_type": ".exe"
+  },
+  "5.10.2412": {
+    "url": "https://www.filepuma.com/download/aimp_5.10.2412-30165/download/",
+    "size": 10000,
+    "checksum": "2C71684D1439A3FCA879AB306E09C2764BE4664FE2B59F3CA2B740C7236E1FB7",
+    "file_type": ".exe"
+  },
+  "5.01.2358": {
+    "url": "https://www.filepuma.com/download/aimp_5.01.2358-30165/download/",
+    "size": 10000,
+    "checksum": "0FAA978F70DD85D862B75896906931939F6A687F8670B554D9288C500C70A32D",
+    "file_type": ".exe"
+  },
+  "5.03.2392": {
+    "url": "https://www.filepuma.com/download/aimp_5.03.2392-30165/download/",
+    "size": 10000,
+    "checksum": "A939BFE2D3E014333D154202D99030F46A924AACA98F335723C0587C44E5D67C",
+    "file_type": ".exe"
+  },
   "5.02.2370": {
     "url": "https://www.filepuma.com/download/aimp_5.02.2370-30165/download/",
     "size": 10000,
     "checksum": "D2D629B585B9DA127E3F69DE0D2D1803D261789448525C19580A987993676243",
+    "file_type": ".exe"
+  },
+  "5.01.2356": {
+    "url": "https://www.filepuma.com/download/aimp_5.01.2356-30165/download/",
+    "size": 10000,
+    "checksum": "A0486B5B674AF8D452BCAB2F5C24191AE4C763E46C32358F83BF76DAD4C519BD",
     "file_type": ".exe"
   },
   "4.70.2251": {
@@ -95,28 +95,34 @@
     "checksum": "16EBC606FE0AC9A2319A3FD63ACD4F641879DD1E0BA36EEC6CA9AD7A341B3F73",
     "file_type": ".exe"
   },
-  "5.03.2392": {
-    "url": "https://www.filepuma.com/download/aimp_5.03.2392-30165/download/",
-    "size": 10000,
-    "checksum": "A939BFE2D3E014333D154202D99030F46A924AACA98F335723C0587C44E5D67C",
-    "file_type": ".exe"
-  },
   "5.02.2366": {
     "url": "https://www.filepuma.com/download/aimp_5.02.2366-30165/download/",
     "size": 10000,
     "checksum": "7CB2BC8B7AA7C81FB63FA3CBB80E4B7CE92BAF9793CC443938445263FE8C6D33",
     "file_type": ".exe"
   },
-  "5.00.2338": {
-    "url": "https://www.filepuma.com/download/aimp_5.00.2338-30165/download/",
+  "5.03.2398": {
+    "url": "https://www.filepuma.com/download/aimp_5.03.2398-30165/download/",
     "size": 10000,
-    "checksum": "1DE167EF56A2ED304EA0E28A67A31BA47A7105A0101294C74A7F08A6F5EA2C1A",
+    "checksum": "F6AE1926A87DC69019977902B58088CD459A35F6694F29F2E91FFF4D150D4724",
     "file_type": ".exe"
   },
   "4.70.2254": {
     "url": "https://aimp.ru/files/windows/builds/aimp_4.70.2254.exe",
     "size": 12478320,
     "checksum": "1096778D6BD1A937E796822316D23DE7B85F95FA06E78AD9D5FB93F622B34A90",
+    "file_type": ".exe"
+  },
+  "5.03.2397": {
+    "url": "https://www.filepuma.com/download/aimp_5.03.2397-30165/download/",
+    "size": 10000,
+    "checksum": "12DFE95FF626B78788C407AB7DCF22D5439BCC6F0A2964E09A159791D5510F21",
+    "file_type": ".exe"
+  },
+  "5.00.2335": {
+    "url": "https://www.filepuma.com/download/aimp_5.00.2335-30165/download/",
+    "size": 10000,
+    "checksum": "95C13C31E6AA57CC6C4CB619D61755FB104F4146706099E077CF04949C2DACE9",
     "file_type": ".exe"
   }
 }
