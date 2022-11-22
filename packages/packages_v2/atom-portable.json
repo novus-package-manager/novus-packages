@@ -8,7 +8,7 @@
   "portable": true,
   "creator": "Github",
   "description": "Atom is a free and open-source text and source code editor",
-  "latest_version": "1.60.0",
+  "latest_version": "1.63.0",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -17,10 +17,16 @@
     "download_url": "https://github.com/atom/atom/releases/download/v<version>/atom-x64-windows.zip",
     "regex": "<title>Release (\\d+\\.\\d+\\.\\d+) · atom/atom · GitHub</title>"
   },
-  "1.57.0": {
-    "url": "https://github.com/atom/atom/releases/download/v1.57.0/atom-x64-windows.zip",
-    "size": 202403050,
-    "checksum": "FAE26B85E05E2DB71F904B7A1FB0DE3EA6F0391BB3022C152B6D6BBCB30E26B3",
+  "1.63.0": {
+    "url": "https://github.com/atom/atom/releases/download/v1.63.0/atom-x64-windows.zip",
+    "size": 211860150,
+    "checksum": "CB2E9423EE19AAC50EE45E9A679562A014374C84E6053C9CFC5EF5D845A54464",
+    "file_type": ".zip"
+  },
+  "1.58.0": {
+    "url": "https://github.com/atom/atom/releases/download/v1.58.0/atom-x64-windows.zip",
+    "size": 202296416,
+    "checksum": "5F367CEE0EDA74E6A47278D0E2B6E0FAFD359C5FDA9F5D9E5FCE194D91E0EA94",
     "file_type": ".zip"
   },
   "1.59.0": {
@@ -29,10 +35,10 @@
     "checksum": "1032B1D86368A4458D83923EB7F6E37C5DECB22188D93086C8BC256452981198",
     "file_type": ".zip"
   },
-  "1.58.0": {
-    "url": "https://github.com/atom/atom/releases/download/v1.58.0/atom-x64-windows.zip",
-    "size": 202296416,
-    "checksum": "5F367CEE0EDA74E6A47278D0E2B6E0FAFD359C5FDA9F5D9E5FCE194D91E0EA94",
+  "1.57.0": {
+    "url": "https://github.com/atom/atom/releases/download/v1.57.0/atom-x64-windows.zip",
+    "size": 202403050,
+    "checksum": "FAE26B85E05E2DB71F904B7A1FB0DE3EA6F0391BB3022C152B6D6BBCB30E26B3",
     "file_type": ".zip"
   },
   "1.60.0": {
