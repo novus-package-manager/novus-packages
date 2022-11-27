@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "Apple",
   "description": "Quick Look is a quick preview feature developed by Apple Inc.",
-  "latest_version": "3.7.2",
+  "latest_version": "3.7.3",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -13,12 +13,6 @@
     "download_page": "https://github.com/QL-Win/QuickLook/releases/latest",
     "download_url": "https://github.com/QL-Win/QuickLook/releases/download/<version>/QuickLook-<version>.msi",
     "regex": "<title>Release (\\d+\\.\\d+\\.\\d+) · QL-Win/QuickLook"
-  },
-  "3.7.1": {
-    "url": "https://github.com/QL-Win/QuickLook/releases/download/3.7.1/QuickLook-3.7.1.msi",
-    "size": 59585966,
-    "checksum": "16641DB14617C403100AD890CCF1706082A9F08B38812D566E4D4CFCD627EC59",
-    "file_type": ".msi"
   },
   "3.7.0": {
     "url": "https://github.com/QL-Win/QuickLook/releases/download/3.7.0/QuickLook-3.7.0.msi",
@@ -30,6 +24,18 @@
     "url": "https://github.com/QL-Win/QuickLook/releases/download/3.7.2/QuickLook-3.7.2.msi",
     "size": 59410526,
     "checksum": "FAD4D93B6C3365E93A01CEC27D14E740D6F1136BF80BAFA23838FD55B229B4F0",
+    "file_type": ".msi"
+  },
+  "3.7.1": {
+    "url": "https://github.com/QL-Win/QuickLook/releases/download/3.7.1/QuickLook-3.7.1.msi",
+    "size": 59585966,
+    "checksum": "16641DB14617C403100AD890CCF1706082A9F08B38812D566E4D4CFCD627EC59",
+    "file_type": ".msi"
+  },
+  "3.7.3": {
+    "url": "https://github.com/QL-Win/QuickLook/releases/download/3.7.3/QuickLook-3.7.3.msi",
+    "size": 59672183,
+    "checksum": "258D42A4B7BDEC8BAD1B6A2531C935B617D8CF450D31D5E0CCC31437481F7224",
     "file_type": ".msi"
   }
 }
