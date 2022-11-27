@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "TeamViewer AG",
   "description": "TeamViewer is remote access and remote control computer software, allowing maintenance of computers and other devices.",
-  "latest_version": "15.35.7",
+  "latest_version": "15.36.6",
   "threads": 8,
   "iswitches": [
     "/S"
@@ -18,88 +18,16 @@
     "download_url": "https://download.teamviewer.com/download/TeamViewer_Setup.exe",
     "regex": "class=version>(\\d+\\.\\d+\\.\\d+)"
   },
-  "15.20.3": {
-    "url": "https://download.teamviewer.com/download/TeamViewer_Setup.exe",
-    "size": 29792312,
-    "checksum": "6330DB12E867562FC0E6141A2DB376E9AE45498F7911D9BD0B841EF9D7BFA036",
-    "file_type": ".exe"
-  },
-  "15.23.9": {
-    "url": "https://download.teamviewer.com/download/TeamViewer_Setup.exe",
-    "size": 31783928,
-    "checksum": "413F142E4DC9F381672C742FF718DA585382E239977F1ADD27CD0884D763326D",
-    "file_type": ".exe"
-  },
-  "15.21.8": {
-    "url": "https://download.teamviewer.com/download/TeamViewer_Setup.exe",
-    "size": 31417784,
-    "checksum": "49D968B19281C16BC2C123CFF88B5FC00314BCA1381F93CEDEB42749B3D72B91",
-    "file_type": ".exe"
-  },
-  "15.25.6": {
-    "url": "https://download.teamviewer.com/download/TeamViewer_Setup.exe",
-    "size": 31952544,
-    "checksum": "FC9100287CE3CEE71F3C677DC737671E98D07A1C583A9CAE4F4F61165CF83F00",
-    "file_type": ".exe"
-  },
-  "15.28.8": {
-    "url": "https://download.teamviewer.com/download/TeamViewer_Setup.exe",
-    "size": 32797928,
-    "checksum": "D5F2FE8F74130BD9D1621A81B4D03A9C079172F1E8D13C5692D0B2E64C3CE879",
-    "file_type": ".exe"
-  },
-  "15.18.5": {
-    "url": "https://download.teamviewer.com/download/TeamViewer_Setup.exe",
-    "size": 29739984,
-    "checksum": "B1D12219C183E4F67FB730BE31D5C53B669A26FB56C5E9CCB94EF4429C1D0877",
-    "file_type": ".exe"
-  },
-  "15.21.6": {
-    "url": "https://download.teamviewer.com/download/TeamViewer_Setup.exe",
-    "size": 31414496,
-    "checksum": "07F45DBDDB68D13204D562CFC8818D4BB44F6A57D17C1B78B7A4CA220F9A61C6",
-    "file_type": ".exe"
-  },
   "15.29.4": {
     "url": "https://download.teamviewer.com/download/TeamViewer_Setup.exe",
     "size": 34203816,
     "checksum": "D537FC2956B56C626FADCF88948131792CF55AD44BB82A4459ABCA511C1B6263",
     "file_type": ".exe"
   },
-  "12.25.5": {
+  "15.34.4": {
     "url": "https://download.teamviewer.com/download/TeamViewer_Setup.exe",
-    "size": 31773904,
-    "checksum": "4851CDCCFC4E9F5085710938F148CA8FB89CC239A55F7BB9D5ACF05C36C2B2A8",
-    "file_type": ".exe"
-  },
-  "15.26.4": {
-    "url": "https://download.teamviewer.com/download/TeamViewer_Setup.exe",
-    "size": 32093528,
-    "checksum": "CB43A087E98388DDC0BC54C0E192981FEE3BBF1029C26F7374ACE63C6156685E",
-    "file_type": ".exe"
-  },
-  "15.35.5": {
-    "url": "https://download.teamviewer.com/download/TeamViewer_Setup.exe",
-    "size": 41858952,
-    "checksum": "C7FC87454CE96FB1776AAF6F78416D0784FF47C6FEA2D0144B942F63C9CFE8FA",
-    "file_type": ".exe"
-  },
-  "15.21.5": {
-    "url": "https://download.teamviewer.com/download/TeamViewer_Setup.exe",
-    "size": 31414496,
-    "checksum": "07F45DBDDB68D13204D562CFC8818D4BB44F6A57D17C1B78B7A4CA220F9A61C6",
-    "file_type": ".exe"
-  },
-  "15.19.3": {
-    "url": "https://download.teamviewer.com/download/TeamViewer_Setup.exe",
-    "size": 29739984,
-    "checksum": "B1D12219C183E4F67FB730BE31D5C53B669A26FB56C5E9CCB94EF4429C1D0877",
-    "file_type": ".exe"
-  },
-  "15.27.3": {
-    "url": "https://download.teamviewer.com/download/TeamViewer_Setup.exe",
-    "size": 32180824,
-    "checksum": "2045D48A53630C989FB6F1475E9909BBE9D2FE61CB6DD16E4BAE907C67A4C1B4",
+    "size": 40074464,
+    "checksum": "6F8E64DF53218202C0468D0F3383A503603A30674B52042D475DE6BD530658EE",
     "file_type": ".exe"
   },
   "15.22.3": {
@@ -114,10 +42,16 @@
     "checksum": "C1C3DFB80786EC3BEC376CF437CA0A91FBFAD01429048F200829898CC5235B7D",
     "file_type": ".exe"
   },
-  "15.34.4": {
+  "15.23.9": {
     "url": "https://download.teamviewer.com/download/TeamViewer_Setup.exe",
-    "size": 40074464,
-    "checksum": "6F8E64DF53218202C0468D0F3383A503603A30674B52042D475DE6BD530658EE",
+    "size": 31783928,
+    "checksum": "413F142E4DC9F381672C742FF718DA585382E239977F1ADD27CD0884D763326D",
+    "file_type": ".exe"
+  },
+  "15.35.5": {
+    "url": "https://download.teamviewer.com/download/TeamViewer_Setup.exe",
+    "size": 41858952,
+    "checksum": "C7FC87454CE96FB1776AAF6F78416D0784FF47C6FEA2D0144B942F63C9CFE8FA",
     "file_type": ".exe"
   },
   "15.32.3": {
@@ -126,10 +60,16 @@
     "checksum": "61D7BFCEF7B4E9D5E40604B53421206EC8B7E8EFB86FB0B547267FE308016CDE",
     "file_type": ".exe"
   },
-  "15.35.7": {
+  "15.24.5": {
     "url": "https://download.teamviewer.com/download/TeamViewer_Setup.exe",
-    "size": 41877024,
-    "checksum": "0B9E6574EBFA8C4DDEE1398892597FF6BDC8EEE8B3953FC55FD4D8A63335F707",
+    "size": 31853392,
+    "checksum": "FA2BA4D23FA72DAC2D6D37C1996207B3CBCF6A65202D4BB9E95EC8D66B1F162B",
+    "file_type": ".exe"
+  },
+  "15.20.3": {
+    "url": "https://download.teamviewer.com/download/TeamViewer_Setup.exe",
+    "size": 29792312,
+    "checksum": "6330DB12E867562FC0E6141A2DB376E9AE45498F7911D9BD0B841EF9D7BFA036",
     "file_type": ".exe"
   },
   "15.30.3": {
@@ -138,10 +78,34 @@
     "checksum": "AB5AD069012EC8463E8FB1337E1A3D479436531C12B9309520BF7B30914ABB86",
     "file_type": ".exe"
   },
-  "15.28.7": {
+  "15.25.8": {
+    "url": "https://download.teamviewer.com/download/TeamViewer_Setup.exe",
+    "size": 31947248,
+    "checksum": "F2696153DEDF3516C0AECE3D8BE9844B0D3654F3BD405A4E496CC2CCC3A38702",
+    "file_type": ".exe"
+  },
+  "15.28.8": {
     "url": "https://download.teamviewer.com/download/TeamViewer_Setup.exe",
     "size": 32797928,
     "checksum": "D5F2FE8F74130BD9D1621A81B4D03A9C079172F1E8D13C5692D0B2E64C3CE879",
+    "file_type": ".exe"
+  },
+  "15.18.5": {
+    "url": "https://download.teamviewer.com/download/TeamViewer_Setup.exe",
+    "size": 29739984,
+    "checksum": "B1D12219C183E4F67FB730BE31D5C53B669A26FB56C5E9CCB94EF4429C1D0877",
+    "file_type": ".exe"
+  },
+  "15.35.7": {
+    "url": "https://download.teamviewer.com/download/TeamViewer_Setup.exe",
+    "size": 41877024,
+    "checksum": "0B9E6574EBFA8C4DDEE1398892597FF6BDC8EEE8B3953FC55FD4D8A63335F707",
+    "file_type": ".exe"
+  },
+  "15.21.6": {
+    "url": "https://download.teamviewer.com/download/TeamViewer_Setup.exe",
+    "size": 31414496,
+    "checksum": "07F45DBDDB68D13204D562CFC8818D4BB44F6A57D17C1B78B7A4CA220F9A61C6",
     "file_type": ".exe"
   },
   "15.33.7": {
@@ -150,16 +114,22 @@
     "checksum": "86D89997F2D8F975405280F6B021AC5474C238D5E50ED3808E689E561CBB588E",
     "file_type": ".exe"
   },
-  "15.24.5": {
+  "15.27.3": {
     "url": "https://download.teamviewer.com/download/TeamViewer_Setup.exe",
-    "size": 31853392,
-    "checksum": "FA2BA4D23FA72DAC2D6D37C1996207B3CBCF6A65202D4BB9E95EC8D66B1F162B",
+    "size": 32180824,
+    "checksum": "2045D48A53630C989FB6F1475E9909BBE9D2FE61CB6DD16E4BAE907C67A4C1B4",
     "file_type": ".exe"
   },
-  "15.25.8": {
+  "15.28.7": {
     "url": "https://download.teamviewer.com/download/TeamViewer_Setup.exe",
-    "size": 31947248,
-    "checksum": "F2696153DEDF3516C0AECE3D8BE9844B0D3654F3BD405A4E496CC2CCC3A38702",
+    "size": 32797928,
+    "checksum": "D5F2FE8F74130BD9D1621A81B4D03A9C079172F1E8D13C5692D0B2E64C3CE879",
+    "file_type": ".exe"
+  },
+  "15.21.5": {
+    "url": "https://download.teamviewer.com/download/TeamViewer_Setup.exe",
+    "size": 31414496,
+    "checksum": "07F45DBDDB68D13204D562CFC8818D4BB44F6A57D17C1B78B7A4CA220F9A61C6",
     "file_type": ".exe"
   },
   "15.19.5": {
@@ -168,10 +138,46 @@
     "checksum": "2FA2827CC66FE33C17FFB8AF98D4302F58D4B216197BE617B0388FCABC2CD675",
     "file_type": ".exe"
   },
+  "12.25.5": {
+    "url": "https://download.teamviewer.com/download/TeamViewer_Setup.exe",
+    "size": 31773904,
+    "checksum": "4851CDCCFC4E9F5085710938F148CA8FB89CC239A55F7BB9D5ACF05C36C2B2A8",
+    "file_type": ".exe"
+  },
   "15.31.5": {
     "url": "https://download.teamviewer.com/download/TeamViewer_Setup.exe",
     "size": 35702528,
     "checksum": "E463F3A11C4EAFC698906876D610702FC9227A65183A30104579D8912ECDEFE4",
+    "file_type": ".exe"
+  },
+  "15.36.6": {
+    "url": "https://download.teamviewer.com/download/TeamViewer_Setup.exe",
+    "size": 42249088,
+    "checksum": "62A3FC4672FE776FA5A386214263E34E2A054084534C44316B9D3E34AE4ADC30",
+    "file_type": ".exe"
+  },
+  "15.19.3": {
+    "url": "https://download.teamviewer.com/download/TeamViewer_Setup.exe",
+    "size": 29739984,
+    "checksum": "B1D12219C183E4F67FB730BE31D5C53B669A26FB56C5E9CCB94EF4429C1D0877",
+    "file_type": ".exe"
+  },
+  "15.25.6": {
+    "url": "https://download.teamviewer.com/download/TeamViewer_Setup.exe",
+    "size": 31952544,
+    "checksum": "FC9100287CE3CEE71F3C677DC737671E98D07A1C583A9CAE4F4F61165CF83F00",
+    "file_type": ".exe"
+  },
+  "15.26.4": {
+    "url": "https://download.teamviewer.com/download/TeamViewer_Setup.exe",
+    "size": 32093528,
+    "checksum": "CB43A087E98388DDC0BC54C0E192981FEE3BBF1029C26F7374ACE63C6156685E",
+    "file_type": ".exe"
+  },
+  "15.21.8": {
+    "url": "https://download.teamviewer.com/download/TeamViewer_Setup.exe",
+    "size": 31417784,
+    "checksum": "49D968B19281C16BC2C123CFF88B5FC00314BCA1381F93CEDEB42749B3D72B91",
     "file_type": ".exe"
   }
 }
