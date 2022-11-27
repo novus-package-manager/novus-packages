@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "Daniel Ek",
   "description": "Spotify is a Swedish audio streaming and media services provider.",
-  "latest_version": "1.1.98.691",
+  "latest_version": "1.1.99.878",
   "threads": 8,
   "iswitches": [
     "/silent"
@@ -18,34 +18,10 @@
     "download_url": "http://download.spotify.com/SpotifyFullSetup.exe",
     "regex": "class=version>(\\d+\\.\\d+\\.\\d+\\.\\d+)"
   },
-  "1.1.79.763": {
+  "1.1.62.583": {
     "url": "http://download.spotify.com/SpotifyFullSetup.exe",
-    "size": 75447288,
-    "checksum": "74F3E5EA717A79AD18BBC42D0CE4A59CBF67FF7A4CC49271D321C9EC4DFDEEE7",
-    "file_type": ".exe"
-  },
-  "1.1.68.628": {
-    "url": "http://download.spotify.com/SpotifyFullSetup.exe",
-    "size": 75917128,
-    "checksum": "79AF02D6B1FAB8FEE6208AA5D7F86CEC3111172545B3FF56A7D7E5DB788FFB2F",
-    "file_type": ".exe"
-  },
-  "1.1.90.859": {
-    "url": "http://download.spotify.com/SpotifyFullSetup.exe",
-    "size": 77830216,
-    "checksum": "E370DF95388BDDD78546F1CEE7D5F4554EF422336D812ABEF4FE0F3A25565F34",
-    "file_type": ".exe"
-  },
-  "1.1.66.580": {
-    "url": "http://download.spotify.com/SpotifyFullSetup.exe",
-    "size": 80459584,
-    "checksum": "D09778354C4DE4992DD9CF7E452CE8560277B9D7E3399FA200C6B3D9A4F987AF",
-    "file_type": ".exe"
-  },
-  "1.1.88.612": {
-    "url": "http://download.spotify.com/SpotifyFullSetup.exe",
-    "size": 77830216,
-    "checksum": "E370DF95388BDDD78546F1CEE7D5F4554EF422336D812ABEF4FE0F3A25565F34",
+    "size": 80938696,
+    "checksum": "E86EA6110AB5FE30B99807FFE150E41031EC52C683A3F7A51D638601D1F4F9E3",
     "file_type": ".exe"
   },
   "1.1.74.631": {
@@ -54,10 +30,58 @@
     "checksum": "9E71D03181600209F01EB261DB7EBF6FBDFEE38EC1AC1974D7F61F75895473D3",
     "file_type": ".exe"
   },
-  "1.1.63.568": {
+  "1.1.84.716": {
+    "url": "http://download.spotify.com/SpotifyFullSetup.exe",
+    "size": 76385024,
+    "checksum": "D058E07D3D59ABE0875E0D4A56B1CC7FA38A0073339E1265BB1DC4B7976231B2",
+    "file_type": ".exe"
+  },
+  "1.1.61.583": {
+    "url": "http://download.spotify.com/SpotifyFullSetup.exe",
+    "size": 80938696,
+    "checksum": "44FFFE62C2F64B75B83A35E8B4F2FDB0D3FFCD976E83D6995A0781CE732F31D4",
+    "file_type": ".exe"
+  },
+  "1.1.59.714": {
+    "url": "http://download.spotify.com/SpotifyFullSetup.exe",
+    "size": 898280,
+    "checksum": "CEA43DF44352E47DB010C0B0BA47520B1D988BB6772FA3347D3BA2476C6675B1",
+    "file_type": ".exe"
+  },
+  "1.1.96.785": {
+    "url": "http://download.spotify.com/SpotifyFullSetup.exe",
+    "size": 79996992,
+    "checksum": "9300B77F4314C8970BC8E3A7407C7B21620E9A8806FFBC20479867BD2B46C4B5",
+    "file_type": ".exe"
+  },
+  "1.1.60.668": {
     "url": "http://download.spotify.com/SpotifyFullSetup.exe",
     "size": 80938696,
     "checksum": "E86EA6110AB5FE30B99807FFE150E41031EC52C683A3F7A51D638601D1F4F9E3",
+    "file_type": ".exe"
+  },
+  "1.1.99.878": {
+    "url": "http://download.spotify.com/SpotifyFullSetup.exe",
+    "size": 79996992,
+    "checksum": "9300B77F4314C8970BC8E3A7407C7B21620E9A8806FFBC20479867BD2B46C4B5",
+    "file_type": ".exe"
+  },
+  "1.1.77.643": {
+    "url": "http://download.spotify.com/SpotifyFullSetup.exe",
+    "size": 74181496,
+    "checksum": "875879C06A8C9096DB2D7AD56C60703F54C5ED39CC61730A72F7096CDBC89720",
+    "file_type": ".exe"
+  },
+  "1.1.76.447": {
+    "url": "http://download.spotify.com/SpotifyFullSetup.exe",
+    "size": 74072720,
+    "checksum": "9E71D03181600209F01EB261DB7EBF6FBDFEE38EC1AC1974D7F61F75895473D3",
+    "file_type": ".exe"
+  },
+  "1.1.91.824": {
+    "url": "http://download.spotify.com/SpotifyFullSetup.exe",
+    "size": 77830216,
+    "checksum": "E370DF95388BDDD78546F1CEE7D5F4554EF422336D812ABEF4FE0F3A25565F34",
     "file_type": ".exe"
   },
   "1.1.73.517": {
@@ -66,7 +90,61 @@
     "checksum": "A979643A0745930BF5562BD96861A714FE85A4AE55FC117A8577E9C6F52C34CA",
     "file_type": ".exe"
   },
-  "1.1.72.439": {
+  "1.1.78.765": {
+    "url": "http://download.spotify.com/SpotifyFullSetup.exe",
+    "size": 74210136,
+    "checksum": "BB586A8125AFC8170C8CDA4A6A16A6FB79E174086EAD4730D7FB94FFE461DF24",
+    "file_type": ".exe"
+  },
+  "1.1.98.691": {
+    "url": "http://download.spotify.com/SpotifyFullSetup.exe",
+    "size": 79996992,
+    "checksum": "9300B77F4314C8970BC8E3A7407C7B21620E9A8806FFBC20479867BD2B46C4B5",
+    "file_type": ".exe"
+  },
+  "1.1.90.859": {
+    "url": "http://download.spotify.com/SpotifyFullSetup.exe",
+    "size": 77830216,
+    "checksum": "E370DF95388BDDD78546F1CEE7D5F4554EF422336D812ABEF4FE0F3A25565F34",
+    "file_type": ".exe"
+  },
+  "1.1.79.763": {
+    "url": "http://download.spotify.com/SpotifyFullSetup.exe",
+    "size": 75447288,
+    "checksum": "74F3E5EA717A79AD18BBC42D0CE4A59CBF67FF7A4CC49271D321C9EC4DFDEEE7",
+    "file_type": ".exe"
+  },
+  "1.1.66.580": {
+    "url": "http://download.spotify.com/SpotifyFullSetup.exe",
+    "size": 80459584,
+    "checksum": "D09778354C4DE4992DD9CF7E452CE8560277B9D7E3399FA200C6B3D9A4F987AF",
+    "file_type": ".exe"
+  },
+  "1.1.64.561": {
+    "url": "http://download.spotify.com/SpotifyFullSetup.exe",
+    "size": 80938696,
+    "checksum": "44FFFE62C2F64B75B83A35E8B4F2FDB0D3FFCD976E83D6995A0781CE732F31D4",
+    "file_type": ".exe"
+  },
+  "1.1.86.857": {
+    "url": "http://download.spotify.com/SpotifyFullSetup.exe",
+    "size": 76445000,
+    "checksum": "6A8D819B4F90218849FA1664F9E6CF724FB88026150D7C6FBB65E729F50B6C39",
+    "file_type": ".exe"
+  },
+  "1.1.68.628": {
+    "url": "http://download.spotify.com/SpotifyFullSetup.exe",
+    "size": 75917128,
+    "checksum": "79AF02D6B1FAB8FEE6208AA5D7F86CEC3111172545B3FF56A7D7E5DB788FFB2F",
+    "file_type": ".exe"
+  },
+  "1.1.94.872": {
+    "url": "http://download.spotify.com/SpotifyFullSetup.exe",
+    "size": 79465360,
+    "checksum": "1707E6BFE276B443229F82153F52CF6BADA32B329FE8A0BA03A87F994F7041FC",
+    "file_type": ".exe"
+  },
+  "1.1.70.610": {
     "url": "http://download.spotify.com/SpotifyFullSetup.exe",
     "size": 70233944,
     "checksum": "A979643A0745930BF5562BD96861A714FE85A4AE55FC117A8577E9C6F52C34CA",
@@ -78,70 +156,22 @@
     "checksum": "1707E6BFE276B443229F82153F52CF6BADA32B329FE8A0BA03A87F994F7041FC",
     "file_type": ".exe"
   },
-  "1.1.78.765": {
-    "url": "http://download.spotify.com/SpotifyFullSetup.exe",
-    "size": 74210136,
-    "checksum": "BB586A8125AFC8170C8CDA4A6A16A6FB79E174086EAD4730D7FB94FFE461DF24",
-    "file_type": ".exe"
-  },
-  "1.1.85.895": {
-    "url": "http://download.spotify.com/SpotifyFullSetup.exe",
-    "size": 76445000,
-    "checksum": "6A8D819B4F90218849FA1664F9E6CF724FB88026150D7C6FBB65E729F50B6C39",
-    "file_type": ".exe"
-  },
-  "1.1.62.583": {
-    "url": "http://download.spotify.com/SpotifyFullSetup.exe",
-    "size": 80938696,
-    "checksum": "E86EA6110AB5FE30B99807FFE150E41031EC52C683A3F7A51D638601D1F4F9E3",
-    "file_type": ".exe"
-  },
-  "1.1.59.714": {
-    "url": "http://download.spotify.com/SpotifyFullSetup.exe",
-    "size": 898280,
-    "checksum": "CEA43DF44352E47DB010C0B0BA47520B1D988BB6772FA3347D3BA2476C6675B1",
-    "file_type": ".exe"
-  },
   "1.1.89.862": {
     "url": "http://download.spotify.com/SpotifyFullSetup.exe",
     "size": 77830216,
     "checksum": "E370DF95388BDDD78546F1CEE7D5F4554EF422336D812ABEF4FE0F3A25565F34",
     "file_type": ".exe"
   },
-  "1.1.98.691": {
-    "url": "http://download.spotify.com/SpotifyFullSetup.exe",
-    "size": 79996992,
-    "checksum": "9300B77F4314C8970BC8E3A7407C7B21620E9A8806FFBC20479867BD2B46C4B5",
-    "file_type": ".exe"
-  },
-  "1.1.84.716": {
-    "url": "http://download.spotify.com/SpotifyFullSetup.exe",
-    "size": 76385024,
-    "checksum": "D058E07D3D59ABE0875E0D4A56B1CC7FA38A0073339E1265BB1DC4B7976231B2",
-    "file_type": ".exe"
-  },
-  "1.1.64.561": {
+  "1.1.65.643": {
     "url": "http://download.spotify.com/SpotifyFullSetup.exe",
     "size": 80938696,
-    "checksum": "44FFFE62C2F64B75B83A35E8B4F2FDB0D3FFCD976E83D6995A0781CE732F31D4",
+    "checksum": "E86EA6110AB5FE30B99807FFE150E41031EC52C683A3F7A51D638601D1F4F9E3",
     "file_type": ".exe"
   },
-  "1.1.77.643": {
+  "1.1.88.612": {
     "url": "http://download.spotify.com/SpotifyFullSetup.exe",
-    "size": 74181496,
-    "checksum": "875879C06A8C9096DB2D7AD56C60703F54C5ED39CC61730A72F7096CDBC89720",
-    "file_type": ".exe"
-  },
-  "1.1.61.583": {
-    "url": "http://download.spotify.com/SpotifyFullSetup.exe",
-    "size": 80938696,
-    "checksum": "44FFFE62C2F64B75B83A35E8B4F2FDB0D3FFCD976E83D6995A0781CE732F31D4",
-    "file_type": ".exe"
-  },
-  "1.1.69.612": {
-    "url": "http://download.spotify.com/SpotifyFullSetup.exe",
-    "size": 75917128,
-    "checksum": "6B6A2B392D43B762D18205FD69D67025F0F1960A0CEBB83278E15D1E49C6D6C4",
+    "size": 77830216,
+    "checksum": "E370DF95388BDDD78546F1CEE7D5F4554EF422336D812ABEF4FE0F3A25565F34",
     "file_type": ".exe"
   },
   "1.1.80.699": {
@@ -150,13 +180,25 @@
     "checksum": "74F3E5EA717A79AD18BBC42D0CE4A59CBF67FF7A4CC49271D321C9EC4DFDEEE7",
     "file_type": ".exe"
   },
-  "1.1.60.668": {
+  "1.1.85.895": {
     "url": "http://download.spotify.com/SpotifyFullSetup.exe",
-    "size": 80938696,
-    "checksum": "E86EA6110AB5FE30B99807FFE150E41031EC52C683A3F7A51D638601D1F4F9E3",
+    "size": 76445000,
+    "checksum": "6A8D819B4F90218849FA1664F9E6CF724FB88026150D7C6FBB65E729F50B6C39",
     "file_type": ".exe"
   },
-  "1.1.65.643": {
+  "1.1.72.439": {
+    "url": "http://download.spotify.com/SpotifyFullSetup.exe",
+    "size": 70233944,
+    "checksum": "A979643A0745930BF5562BD96861A714FE85A4AE55FC117A8577E9C6F52C34CA",
+    "file_type": ".exe"
+  },
+  "1.1.69.612": {
+    "url": "http://download.spotify.com/SpotifyFullSetup.exe",
+    "size": 75917128,
+    "checksum": "6B6A2B392D43B762D18205FD69D67025F0F1960A0CEBB83278E15D1E49C6D6C4",
+    "file_type": ".exe"
+  },
+  "1.1.63.568": {
     "url": "http://download.spotify.com/SpotifyFullSetup.exe",
     "size": 80938696,
     "checksum": "E86EA6110AB5FE30B99807FFE150E41031EC52C683A3F7A51D638601D1F4F9E3",
@@ -166,42 +208,6 @@
     "url": "http://download.spotify.com/SpotifyFullSetup.exe",
     "size": 77438104,
     "checksum": "AC939FD714188AFAC7970E9A68CB374BC46CF5CEAE91A83BD042BB952E2F42C5",
-    "file_type": ".exe"
-  },
-  "1.1.76.447": {
-    "url": "http://download.spotify.com/SpotifyFullSetup.exe",
-    "size": 74072720,
-    "checksum": "9E71D03181600209F01EB261DB7EBF6FBDFEE38EC1AC1974D7F61F75895473D3",
-    "file_type": ".exe"
-  },
-  "1.1.94.872": {
-    "url": "http://download.spotify.com/SpotifyFullSetup.exe",
-    "size": 79465360,
-    "checksum": "1707E6BFE276B443229F82153F52CF6BADA32B329FE8A0BA03A87F994F7041FC",
-    "file_type": ".exe"
-  },
-  "1.1.86.857": {
-    "url": "http://download.spotify.com/SpotifyFullSetup.exe",
-    "size": 76445000,
-    "checksum": "6A8D819B4F90218849FA1664F9E6CF724FB88026150D7C6FBB65E729F50B6C39",
-    "file_type": ".exe"
-  },
-  "1.1.96.785": {
-    "url": "http://download.spotify.com/SpotifyFullSetup.exe",
-    "size": 79996992,
-    "checksum": "9300B77F4314C8970BC8E3A7407C7B21620E9A8806FFBC20479867BD2B46C4B5",
-    "file_type": ".exe"
-  },
-  "1.1.70.610": {
-    "url": "http://download.spotify.com/SpotifyFullSetup.exe",
-    "size": 70233944,
-    "checksum": "A979643A0745930BF5562BD96861A714FE85A4AE55FC117A8577E9C6F52C34CA",
-    "file_type": ".exe"
-  },
-  "1.1.91.824": {
-    "url": "http://download.spotify.com/SpotifyFullSetup.exe",
-    "size": 77830216,
-    "checksum": "E370DF95388BDDD78546F1CEE7D5F4554EF422336D812ABEF4FE0F3A25565F34",
     "file_type": ".exe"
   }
 }
