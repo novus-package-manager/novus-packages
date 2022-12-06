@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "Mozilla Foundation",
   "description": "Firefox is a free and open-source web browser",
-  "latest_version": "106.0.5",
+  "latest_version": "107.0.1",
   "threads": 8,
   "iswitches": [],
   "uswitches": [
@@ -16,22 +16,10 @@
     "download_url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/<version>/win64/en-US/Firefox%20Setup%20<version>.msi",
     "regex": "data-latest-firefox=\"(\\d+\\.\\d+\\.\\d+)\""
   },
-  "101.0.1": {
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/101.0.1/win64/en-US/Firefox%20Setup%20101.0.1.msi",
-    "size": 56518656,
-    "checksum": "D75624404364D4D24C338F0955F71A36328103178CAFD1889B9E80F9473B0371",
-    "file_type": ".msi"
-  },
-  "88.0.1": {
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/88.0.1/win64/en-US/Firefox%20Setup%2088.0.1.msi",
-    "size": 56597504,
-    "checksum": "EFF1BAFCF80A3D8CC964624EC82690D0B3AEB485B90AA88AB2ED7972C823F3E9",
-    "file_type": ".msi"
-  },
-  "94.0.2": {
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/94.0.2/win64/en-US/Firefox%20Setup%2094.0.2.msi",
-    "size": 54794752,
-    "checksum": "2563ADA18CE679F6BA76904543B28042B6D849EDD7977DC797F2CE5EE8C6D8FC",
+  "100.0.1": {
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/100.0.1/win64/en-US/Firefox%20Setup%20100.0.1.msi",
+    "size": 56240640,
+    "checksum": "300C453D00867E5D3D8F18F06EB2A6E965CF9F235C0E649C2BF86D534D9A14A3",
     "file_type": ".msi"
   },
   "106.0.5": {
@@ -40,28 +28,22 @@
     "checksum": "5230027101849D9C1ADD2B3AC2AAA4E3471386F25DFEF4B8F94F4D6DB125A0AF",
     "file_type": ".msi"
   },
-  "105.0.1": {
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/105.0.1/win64/en-US/Firefox%20Setup%20105.0.1.msi",
-    "size": 56922624,
-    "checksum": "7B10136B34D5435092E2229EEA33A6938753CE2F762DEDEB81CF57B208155E59",
-    "file_type": ".msi"
-  },
-  "97.0.2": {
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/97.0.2/win64/en-US/Firefox%20Setup%2097.0.2.msi",
-    "size": 55720448,
-    "checksum": "2679942025DB23359184387C7805704B9895A1EA971B4B5D6D332D7F53863CC7",
-    "file_type": ".msi"
-  },
-  "98.0.1": {
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/98.0.1/win64/en-US/Firefox%20Setup%2098.0.1.msi",
-    "size": 55994880,
-    "checksum": "C5EDB753C8D5F58A9FE31FE00DA42B7BB36330395D9B8C415FCA526100261997",
-    "file_type": ".msi"
-  },
   "103.0.2": {
     "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/103.0.2/win64/en-US/Firefox%20Setup%20103.0.2.msi",
     "size": 56475648,
     "checksum": "6408998DF225E5ECD8AB394E341BAF6B78DEEBF410E3CDE010CFE7F4BD9BE3DE",
+    "file_type": ".msi"
+  },
+  "96.0.1": {
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/96.0.1/win64/en-US/Firefox%20Setup%2096.0.1.msi",
+    "size": 55976448,
+    "checksum": "938458A81C22A5C69E697E7C549BF9A55754612CDBD37F25D6962FCBFE3C764D",
+    "file_type": ".msi"
+  },
+  "104.0.1": {
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/104.0.1/win64/en-US/Firefox%20Setup%20104.0.1.msi",
+    "size": 56665088,
+    "checksum": "9EC97C147C4ADFBFB86F4C95C4968FB28923117633E0D2F577B6D72648BA9937",
     "file_type": ".msi"
   },
   "96.0.2": {
@@ -82,6 +64,42 @@
     "checksum": "380ACE0D18A94A4323EEDC72E77D51E9AB2B8CCCFA26357943CDB0E8C45A3CFE",
     "file_type": ".msi"
   },
+  "105.0.1": {
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/105.0.1/win64/en-US/Firefox%20Setup%20105.0.1.msi",
+    "size": 56922624,
+    "checksum": "7B10136B34D5435092E2229EEA33A6938753CE2F762DEDEB81CF57B208155E59",
+    "file_type": ".msi"
+  },
+  "100.0.2": {
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/100.0.2/win64/en-US/Firefox%20Setup%20100.0.2.msi",
+    "size": 56212992,
+    "checksum": "51694DD55C21206ABFE9CD1320193E7A36CDB3D48F8549D0790B74E5E085C52F",
+    "file_type": ".msi"
+  },
+  "89.0.1": {
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/89.0.1/win64/en-US/Firefox%20Setup%2089.0.1.msi",
+    "size": 55982080,
+    "checksum": "D7DA7C71A38B4827DB0F3F595F9505C4E1343B9603F9FD4E5A1B216B24FF661A",
+    "file_type": ".msi"
+  },
+  "105.0.2": {
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/105.0.2/win64/en-US/Firefox%20Setup%20105.0.2.msi",
+    "size": 56937472,
+    "checksum": "37F4657354F31DC38B15D24EC85554F9B458F3E55E3D0BC370ED38C3761A76A3",
+    "file_type": ".msi"
+  },
+  "106.0.2": {
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/106.0.2/win64/en-US/Firefox%20Setup%20106.0.2.msi",
+    "size": 57850368,
+    "checksum": "C2FD8E75664B084273871D41A2AAAE5D16737BA7DF4FD40B326ECEA74852AF2F",
+    "file_type": ".msi"
+  },
+  "95.0.1": {
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/95.0.1/win64/en-US/Firefox%20Setup%2095.0.1.msi",
+    "size": 55268352,
+    "checksum": "54125102FAD9F53A6A58E2DB030BC42311DD47E5540C3451EA7D484436846E3D",
+    "file_type": ".msi"
+  },
   "91.0.1": {
     "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/91.0.1/win64/en-US/Firefox%20Setup%2091.0.1.msi",
     "size": 56572416,
@@ -94,52 +112,10 @@
     "checksum": "AC31A566E82736073AEBF230B9557AF1AB43514C7A5C2149DC78FF98912AA9C9",
     "file_type": ".msi"
   },
-  "97.0.1": {
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/97.0.1/win64/en-US/Firefox%20Setup%2097.0.1.msi",
-    "size": 55998976,
-    "checksum": "A75C7F841CA1D1D3662E9FB8F5781447CEF5418B4BE31F0B51A6BFBB165B41B1",
-    "file_type": ".msi"
-  },
-  "95.0.2": {
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/95.0.2/win64/en-US/Firefox%20Setup%2095.0.2.msi",
-    "size": 55270912,
-    "checksum": "561FCC8EBED5D571DD5760233BB0125CC4E4E747A76A37EDB7C9F3F4BFDB93D1",
-    "file_type": ".msi"
-  },
-  "96.0.1": {
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/96.0.1/win64/en-US/Firefox%20Setup%2096.0.1.msi",
-    "size": 55976448,
-    "checksum": "938458A81C22A5C69E697E7C549BF9A55754612CDBD37F25D6962FCBFE3C764D",
-    "file_type": ".msi"
-  },
-  "106.0.2": {
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/106.0.2/win64/en-US/Firefox%20Setup%20106.0.2.msi",
-    "size": 57850368,
-    "checksum": "C2FD8E75664B084273871D41A2AAAE5D16737BA7DF4FD40B326ECEA74852AF2F",
-    "file_type": ".msi"
-  },
-  "104.0.1": {
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/104.0.1/win64/en-US/Firefox%20Setup%20104.0.1.msi",
-    "size": 56665088,
-    "checksum": "9EC97C147C4ADFBFB86F4C95C4968FB28923117633E0D2F577B6D72648BA9937",
-    "file_type": ".msi"
-  },
-  "100.0.2": {
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/100.0.2/win64/en-US/Firefox%20Setup%20100.0.2.msi",
-    "size": 56212992,
-    "checksum": "51694DD55C21206ABFE9CD1320193E7A36CDB3D48F8549D0790B74E5E085C52F",
-    "file_type": ".msi"
-  },
-  "89.0.2": {
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/89.0.2/win64/en-US/Firefox%20Setup%2089.0.2.msi",
-    "size": 55993344,
-    "checksum": "D7C5E9FEE67C411FB41725721B7633EB5A521BB036B113589980364FD892D3CA",
-    "file_type": ".msi"
-  },
-  "105.0.2": {
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/105.0.2/win64/en-US/Firefox%20Setup%20105.0.2.msi",
-    "size": 56937472,
-    "checksum": "37F4657354F31DC38B15D24EC85554F9B458F3E55E3D0BC370ED38C3761A76A3",
+  "101.0.1": {
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/101.0.1/win64/en-US/Firefox%20Setup%20101.0.1.msi",
+    "size": 56518656,
+    "checksum": "D75624404364D4D24C338F0955F71A36328103178CAFD1889B9E80F9473B0371",
     "file_type": ".msi"
   },
   "106.0.1": {
@@ -148,10 +124,10 @@
     "checksum": "12BB2F38F4667B7D5A888228F822FBBADD6BB685373C8AF7BBF29715F052FCB7",
     "file_type": ".msi"
   },
-  "95.0.1": {
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/95.0.1/win64/en-US/Firefox%20Setup%2095.0.1.msi",
-    "size": 55268352,
-    "checksum": "54125102FAD9F53A6A58E2DB030BC42311DD47E5540C3451EA7D484436846E3D",
+  "96.0.3": {
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/96.0.3/win64/en-US/Firefox%20Setup%2096.0.3.msi",
+    "size": 55905280,
+    "checksum": "8F30E943D6282341A416C522886B43AE509B3C35220E45F1562B87780F370ED8",
     "file_type": ".msi"
   },
   "103.0.1": {
@@ -160,16 +136,10 @@
     "checksum": "D0877E030BB400C9642027E279C7FAAD3633F4D49CADA2AD94577253AB3711DB",
     "file_type": ".msi"
   },
-  "99.0.1": {
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/99.0.1/win64/en-US/Firefox%20Setup%2099.0.1.msi",
-    "size": 55927808,
-    "checksum": "CA114A458E9547A6BA560FD658714D6B92E47631C3634264A60802FA167E43F3",
-    "file_type": ".msi"
-  },
-  "105.0.3": {
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/105.0.3/win64/en-US/Firefox%20Setup%20105.0.3.msi",
-    "size": 57007616,
-    "checksum": "B7D254CF9496F0D7E49CB4FF5C49A1380ED8A7E2C74AF976169DB7EDD56F5D12",
+  "107.0.1": {
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/107.0.1/win64/en-US/Firefox%20Setup%20107.0.1.msi",
+    "size": 57912832,
+    "checksum": "93053DBD7E34BAB6D3B6409002E5587DE9846FC7BD8F3F3DF5C781663EF1946B",
     "file_type": ".msi"
   },
   "102.0.1": {
@@ -178,22 +148,16 @@
     "checksum": "C57DE3C4473CE771CE3CAF09AD5D30C33D3D094D261D7E73AC69CCDFD0D78306",
     "file_type": ".msi"
   },
-  "100.0.1": {
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/100.0.1/win64/en-US/Firefox%20Setup%20100.0.1.msi",
-    "size": 56240640,
-    "checksum": "300C453D00867E5D3D8F18F06EB2A6E965CF9F235C0E649C2BF86D534D9A14A3",
+  "99.0.1": {
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/99.0.1/win64/en-US/Firefox%20Setup%2099.0.1.msi",
+    "size": 55927808,
+    "checksum": "CA114A458E9547A6BA560FD658714D6B92E47631C3634264A60802FA167E43F3",
     "file_type": ".msi"
   },
-  "89.0.1": {
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/89.0.1/win64/en-US/Firefox%20Setup%2089.0.1.msi",
-    "size": 55982080,
-    "checksum": "D7DA7C71A38B4827DB0F3F595F9505C4E1343B9603F9FD4E5A1B216B24FF661A",
-    "file_type": ".msi"
-  },
-  "96.0.3": {
-    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/96.0.3/win64/en-US/Firefox%20Setup%2096.0.3.msi",
-    "size": 55905280,
-    "checksum": "8F30E943D6282341A416C522886B43AE509B3C35220E45F1562B87780F370ED8",
+  "95.0.2": {
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/95.0.2/win64/en-US/Firefox%20Setup%2095.0.2.msi",
+    "size": 55270912,
+    "checksum": "561FCC8EBED5D571DD5760233BB0125CC4E4E747A76A37EDB7C9F3F4BFDB93D1",
     "file_type": ".msi"
   },
   "90.0.2": {
@@ -202,10 +166,52 @@
     "checksum": "6EE9C6803DC8E07B01810E237AA79C09E91E0B2F445022BE8111E5DB2298E124",
     "file_type": ".msi"
   },
+  "97.0.1": {
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/97.0.1/win64/en-US/Firefox%20Setup%2097.0.1.msi",
+    "size": 55998976,
+    "checksum": "A75C7F841CA1D1D3662E9FB8F5781447CEF5418B4BE31F0B51A6BFBB165B41B1",
+    "file_type": ".msi"
+  },
+  "98.0.1": {
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/98.0.1/win64/en-US/Firefox%20Setup%2098.0.1.msi",
+    "size": 55994880,
+    "checksum": "C5EDB753C8D5F58A9FE31FE00DA42B7BB36330395D9B8C415FCA526100261997",
+    "file_type": ".msi"
+  },
   "91.0.2": {
     "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/91.0.2/win64/en-US/Firefox%20Setup%2091.0.2.msi",
     "size": 56612352,
     "checksum": "5F19550D0EF9370FAE90582E554CE9787181677B7921A3FC171DA9368349040D",
+    "file_type": ".msi"
+  },
+  "88.0.1": {
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/88.0.1/win64/en-US/Firefox%20Setup%2088.0.1.msi",
+    "size": 56597504,
+    "checksum": "EFF1BAFCF80A3D8CC964624EC82690D0B3AEB485B90AA88AB2ED7972C823F3E9",
+    "file_type": ".msi"
+  },
+  "94.0.2": {
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/94.0.2/win64/en-US/Firefox%20Setup%2094.0.2.msi",
+    "size": 54794752,
+    "checksum": "2563ADA18CE679F6BA76904543B28042B6D849EDD7977DC797F2CE5EE8C6D8FC",
+    "file_type": ".msi"
+  },
+  "97.0.2": {
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/97.0.2/win64/en-US/Firefox%20Setup%2097.0.2.msi",
+    "size": 55720448,
+    "checksum": "2679942025DB23359184387C7805704B9895A1EA971B4B5D6D332D7F53863CC7",
+    "file_type": ".msi"
+  },
+  "105.0.3": {
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/105.0.3/win64/en-US/Firefox%20Setup%20105.0.3.msi",
+    "size": 57007616,
+    "checksum": "B7D254CF9496F0D7E49CB4FF5C49A1380ED8A7E2C74AF976169DB7EDD56F5D12",
+    "file_type": ".msi"
+  },
+  "89.0.2": {
+    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/89.0.2/win64/en-US/Firefox%20Setup%2089.0.2.msi",
+    "size": 55993344,
+    "checksum": "D7C5E9FEE67C411FB41725721B7633EB5A521BB036B113589980364FD892D3CA",
     "file_type": ".msi"
   }
 }
