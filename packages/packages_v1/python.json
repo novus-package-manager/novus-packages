@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "Python Software Foundation",
   "description": "Python is an interpreted high-level general-purpose programming language.",
-  "latest_version": "3.11.0",
+  "latest_version": "3.11.1",
   "threads": 8,
   "iswitches": [
     "/silent"
@@ -16,34 +16,10 @@
     "download_url": "https://www.python.org/ftp/python/<version>/python-<version>-amd64.exe",
     "regex": "Download Python (\\d+\\.\\d+\\.\\d+)"
   },
-  "3.10.6": {
-    "url": "https://www.python.org/ftp/python/3.10.6/python-3.10.6-amd64.exe",
-    "size": 28916488,
-    "checksum": "678C4D8FB90771BAAA5C710B0E9608BC13423E66BD618A8521F8F431DABDF4D7",
-    "file_type": ".exe"
-  },
-  "3.10.7": {
-    "url": "https://www.python.org/ftp/python/3.10.7/python-3.10.7-amd64.exe",
-    "size": 28953568,
-    "checksum": "F9093D80691097EB7A23DA09045FCB12D1543A22A5B84E1EB29B1730FB76040C",
-    "file_type": ".exe"
-  },
-  "3.10.8": {
-    "url": "https://www.python.org/ftp/python/3.10.8/python-3.10.8-amd64.exe",
-    "size": 28978512,
-    "checksum": "725F50F912D297812D98F251AA87DCF1035745E0C5C267D97736A1AF41D7C782",
-    "file_type": ".exe"
-  },
-  "3.10.2": {
-    "url": "https://www.python.org/ftp/python/3.10.2/python-3.10.2-amd64.exe",
-    "size": 28239176,
-    "checksum": "42B181E9B5F424472212742A187260D4EDC73B7683AE83460C974508130E08AD",
-    "file_type": ".exe"
-  },
-  "3.9.6": {
-    "url": "https://www.python.org/ftp/python/3.9.6/python-3.9.6-amd64.exe",
-    "size": 26037888,
-    "checksum": "3924CAA094F70FD3EA667A27AD494D57941A487AA72D8B6B79CE60E81F1E497C",
+  "3.10.3": {
+    "url": "https://www.python.org/ftp/python/3.10.3/python-3.10.3-amd64.exe",
+    "size": 28467368,
+    "checksum": "48AEA4B9F6315A6544F82480B2CAF1E29FD6687ABB5B756930AD98A1E9B9A847",
     "file_type": ".exe"
   },
   "3.10.5": {
@@ -52,16 +28,52 @@
     "checksum": "69165821DAD57C6D8D29EC8598933DB7C4498F8EF9D477FA13C677FD82567B58",
     "file_type": ".exe"
   },
+  "3.10.7": {
+    "url": "https://www.python.org/ftp/python/3.10.7/python-3.10.7-amd64.exe",
+    "size": 28953568,
+    "checksum": "F9093D80691097EB7A23DA09045FCB12D1543A22A5B84E1EB29B1730FB76040C",
+    "file_type": ".exe"
+  },
+  "3.10.4": {
+    "url": "https://www.python.org/ftp/python/3.10.4/python-3.10.4-amd64.exe",
+    "size": 28488112,
+    "checksum": "A81FC4180F34E5733C3F15526C668FF55DE096366F9006D8A44C0336704E50F1",
+    "file_type": ".exe"
+  },
+  "3.10.6": {
+    "url": "https://www.python.org/ftp/python/3.10.6/python-3.10.6-amd64.exe",
+    "size": 28916488,
+    "checksum": "678C4D8FB90771BAAA5C710B0E9608BC13423E66BD618A8521F8F431DABDF4D7",
+    "file_type": ".exe"
+  },
   "3.9.7": {
     "url": "https://www.python.org/ftp/python/3.9.7/python-3.9.7-amd64.exe",
     "size": 28895456,
     "checksum": "3F63F4C77A6DA13F9BAE715EB6644A48BD5F900601E0F1F233862E8CA1A96DD8",
     "file_type": ".exe"
   },
-  "3.10.0": {
-    "url": "https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe",
-    "size": 28315928,
-    "checksum": "CB580EB7DC55F9198E650F016645023E8B2224CF7D033857D12880B46C5C94EF",
+  "3.11.1": {
+    "url": "https://www.python.org/ftp/python/3.11.1/python-3.11.1-amd64.exe",
+    "size": 25218984,
+    "checksum": "5BCF0CE02D6DE9EDEE44CC30287B59BBA3625089AC85F7486538BCD5D3766B37",
+    "file_type": ".exe"
+  },
+  "3.9.6": {
+    "url": "https://www.python.org/ftp/python/3.9.6/python-3.9.6-amd64.exe",
+    "size": 26037888,
+    "checksum": "3924CAA094F70FD3EA667A27AD494D57941A487AA72D8B6B79CE60E81F1E497C",
+    "file_type": ".exe"
+  },
+  "3.9.5": {
+    "url": "https://www.python.org/ftp/python/3.9.5/python-3.9.5-amd64.exe",
+    "size": 28377264,
+    "checksum": "84D5243088BA00C11E51905C704DBE041040DFFF044F4E1CE5476844EE2E6EAC",
+    "file_type": ".exe"
+  },
+  "3.10.2": {
+    "url": "https://www.python.org/ftp/python/3.10.2/python-3.10.2-amd64.exe",
+    "size": 28239176,
+    "checksum": "42B181E9B5F424472212742A187260D4EDC73B7683AE83460C974508130E08AD",
     "file_type": ".exe"
   },
   "3.11.0": {
@@ -76,22 +88,16 @@
     "checksum": "8B89B75032DDFBDAC80225DC288F5EC276F5CDA00D4000226ABDA1158F90F7A4",
     "file_type": ".exe"
   },
-  "3.9.5": {
-    "url": "https://www.python.org/ftp/python/3.9.5/python-3.9.5-amd64.exe",
-    "size": 28377264,
-    "checksum": "84D5243088BA00C11E51905C704DBE041040DFFF044F4E1CE5476844EE2E6EAC",
+  "3.10.0": {
+    "url": "https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe",
+    "size": 28315928,
+    "checksum": "CB580EB7DC55F9198E650F016645023E8B2224CF7D033857D12880B46C5C94EF",
     "file_type": ".exe"
   },
-  "3.10.3": {
-    "url": "https://www.python.org/ftp/python/3.10.3/python-3.10.3-amd64.exe",
-    "size": 28467368,
-    "checksum": "48AEA4B9F6315A6544F82480B2CAF1E29FD6687ABB5B756930AD98A1E9B9A847",
-    "file_type": ".exe"
-  },
-  "3.10.4": {
-    "url": "https://www.python.org/ftp/python/3.10.4/python-3.10.4-amd64.exe",
-    "size": 28488112,
-    "checksum": "A81FC4180F34E5733C3F15526C668FF55DE096366F9006D8A44C0336704E50F1",
+  "3.10.8": {
+    "url": "https://www.python.org/ftp/python/3.10.8/python-3.10.8-amd64.exe",
+    "size": 28978512,
+    "checksum": "725F50F912D297812D98F251AA87DCF1035745E0C5C267D97736A1AF41D7C782",
     "file_type": ".exe"
   }
 }
