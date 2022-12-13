@@ -8,7 +8,7 @@
   "portable": true,
   "creator": "Tracker Software",
   "description": "PDF-XChange Editor can be used to create PDF files from scanned documents, images, text files, Markdown files and much more.",
-  "latest_version": "9.5.365.0",
+  "latest_version": "9.5.366.0",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -17,40 +17,16 @@
     "download_url": "https://downloads.pdf-xchange.com/PDFXEdit9_Portable.zip",
     "regex": "<strong>Current version:</strong>\n.+(\\d+\\.\\d+\\.\\d+\\.\\d+)"
   },
-  "9.4.364.0": {
-    "url": "https://downloads.pdf-xchange.com/PDFXEdit9_Portable.zip",
-    "size": 93222091,
-    "checksum": "E44B5DCD3961D3DD156ACA8A151D17E5EE10D0C917A770F923BAEF783FDB7A51",
-    "file_type": ".zip"
-  },
-  "9.1.356.0": {
-    "url": "https://downloads.pdf-xchange.com/PDFXEdit9_Portable.zip",
-    "size": 91621520,
-    "checksum": "35F8E4657D34CDD120A1F44012CEE04E9D77F3355E0EC93A9B309FE380510B8B",
-    "file_type": ".zip"
-  },
-  "9.4.362.0": {
-    "url": "https://downloads.pdf-xchange.com/PDFXEdit9_Portable.zip",
-    "size": 93120965,
-    "checksum": "693EEA7C6BBE7FCC48A7E907BC80E2CF68ECC2A7EBFEC76C4DEFC70189C969E2",
-    "file_type": ".zip"
-  },
-  "9.4.363.0": {
-    "url": "https://downloads.pdf-xchange.com/PDFXEdit9_Portable.zip",
-    "size": 93145461,
-    "checksum": "0B7F84B6B7C7F44D66B23E29881069ECA61D3F813100B44E330C3ECE505C9D39",
-    "file_type": ".zip"
-  },
-  "9.3.360.0": {
-    "url": "https://downloads.pdf-xchange.com/PDFXEdit9_Portable.zip",
-    "size": 93168299,
-    "checksum": "8B2439EDFA229C06BC43C52BC5C8F6AFD758DAAE0E1C4EF05F5311E83CEEFAD6",
-    "file_type": ".zip"
-  },
   "9.2.359.0": {
     "url": "https://downloads.pdf-xchange.com/PDFXEdit9_Portable.zip",
     "size": 92432371,
     "checksum": "F8B031AB2C02E13DFF58AAA1DDC741933316000E580AFD4C1C9311CDD4C323B5",
+    "file_type": ".zip"
+  },
+  "9.4.364.0": {
+    "url": "https://downloads.pdf-xchange.com/PDFXEdit9_Portable.zip",
+    "size": 93222091,
+    "checksum": "E44B5DCD3961D3DD156ACA8A151D17E5EE10D0C917A770F923BAEF783FDB7A51",
     "file_type": ".zip"
   },
   "9.2.358.0": {
@@ -59,10 +35,34 @@
     "checksum": "8C39E5EAA133C585AF9232340F736AA7E2C95609F19F377187DB78C95986ADE8",
     "file_type": ".zip"
   },
-  "9.5.365.0": {
+  "9.4.363.0": {
     "url": "https://downloads.pdf-xchange.com/PDFXEdit9_Portable.zip",
-    "size": 93961585,
-    "checksum": "A83DC03BBA621BF5EAA1027CF84EEFD7F8C4149DDDDEC4AF8F099830BCB1BBF3",
+    "size": 93145461,
+    "checksum": "0B7F84B6B7C7F44D66B23E29881069ECA61D3F813100B44E330C3ECE505C9D39",
+    "file_type": ".zip"
+  },
+  "9.4.362.0": {
+    "url": "https://downloads.pdf-xchange.com/PDFXEdit9_Portable.zip",
+    "size": 93120965,
+    "checksum": "693EEA7C6BBE7FCC48A7E907BC80E2CF68ECC2A7EBFEC76C4DEFC70189C969E2",
+    "file_type": ".zip"
+  },
+  "9.3.361.0": {
+    "url": "https://downloads.pdf-xchange.com/PDFXEdit9_Portable.zip",
+    "size": 92779998,
+    "checksum": "6D9D54674FD40C6260631DCA781722818A970885903FE8BE6BB9DFA980B60026",
+    "file_type": ".zip"
+  },
+  "9.1.356.0": {
+    "url": "https://downloads.pdf-xchange.com/PDFXEdit9_Portable.zip",
+    "size": 91621520,
+    "checksum": "35F8E4657D34CDD120A1F44012CEE04E9D77F3355E0EC93A9B309FE380510B8B",
+    "file_type": ".zip"
+  },
+  "9.3.360.0": {
+    "url": "https://downloads.pdf-xchange.com/PDFXEdit9_Portable.zip",
+    "size": 93168299,
+    "checksum": "8B2439EDFA229C06BC43C52BC5C8F6AFD758DAAE0E1C4EF05F5311E83CEEFAD6",
     "file_type": ".zip"
   },
   "9.2.357.0": {
@@ -71,10 +71,16 @@
     "checksum": "65705D1DF36B1634E5A13B3CD54CD32DFFD9CA67EA5FA6DAD5C60E6D007077AA",
     "file_type": ".zip"
   },
-  "9.3.361.0": {
+  "9.5.366.0": {
     "url": "https://downloads.pdf-xchange.com/PDFXEdit9_Portable.zip",
-    "size": 92779998,
-    "checksum": "6D9D54674FD40C6260631DCA781722818A970885903FE8BE6BB9DFA980B60026",
+    "size": 94045723,
+    "checksum": "68AFDA75C35360B44AD80771BC80B815AF83466546ACAD02AB7806E7039D11C3",
+    "file_type": ".zip"
+  },
+  "9.5.365.0": {
+    "url": "https://downloads.pdf-xchange.com/PDFXEdit9_Portable.zip",
+    "size": 93961585,
+    "checksum": "A83DC03BBA621BF5EAA1027CF84EEFD7F8C4149DDDDEC4AF8F099830BCB1BBF3",
     "file_type": ".zip"
   }
 }
