@@ -8,7 +8,7 @@
   "portable": true,
   "creator": "Pavel Durov, Nikolai Durov",
   "description": "Telegram is a free and open source, cross-platform, cloud-based instant messaging software.",
-  "latest_version": "4.5.0",
+  "latest_version": "4.5.3",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -17,118 +17,10 @@
     "download_url": "https://github.com/telegramdesktop/tdesktop/releases/download/v<version>/tportable-x64.<version>.zip",
     "regex": "<title>Release v (\\d+\\.\\d+\\.\\d+)"
   },
-  "3.5.0": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.5.0/tportable-x64.3.5.0.zip",
-    "size": 43390514,
-    "checksum": "786D145443548805631C338B8BA40BD86176EDC06E6C8F989356E89E407770F6",
-    "file_type": ".zip"
-  },
-  "3.2.5": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.2.5/tportable-x64.3.2.5.zip",
-    "size": 42408804,
-    "checksum": "E4B7CCC7276AE14F3292F7C825B891FF786F62983488408450104A321A409817",
-    "file_type": ".zip"
-  },
-  "4.1.0": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v4.1.0/tportable-x64.4.1.0.zip",
-    "size": 46163077,
-    "checksum": "31CB6FF79AA74EE16559E70ACD63E38CAB0BE1518AF6A6EB352B6F4DF3456DA8",
-    "file_type": ".zip"
-  },
-  "4.5.0": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v4.5.0/tportable-x64.4.5.0.zip",
-    "size": 50109223,
-    "checksum": "8E709EC5B57990309A02F8314234583519C7C47F8955D741A3FB2424A1DE9749",
-    "file_type": ".zip"
-  },
-  "3.7.0": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.7.0/tportable-x64.3.7.0.zip",
-    "size": 44390525,
-    "checksum": "33450FFBE5E81E5749FCB9AF3147D2D15D99FD7E2FA454B62E050E0C9E1E350D",
-    "file_type": ".zip"
-  },
-  "3.4.3": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.4.3/tportable-x64.3.4.3.zip",
-    "size": 43265355,
-    "checksum": "1E78C9765003BD966EC1923DB35FE1F29BF6018380A8DE5B3E9F54A04628692A",
-    "file_type": ".zip"
-  },
-  "3.5.1": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.5.1/tportable-x64.3.5.1.zip",
-    "size": 43422046,
-    "checksum": "53F897124CC42E3A445C65E3784726948ECA7158C4DD2B3E16D25348D367846A",
-    "file_type": ".zip"
-  },
-  "3.3.0": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.3.0/tportable-x64.3.3.0.zip",
-    "size": 43174370,
-    "checksum": "0DDF1B9EF1848C47F73685F6E6F7F5D87D5F12D4733544600360B62B3C2C80B7",
-    "file_type": ".zip"
-  },
-  "4.1.1": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v4.1.1/tportable-x64.4.1.1.zip",
-    "size": 46163095,
-    "checksum": "3F1897A8C742E9DA468A83A87DE83A6183A4C3485D2987F6A788E84D55288930",
-    "file_type": ".zip"
-  },
   "3.4.2": {
     "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.4.2/tportable-x64.3.4.2.zip",
     "size": 43268155,
     "checksum": "B9BC84E0B341403493E2685F2D124FA594FD0DDA5232004084EA3F21F4C289E1",
-    "file_type": ".zip"
-  },
-  "4.2.3": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v4.2.3/tportable-x64.4.2.3.zip",
-    "size": 46515373,
-    "checksum": "AEA752EA97690DE24D66A80B4F567F9D6C28581B2B17683AD5A36D4C5078CA69",
-    "file_type": ".zip"
-  },
-  "3.4.8": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.4.8/tportable-x64.3.4.8.zip",
-    "size": 43365671,
-    "checksum": "C7AAA365159CA389F7B571EE21471EA2CE5703AA554BC8AE3D94B73878E1A3C1",
-    "file_type": ".zip"
-  },
-  "4.2.4": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v4.2.4/tportable-x64.4.2.4.zip",
-    "size": 46514002,
-    "checksum": "6DCFB4BD264044C498F713E5E9EDD5301B2E5B0760C0834A22F6627F078C7DB7",
-    "file_type": ".zip"
-  },
-  "3.6.0": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.6.0/tportable-x64.3.6.0.zip",
-    "size": 43768247,
-    "checksum": "F28D09912134C029D3852C631A08503857EF5EEA859E250638A67F746ABABCD3",
-    "file_type": ".zip"
-  },
-  "3.1.11": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.1.11/tportable-x64.3.1.11.zip",
-    "size": 42403791,
-    "checksum": "2D14CAD46913A82C580C285FDC8687883B3297F7975C0E26AC6F78B92CF5A91D",
-    "file_type": ".zip"
-  },
-  "3.7.2": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.7.2/tportable-x64.3.7.2.zip",
-    "size": 44412571,
-    "checksum": "73A7797B9BABF163F028C2E689C6823EEA7EC267E4E3FA94AC161F056F5AB00A",
-    "file_type": ".zip"
-  },
-  "4.2.0": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v4.2.0/tportable-x64.4.2.0.zip",
-    "size": 46490900,
-    "checksum": "D5A48FD52A6219BD3674E1D825262B4545C8AB3DAE02D89D3A423569C26123D7",
-    "file_type": ".zip"
-  },
-  "4.4.1": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v4.4.1/tportable-x64.4.4.1.zip",
-    "size": 47671665,
-    "checksum": "46278E9985B21E0DBB2A88AE0C6E702698C78C21CBDF35FBA2C8182CCC98782D",
-    "file_type": ".zip"
-  },
-  "4.0.2": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v4.0.2/tportable-x64.4.0.2.zip",
-    "size": 45615534,
-    "checksum": "2A688F5A3DF12707D17239C0218792242A57C5B6E7339C6CFB0FAFC775A2D4AA",
     "file_type": ".zip"
   },
   "3.2.2": {
@@ -137,22 +29,28 @@
     "checksum": "111BD8C98269F81AEAB4C877738C431F6B8F4C90AA3535975DE2F9F8156655AD",
     "file_type": ".zip"
   },
-  "4.3.0": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v4.3.0/tportable-x64.4.3.0.zip",
-    "size": 47005230,
-    "checksum": "B033C95925F726F281BEC8CA0A17B01A78A7668AB6237E53D7D4FD28205D9666",
-    "file_type": ".zip"
-  },
-  "3.1.1": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.1.1/tportable-x64.3.1.1.zip",
-    "size": 41921266,
-    "checksum": "3C0B34AB0757C19D0B5E1D5DE8A34FBFB864D9FFC4C2836B8C61B9481489B1EC",
+  "4.1.1": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v4.1.1/tportable-x64.4.1.1.zip",
+    "size": 46163095,
+    "checksum": "3F1897A8C742E9DA468A83A87DE83A6183A4C3485D2987F6A788E84D55288930",
     "file_type": ".zip"
   },
   "3.6.1": {
     "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.6.1/tportable-x64.3.6.1.zip",
     "size": 43775566,
     "checksum": "BD924F6A83990BD2FC4FBAA141F6F9CB246ADA721D9088267AF09A0A78AC7A26",
+    "file_type": ".zip"
+  },
+  "4.1.0": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v4.1.0/tportable-x64.4.1.0.zip",
+    "size": 46163077,
+    "checksum": "31CB6FF79AA74EE16559E70ACD63E38CAB0BE1518AF6A6EB352B6F4DF3456DA8",
+    "file_type": ".zip"
+  },
+  "4.2.3": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v4.2.3/tportable-x64.4.2.3.zip",
+    "size": 46515373,
+    "checksum": "AEA752EA97690DE24D66A80B4F567F9D6C28581B2B17683AD5A36D4C5078CA69",
     "file_type": ".zip"
   },
   "3.7.1": {
@@ -173,10 +71,118 @@
     "checksum": "F09F36AB14A9BED46DB5D362642D9C5ECA56BD8C826683904399C681C26B34B8",
     "file_type": ".zip"
   },
+  "3.6.0": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.6.0/tportable-x64.3.6.0.zip",
+    "size": 43768247,
+    "checksum": "F28D09912134C029D3852C631A08503857EF5EEA859E250638A67F746ABABCD3",
+    "file_type": ".zip"
+  },
   "3.1.0": {
     "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.1.0/tportable-x64.3.1.0.zip",
     "size": 41925163,
     "checksum": "6D5222B1341578639769731B5F2393222A838F52F78344CB6B0F579DBF0AE3EA",
+    "file_type": ".zip"
+  },
+  "4.5.0": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v4.5.0/tportable-x64.4.5.0.zip",
+    "size": 50109223,
+    "checksum": "8E709EC5B57990309A02F8314234583519C7C47F8955D741A3FB2424A1DE9749",
+    "file_type": ".zip"
+  },
+  "4.3.0": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v4.3.0/tportable-x64.4.3.0.zip",
+    "size": 47005230,
+    "checksum": "B033C95925F726F281BEC8CA0A17B01A78A7668AB6237E53D7D4FD28205D9666",
+    "file_type": ".zip"
+  },
+  "3.4.3": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.4.3/tportable-x64.3.4.3.zip",
+    "size": 43265355,
+    "checksum": "1E78C9765003BD966EC1923DB35FE1F29BF6018380A8DE5B3E9F54A04628692A",
+    "file_type": ".zip"
+  },
+  "3.5.0": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.5.0/tportable-x64.3.5.0.zip",
+    "size": 43390514,
+    "checksum": "786D145443548805631C338B8BA40BD86176EDC06E6C8F989356E89E407770F6",
+    "file_type": ".zip"
+  },
+  "3.7.0": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.7.0/tportable-x64.3.7.0.zip",
+    "size": 44390525,
+    "checksum": "33450FFBE5E81E5749FCB9AF3147D2D15D99FD7E2FA454B62E050E0C9E1E350D",
+    "file_type": ".zip"
+  },
+  "3.2.5": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.2.5/tportable-x64.3.2.5.zip",
+    "size": 42408804,
+    "checksum": "E4B7CCC7276AE14F3292F7C825B891FF786F62983488408450104A321A409817",
+    "file_type": ".zip"
+  },
+  "3.3.0": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.3.0/tportable-x64.3.3.0.zip",
+    "size": 43174370,
+    "checksum": "0DDF1B9EF1848C47F73685F6E6F7F5D87D5F12D4733544600360B62B3C2C80B7",
+    "file_type": ".zip"
+  },
+  "4.2.4": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v4.2.4/tportable-x64.4.2.4.zip",
+    "size": 46514002,
+    "checksum": "6DCFB4BD264044C498F713E5E9EDD5301B2E5B0760C0834A22F6627F078C7DB7",
+    "file_type": ".zip"
+  },
+  "3.1.11": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.1.11/tportable-x64.3.1.11.zip",
+    "size": 42403791,
+    "checksum": "2D14CAD46913A82C580C285FDC8687883B3297F7975C0E26AC6F78B92CF5A91D",
+    "file_type": ".zip"
+  },
+  "4.2.0": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v4.2.0/tportable-x64.4.2.0.zip",
+    "size": 46490900,
+    "checksum": "D5A48FD52A6219BD3674E1D825262B4545C8AB3DAE02D89D3A423569C26123D7",
+    "file_type": ".zip"
+  },
+  "3.4.8": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.4.8/tportable-x64.3.4.8.zip",
+    "size": 43365671,
+    "checksum": "C7AAA365159CA389F7B571EE21471EA2CE5703AA554BC8AE3D94B73878E1A3C1",
+    "file_type": ".zip"
+  },
+  "4.0.2": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v4.0.2/tportable-x64.4.0.2.zip",
+    "size": 45615534,
+    "checksum": "2A688F5A3DF12707D17239C0218792242A57C5B6E7339C6CFB0FAFC775A2D4AA",
+    "file_type": ".zip"
+  },
+  "3.7.2": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.7.2/tportable-x64.3.7.2.zip",
+    "size": 44412571,
+    "checksum": "73A7797B9BABF163F028C2E689C6823EEA7EC267E4E3FA94AC161F056F5AB00A",
+    "file_type": ".zip"
+  },
+  "4.4.1": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v4.4.1/tportable-x64.4.4.1.zip",
+    "size": 47671665,
+    "checksum": "46278E9985B21E0DBB2A88AE0C6E702698C78C21CBDF35FBA2C8182CCC98782D",
+    "file_type": ".zip"
+  },
+  "3.1.1": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.1.1/tportable-x64.3.1.1.zip",
+    "size": 41921266,
+    "checksum": "3C0B34AB0757C19D0B5E1D5DE8A34FBFB864D9FFC4C2836B8C61B9481489B1EC",
+    "file_type": ".zip"
+  },
+  "4.5.3": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v4.5.3/tportable-x64.4.5.3.zip",
+    "size": 50108872,
+    "checksum": "5786BC5B2F16A585FAABBA54BE52268F329E25685601D4E9AFE5343CD962F99A",
+    "file_type": ".zip"
+  },
+  "3.5.1": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.5.1/tportable-x64.3.5.1.zip",
+    "size": 43422046,
+    "checksum": "53F897124CC42E3A445C65E3784726948ECA7158C4DD2B3E16D25348D367846A",
     "file_type": ".zip"
   }
 }
