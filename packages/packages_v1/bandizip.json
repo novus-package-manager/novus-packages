@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "Bandisoft",
   "description": "Bandizip is a powerful archiver which provides an ultrafast processing speed and convenient features.",
-  "latest_version": "7.29",
+  "latest_version": "7.30",
   "threads": 8,
   "iswitches": [
     "/S"
@@ -18,10 +18,16 @@
     "download_url": "https://dl.bandisoft.com/bandizip.std/BANDIZIP-SETUP-STD-X64.EXE?1",
     "regex": "Free Download - Bandizip \\(v(\\d+\\.\\d+)\\)"
   },
-  "7.19": {
+  "7.24": {
     "url": "https://dl.bandisoft.com/bandizip.std/BANDIZIP-SETUP-STD-X64.EXE?1",
-    "size": 6363272,
-    "checksum": "138CAC7151546306B95718EA183299C07B891D53B0CB4F52A1093C4F1F0999C0",
+    "size": 6756008,
+    "checksum": "FE6BEB09A2C8AD0CCDF809869C81582B886B2D08D060183EBD78764897CDFF70",
+    "file_type": ".exe"
+  },
+  "7.23": {
+    "url": "https://dl.bandisoft.com/bandizip.std/BANDIZIP-SETUP-STD-X64.EXE?1",
+    "size": 6637864,
+    "checksum": "5E090CC04EFD0A5011E9825B49C29727330688001BD7A3DB39C640F1CCBA384A",
     "file_type": ".exe"
   },
   "7.26": {
@@ -36,28 +42,22 @@
     "checksum": "58AC6C40593F0E7104CE838EF9163D743A5339166986EE4C3839224B25BDDD26",
     "file_type": ".exe"
   },
-  "7.24": {
-    "url": "https://dl.bandisoft.com/bandizip.std/BANDIZIP-SETUP-STD-X64.EXE?1",
-    "size": 6756008,
-    "checksum": "FE6BEB09A2C8AD0CCDF809869C81582B886B2D08D060183EBD78764897CDFF70",
-    "file_type": ".exe"
-  },
   "7.27": {
     "url": "https://dl.bandisoft.com/bandizip.std/BANDIZIP-SETUP-STD-X64.EXE?1",
     "size": 6862920,
     "checksum": "D4C577C98B0A97B11AC24DD16096213123902F70982CF53C2C22EACF319805A8",
     "file_type": ".exe"
   },
-  "7.23": {
+  "7.19": {
     "url": "https://dl.bandisoft.com/bandizip.std/BANDIZIP-SETUP-STD-X64.EXE?1",
-    "size": 6637864,
-    "checksum": "5E090CC04EFD0A5011E9825B49C29727330688001BD7A3DB39C640F1CCBA384A",
+    "size": 6363272,
+    "checksum": "138CAC7151546306B95718EA183299C07B891D53B0CB4F52A1093C4F1F0999C0",
     "file_type": ".exe"
   },
-  "7.22": {
+  "7.30": {
     "url": "https://dl.bandisoft.com/bandizip.std/BANDIZIP-SETUP-STD-X64.EXE?1",
-    "size": 6524904,
-    "checksum": "647051600C12877AF5D2957782C5679277508F4FC80E3D1C6AD1107A57D446F5",
+    "size": 7222640,
+    "checksum": "D997CA4A82C877C52CBD361A8A6CF233D5F5DD9BDB39F151DA34A32373D92D46",
     "file_type": ".exe"
   },
   "7.25": {
@@ -72,16 +72,22 @@
     "checksum": "818A37D8263998A54F6FC186E70CE4054B1F8218801CFA659BF2713AEC8610E2",
     "file_type": ".exe"
   },
-  "7.17": {
-    "url": "https://dl.bandisoft.com/bandizip.std/BANDIZIP-SETUP-STD-X64.EXE?1",
-    "size": 6327848,
-    "checksum": "73D3CDFFE90925AA1D4CAE4AC10B8DB9100BB61FAB82DA68CFC3993DA2C8B9A3",
-    "file_type": ".exe"
-  },
   "7.21": {
     "url": "https://dl.bandisoft.com/bandizip.std/BANDIZIP-SETUP-STD-X64.EXE?1",
     "size": 6386680,
     "checksum": "31CC63CF0178F9D19E6A9E8744BB53FEE83D44F8A42D930B6CE1A031204F248C",
+    "file_type": ".exe"
+  },
+  "7.22": {
+    "url": "https://dl.bandisoft.com/bandizip.std/BANDIZIP-SETUP-STD-X64.EXE?1",
+    "size": 6524904,
+    "checksum": "647051600C12877AF5D2957782C5679277508F4FC80E3D1C6AD1107A57D446F5",
+    "file_type": ".exe"
+  },
+  "7.17": {
+    "url": "https://dl.bandisoft.com/bandizip.std/BANDIZIP-SETUP-STD-X64.EXE?1",
+    "size": 6327848,
+    "checksum": "73D3CDFFE90925AA1D4CAE4AC10B8DB9100BB61FAB82DA68CFC3993DA2C8B9A3",
     "file_type": ".exe"
   }
 }
