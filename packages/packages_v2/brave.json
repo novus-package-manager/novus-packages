@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "Brave Software Inc.",
   "description": "Brave is a free and open-source web browser",
-  "latest_version": "1.47.181",
+  "latest_version": "1.47.182",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -17,394 +17,10 @@
     "download_url": "https://github.com/brave/brave-browser/releases/download/v<version>/BraveBrowserStandaloneSilentSetup.exe",
     "regex": "Release v(\\d+\\.\\d+\\.\\d+)"
   },
-  "1.39.110": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.39.110/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 99827216,
-    "checksum": "8B93B55BAC13611CF4ECBC8B356F5937B4A6AA1A702ECFE0756BA80D990E735D",
-    "file_type": ".exe"
-  },
-  "1.36.112": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.36.112/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 97461160,
-    "checksum": "17026DF639487394C4E856072C4F705771FA57DBC49A4E19403B9C2A457CEA8C",
-    "file_type": ".exe"
-  },
-  "1.38.109": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.38.109/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 99641872,
-    "checksum": "5A31417BFCD22FE069D0AEA1227B2F191CB34C1666E365A5542A17C926D9DA6B",
-    "file_type": ".exe"
-  },
-  "1.30.81": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.30.81/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 88292776,
-    "checksum": "4084FB4FD1B56EA7A7631229D141AF8A4A915D25F03C024F596D4CC7AD127173",
-    "file_type": ".exe"
-  },
-  "1.34.77": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.34.77/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 90899880,
-    "checksum": "41B4E1520B25355C08AF99A5F416BC92E19D0C09A970236337CE6EE88853676C",
-    "file_type": ".exe"
-  },
-  "1.43.84": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.43.84/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 106726032,
-    "checksum": "2AA84FD75337D5A28E66CC84EB6776E81D93033314FFB24FB92E13339FB14CF7",
-    "file_type": ".exe"
-  },
-  "1.34.80": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.34.80/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 90995624,
-    "checksum": "125BE7E145354AF0DF6377A94479AB1239253DA846040A0CE6A5CCFDBFEDA542",
-    "file_type": ".exe"
-  },
-  "1.25.66": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.25.66/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 82546600,
-    "checksum": "F4D2650BA1DF201A76219BE14C89F3E46BB3E23C6180B2CA02DE95BE6F45E26C",
-    "file_type": ".exe"
-  },
-  "1.37.106": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.37.106/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 98021288,
-    "checksum": "33D49412179C4F068A1C6ACDC01C54F646BF7A3DB359D6A065456BB809422B36",
-    "file_type": ".exe"
-  },
-  "1.29.77": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.29.77/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 86271912,
-    "checksum": "3D261867FA50D35370791B186A0E837DEDD114F8EF23637D4B3D70D54ADE331D",
-    "file_type": ".exe"
-  },
-  "1.31.87": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.31.87/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 89690536,
-    "checksum": "278576146DE4662AE6F6C8D84753C3F6645BAA8A26E14885DEFF551BD7ADA883",
-    "file_type": ".exe"
-  },
-  "1.27.110": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.27.110/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 85295016,
-    "checksum": "5AEA794A325A7817778FB426F9F234E97E35F535245278C4461E17776EBF7B7D",
-    "file_type": ".exe"
-  },
-  "1.40.113": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.40.113/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 100905856,
-    "checksum": "0DEB4887E3502F7D5C1AA0DD30D1C68BC3FE443ECA8FA7A92F1CC774DF1F6DF0",
-    "file_type": ".exe"
-  },
-  "1.38.111": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.38.111/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 99597840,
-    "checksum": "4E145075629FF710BA4B2BD257817F46A263CFE58D759E76545D711C941B329F",
-    "file_type": ".exe"
-  },
-  "1.34.81": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.34.81/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 90889640,
-    "checksum": "43C0A0B91A72CB1BC2AA1E366B5EB9CA97EBC8C09F1D0DA27BA9B5DDC9ABECAB",
-    "file_type": ".exe"
-  },
-  "1.39.117": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.39.117/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 100534800,
-    "checksum": "DC4A4EDA442E5EC2B069E6B1C0CDC80014AFAB7DF0F8E14E8912525F532EEA62",
-    "file_type": ".exe"
-  },
-  "1.32.115": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.32.115/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 91656104,
-    "checksum": "34022A0048DB6F8EC2D33DF4B54F0B5234FD636BE02C62680300CD21846244DD",
-    "file_type": ".exe"
-  },
-  "1.29.76": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.29.76/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 86269352,
-    "checksum": "21BB2BCB331A243EFE831BE2D5BBC3C40953990D6A00F912FAA28CEBC92E280A",
-    "file_type": ".exe"
-  },
-  "1.32.113": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.32.113/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 91014568,
-    "checksum": "EDB9EE58EC070159D825DB6243153999CC5AB9F4DE527AFC4E86BCB2CD6C2BC1",
-    "file_type": ".exe"
-  },
-  "1.42.95": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.42.95/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 105851024,
-    "checksum": "92C330B9497EDEE6C3D421018A4D3A7A4DE9334FF341D04F1A3D15967DDC5867",
-    "file_type": ".exe"
-  },
-  "1.37.116": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.37.116/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 98144784,
-    "checksum": "C5181B9FBBBD77D8EC0AA107E3DAA92929BDFA188530797EF5C6ED7F3E41226C",
-    "file_type": ".exe"
-  },
-  "1.45.116": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.45.116/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 110245512,
-    "checksum": "A91B3F3A2194E80ED13C0888AE5911E79CC09F47FB6D9BF592078DAA3F73DBCA",
-    "file_type": ".exe"
-  },
-  "1.33.104": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.33.104/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 89485736,
-    "checksum": "AB91329F397FFA7247DE7AE8EEB9F01FAC2069D88F3DF855FE63CD836C711876",
-    "file_type": ".exe"
-  },
-  "1.30.89": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.30.89/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 88335784,
-    "checksum": "508ED863929303F9766B0BE1F2C6AE09CED41A087E545CBF7D80132A25B076AA",
-    "file_type": ".exe"
-  },
-  "1.25.68": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.25.68/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 82661288,
-    "checksum": "F2C381DA5CDCFD1A91C4D9B3AE3A046A8F2D826FF6F50F6EC0932CB97A43029B",
-    "file_type": ".exe"
-  },
-  "1.29.79": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.29.79/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 86259112,
-    "checksum": "7ADB1284FC1FA84B85CB1F8F72787A72A101A8AAB79B17EDE9CFCCC71CCB3CA2",
-    "file_type": ".exe"
-  },
-  "1.45.133": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.45.133/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 110402688,
-    "checksum": "EF7F526EE1DAABD31431904B49D7BC1B2199654F78B3730D9960E5AEE07BB942",
-    "file_type": ".exe"
-  },
-  "1.43.85": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.43.85/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 106710672,
-    "checksum": "35628DEE009C5A3364C381CC4F00A143583F0B5C0E60823274978F0FF1066354",
-    "file_type": ".exe"
-  },
-  "1.27.108": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.27.108/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 85348776,
-    "checksum": "8F19F7113055EB8BBBC7A8E904A2E89B96144A7315069FEC8CA6964E184FD505",
-    "file_type": ".exe"
-  },
-  "1.24.82": {
-    "url": "https://brave-browser-downloads.s3.brave.com/latest/brave_installer-x64.exe",
-    "size": 81689968,
-    "checksum": "D6422C140B7DD30AFDDD02A02ED47B12473FF2006CFD3E5107AA66FC57B795B9",
-    "file_type": ".exe"
-  },
-  "1.46.134": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.46.134/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 107131528,
-    "checksum": "988BDAA31FE80B6F84787DF9F90BDC25FAF056B59158F98B9B1A5D975F456358",
-    "file_type": ".exe"
-  },
-  "1.36.115": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.36.115/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 97416104,
-    "checksum": "B326AE535C16061149056A10858D5C79DD59FB5C102B75E1A039693036885E5D",
-    "file_type": ".exe"
-  },
-  "1.43.82": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.43.82/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 106631824,
-    "checksum": "91BF61FB377A18052E82467D070439CC3951062348888BDAA578DEC8FFE4B47F",
-    "file_type": ".exe"
-  },
-  "1.27.106": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.27.106/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 85258664,
-    "checksum": "ACBEA04AFD3B81D5CEE7BC361C4594ED3CB7AA0E14F41E10E907A9D028189F0D",
-    "file_type": ".exe"
-  },
-  "1.44.105": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.44.105/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 109152896,
-    "checksum": "7C45D42B4831DAEDD62BCCD889E8FC954BE5E3076CA124B5DF79B62D8EADF993",
-    "file_type": ".exe"
-  },
-  "1.45.121": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.45.121/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 110293128,
-    "checksum": "AC22E276B1A1731158DBC1F7857716505EAE549CF4D1867A193B3E56D8EFE823",
-    "file_type": ".exe"
-  },
-  "1.38.118": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.38.118/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 99632144,
-    "checksum": "FB21030B3DF350EF5331526A4BC8E46A037E705BB154C392BF448490F85779E4",
-    "file_type": ".exe"
-  },
-  "1.31.85": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.31.85/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 89586088,
-    "checksum": "432ADACD07148A730A5C81C5218949FAD30ABB718AE1AB57EA392B75B33C8CCB",
-    "file_type": ".exe"
-  },
-  "1.42.83": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.42.83/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 105719168,
-    "checksum": "04DDFE5F42698F3C26DD3C723F80F99FCF199DBB7D3A9737EB624909CA571813",
-    "file_type": ".exe"
-  },
-  "1.34.76": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.34.76/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 90886568,
-    "checksum": "8F4A7569AB8C72648399087C53127947C086BDB09B7BB74E44A7BCD723B34223",
-    "file_type": ".exe"
-  },
-  "1.46.129": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.46.129/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 107081344,
-    "checksum": "4EBC1EF144EBE8F7A15210D086435FB740DEDA417DC2E2CD04F709576AE5D10E",
-    "file_type": ".exe"
-  },
-  "1.41.100": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.41.100/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 101307768,
-    "checksum": "393537D223D81C8A28E24583C9884DD6B4B24FFA135F7B963EF927039FD4FDFD",
-    "file_type": ".exe"
-  },
-  "1.30.84": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.30.84/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 88347048,
-    "checksum": "801C26BF55EBE20FEFBD18FE62225C5B58079295FE107A4733A1AEF91C881453",
-    "file_type": ".exe"
-  },
-  "1.24.85": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.24.85/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 81722736,
-    "checksum": "9659B9C2E56C95B67A00E88AC5ADF9969DF27E4724814979A5F3BBAD62ECC2E2",
-    "file_type": ".exe"
-  },
-  "1.36.119": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.36.119/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 97485736,
-    "checksum": "A6342600CCF5E61A8F53F9A8059C2B402759D24ABB3F188C8BDAC7DD6C3A239F",
-    "file_type": ".exe"
-  },
-  "1.44.108": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.44.108/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 109217408,
-    "checksum": "67511A1F4C1CC790C17952C017EAF5451168C16101E6E65000884587F64C986E",
-    "file_type": ".exe"
-  },
-  "1.46.131": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.46.131/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 107208840,
-    "checksum": "F35C41953CCE098F4C81DA7E5D03692D9860E55A681537E080781D38A54EC20E",
-    "file_type": ".exe"
-  },
-  "1.27.111": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.27.111/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 85417384,
-    "checksum": "372F1D5298D04B336C210B2C465EC7A53A09DB532615E21C8827D62F76FB07E6",
-    "file_type": ".exe"
-  },
-  "1.38.115": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.38.115/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 99598352,
-    "checksum": "AC253D1DFB62A3612A66ECA9AB225C71FFCC890A2454CE67D920450FB2EDB61F",
-    "file_type": ".exe"
-  },
-  "1.39.120": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.39.120/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 100620816,
-    "checksum": "CB24A46DBC842289D5EFB01D34FCF5FE40253A6F83811EB4658135151D1D5F41",
-    "file_type": ".exe"
-  },
-  "1.36.106": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.36.106/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 97331624,
-    "checksum": "EC115013F4787CFA2C29D2F3901999D5BBEDD894F63202E5E9F547A437F431A9",
-    "file_type": ".exe"
-  },
-  "1.38.105": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.38.105/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 99386896,
-    "checksum": "71165D647B8341B354C1B6704ED0CE9CE7F3EA536CF6493A4E2B77F25D461C06",
-    "file_type": ".exe"
-  },
-  "1.38.119": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.38.119/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 99668496,
-    "checksum": "4F82BB43CB17ADFC08F41E02469DA51734DD0F9D0BE317A97861217360D19947",
-    "file_type": ".exe"
-  },
-  "1.36.116": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.36.116/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 97431976,
-    "checksum": "94621A5E7C0DDA8DE3A71E8E9ACB2E1E210CE22B7FE79470D8486D57CDD72C76",
-    "file_type": ".exe"
-  },
   "1.32.97": {
     "url": "https://github.com/brave/brave-browser/releases/download/v1.32.97/BraveBrowserStandaloneSilentSetup.exe",
     "size": 90915240,
     "checksum": "AE9355DE7D501B32A68399D57F0629BD641BBF52093B9CF62B15CBE58B244135",
-    "file_type": ".exe"
-  },
-  "1.38.106": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.38.106/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 99596816,
-    "checksum": "4261DB687A46DE198139C565C9ABFC0D9E443E57C23921D7A7B28C286D1C63EF",
-    "file_type": ".exe"
-  },
-  "1.42.97": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.42.97/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 105871504,
-    "checksum": "F77A83586AD9C0DF7452CD3F9B504A72E12747C5CC8B3A64DCD6A30DDBD9F072",
-    "file_type": ".exe"
-  },
-  "1.37.113": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.37.113/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 98146832,
-    "checksum": "B5CF4B02DC94C6A94D4BA5408ABF181906F93251C986A2ACB3048917CF9752E5",
-    "file_type": ".exe"
-  },
-  "1.37.105": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.37.105/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 97976232,
-    "checksum": "600AF436F94C8D7D3370A9BF6AD22E7B19A19B0D5FA2A5931B4DBA520DAA9D7C",
-    "file_type": ".exe"
-  },
-  "1.44.110": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.44.110/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 109185664,
-    "checksum": "0496EFE743CF7A13390249182FE991C5F89140A4CB4C2BC9511D148B729200BF",
-    "file_type": ".exe"
-  },
-  "1.37.114": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.37.114/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 98139152,
-    "checksum": "58A36D189138C6BF71A396A3E3635456270839727292A796801C831094B88452",
-    "file_type": ".exe"
-  },
-  "1.44.101": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.44.101/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 109243528,
-    "checksum": "AFCB6BEDA79689ECDFD1717CC315D4E08C3A886C6C4EF2658C18E4357B35137F",
-    "file_type": ".exe"
-  },
-  "1.41.95": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.41.95/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 101289344,
-    "checksum": "E593BE86F00A6193A67BE919D0AA530F0586B1B3A3AA1A9AA60FC7685D5EE132",
-    "file_type": ".exe"
-  },
-  "1.26.67": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.26.67/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 83806632,
-    "checksum": "60BE8A6211A675180C7A622C786D0D6B0D41FA5ED1CC1B6935E4FC5E2F7E4430",
-    "file_type": ".exe"
-  },
-  "1.35.101": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.35.101/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 92174760,
-    "checksum": "AD733751789CF725A9CF0F7D917C5BDE66619475629256B5119027AAC70D77A2",
     "file_type": ".exe"
   },
   "1.29.81": {
@@ -413,22 +29,52 @@
     "checksum": "B87BBC9AF2E6F79673DA8AAF1E1BF5CDADCCB9676A55AAB7AA1D12D2D07EC3B6",
     "file_type": ".exe"
   },
-  "1.39.122": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.39.122/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 100610064,
-    "checksum": "077999CBBDDCA1D5D006E4FD133C391B55A7E1A5976C126A71883FCCF4A044A9",
+  "1.36.111": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.36.111/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 97492904,
+    "checksum": "1162198667DBA7C318A68EC430D0689CCE0A53BCEB854A7B8CE430371F3980FB",
     "file_type": ".exe"
   },
-  "1.33.99": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.33.99/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 89461672,
-    "checksum": "4CC81B88B0247470D42F2CEB74522A94FE8CF702B323975BE445BFB9A3DFEEAA",
+  "1.30.89": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.30.89/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 88335784,
+    "checksum": "508ED863929303F9766B0BE1F2C6AE09CED41A087E545CBF7D80132A25B076AA",
     "file_type": ".exe"
   },
-  "1.44.109": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.44.109/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 109205120,
-    "checksum": "DBA253E7D26FD63EF73C8AB12FF3C099EFF57C2A8F29AF849556142A8ED4D1A3",
+  "1.38.118": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.38.118/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 99632144,
+    "checksum": "FB21030B3DF350EF5331526A4BC8E46A037E705BB154C392BF448490F85779E4",
+    "file_type": ".exe"
+  },
+  "1.39.111": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.39.111/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 99917328,
+    "checksum": "FFD2E155D283DE0C2B3338F4A3F93F8AC2460EB1999309A1DDFAA60CF695CA35",
+    "file_type": ".exe"
+  },
+  "1.44.101": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.44.101/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 109243528,
+    "checksum": "AFCB6BEDA79689ECDFD1717CC315D4E08C3A886C6C4EF2658C18E4357B35137F",
+    "file_type": ".exe"
+  },
+  "1.43.84": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.43.84/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 106726032,
+    "checksum": "2AA84FD75337D5A28E66CC84EB6776E81D93033314FFB24FB92E13339FB14CF7",
+    "file_type": ".exe"
+  },
+  "1.38.106": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.38.106/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 99596816,
+    "checksum": "4261DB687A46DE198139C565C9ABFC0D9E443E57C23921D7A7B28C286D1C63EF",
+    "file_type": ".exe"
+  },
+  "1.31.87": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.31.87/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 89690536,
+    "checksum": "278576146DE4662AE6F6C8D84753C3F6645BAA8A26E14885DEFF551BD7ADA883",
     "file_type": ".exe"
   },
   "1.42.89": {
@@ -437,82 +83,28 @@
     "checksum": "FA83F9E919E20E0DCC8CBE6821257EBB74F2C6C43A70403B67D096065BCAD569",
     "file_type": ".exe"
   },
+  "1.38.115": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.38.115/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 99598352,
+    "checksum": "AC253D1DFB62A3612A66ECA9AB225C71FFCC890A2454CE67D920450FB2EDB61F",
+    "file_type": ".exe"
+  },
   "1.32.106": {
     "url": "https://github.com/brave/brave-browser/releases/download/v1.32.106/BraveBrowserStandaloneSilentSetup.exe",
     "size": 91030952,
     "checksum": "D480AE7DC313C2E1A4776BB4451AA187CA20C22FBE96646650AEEF40A73AAEFC",
     "file_type": ".exe"
   },
-  "1.26.74": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.26.74/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 83901864,
-    "checksum": "0495D035E0CFD04EFA1E8C98F2F88361407168E116807DCE9F946BF8C4E73DB8",
+  "1.32.111": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.32.111/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 91039656,
+    "checksum": "58E679F54767259553DFFFA227B0835199A4CA5303B5A01917232C9A0EA4E804",
     "file_type": ".exe"
   },
-  "1.43.83": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.43.83/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 106715792,
-    "checksum": "5964004AC689BB1308B65A9246CD8CB88DC414395683F0B37430F8A7C9C44E1F",
-    "file_type": ".exe"
-  },
-  "1.35.98": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.35.98/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 92053928,
-    "checksum": "EA1337B5BB5D182CC5F87EEAE3C66489D4F9788CBDAE9D42101E1EE130CBC8AB",
-    "file_type": ".exe"
-  },
-  "1.39.118": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.39.118/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 100562448,
-    "checksum": "8477BC209A833253E60D4770EE5F02B1024FB919B37473CD9AE31250655CCCDB",
-    "file_type": ".exe"
-  },
-  "1.31.88": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.31.88/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 89693608,
-    "checksum": "5685FDBBF1A0F7A57EF0E0A355A76696E2D673B89A457ED8EE4D7750DC39BEE0",
-    "file_type": ".exe"
-  },
-  "1.33.106": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.33.106/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 89460136,
-    "checksum": "AE1676FAEB96A97476FBD1A053AD03FC5F4E740376C6BA2704D67C7174E41AA0",
-    "file_type": ".exe"
-  },
-  "1.41.96": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.41.96/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 101328256,
-    "checksum": "5D1E38E744553138A1D075704D1F0FBF275F64ADD0C631AB65AED42E5875FF79",
-    "file_type": ".exe"
-  },
-  "1.32.99": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.32.99/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 90909608,
-    "checksum": "72C9B71BFD13E86304EBF1F791E596DB5A6A2D954E296A86448FBBA718DC9193",
-    "file_type": ".exe"
-  },
-  "1.44.103": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.44.103/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 109138568,
-    "checksum": "67B9042298F1F6F03790E3B2C6294718FE1A5004CBD26C05DA322A06ABE13737",
-    "file_type": ".exe"
-  },
-  "1.42.88": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.42.88/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 105813136,
-    "checksum": "4A6510F1983F0577099B860D8B11B46E7C7B49E3ED178F3E29363EF92C2DBC0D",
-    "file_type": ".exe"
-  },
-  "1.38.107": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.38.107/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 99658768,
-    "checksum": "F4C099B69658659A57F62FD6C3DD339C4DED6660E0747EDBBA8F0DA13982B336",
-    "file_type": ".exe"
-  },
-  "1.47.181": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.47.181/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 108866688,
-    "checksum": "4BDA1126D69A97E6AF0AC5411508843040256AAA6584F51A42B64D41803F6101",
+  "1.26.67": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.26.67/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 83806632,
+    "checksum": "60BE8A6211A675180C7A622C786D0D6B0D41FA5ED1CC1B6935E4FC5E2F7E4430",
     "file_type": ".exe"
   },
   "1.43.81": {
@@ -527,10 +119,52 @@
     "checksum": "D6DE0437AB55175F194671D842ABBE5D1DCAE0BBB0124E1C3F291830B29CDC45",
     "file_type": ".exe"
   },
-  "1.41.99": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.41.99/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 101306232,
-    "checksum": "AE69820A80BB44B6F5DBF3A4B390DEFAB731E48A375A228D59417C13ED0437D1",
+  "1.42.80": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.42.80/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 105878912,
+    "checksum": "0E655A9262E15EBFC32DE0007382E84246603C81CFB865D3A47A971039F4500F",
+    "file_type": ".exe"
+  },
+  "1.33.99": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.33.99/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 89461672,
+    "checksum": "4CC81B88B0247470D42F2CEB74522A94FE8CF702B323975BE445BFB9A3DFEEAA",
+    "file_type": ".exe"
+  },
+  "1.29.79": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.29.79/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 86259112,
+    "checksum": "7ADB1284FC1FA84B85CB1F8F72787A72A101A8AAB79B17EDE9CFCCC71CCB3CA2",
+    "file_type": ".exe"
+  },
+  "1.30.81": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.30.81/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 88292776,
+    "checksum": "4084FB4FD1B56EA7A7631229D141AF8A4A915D25F03C024F596D4CC7AD127173",
+    "file_type": ".exe"
+  },
+  "1.34.81": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.34.81/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 90889640,
+    "checksum": "43C0A0B91A72CB1BC2AA1E366B5EB9CA97EBC8C09F1D0DA27BA9B5DDC9ABECAB",
+    "file_type": ".exe"
+  },
+  "1.45.116": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.45.116/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 110245512,
+    "checksum": "A91B3F3A2194E80ED13C0888AE5911E79CC09F47FB6D9BF592078DAA3F73DBCA",
+    "file_type": ".exe"
+  },
+  "1.33.104": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.33.104/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 89485736,
+    "checksum": "AB91329F397FFA7247DE7AE8EEB9F01FAC2069D88F3DF855FE63CD836C711876",
+    "file_type": ".exe"
+  },
+  "1.27.111": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.27.111/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 85417384,
+    "checksum": "372F1D5298D04B336C210B2C465EC7A53A09DB532615E21C8827D62F76FB07E6",
     "file_type": ".exe"
   },
   "1.37.111": {
@@ -539,16 +173,28 @@
     "checksum": "170FA7E7B989467D0B5F6855F94DC2012B399FC9393B61DDED4BB82B642A23C8",
     "file_type": ".exe"
   },
-  "1.38.104": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.38.104/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 99354128,
-    "checksum": "A14A69BA3A1D97451B00C9F6D29ECBCF8023DAF8611061C14A773514A855163E",
-    "file_type": ".exe"
-  },
   "1.42.87": {
     "url": "https://github.com/brave/brave-browser/releases/download/v1.42.87/BraveBrowserStandaloneSilentSetup.exe",
     "size": 105794704,
     "checksum": "38D858D5070A494FB502F9C24304301D7C0C17AD6F4FDC694F835A1B3CD7BDCB",
+    "file_type": ".exe"
+  },
+  "1.44.105": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.44.105/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 109152896,
+    "checksum": "7C45D42B4831DAEDD62BCCD889E8FC954BE5E3076CA124B5DF79B62D8EADF993",
+    "file_type": ".exe"
+  },
+  "1.27.108": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.27.108/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 85348776,
+    "checksum": "8F19F7113055EB8BBBC7A8E904A2E89B96144A7315069FEC8CA6964E184FD505",
+    "file_type": ".exe"
+  },
+  "1.41.99": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.41.99/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 101306232,
+    "checksum": "AE69820A80BB44B6F5DBF3A4B390DEFAB731E48A375A228D59417C13ED0437D1",
     "file_type": ".exe"
   },
   "1.29.80": {
@@ -557,58 +203,34 @@
     "checksum": "CC6E1F3246B0440EC7B3C06CD439937CB06BE12FFAF72319F4CF25D120EABFE8",
     "file_type": ".exe"
   },
-  "1.32.111": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.32.111/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 91039656,
-    "checksum": "58E679F54767259553DFFFA227B0835199A4CA5303B5A01917232C9A0EA4E804",
+  "1.37.105": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.37.105/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 97976232,
+    "checksum": "600AF436F94C8D7D3370A9BF6AD22E7B19A19B0D5FA2A5931B4DBA520DAA9D7C",
     "file_type": ".exe"
   },
-  "1.35.103": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.35.103/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 92148136,
-    "checksum": "B12A14DA827225B1ED441AA9E0E4DA5EE254BE35995930170E498657AD588CB3",
+  "1.25.68": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.25.68/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 82661288,
+    "checksum": "F2C381DA5CDCFD1A91C4D9B3AE3A046A8F2D826FF6F50F6EC0932CB97A43029B",
     "file_type": ".exe"
   },
-  "1.39.111": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.39.111/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 99917328,
-    "checksum": "FFD2E155D283DE0C2B3338F4A3F93F8AC2460EB1999309A1DDFAA60CF695CA35",
+  "1.24.82": {
+    "url": "https://brave-browser-downloads.s3.brave.com/latest/brave_installer-x64.exe",
+    "size": 81689968,
+    "checksum": "D6422C140B7DD30AFDDD02A02ED47B12473FF2006CFD3E5107AA66FC57B795B9",
     "file_type": ".exe"
   },
-  "1.45.109": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.45.109/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 110187136,
-    "checksum": "B49B1162BCE9A2216EF973A93E136EA121D2FD6F4CA92B9435557F0F98DC8ED6",
+  "1.27.106": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.27.106/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 85258664,
+    "checksum": "ACBEA04AFD3B81D5CEE7BC361C4594ED3CB7AA0E14F41E10E907A9D028189F0D",
     "file_type": ".exe"
   },
-  "1.43.88": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.43.88/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 106739344,
-    "checksum": "E79DE16234B8D8C18B6B2051BF70C28802670C040D5D13D6D6C63B04E304F0F3",
-    "file_type": ".exe"
-  },
-  "1.42.82": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.42.82/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 105700216,
-    "checksum": "A03D2E051B58512964BA1515B16939466A092D65E0FC96D2FDACBAF0317F4D64",
-    "file_type": ".exe"
-  },
-  "1.44.112": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.44.112/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 109219464,
-    "checksum": "D8CCE199F1E0ACC3CD817F8D95C57D9C812BAF778A6A4DE4885218DBEC218E08",
-    "file_type": ".exe"
-  },
-  "1.46.130": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.46.130/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 107122816,
-    "checksum": "6718C5D2D9060592568855FCB872925330EC516E831638800ABFCF2B19DA31B0",
-    "file_type": ".exe"
-  },
-  "1.36.111": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.36.111/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 97492904,
-    "checksum": "1162198667DBA7C318A68EC430D0689CCE0A53BCEB854A7B8CE430371F3980FB",
+  "1.44.103": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.44.103/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 109138568,
+    "checksum": "67B9042298F1F6F03790E3B2C6294718FE1A5004CBD26C05DA322A06ABE13737",
     "file_type": ".exe"
   },
   "1.46.141": {
@@ -617,10 +239,40 @@
     "checksum": "73394EEC4E587F96ED1FFA3F273373C7AB0AC70D028FE4DC0739AB56C1987B51",
     "file_type": ".exe"
   },
-  "1.42.80": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.42.80/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 105878912,
-    "checksum": "0E655A9262E15EBFC32DE0007382E84246603C81CFB865D3A47A971039F4500F",
+  "1.34.80": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.34.80/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 90995624,
+    "checksum": "125BE7E145354AF0DF6377A94479AB1239253DA846040A0CE6A5CCFDBFEDA542",
+    "file_type": ".exe"
+  },
+  "1.29.76": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.29.76/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 86269352,
+    "checksum": "21BB2BCB331A243EFE831BE2D5BBC3C40953990D6A00F912FAA28CEBC92E280A",
+    "file_type": ".exe"
+  },
+  "1.29.77": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.29.77/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 86271912,
+    "checksum": "3D261867FA50D35370791B186A0E837DEDD114F8EF23637D4B3D70D54ADE331D",
+    "file_type": ".exe"
+  },
+  "1.39.120": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.39.120/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 100620816,
+    "checksum": "CB24A46DBC842289D5EFB01D34FCF5FE40253A6F83811EB4658135151D1D5F41",
+    "file_type": ".exe"
+  },
+  "1.24.85": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.24.85/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 81722736,
+    "checksum": "9659B9C2E56C95B67A00E88AC5ADF9969DF27E4724814979A5F3BBAD62ECC2E2",
+    "file_type": ".exe"
+  },
+  "1.42.97": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.42.97/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 105871504,
+    "checksum": "F77A83586AD9C0DF7452CD3F9B504A72E12747C5CC8B3A64DCD6A30DDBD9F072",
     "file_type": ".exe"
   },
   "1.35.100": {
@@ -629,10 +281,232 @@
     "checksum": "AEFCD59B555F1F80AFE6E2E3BB9C2D5CDBF926D62C31215406B141050BC999D7",
     "file_type": ".exe"
   },
+  "1.31.86": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.31.86/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 89594280,
+    "checksum": "8949839EBF3D4498AAE51FD97CEBCE56E2A3DD27D19552E551C8E8405ADC07A3",
+    "file_type": ".exe"
+  },
+  "1.41.95": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.41.95/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 101289344,
+    "checksum": "E593BE86F00A6193A67BE919D0AA530F0586B1B3A3AA1A9AA60FC7685D5EE132",
+    "file_type": ".exe"
+  },
+  "1.38.105": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.38.105/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 99386896,
+    "checksum": "71165D647B8341B354C1B6704ED0CE9CE7F3EA536CF6493A4E2B77F25D461C06",
+    "file_type": ".exe"
+  },
+  "1.37.106": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.37.106/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 98021288,
+    "checksum": "33D49412179C4F068A1C6ACDC01C54F646BF7A3DB359D6A065456BB809422B36",
+    "file_type": ".exe"
+  },
+  "1.36.106": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.36.106/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 97331624,
+    "checksum": "EC115013F4787CFA2C29D2F3901999D5BBEDD894F63202E5E9F547A437F431A9",
+    "file_type": ".exe"
+  },
+  "1.43.88": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.43.88/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 106739344,
+    "checksum": "E79DE16234B8D8C18B6B2051BF70C28802670C040D5D13D6D6C63B04E304F0F3",
+    "file_type": ".exe"
+  },
   "1.38.117": {
     "url": "https://github.com/brave/brave-browser/releases/download/v1.38.117/BraveBrowserStandaloneSilentSetup.exe",
     "size": 99592720,
     "checksum": "40C0945F1CA76D7F0510FFA7F9BA5462AB9A8924C8F24E3DE134BE01A99913AA",
+    "file_type": ".exe"
+  },
+  "1.37.113": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.37.113/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 98146832,
+    "checksum": "B5CF4B02DC94C6A94D4BA5408ABF181906F93251C986A2ACB3048917CF9752E5",
+    "file_type": ".exe"
+  },
+  "1.32.113": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.32.113/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 91014568,
+    "checksum": "EDB9EE58EC070159D825DB6243153999CC5AB9F4DE527AFC4E86BCB2CD6C2BC1",
+    "file_type": ".exe"
+  },
+  "1.36.116": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.36.116/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 97431976,
+    "checksum": "94621A5E7C0DDA8DE3A71E8E9ACB2E1E210CE22B7FE79470D8486D57CDD72C76",
+    "file_type": ".exe"
+  },
+  "1.40.113": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.40.113/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 100905856,
+    "checksum": "0DEB4887E3502F7D5C1AA0DD30D1C68BC3FE443ECA8FA7A92F1CC774DF1F6DF0",
+    "file_type": ".exe"
+  },
+  "1.42.95": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.42.95/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 105851024,
+    "checksum": "92C330B9497EDEE6C3D421018A4D3A7A4DE9334FF341D04F1A3D15967DDC5867",
+    "file_type": ".exe"
+  },
+  "1.36.115": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.36.115/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 97416104,
+    "checksum": "B326AE535C16061149056A10858D5C79DD59FB5C102B75E1A039693036885E5D",
+    "file_type": ".exe"
+  },
+  "1.46.129": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.46.129/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 107081344,
+    "checksum": "4EBC1EF144EBE8F7A15210D086435FB740DEDA417DC2E2CD04F709576AE5D10E",
+    "file_type": ".exe"
+  },
+  "1.45.133": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.45.133/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 110402688,
+    "checksum": "EF7F526EE1DAABD31431904B49D7BC1B2199654F78B3730D9960E5AEE07BB942",
+    "file_type": ".exe"
+  },
+  "1.30.84": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.30.84/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 88347048,
+    "checksum": "801C26BF55EBE20FEFBD18FE62225C5B58079295FE107A4733A1AEF91C881453",
+    "file_type": ".exe"
+  },
+  "1.37.114": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.37.114/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 98139152,
+    "checksum": "58A36D189138C6BF71A396A3E3635456270839727292A796801C831094B88452",
+    "file_type": ".exe"
+  },
+  "1.33.106": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.33.106/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 89460136,
+    "checksum": "AE1676FAEB96A97476FBD1A053AD03FC5F4E740376C6BA2704D67C7174E41AA0",
+    "file_type": ".exe"
+  },
+  "1.35.103": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.35.103/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 92148136,
+    "checksum": "B12A14DA827225B1ED441AA9E0E4DA5EE254BE35995930170E498657AD588CB3",
+    "file_type": ".exe"
+  },
+  "1.47.181": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.47.181/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 108866688,
+    "checksum": "4BDA1126D69A97E6AF0AC5411508843040256AAA6584F51A42B64D41803F6101",
+    "file_type": ".exe"
+  },
+  "1.34.77": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.34.77/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 90899880,
+    "checksum": "41B4E1520B25355C08AF99A5F416BC92E19D0C09A970236337CE6EE88853676C",
+    "file_type": ".exe"
+  },
+  "1.35.101": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.35.101/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 92174760,
+    "checksum": "AD733751789CF725A9CF0F7D917C5BDE66619475629256B5119027AAC70D77A2",
+    "file_type": ".exe"
+  },
+  "1.38.107": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.38.107/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 99658768,
+    "checksum": "F4C099B69658659A57F62FD6C3DD339C4DED6660E0747EDBBA8F0DA13982B336",
+    "file_type": ".exe"
+  },
+  "1.39.118": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.39.118/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 100562448,
+    "checksum": "8477BC209A833253E60D4770EE5F02B1024FB919B37473CD9AE31250655CCCDB",
+    "file_type": ".exe"
+  },
+  "1.44.109": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.44.109/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 109205120,
+    "checksum": "DBA253E7D26FD63EF73C8AB12FF3C099EFF57C2A8F29AF849556142A8ED4D1A3",
+    "file_type": ".exe"
+  },
+  "1.38.109": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.38.109/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 99641872,
+    "checksum": "5A31417BFCD22FE069D0AEA1227B2F191CB34C1666E365A5542A17C926D9DA6B",
+    "file_type": ".exe"
+  },
+  "1.44.112": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.44.112/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 109219464,
+    "checksum": "D8CCE199F1E0ACC3CD817F8D95C57D9C812BAF778A6A4DE4885218DBEC218E08",
+    "file_type": ".exe"
+  },
+  "1.37.116": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.37.116/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 98144784,
+    "checksum": "C5181B9FBBBD77D8EC0AA107E3DAA92929BDFA188530797EF5C6ED7F3E41226C",
+    "file_type": ".exe"
+  },
+  "1.39.117": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.39.117/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 100534800,
+    "checksum": "DC4A4EDA442E5EC2B069E6B1C0CDC80014AFAB7DF0F8E14E8912525F532EEA62",
+    "file_type": ".exe"
+  },
+  "1.44.108": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.44.108/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 109217408,
+    "checksum": "67511A1F4C1CC790C17952C017EAF5451168C16101E6E65000884587F64C986E",
+    "file_type": ".exe"
+  },
+  "1.25.66": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.25.66/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 82546600,
+    "checksum": "F4D2650BA1DF201A76219BE14C89F3E46BB3E23C6180B2CA02DE95BE6F45E26C",
+    "file_type": ".exe"
+  },
+  "1.31.88": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.31.88/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 89693608,
+    "checksum": "5685FDBBF1A0F7A57EF0E0A355A76696E2D673B89A457ED8EE4D7750DC39BEE0",
+    "file_type": ".exe"
+  },
+  "1.36.119": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.36.119/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 97485736,
+    "checksum": "A6342600CCF5E61A8F53F9A8059C2B402759D24ABB3F188C8BDAC7DD6C3A239F",
+    "file_type": ".exe"
+  },
+  "1.43.85": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.43.85/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 106710672,
+    "checksum": "35628DEE009C5A3364C381CC4F00A143583F0B5C0E60823274978F0FF1066354",
+    "file_type": ".exe"
+  },
+  "1.32.99": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.32.99/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 90909608,
+    "checksum": "72C9B71BFD13E86304EBF1F791E596DB5A6A2D954E296A86448FBBA718DC9193",
+    "file_type": ".exe"
+  },
+  "1.39.122": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.39.122/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 100610064,
+    "checksum": "077999CBBDDCA1D5D006E4FD133C391B55A7E1A5976C126A71883FCCF4A044A9",
+    "file_type": ".exe"
+  },
+  "1.31.85": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.31.85/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 89586088,
+    "checksum": "432ADACD07148A730A5C81C5218949FAD30ABB718AE1AB57EA392B75B33C8CCB",
+    "file_type": ".exe"
+  },
+  "1.43.83": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.43.83/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 106715792,
+    "checksum": "5964004AC689BB1308B65A9246CD8CB88DC414395683F0B37430F8A7C9C44E1F",
     "file_type": ".exe"
   },
   "1.42.91": {
@@ -641,22 +515,10 @@
     "checksum": "EBF00CAB1CFE50C2F7C5FCFCEF5494BAA8EC7F1D9FE2798DF0D6B9B8C2ACBF0C",
     "file_type": ".exe"
   },
-  "1.31.86": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.31.86/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 89594280,
-    "checksum": "8949839EBF3D4498AAE51FD97CEBCE56E2A3DD27D19552E551C8E8405ADC07A3",
-    "file_type": ".exe"
-  },
-  "1.45.111": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.45.111/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 110174344,
-    "checksum": "BF181F38B3D9DBAB7CD63608F58AE209D17AC239C48C2D54063DE9EF957D3711",
-    "file_type": ".exe"
-  },
-  "1.33.105": {
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.33.105/BraveBrowserStandaloneSilentSetup.exe",
-    "size": 89386920,
-    "checksum": "3ED7F14B163BCB33745639A9B219AF64D554AFDB5FE5430B2B23AAA0D8FF4B53",
+  "1.41.96": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.41.96/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 101328256,
+    "checksum": "5D1E38E744553138A1D075704D1F0FBF275F64ADD0C631AB65AED42E5875FF79",
     "file_type": ".exe"
   },
   "1.33.98": {
@@ -665,10 +527,154 @@
     "checksum": "C66C408E6B6A26C6550E526A0A97191B9CFAC8F56B81B792650AD91DE0F231AF",
     "file_type": ".exe"
   },
+  "1.42.82": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.42.82/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 105700216,
+    "checksum": "A03D2E051B58512964BA1515B16939466A092D65E0FC96D2FDACBAF0317F4D64",
+    "file_type": ".exe"
+  },
+  "1.36.112": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.36.112/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 97461160,
+    "checksum": "17026DF639487394C4E856072C4F705771FA57DBC49A4E19403B9C2A457CEA8C",
+    "file_type": ".exe"
+  },
+  "1.46.131": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.46.131/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 107208840,
+    "checksum": "F35C41953CCE098F4C81DA7E5D03692D9860E55A681537E080781D38A54EC20E",
+    "file_type": ".exe"
+  },
+  "1.38.104": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.38.104/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 99354128,
+    "checksum": "A14A69BA3A1D97451B00C9F6D29ECBCF8023DAF8611061C14A773514A855163E",
+    "file_type": ".exe"
+  },
+  "1.38.111": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.38.111/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 99597840,
+    "checksum": "4E145075629FF710BA4B2BD257817F46A263CFE58D759E76545D711C941B329F",
+    "file_type": ".exe"
+  },
+  "1.27.110": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.27.110/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 85295016,
+    "checksum": "5AEA794A325A7817778FB426F9F234E97E35F535245278C4461E17776EBF7B7D",
+    "file_type": ".exe"
+  },
+  "1.39.110": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.39.110/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 99827216,
+    "checksum": "8B93B55BAC13611CF4ECBC8B356F5937B4A6AA1A702ECFE0756BA80D990E735D",
+    "file_type": ".exe"
+  },
+  "1.45.121": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.45.121/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 110293128,
+    "checksum": "AC22E276B1A1731158DBC1F7857716505EAE549CF4D1867A193B3E56D8EFE823",
+    "file_type": ".exe"
+  },
+  "1.46.134": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.46.134/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 107131528,
+    "checksum": "988BDAA31FE80B6F84787DF9F90BDC25FAF056B59158F98B9B1A5D975F456358",
+    "file_type": ".exe"
+  },
+  "1.45.111": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.45.111/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 110174344,
+    "checksum": "BF181F38B3D9DBAB7CD63608F58AE209D17AC239C48C2D54063DE9EF957D3711",
+    "file_type": ".exe"
+  },
+  "1.43.82": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.43.82/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 106631824,
+    "checksum": "91BF61FB377A18052E82467D070439CC3951062348888BDAA578DEC8FFE4B47F",
+    "file_type": ".exe"
+  },
+  "1.38.119": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.38.119/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 99668496,
+    "checksum": "4F82BB43CB17ADFC08F41E02469DA51734DD0F9D0BE317A97861217360D19947",
+    "file_type": ".exe"
+  },
+  "1.33.105": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.33.105/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 89386920,
+    "checksum": "3ED7F14B163BCB33745639A9B219AF64D554AFDB5FE5430B2B23AAA0D8FF4B53",
+    "file_type": ".exe"
+  },
+  "1.34.76": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.34.76/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 90886568,
+    "checksum": "8F4A7569AB8C72648399087C53127947C086BDB09B7BB74E44A7BCD723B34223",
+    "file_type": ".exe"
+  },
+  "1.46.130": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.46.130/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 107122816,
+    "checksum": "6718C5D2D9060592568855FCB872925330EC516E831638800ABFCF2B19DA31B0",
+    "file_type": ".exe"
+  },
+  "1.42.83": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.42.83/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 105719168,
+    "checksum": "04DDFE5F42698F3C26DD3C723F80F99FCF199DBB7D3A9737EB624909CA571813",
+    "file_type": ".exe"
+  },
+  "1.32.115": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.32.115/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 91656104,
+    "checksum": "34022A0048DB6F8EC2D33DF4B54F0B5234FD636BE02C62680300CD21846244DD",
+    "file_type": ".exe"
+  },
+  "1.41.100": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.41.100/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 101307768,
+    "checksum": "393537D223D81C8A28E24583C9884DD6B4B24FFA135F7B963EF927039FD4FDFD",
+    "file_type": ".exe"
+  },
+  "1.44.110": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.44.110/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 109185664,
+    "checksum": "0496EFE743CF7A13390249182FE991C5F89140A4CB4C2BC9511D148B729200BF",
+    "file_type": ".exe"
+  },
+  "1.45.109": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.45.109/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 110187136,
+    "checksum": "B49B1162BCE9A2216EF973A93E136EA121D2FD6F4CA92B9435557F0F98DC8ED6",
+    "file_type": ".exe"
+  },
+  "1.35.98": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.35.98/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 92053928,
+    "checksum": "EA1337B5BB5D182CC5F87EEAE3C66489D4F9788CBDAE9D42101E1EE130CBC8AB",
+    "file_type": ".exe"
+  },
+  "1.26.74": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.26.74/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 83901864,
+    "checksum": "0495D035E0CFD04EFA1E8C98F2F88361407168E116807DCE9F946BF8C4E73DB8",
+    "file_type": ".exe"
+  },
   "1.28.105": {
     "url": "https://github.com/brave/brave-browser/releases/download/v1.28.105/BraveBrowserStandaloneSilentSetup.exe",
     "size": 85480872,
     "checksum": "48401EFCB4D467B9AC4F58A0C2DF5C452E9D7990FFE90478DCF1D3CC5351D40E",
+    "file_type": ".exe"
+  },
+  "1.42.88": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.42.88/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 105813136,
+    "checksum": "4A6510F1983F0577099B860D8B11B46E7C7B49E3ED178F3E29363EF92C2DBC0D",
+    "file_type": ".exe"
+  },
+  "1.47.182": {
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.47.182/BraveBrowserStandaloneSilentSetup.exe",
+    "size": 108835456,
+    "checksum": "4B41F3CC0EC09B982978198149CF4D0625BF5155DDCE8DC5555CF7620565D191",
     "file_type": ".exe"
   }
 }
