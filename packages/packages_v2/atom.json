@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "Github",
   "description": "Atom is a free and open-source text and source code editor",
-  "latest_version": "1.63.1",
+  "latest_version": "1.60.0",
   "threads": 8,
   "iswitches": [
     "--silent"
@@ -21,16 +21,28 @@
     "download_url": "https://github.com/atom/atom/releases/download/v<version>/AtomSetup-x64.exe",
     "regex": "<title>Release (\\d+\\.\\d+\\.\\d+) · atom/atom · GitHub</title>"
   },
-  "1.60.0": {
-    "url": "https://github.com/atom/atom/releases/download/v1.60.0/AtomSetup-x64.exe",
-    "size": 198986592,
-    "checksum": "5A20D6119A5E9AA9C1054BAEADD62C8E195078EDDD2A899F53CE0354CA010E06",
+  "1.59.0": {
+    "url": "https://github.com/atom/atom/releases/download/v1.59.0/AtomSetup-x64.exe",
+    "size": 198885728,
+    "checksum": "292261C52DB3C70A0C46A1D988F5FE923AF0E237A05E52F27D868B0E4F639C15",
+    "file_type": ".exe"
+  },
+  "1.63.0": {
+    "url": "https://github.com/atom/atom/releases/download/v1.63.0/AtomSetup-x64.exe",
+    "size": 208518432,
+    "checksum": "92EB07C52E0F5C0F0FDFE094B6CC48096AB0A548206A00FD72AA65E473B06AF3",
     "file_type": ".exe"
   },
   "1.63.1": {
     "url": "https://github.com/atom/atom/releases/download/v1.63.1/AtomSetup-x64.exe",
     "size": 208635168,
     "checksum": "AD4E34C2698F5533E8BBDC4541C1BD39D5F57D99E810C1ACE08329EBB85251D4",
+    "file_type": ".exe"
+  },
+  "1.60.0": {
+    "url": "https://github.com/atom/atom/releases/download/v1.60.0/AtomSetup-x64.exe",
+    "size": 198986592,
+    "checksum": "5A20D6119A5E9AA9C1054BAEADD62C8E195078EDDD2A899F53CE0354CA010E06",
     "file_type": ".exe"
   },
   "1.57.0": {
@@ -43,18 +55,6 @@
     "url": "https://github.com/atom/atom/releases/download/v1.58.0/AtomSetup-x64.exe",
     "size": 199032536,
     "checksum": "A21C8CF1C401272FADA44F48233CF9BA665F66E2A02734D59D566A71B3443272",
-    "file_type": ".exe"
-  },
-  "1.63.0": {
-    "url": "https://github.com/atom/atom/releases/download/v1.63.0/AtomSetup-x64.exe",
-    "size": 208518432,
-    "checksum": "92EB07C52E0F5C0F0FDFE094B6CC48096AB0A548206A00FD72AA65E473B06AF3",
-    "file_type": ".exe"
-  },
-  "1.59.0": {
-    "url": "https://github.com/atom/atom/releases/download/v1.59.0/AtomSetup-x64.exe",
-    "size": 198885728,
-    "checksum": "292261C52DB3C70A0C46A1D988F5FE923AF0E237A05E52F27D868B0E4F639C15",
     "file_type": ".exe"
   }
 }
