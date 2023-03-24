@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "",
   "description": "",
-  "latest_version": "4.08",
+  "latest_version": "4.13",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -30,6 +30,12 @@
     "url": "https://diskanalyzer.com/files/wiztree_4_08_setup.exe",
     "size": 4354064,
     "checksum": "1D1E27ADF6EA95505F1F965A288A1D502CDAC822EA199D532B608AF640D6D146",
+    "file_type": ".exe"
+  },
+  "4.13": {
+    "url": "https://diskanalyzer.com/files/wiztree_4_13_setup.exe",
+    "size": 4552224,
+    "checksum": "73E1E2E9E76424602F735538ADDFCB725E45965B312526F46087468BA9EAF02E",
     "file_type": ".exe"
   }
 }
