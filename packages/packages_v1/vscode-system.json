@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "Microsoft",
   "description": "Visual Studio Code is a source-code editor.",
-  "latest_version": "1.65.2",
+  "latest_version": "1.76.2",
   "threads": 8,
   "iswitches": [
     "/SP-",
@@ -35,28 +35,10 @@
     "checksum": "8065963E6251B91CF938CBB195CD912A56CB4F514C81B0A541AA42404586B813",
     "file_type": ".exe"
   },
-  "1.57.1": {
-    "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64",
-    "size": 79931952,
-    "checksum": "FD6F4FDC3C260E3511DBBF31285C774D8D6D6B7BE4108DEFE74E58A0E7964C55",
-    "file_type": ".exe"
-  },
-  "1.61.1": {
-    "url": "https://az764295.vo.msecnd.net/stable/c13f1abb110fc756f9b3a6f16670df9cd9d4cf63/VSCodeSetup-x64-1.61.1.exe",
-    "size": 79603840,
-    "checksum": "78CB00C352BD16304141CFEA6B58825F845356F5574F01DFD2EA62CD0E480DAE",
-    "file_type": ".exe"
-  },
-  "1.63.2": {
+  "1.62.2": {
     "url": "https://az764295.vo.msecnd.net/stable/3a6960b964327f0e3882ce18fcebd07ed191b316/VSCodeSetup-x64-1.62.2.exe",
     "size": 79944216,
     "checksum": "3E67ECC86439BC85B5C64E5340B0091712B32034B946C77D206E8D487FAC5104",
-    "file_type": ".exe"
-  },
-  "1.59.1": {
-    "url": "https://az764295.vo.msecnd.net/stable/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/VSCodeSetup-x64-1.59.1.exe",
-    "size": 83209744,
-    "checksum": "8065963E6251B91CF938CBB195CD912A56CB4F514C81B0A541AA42404586B813",
     "file_type": ".exe"
   },
   "1.61.2": {
@@ -65,13 +47,31 @@
     "checksum": "F0ACA38918CB10928FFEC828886A21CECFD56762C25373C0A27094E7315F06B3",
     "file_type": ".exe"
   },
-  "1.56.2": {
-    "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64",
-    "size": 80053088,
-    "checksum": "1BAA3EBAD28B6E08C9806F8780690C6244F8AA89C47BC089E87A8F20B89F7492",
+  "1.60.2": {
+    "url": "https://az764295.vo.msecnd.net/stable/7f6ab5485bbc008386c4386d08766667e155244e/VSCodeSetup-x64-1.60.2.exe",
+    "size": 79573392,
+    "checksum": "21ED75797A1232B4958A5DC4DA52033ADC7646045001A67CC901254E2C00E7FB",
     "file_type": ".exe"
   },
-  "1.63.1": {
+  "1.61.1": {
+    "url": "https://az764295.vo.msecnd.net/stable/c13f1abb110fc756f9b3a6f16670df9cd9d4cf63/VSCodeSetup-x64-1.61.1.exe",
+    "size": 79603840,
+    "checksum": "78CB00C352BD16304141CFEA6B58825F845356F5574F01DFD2EA62CD0E480DAE",
+    "file_type": ".exe"
+  },
+  "1.76.2": {
+    "url": "https://az764295.vo.msecnd.net/stable/3a6960b964327f0e3882ce18fcebd07ed191b316/VSCodeSetup-x64-1.62.2.exe",
+    "size": 79944216,
+    "checksum": "3E67ECC86439BC85B5C64E5340B0091712B32034B946C77D206E8D487FAC5104",
+    "file_type": ".exe"
+  },
+  "1.64.2": {
+    "url": "https://az764295.vo.msecnd.net/stable/3a6960b964327f0e3882ce18fcebd07ed191b316/VSCodeSetup-x64-1.62.2.exe",
+    "size": 79944216,
+    "checksum": "3E67ECC86439BC85B5C64E5340B0091712B32034B946C77D206E8D487FAC5104",
+    "file_type": ".exe"
+  },
+  "1.63.2": {
     "url": "https://az764295.vo.msecnd.net/stable/3a6960b964327f0e3882ce18fcebd07ed191b316/VSCodeSetup-x64-1.62.2.exe",
     "size": 79944216,
     "checksum": "3E67ECC86439BC85B5C64E5340B0091712B32034B946C77D206E8D487FAC5104",
@@ -83,7 +83,13 @@
     "checksum": "3E67ECC86439BC85B5C64E5340B0091712B32034B946C77D206E8D487FAC5104",
     "file_type": ".exe"
   },
-  "1.62.3": {
+  "1.64.1": {
+    "url": "https://az764295.vo.msecnd.net/stable/3a6960b964327f0e3882ce18fcebd07ed191b316/VSCodeSetup-x64-1.62.2.exe",
+    "size": 79944216,
+    "checksum": "3E67ECC86439BC85B5C64E5340B0091712B32034B946C77D206E8D487FAC5104",
+    "file_type": ".exe"
+  },
+  "1.63.1": {
     "url": "https://az764295.vo.msecnd.net/stable/3a6960b964327f0e3882ce18fcebd07ed191b316/VSCodeSetup-x64-1.62.2.exe",
     "size": 79944216,
     "checksum": "3E67ECC86439BC85B5C64E5340B0091712B32034B946C77D206E8D487FAC5104",
@@ -95,22 +101,16 @@
     "checksum": "FD6F4FDC3C260E3511DBBF31285C774D8D6D6B7BE4108DEFE74E58A0E7964C55",
     "file_type": ".exe"
   },
-  "1.64.1": {
-    "url": "https://az764295.vo.msecnd.net/stable/3a6960b964327f0e3882ce18fcebd07ed191b316/VSCodeSetup-x64-1.62.2.exe",
-    "size": 79944216,
-    "checksum": "3E67ECC86439BC85B5C64E5340B0091712B32034B946C77D206E8D487FAC5104",
+  "1.59.1": {
+    "url": "https://az764295.vo.msecnd.net/stable/3866c3553be8b268c8a7f8c0482c0c0177aa8bfa/VSCodeSetup-x64-1.59.1.exe",
+    "size": 83209744,
+    "checksum": "8065963E6251B91CF938CBB195CD912A56CB4F514C81B0A541AA42404586B813",
     "file_type": ".exe"
   },
-  "1.62.2": {
-    "url": "https://az764295.vo.msecnd.net/stable/3a6960b964327f0e3882ce18fcebd07ed191b316/VSCodeSetup-x64-1.62.2.exe",
-    "size": 79944216,
-    "checksum": "3E67ECC86439BC85B5C64E5340B0091712B32034B946C77D206E8D487FAC5104",
-    "file_type": ".exe"
-  },
-  "1.60.2": {
-    "url": "https://az764295.vo.msecnd.net/stable/7f6ab5485bbc008386c4386d08766667e155244e/VSCodeSetup-x64-1.60.2.exe",
-    "size": 79573392,
-    "checksum": "21ED75797A1232B4958A5DC4DA52033ADC7646045001A67CC901254E2C00E7FB",
+  "1.56.2": {
+    "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64",
+    "size": 80053088,
+    "checksum": "1BAA3EBAD28B6E08C9806F8780690C6244F8AA89C47BC089E87A8F20B89F7492",
     "file_type": ".exe"
   },
   "1.60.1": {
@@ -119,7 +119,13 @@
     "checksum": "A69606966B7853B005DAF346F44908A8E54E78A4757C653694774AEF1E2A3CAE",
     "file_type": ".exe"
   },
-  "1.64.2": {
+  "1.57.1": {
+    "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64",
+    "size": 79931952,
+    "checksum": "FD6F4FDC3C260E3511DBBF31285C774D8D6D6B7BE4108DEFE74E58A0E7964C55",
+    "file_type": ".exe"
+  },
+  "1.62.3": {
     "url": "https://az764295.vo.msecnd.net/stable/3a6960b964327f0e3882ce18fcebd07ed191b316/VSCodeSetup-x64-1.62.2.exe",
     "size": 79944216,
     "checksum": "3E67ECC86439BC85B5C64E5340B0091712B32034B946C77D206E8D487FAC5104",
