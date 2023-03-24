@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "GmbH",
   "description": "WinRAR is a trialware file archiver utility for Windows.",
-  "latest_version": "6.11",
+  "latest_version": "6.21",
   "threads": 8,
   "iswitches": [
     "/S"
@@ -21,10 +21,10 @@
     "download_url": "https://www.rarlab.com/rar/winrar-x64-<version-no-dot>.exe",
     "regex": "WinRAR (\\d+\\.\\d+)"
   },
-  "6.02": {
-    "url": "https://www.rarlab.com/rar/winrar-x64-602.exe",
-    "size": 3348968,
-    "checksum": "D41ED4B4DE255BEE35F93372D023203C9A43694EF88A759AD61B41DFBD0F345D",
+  "6.11": {
+    "url": "https://www.rarlab.com/rar/winrar-x64-611.exe",
+    "size": 3479544,
+    "checksum": "24FC7955FADA6B9802F4E50E935EBD5654FD7382FAF641B27DD626F4B3563974",
     "file_type": ".exe"
   },
   "6.10": {
@@ -33,16 +33,22 @@
     "checksum": "E0A76FD83D8E283D5136E145245F5EB6ECFDB05E88D115F06D660B65248D5F76",
     "file_type": ".exe"
   },
+  "6.02": {
+    "url": "https://www.rarlab.com/rar/winrar-x64-602.exe",
+    "size": 3348968,
+    "checksum": "D41ED4B4DE255BEE35F93372D023203C9A43694EF88A759AD61B41DFBD0F345D",
+    "file_type": ".exe"
+  },
   "6.01": {
     "url": "https://www.rarlab.com/rar/winrar-x64-601.exe",
     "size": 3342736,
     "checksum": "4133385F3E53F760EDCCD7EA31FE060CE2F8D72F956D902C0B0C053A4971DF2C",
     "file_type": ".exe"
   },
-  "6.11": {
-    "url": "https://www.rarlab.com/rar/winrar-x64-611.exe",
-    "size": 3479544,
-    "checksum": "24FC7955FADA6B9802F4E50E935EBD5654FD7382FAF641B27DD626F4B3563974",
+  "6.21": {
+    "url": "https://www.rarlab.com/rar/winrar-x64-621.exe",
+    "size": 3585248,
+    "checksum": "AF51D8714FBB34157E3BD53FCECDD76BCC0ED732F89CF469F544AEC968D192D9",
     "file_type": ".exe"
   }
 }
