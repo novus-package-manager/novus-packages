@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "",
   "description": "",
-  "latest_version": "4.08",
+  "latest_version": "4.13",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -13,6 +13,12 @@
     "download_page": "",
     "download_url": "",
     "regex": ""
+  },
+  "4.13": {
+    "url": "https://diskanalyzer.com/files/wiztree_4_13_portable.zip",
+    "size": 6647960,
+    "checksum": "6D02A127DF9AEF0914DA4728D42DD6BEC9EACDD226762E7DEC9BF36DB8897EBB",
+    "file_type": ".zip"
   },
   "4.06": {
     "url": "https://diskanalyzer.com/files/wiztree_4_06_portable.zip",
