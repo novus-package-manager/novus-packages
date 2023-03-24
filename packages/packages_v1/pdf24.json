@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "geek Software GmbH",
   "description": "PDF24 Creator is an application software for the creation of PDF files from any application and for converting files to PDF.",
-  "latest_version": "11.10.0",
+  "latest_version": "11.11.0",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -14,22 +14,10 @@
     "download_url": "https://stx.pdf24.org/download/pdf24-creator-<version>.msi",
     "regex": "<span>PDF24 Creator</span>\n<span>(\\d+\\.\\d+\\.\\d+)</span>"
   },
-  "11.9.1": {
-    "url": "https://stx.pdf24.org/download/pdf24-creator-11.9.1.msi",
-    "size": 394493952,
-    "checksum": "DE08E166CEE27C3F45DF074DC8B29AF4F6F6EE9C0FC310E5E0938CF510020BEF",
-    "file_type": ".msi"
-  },
-  "10.7.2": {
-    "url": "https://stx.pdf24.org/download/pdf24-creator-10.7.2.msi",
-    "size": 162656256,
-    "checksum": "FFB549CC593B83A7FBAB9CE7E45A5679455A51FBA3F7E633F9B762D3B37229B9",
-    "file_type": ".msi"
-  },
-  "10.1.1": {
-    "url": "https://stx.pdf24.org/download/pdf24-creator-10.1.1.msi",
-    "size": 151392256,
-    "checksum": "8A54228B352D641F8216019098E1DD332F7BDA55833327E517503ED5D2B4E79B",
+  "11.0.0": {
+    "url": "https://stx.pdf24.org/download/pdf24-creator-11.0.0.msi",
+    "size": 335912960,
+    "checksum": "9E0AEC96665122349FE590888A919151D121024320AB8991B557082BD5893C35",
     "file_type": ".msi"
   },
   "11.4.0": {
@@ -38,34 +26,16 @@
     "checksum": "11A2E59C1100EF416DA7D3716C4CFA91BB2DA9A6D692B8054EDF544144831D98",
     "file_type": ".msi"
   },
-  "10.6.3": {
-    "url": "https://stx.pdf24.org/download/pdf24-creator-10.6.3.msi",
-    "size": 160051200,
-    "checksum": "F6297B1A3FEACE89E49A8DA4282914F10F0BC274B5A35A2EB289AFA9F93A7CF7",
-    "file_type": ".msi"
-  },
-  "11.0.0": {
-    "url": "https://stx.pdf24.org/download/pdf24-creator-11.0.0.msi",
-    "size": 335912960,
-    "checksum": "9E0AEC96665122349FE590888A919151D121024320AB8991B557082BD5893C35",
-    "file_type": ".msi"
-  },
   "10.6.1": {
     "url": "https://stx.pdf24.org/download/pdf24-creator-10.6.1.msi",
     "size": 151719936,
     "checksum": "670083FBB9E9E39C4567E0C4B15F33CCE0EBB3BB69819DE28B89B702866049B1",
     "file_type": ".msi"
   },
-  "11.8.0": {
-    "url": "https://stx.pdf24.org/download/pdf24-creator-11.8.0.msi",
-    "size": 393596928,
-    "checksum": "9583AF9A68FA81E697033916A2414216C88BE55DECF966D9462A20AD2709971E",
-    "file_type": ".msi"
-  },
-  "11.1.0": {
-    "url": "https://stx.pdf24.org/download/pdf24-creator-11.1.0.msi",
-    "size": 335998976,
-    "checksum": "EDD25C0C67725A3F8BA3A2FB7021FE8B13364D494A1812EBFF3B4AAA50B8FFA9",
+  "11.9.1": {
+    "url": "https://stx.pdf24.org/download/pdf24-creator-11.9.1.msi",
+    "size": 394493952,
+    "checksum": "DE08E166CEE27C3F45DF074DC8B29AF4F6F6EE9C0FC310E5E0938CF510020BEF",
     "file_type": ".msi"
   },
   "11.9.0": {
@@ -74,10 +44,22 @@
     "checksum": "66AB2D1919C8A70EF76444381484C7C222FB7A51EE05E0F16C27D51754154D28",
     "file_type": ".msi"
   },
-  "10.2.0": {
-    "url": "https://stx.pdf24.org/download/pdf24-creator-10.2.0.msi",
-    "size": 151433216,
-    "checksum": "62D33AB5433CA42DA5042DA8FEB133A9037767F6AC5D9599ACFDDE980494C166",
+  "11.0.1": {
+    "url": "https://stx.pdf24.org/download/pdf24-creator-11.0.1.msi",
+    "size": 335912960,
+    "checksum": "E1E7554D3A99285352134F94126FE001CA93CC2641520629E2A3A9675C26F08A",
+    "file_type": ".msi"
+  },
+  "10.7.2": {
+    "url": "https://stx.pdf24.org/download/pdf24-creator-10.7.2.msi",
+    "size": 162656256,
+    "checksum": "FFB549CC593B83A7FBAB9CE7E45A5679455A51FBA3F7E633F9B762D3B37229B9",
+    "file_type": ".msi"
+  },
+  "11.1.0": {
+    "url": "https://stx.pdf24.org/download/pdf24-creator-11.1.0.msi",
+    "size": 335998976,
+    "checksum": "EDD25C0C67725A3F8BA3A2FB7021FE8B13364D494A1812EBFF3B4AAA50B8FFA9",
     "file_type": ".msi"
   },
   "11.7.0": {
@@ -92,28 +74,28 @@
     "checksum": "E1963C50EEE8C9775A4261AFF8E35F4995318C1F78ED1B41618E48A065DDB83F",
     "file_type": ".msi"
   },
-  "11.6.0": {
-    "url": "https://stx.pdf24.org/download/pdf24-creator-11.6.0.msi",
-    "size": 370413568,
-    "checksum": "70146F0079B3DAEE377EAAB202BCAF341593084F754B245F6E49B950EF26DCA4",
+  "11.8.0": {
+    "url": "https://stx.pdf24.org/download/pdf24-creator-11.8.0.msi",
+    "size": 393596928,
+    "checksum": "9583AF9A68FA81E697033916A2414216C88BE55DECF966D9462A20AD2709971E",
     "file_type": ".msi"
   },
-  "11.0.1": {
-    "url": "https://stx.pdf24.org/download/pdf24-creator-11.0.1.msi",
-    "size": 335912960,
-    "checksum": "E1E7554D3A99285352134F94126FE001CA93CC2641520629E2A3A9675C26F08A",
+  "10.6.3": {
+    "url": "https://stx.pdf24.org/download/pdf24-creator-10.6.3.msi",
+    "size": 160051200,
+    "checksum": "F6297B1A3FEACE89E49A8DA4282914F10F0BC274B5A35A2EB289AFA9F93A7CF7",
+    "file_type": ".msi"
+  },
+  "10.2.0": {
+    "url": "https://stx.pdf24.org/download/pdf24-creator-10.2.0.msi",
+    "size": 151433216,
+    "checksum": "62D33AB5433CA42DA5042DA8FEB133A9037767F6AC5D9599ACFDDE980494C166",
     "file_type": ".msi"
   },
   "11.10.0": {
     "url": "https://stx.pdf24.org/download/pdf24-creator-11.10.0.msi",
     "size": 397475840,
     "checksum": "FBF1F30D5762A82D25A94DFED40CD2F7566F529884A9992D642C9A31635DB07B",
-    "file_type": ".msi"
-  },
-  "11.3.0": {
-    "url": "https://stx.pdf24.org/download/pdf24-creator-11.3.0.msi",
-    "size": 351797248,
-    "checksum": "308A69F125492FB2E8ED7A0ED2FF4AABB529425CFD49D9EF584FAAC022C5E1DB",
     "file_type": ".msi"
   },
   "11.2.0": {
@@ -146,16 +128,22 @@
     "checksum": "255228D1D67431C1338CD0AAE4CFED4B1C1F9FBF00C2422F1E193AA755296F8D",
     "file_type": ".msi"
   },
+  "10.1.1": {
+    "url": "https://stx.pdf24.org/download/pdf24-creator-10.1.1.msi",
+    "size": 151392256,
+    "checksum": "8A54228B352D641F8216019098E1DD332F7BDA55833327E517503ED5D2B4E79B",
+    "file_type": ".msi"
+  },
+  "11.3.0": {
+    "url": "https://stx.pdf24.org/download/pdf24-creator-11.3.0.msi",
+    "size": 351797248,
+    "checksum": "308A69F125492FB2E8ED7A0ED2FF4AABB529425CFD49D9EF584FAAC022C5E1DB",
+    "file_type": ".msi"
+  },
   "11.5.0": {
     "url": "https://stx.pdf24.org/download/pdf24-creator-11.5.0.msi",
     "size": 370335744,
     "checksum": "F11765FEB4BB397BCE43BC6F29C649991959C2F9AF3F8E5B73E5D3AB54C62F39",
-    "file_type": ".msi"
-  },
-  "10.8.0": {
-    "url": "https://stx.pdf24.org/download/pdf24-creator-10.8.0.msi",
-    "size": 162660352,
-    "checksum": "AE7605EE8A62CF99CCB1880C383CCA3E2311FAAAAB42CBB2C74283CE57C2A556",
     "file_type": ".msi"
   },
   "10.1.0": {
@@ -164,16 +152,34 @@
     "checksum": "E2D19E748A040CF611F8C36845711CA65EA1456311D75CB0C3BEDEB75E36E142",
     "file_type": ".msi"
   },
-  "10.0.12": {
-    "url": "https://stx.pdf24.org/download/pdf24-creator-10.0.12.msi",
-    "size": 149127168,
-    "checksum": "CC056EAA622BBE2421FAC33271EBF3BD3A59B3B0AACA483E3C4AB2B168BE3E99",
-    "file_type": ".msi"
-  },
   "10.7.0": {
     "url": "https://stx.pdf24.org/download/pdf24-creator-10.7.0.msi",
     "size": 158568448,
     "checksum": "281E050B0F2C3FEE9B8B19A167ADA9A69FBD1A274381C363828AD1C85EE7111F",
+    "file_type": ".msi"
+  },
+  "11.11.0": {
+    "url": "https://stx.pdf24.org/download/pdf24-creator-11.11.0.msi",
+    "size": 400769024,
+    "checksum": "959C18F32F5193CD73AE70A0605C8DF8C0FAB35BC68FEB0F82D5F43052C20CF7",
+    "file_type": ".msi"
+  },
+  "11.6.0": {
+    "url": "https://stx.pdf24.org/download/pdf24-creator-11.6.0.msi",
+    "size": 370413568,
+    "checksum": "70146F0079B3DAEE377EAAB202BCAF341593084F754B245F6E49B950EF26DCA4",
+    "file_type": ".msi"
+  },
+  "10.8.0": {
+    "url": "https://stx.pdf24.org/download/pdf24-creator-10.8.0.msi",
+    "size": 162660352,
+    "checksum": "AE7605EE8A62CF99CCB1880C383CCA3E2311FAAAAB42CBB2C74283CE57C2A556",
+    "file_type": ".msi"
+  },
+  "10.0.12": {
+    "url": "https://stx.pdf24.org/download/pdf24-creator-10.0.12.msi",
+    "size": 149127168,
+    "checksum": "CC056EAA622BBE2421FAC33271EBF3BD3A59B3B0AACA483E3C4AB2B168BE3E99",
     "file_type": ".msi"
   }
 }
