@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "Cisco Systems",
   "description": "Webex is the leading enterprise solution for video conferencing, online meetings, screen share, and webinars.",
-  "latest_version": "41.12.2.15",
+  "latest_version": "43.3.0.25468",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -13,6 +13,12 @@
     "download_page": "https://www.filehorse.com/download-cisco-webex-meetings/",
     "download_url": "https://binaries.webex.com/WebexTeamsDesktop-Windows-Gold/Webex_x86.msi",
     "regex": "<li>Cisco Webex Meetings (\\d+\\.\\d+\\.\\d+\\.\\d+)</li>"
+  },
+  "43.3.0.25468": {
+    "url": "https://binaries.webex.com/WebexTeamsDesktop-Windows-Gold/Webex_x86.msi",
+    "size": 180346880,
+    "checksum": "5DB4EC419A04D36CDE33A3B41CA5C9E5DE675D691C68678222C821D887F14D7C",
+    "file_type": ".msi"
   },
   "41.12.2.15": {
     "url": "https://binaries.webex.com/WebexTeamsDesktop-Windows-Gold/Webex_x86.msi",
