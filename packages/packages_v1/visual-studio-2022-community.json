@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "",
   "description": "",
-  "latest_version": "17.2",
+  "latest_version": "17.5",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -14,16 +14,22 @@
     "download_url": "",
     "regex": ""
   },
-  "17.1": {
-    "url": "https://aka.ms/vs/17/release/vs_community.exe",
-    "size": 1660296,
-    "checksum": "2896CEBB3C0107C4F564C57814EE9A2B0AB3FE24B7C32B6A9D8B668FB3F45249",
-    "file_type": ".exe"
-  },
   "17.0": {
     "url": "https://aka.ms/vs/17/release/vs_community.exe",
     "size": 1650112,
     "checksum": "887B04132031C9F09A83614D5D8AFE6F75ED27632CC794FA6C6DC189334D7D9D",
+    "file_type": ".exe"
+  },
+  "17.5": {
+    "url": "https://aka.ms/vs/17/release/vs_community.exe",
+    "size": 3704072,
+    "checksum": "96274F374757A8F29B8C7000957BEB134EA0ECCA765B26F55338E3019AF9248C",
+    "file_type": ".exe"
+  },
+  "17.1": {
+    "url": "https://aka.ms/vs/17/release/vs_community.exe",
+    "size": 1660296,
+    "checksum": "2896CEBB3C0107C4F564C57814EE9A2B0AB3FE24B7C32B6A9D8B668FB3F45249",
     "file_type": ".exe"
   },
   "17.2": {
