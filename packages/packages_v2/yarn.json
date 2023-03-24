@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "Yarn",
   "description": "A fast JavaScript package manager that help to manage a project's dependencies.",
-  "latest_version": "1.22.18",
+  "latest_version": "1.22.19",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -17,16 +17,22 @@
     "download_url": "https://github.com/yarnpkg/yarn/releases/download/v<version>/yarn-<version>.msi",
     "regex": "Classic Stable \\((\\d+\\.\\d+\\.\\d+)\\)"
   },
+  "1.22.18": {
+    "url": "https://github.com/yarnpkg/yarn/releases/download/v1.22.18/yarn-1.22.18.msi",
+    "size": 1647104,
+    "checksum": "CE2876ABE2CC5DFB07614DBB630C0565A1A8C6909D728DF22850959C2AD45FDF",
+    "file_type": ".msi"
+  },
   "1.22.15": {
     "url": "https://github.com/yarnpkg/yarn/releases/download/v1.22.15/yarn-1.22.15.msi",
     "size": 1679360,
     "checksum": "8E812AC4D27B4C04A54F32EB8823CFB54D02F5A4EC429E4091CCA38FA17E4113",
     "file_type": ".msi"
   },
-  "1.22.18": {
-    "url": "https://github.com/yarnpkg/yarn/releases/download/v1.22.18/yarn-1.22.18.msi",
-    "size": 1647104,
-    "checksum": "CE2876ABE2CC5DFB07614DBB630C0565A1A8C6909D728DF22850959C2AD45FDF",
+  "1.22.19": {
+    "url": "https://github.com/yarnpkg/yarn/releases/download/v1.22.19/yarn-1.22.19.msi",
+    "size": 1679360,
+    "checksum": "DF205F19ECE536F2A55481D5C0DEB70898C6B462C92B17DEB0D26B3CBEB2BD91",
     "file_type": ".msi"
   }
 }
