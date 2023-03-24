@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "Microsoft",
   "description": "Visual Studio Build Tools allow you to build Visual Studio projects from a command-line interface.",
-  "latest_version": "17.2",
+  "latest_version": "17.5",
   "threads": 8,
   "iswitches": [
     "--passive",
@@ -19,6 +19,12 @@
     "download_page": "https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes",
     "download_url": "https://aka.ms/vs/<major-version>/release/vs_BuildTools.exe",
     "regex": "Visual Studio 2022 version (\\d+\\.\\d+) Release Notes"
+  },
+  "17.5": {
+    "url": "https://aka.ms/vs/17/release/vs_BuildTools.exe",
+    "size": 3704144,
+    "checksum": "D00721B8415067205C9D20A7ECA740202974AC2C7878D47119CFCBD5EA3CFB67",
+    "file_type": ".exe"
   },
   "17.1": {
     "url": "https://aka.ms/vs/17/release/vs_BuildTools.exe",

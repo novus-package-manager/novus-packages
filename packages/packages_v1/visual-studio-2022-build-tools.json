@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "",
   "description": "",
-  "latest_version": "17.2",
+  "latest_version": "17.5",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -20,16 +20,22 @@
     "checksum": "167DAA8A4C9C242A49400CB5DAAE6ED2077A41465B9E817B568C5369127168DF",
     "file_type": ".exe"
   },
-  "17.2": {
-    "url": "https://aka.ms/vs/17/release/vs_BuildTools.exe",
-    "size": 1678552,
-    "checksum": "06293B7DB26D35BF19253F8059BF9FEEB97D34236C02970AFD1931F5E4DA6DA7",
-    "file_type": ".exe"
-  },
   "17.0": {
     "url": "https://aka.ms/vs/17/release/vs_BuildTools.exe",
     "size": 1648752,
     "checksum": "5B1E6342112291665B8055B209DCB5058A5720570CB688986849B79C91D4FFD7",
+    "file_type": ".exe"
+  },
+  "17.5": {
+    "url": "https://aka.ms/vs/17/release/vs_BuildTools.exe",
+    "size": 3704144,
+    "checksum": "D00721B8415067205C9D20A7ECA740202974AC2C7878D47119CFCBD5EA3CFB67",
+    "file_type": ".exe"
+  },
+  "17.2": {
+    "url": "https://aka.ms/vs/17/release/vs_BuildTools.exe",
+    "size": 1678552,
+    "checksum": "06293B7DB26D35BF19253F8059BF9FEEB97D34236C02970AFD1931F5E4DA6DA7",
     "file_type": ".exe"
   }
 }
