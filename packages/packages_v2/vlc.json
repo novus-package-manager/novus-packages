@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "VideoLAN",
   "description": "VLC media player is a free and open-source, portable, cross-platform media player software and streaming media server.",
-  "latest_version": "3.0.16",
+  "latest_version": "3.0.18",
   "threads": 8,
   "iswitches": [
     "/S"
@@ -31,6 +31,12 @@
     "url": "https://mirror.clarkson.edu/videolan/vlc/3.0.12/win64/vlc-3.0.12-win64.exe",
     "size": 42589480,
     "checksum": "5D282D8C3F9F2FB188C191914DE80BEFA6E347C5297FB727D928DA941860530F",
+    "file_type": ".exe"
+  },
+  "3.0.18": {
+    "url": "https://mirror.clarkson.edu/videolan/vlc/3.0.18/win64/vlc-3.0.18-win64.exe",
+    "size": 44283624,
+    "checksum": "BA575F153D357EAF3FDBF446B9B93A12CED87C35887CDD83AD4281733EB86602",
     "file_type": ".exe"
   }
 }
