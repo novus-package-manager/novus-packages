@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "JetBrains",
   "description": "A cross-platform IDE for C and C++",
-  "latest_version": "2022.3",
+  "latest_version": "2023.1",
   "threads": 8,
   "iswitches": [
     "/S"
@@ -36,10 +36,10 @@
     "checksum": "E73FD5997C1399C4EE2FC4AF93B2074961A97F8E80FDD1490A940E1C58C70E83",
     "file_type": ".exe"
   },
-  "2021.3": {
-    "url": "https://download-cf.jetbrains.com/cpp/CLion-2021.3.exe",
-    "size": 613118016,
-    "checksum": "EFDE6DCD20CDDA92CB77422BD32CDB9DB746EB49B638EDB2CE3E55A082C4ED1A",
+  "2022.3": {
+    "url": "https://download-cf.jetbrains.com/cpp/CLion-2022.3.exe",
+    "size": 668489488,
+    "checksum": "EC784ED9CF2526C08CE35BBDA61DD9F9812BE8AE3667C97B4B34CB0B517890F4",
     "file_type": ".exe"
   },
   "2021.1": {
@@ -48,10 +48,16 @@
     "checksum": "213965EF0D1CAD47712AAA90D2831AB8ACF4DACB3C82A154FF5AF7782145C67F",
     "file_type": ".exe"
   },
-  "2022.3": {
-    "url": "https://download-cf.jetbrains.com/cpp/CLion-2022.3.exe",
-    "size": 668489488,
-    "checksum": "EC784ED9CF2526C08CE35BBDA61DD9F9812BE8AE3667C97B4B34CB0B517890F4",
+  "2023.1": {
+    "url": "https://download-cf.jetbrains.com/cpp/CLion-2023.1.exe",
+    "size": 688550192,
+    "checksum": "BF201CB685A4172FAD0CCF36A2D4AB14BD7A925438E4BF9DF55C8BAAFFFB108F",
+    "file_type": ".exe"
+  },
+  "2021.3": {
+    "url": "https://download-cf.jetbrains.com/cpp/CLion-2021.3.exe",
+    "size": 613118016,
+    "checksum": "EFDE6DCD20CDDA92CB77422BD32CDB9DB746EB49B638EDB2CE3E55A082C4ED1A",
     "file_type": ".exe"
   }
 }
