@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "Discord",
   "description": "Discord is a VoIP, instant messaging and digital distribution platform designed for creating communities.",
-  "latest_version": "1.0.9011",
+  "latest_version": "1.0.9012",
   "threads": 8,
   "iswitches": [
     "/S"
@@ -22,34 +22,28 @@
     "checksum": "D7D109E6D48CBC08320B4AF0ED2080826699867C80803FEC9E49CE0CF47D2D0F",
     "file_type": ".exe"
   },
-  "1.0.9006": {
-    "url": "https://dl.discordapp.net/distro/app/stable/win/x86/1.0.9006/DiscordSetup.exe",
-    "size": 83119912,
-    "checksum": "99F427A688D6F00735C209C0DE1AAA615AA630F4FBE9108F36212DF9464CC869",
-    "file_type": ".exe"
-  },
   "1.0.9008": {
     "url": "https://dl.discordapp.net/distro/app/stable/win/x86/1.0.9008/DiscordSetup.exe",
     "size": 83277080,
     "checksum": "7D5C479D6C4C89E8F535010E7FE8E71E02CA015045EEE5ECB08B98FD18F29592",
     "file_type": ".exe"
   },
-  "1.0.9002": {
-    "url": "https://dl.discordapp.net/distro/app/stable/win/x86/1.0.9002/DiscordSetup.exe",
-    "size": 70858912,
-    "checksum": "E825CF8E0B4DB9797CA9E57191B01AAB0C06536A24D08EC0A4767B5248A8526F",
-    "file_type": ".exe"
-  },
-  "1.0.9004": {
-    "url": "https://dl.discordapp.net/distro/app/stable/win/x86/1.0.9004/DiscordSetup.exe",
-    "size": 82992808,
-    "checksum": "5EDC53181D1300141E42BC756A7188949F3CE6BBEBCAFE80CD8E326DEEC21EAE",
-    "file_type": ".exe"
-  },
   "1.0.9005": {
     "url": "https://dl.discordapp.net/distro/app/stable/win/x86/1.0.9005/DiscordSetup.exe",
     "size": 83112448,
     "checksum": "EE9F94706055735AF63117F1E6C80C0A50C72444D6A44F751AE2E33934910B58",
+    "file_type": ".exe"
+  },
+  "1.0.9007": {
+    "url": "https://dl.discordapp.net/distro/app/stable/win/x86/1.0.9007/DiscordSetup.exe",
+    "size": 83251992,
+    "checksum": "0AD34AC29ECC6DD01F40B46AB0CB1A971B5242AA28EE1A9B72FDB9847C6D6EE1",
+    "file_type": ".exe"
+  },
+  "1.0.9001": {
+    "url": "https://dl.discordapp.net/distro/app/stable/win/x86/1.0.9001/DiscordSetup.exe",
+    "size": 70939752,
+    "checksum": "B21AA1804EE4ED1F8F85B43E4604A3B7A0DFC323B0E5DFFB89A20B2D6FED96D5",
     "file_type": ".exe"
   },
   "1.0.9003": {
@@ -64,16 +58,28 @@
     "checksum": "8DCDBFC72E673CC7A3392C2A1ACE3BEF1EA55E300B82B21C13379F35B575F583",
     "file_type": ".exe"
   },
-  "1.0.9007": {
-    "url": "https://dl.discordapp.net/distro/app/stable/win/x86/1.0.9007/DiscordSetup.exe",
-    "size": 83251992,
-    "checksum": "0AD34AC29ECC6DD01F40B46AB0CB1A971B5242AA28EE1A9B72FDB9847C6D6EE1",
+  "1.0.9002": {
+    "url": "https://dl.discordapp.net/distro/app/stable/win/x86/1.0.9002/DiscordSetup.exe",
+    "size": 70858912,
+    "checksum": "E825CF8E0B4DB9797CA9E57191B01AAB0C06536A24D08EC0A4767B5248A8526F",
     "file_type": ".exe"
   },
-  "1.0.9001": {
-    "url": "https://dl.discordapp.net/distro/app/stable/win/x86/1.0.9001/DiscordSetup.exe",
-    "size": 70939752,
-    "checksum": "B21AA1804EE4ED1F8F85B43E4604A3B7A0DFC323B0E5DFFB89A20B2D6FED96D5",
+  "1.0.9012": {
+    "url": "https://dl.discordapp.net/distro/app/stable/win/x86/1.0.9012/DiscordSetup.exe",
+    "size": 96280344,
+    "checksum": "E24E4CC0AB4CB4BD4759F6EA45B1C520319BBC2192B9E80C67C7A2860BB213EB",
+    "file_type": ".exe"
+  },
+  "1.0.9006": {
+    "url": "https://dl.discordapp.net/distro/app/stable/win/x86/1.0.9006/DiscordSetup.exe",
+    "size": 83119912,
+    "checksum": "99F427A688D6F00735C209C0DE1AAA615AA630F4FBE9108F36212DF9464CC869",
+    "file_type": ".exe"
+  },
+  "1.0.9004": {
+    "url": "https://dl.discordapp.net/distro/app/stable/win/x86/1.0.9004/DiscordSetup.exe",
+    "size": 82992808,
+    "checksum": "5EDC53181D1300141E42BC756A7188949F3CE6BBEBCAFE80CD8E326DEEC21EAE",
     "file_type": ".exe"
   }
 }
