@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "Pavel Durov, Nikolai Durov",
   "description": "Telegram is a free and open source, cross-platform, cloud-based instant messaging software.",
-  "latest_version": "4.7.1",
+  "latest_version": "4.8.1",
   "threads": 8,
   "iswitches": [
     "/SP-",
@@ -28,34 +28,10 @@
     "download_url": "https://github.com/telegramdesktop/tdesktop/releases/download/v<version>/tsetup-x64.<version>.exe",
     "regex": "<title>Release v (\\d+\\.\\d+\\.\\d+)"
   },
-  "4.4.1": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v4.4.1/tsetup-x64.4.4.1.exe",
-    "size": 38327800,
-    "checksum": "4CCE2DCD18CD536719C0AC6BFEFEFC11C45FAAA4736DDF67431C20BFE8F7E00D",
-    "file_type": ".exe"
-  },
-  "3.4.8": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.4.8/tsetup-x64.3.4.8.exe",
-    "size": 35044296,
-    "checksum": "4FB4709544E9EC35CE47AE24CA63C4149CBF29545BDF233D01F5153FD03124BA",
-    "file_type": ".exe"
-  },
-  "4.3.0": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v4.3.0/tsetup-x64.4.3.0.exe",
-    "size": 37762288,
-    "checksum": "BA5A3C594F85B83A1280DF2DB27C729490C0089A78128D62D1A8284925E12B47",
-    "file_type": ".exe"
-  },
-  "3.6.0": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.6.0/tsetup-x64.3.6.0.exe",
-    "size": 35432872,
-    "checksum": "42EBD018F26DE69A86D1001C258E51341D47DD5F6F82D1F84DE4A60905F20877",
-    "file_type": ".exe"
-  },
-  "4.0.2": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v4.0.2/tsetup-x64.4.0.2.exe",
-    "size": 36722384,
-    "checksum": "E3C3571B887B13B936DCA92602D941192562907997A43A20E6B163FF7D46BE73",
+  "4.8.1": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v4.8.1/tsetup-x64.4.8.1.exe",
+    "size": 40954328,
+    "checksum": "B5C1C494C82328D9C685753BB45496500C8D053D1CC909925B28C9A04359EF71",
     "file_type": ".exe"
   },
   "3.0.1": {
@@ -64,118 +40,10 @@
     "checksum": "6D4E784600372B0F53B74AFE132EFEE075F15492F327EBC472A68B79BF0A6D29",
     "file_type": ".exe"
   },
-  "4.2.4": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v4.2.4/tsetup-x64.4.2.4.exe",
-    "size": 37431504,
-    "checksum": "A91CEA11C33BD0CE6E7D9477681FF855897180FD15A9F6975D670058EE5D11C1",
-    "file_type": ".exe"
-  },
-  "3.1.0": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.1.0/tsetup-x64.3.1.0.exe",
-    "size": 34408296,
-    "checksum": "D3D6E02310AC0A7392F2FFA9A96F50A66C33A4D612A55CA8309B47F1EA1E06B2",
-    "file_type": ".exe"
-  },
-  "4.7.1": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v4.7.1/tsetup-x64.4.7.1.exe",
-    "size": 40697856,
-    "checksum": "19EFE92A9F824EE5D532AF885B7483331C024E7195D80B2554957E8C75536341",
-    "file_type": ".exe"
-  },
-  "3.4.3": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.4.3/tsetup-x64.3.4.3.exe",
-    "size": 34992104,
-    "checksum": "D7F3D7066C7E6A652FCFB277E6B049177F36E5F4AEDEE817A0FB0A770CC5F2FD",
-    "file_type": ".exe"
-  },
   "3.7.0": {
     "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.7.0/tsetup-x64.3.7.0.exe",
     "size": 35856200,
     "checksum": "DA3E3D21E239E74B234A3765E84946C36D06D45F26314A15B128E8D41AA71E90",
-    "file_type": ".exe"
-  },
-  "3.4.2": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.4.2/tsetup-x64.3.4.2.exe",
-    "size": 34990064,
-    "checksum": "995B6BF08BD47DF470EB03EFD538CF07AD7E9E7DFC5B82D43DAF0AFF600E6AB1",
-    "file_type": ".exe"
-  },
-  "3.5.0": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.5.0/tsetup-x64.3.5.0.exe",
-    "size": 35079832,
-    "checksum": "1D7B54CC6F26E2529E1D63E76FE5768F4B305473711504049051ABE5E0858F8D",
-    "file_type": ".exe"
-  },
-  "3.1.1": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.1.1/tsetup-x64.3.1.1.exe",
-    "size": 34486688,
-    "checksum": "78769DDFF2D3ED07256983E6C087B9A7822F056CFFD4A3198C07AC92403B3143",
-    "file_type": ".exe"
-  },
-  "3.7.2": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.7.2/tsetup-x64.3.7.2.exe",
-    "size": 35867528,
-    "checksum": "616E249B454DCD51C2DD250B573A33268FE3B22EAD16B43A674D196DB8E314A2",
-    "file_type": ".exe"
-  },
-  "4.3.1": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v4.3.1/tsetup-x64.4.3.1.exe",
-    "size": 37764656,
-    "checksum": "E880CD7CFCA116E3E343C360F511DC3A484E5FDC4C1689F53D02A2FC750CF50F",
-    "file_type": ".exe"
-  },
-  "4.5.3": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v4.5.3/tsetup-x64.4.5.3.exe",
-    "size": 40188464,
-    "checksum": "8B6BA63398DD45607F7FB5B5B1263194FF0A21699DFFE41515D8F1F63CAA93DD",
-    "file_type": ".exe"
-  },
-  "4.2.3": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v4.2.3/tsetup-x64.4.2.3.exe",
-    "size": 37455536,
-    "checksum": "284383EE2E06C7882D735B1943A37123D8568750772A2C194258FB5F1FA5EB6E",
-    "file_type": ".exe"
-  },
-  "3.1.11": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.1.11/tsetup-x64.3.1.11.exe",
-    "size": 34815024,
-    "checksum": "C23A8143569E69BEE69C42B0B3EF8C9DE88C9B682D39C33F05AF88631B9102C5",
-    "file_type": ".exe"
-  },
-  "4.1.0": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v4.1.0/tsetup-x64.4.1.0.exe",
-    "size": 37192656,
-    "checksum": "59CBB523D6284C5F3AD5078CD08D585BE0B64D92BEF6BBC331C46C10141BE85A",
-    "file_type": ".exe"
-  },
-  "3.3.0": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.3.0/tsetup-x64.3.3.0.exe",
-    "size": 35070048,
-    "checksum": "EA45E91A2F994073CFC51E230395D9321A7096B03289FC52DCBED3210CD6B713",
-    "file_type": ".exe"
-  },
-  "3.5.1": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.5.1/tsetup-x64.3.5.1.exe",
-    "size": 35090144,
-    "checksum": "8D76DF36CAA98C0CDE70323FE23943C56572DBEF66847663D686309B782A8DF7",
-    "file_type": ".exe"
-  },
-  "3.2.5": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.2.5/tsetup-x64.3.2.5.exe",
-    "size": 34826400,
-    "checksum": "F61966D3B08BD8BE20AB4CBF69E737D188E3822D1D65A15DF720E188A14F9412",
-    "file_type": ".exe"
-  },
-  "3.7.3": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.7.3/tsetup-x64.3.7.3.exe",
-    "size": 35896816,
-    "checksum": "0C04C4A9892D46DAE9AA48F64DE06DE2CB9CDC80E8831DC91146AE8BC1FDEE85",
-    "file_type": ".exe"
-  },
-  "4.1.1": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v4.1.1/tsetup-x64.4.1.1.exe",
-    "size": 37185136,
-    "checksum": "C0C8FC8D950AA0E8101C73D9D8474C0AD8549E732CF144E261252707258E1602",
     "file_type": ".exe"
   },
   "4.2.0": {
@@ -184,16 +52,154 @@
     "checksum": "155EE4CCCB348582BBE1B6DAE94BDCA9E7C6AD4D96E4A1A781F7393A3788FE05",
     "file_type": ".exe"
   },
+  "3.6.1": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.6.1/tsetup-x64.3.6.1.exe",
+    "size": 35430696,
+    "checksum": "8DF97A63DE105DC026E44035677D9D37758B1928B3D140535C84345917289643",
+    "file_type": ".exe"
+  },
+  "4.0.2": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v4.0.2/tsetup-x64.4.0.2.exe",
+    "size": 36722384,
+    "checksum": "E3C3571B887B13B936DCA92602D941192562907997A43A20E6B163FF7D46BE73",
+    "file_type": ".exe"
+  },
+  "4.1.1": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v4.1.1/tsetup-x64.4.1.1.exe",
+    "size": 37185136,
+    "checksum": "C0C8FC8D950AA0E8101C73D9D8474C0AD8549E732CF144E261252707258E1602",
+    "file_type": ".exe"
+  },
+  "3.3.0": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.3.0/tsetup-x64.3.3.0.exe",
+    "size": 35070048,
+    "checksum": "EA45E91A2F994073CFC51E230395D9321A7096B03289FC52DCBED3210CD6B713",
+    "file_type": ".exe"
+  },
+  "4.4.1": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v4.4.1/tsetup-x64.4.4.1.exe",
+    "size": 38327800,
+    "checksum": "4CCE2DCD18CD536719C0AC6BFEFEFC11C45FAAA4736DDF67431C20BFE8F7E00D",
+    "file_type": ".exe"
+  },
+  "4.7.1": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v4.7.1/tsetup-x64.4.7.1.exe",
+    "size": 40697856,
+    "checksum": "19EFE92A9F824EE5D532AF885B7483331C024E7195D80B2554957E8C75536341",
+    "file_type": ".exe"
+  },
   "4.5.0": {
     "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v4.5.0/tsetup-x64.4.5.0.exe",
     "size": 40192304,
     "checksum": "1821754BE7EED11A4B3A15750DEA885EC425ABFE1E273823409ED7573737ADFE",
     "file_type": ".exe"
   },
-  "3.6.1": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.6.1/tsetup-x64.3.6.1.exe",
-    "size": 35430696,
-    "checksum": "8DF97A63DE105DC026E44035677D9D37758B1928B3D140535C84345917289643",
+  "4.3.0": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v4.3.0/tsetup-x64.4.3.0.exe",
+    "size": 37762288,
+    "checksum": "BA5A3C594F85B83A1280DF2DB27C729490C0089A78128D62D1A8284925E12B47",
+    "file_type": ".exe"
+  },
+  "3.5.1": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.5.1/tsetup-x64.3.5.1.exe",
+    "size": 35090144,
+    "checksum": "8D76DF36CAA98C0CDE70323FE23943C56572DBEF66847663D686309B782A8DF7",
+    "file_type": ".exe"
+  },
+  "3.4.3": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.4.3/tsetup-x64.3.4.3.exe",
+    "size": 34992104,
+    "checksum": "D7F3D7066C7E6A652FCFB277E6B049177F36E5F4AEDEE817A0FB0A770CC5F2FD",
+    "file_type": ".exe"
+  },
+  "3.2.5": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.2.5/tsetup-x64.3.2.5.exe",
+    "size": 34826400,
+    "checksum": "F61966D3B08BD8BE20AB4CBF69E737D188E3822D1D65A15DF720E188A14F9412",
+    "file_type": ".exe"
+  },
+  "3.7.2": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.7.2/tsetup-x64.3.7.2.exe",
+    "size": 35867528,
+    "checksum": "616E249B454DCD51C2DD250B573A33268FE3B22EAD16B43A674D196DB8E314A2",
+    "file_type": ".exe"
+  },
+  "3.1.0": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.1.0/tsetup-x64.3.1.0.exe",
+    "size": 34408296,
+    "checksum": "D3D6E02310AC0A7392F2FFA9A96F50A66C33A4D612A55CA8309B47F1EA1E06B2",
+    "file_type": ".exe"
+  },
+  "4.3.1": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v4.3.1/tsetup-x64.4.3.1.exe",
+    "size": 37764656,
+    "checksum": "E880CD7CFCA116E3E343C360F511DC3A484E5FDC4C1689F53D02A2FC750CF50F",
+    "file_type": ".exe"
+  },
+  "3.4.8": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.4.8/tsetup-x64.3.4.8.exe",
+    "size": 35044296,
+    "checksum": "4FB4709544E9EC35CE47AE24CA63C4149CBF29545BDF233D01F5153FD03124BA",
+    "file_type": ".exe"
+  },
+  "3.1.1": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.1.1/tsetup-x64.3.1.1.exe",
+    "size": 34486688,
+    "checksum": "78769DDFF2D3ED07256983E6C087B9A7822F056CFFD4A3198C07AC92403B3143",
+    "file_type": ".exe"
+  },
+  "3.4.2": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.4.2/tsetup-x64.3.4.2.exe",
+    "size": 34990064,
+    "checksum": "995B6BF08BD47DF470EB03EFD538CF07AD7E9E7DFC5B82D43DAF0AFF600E6AB1",
+    "file_type": ".exe"
+  },
+  "3.1.11": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.1.11/tsetup-x64.3.1.11.exe",
+    "size": 34815024,
+    "checksum": "C23A8143569E69BEE69C42B0B3EF8C9DE88C9B682D39C33F05AF88631B9102C5",
+    "file_type": ".exe"
+  },
+  "3.7.3": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.7.3/tsetup-x64.3.7.3.exe",
+    "size": 35896816,
+    "checksum": "0C04C4A9892D46DAE9AA48F64DE06DE2CB9CDC80E8831DC91146AE8BC1FDEE85",
+    "file_type": ".exe"
+  },
+  "4.2.3": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v4.2.3/tsetup-x64.4.2.3.exe",
+    "size": 37455536,
+    "checksum": "284383EE2E06C7882D735B1943A37123D8568750772A2C194258FB5F1FA5EB6E",
+    "file_type": ".exe"
+  },
+  "3.7.1": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.7.1/tsetup-x64.3.7.1.exe",
+    "size": 35856040,
+    "checksum": "A7F79D238DB743AF6C5ED755E65381F35538B62330BF317B233B204E0B43DA59",
+    "file_type": ".exe"
+  },
+  "3.5.0": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.5.0/tsetup-x64.3.5.0.exe",
+    "size": 35079832,
+    "checksum": "1D7B54CC6F26E2529E1D63E76FE5768F4B305473711504049051ABE5E0858F8D",
+    "file_type": ".exe"
+  },
+  "4.1.0": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v4.1.0/tsetup-x64.4.1.0.exe",
+    "size": 37192656,
+    "checksum": "59CBB523D6284C5F3AD5078CD08D585BE0B64D92BEF6BBC331C46C10141BE85A",
+    "file_type": ".exe"
+  },
+  "3.6.0": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.6.0/tsetup-x64.3.6.0.exe",
+    "size": 35432872,
+    "checksum": "42EBD018F26DE69A86D1001C258E51341D47DD5F6F82D1F84DE4A60905F20877",
+    "file_type": ".exe"
+  },
+  "4.5.3": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v4.5.3/tsetup-x64.4.5.3.exe",
+    "size": 40188464,
+    "checksum": "8B6BA63398DD45607F7FB5B5B1263194FF0A21699DFFE41515D8F1F63CAA93DD",
     "file_type": ".exe"
   },
   "3.2.2": {
@@ -202,10 +208,10 @@
     "checksum": "CF4B0ABD9527F45A1E5649A8296F94893048F85A9D624543898908A7245BB38E",
     "file_type": ".exe"
   },
-  "3.7.1": {
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v3.7.1/tsetup-x64.3.7.1.exe",
-    "size": 35856040,
-    "checksum": "A7F79D238DB743AF6C5ED755E65381F35538B62330BF317B233B204E0B43DA59",
+  "4.2.4": {
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v4.2.4/tsetup-x64.4.2.4.exe",
+    "size": 37431504,
+    "checksum": "A91CEA11C33BD0CE6E7D9477681FF855897180FD15A9F6975D670058EE5D11C1",
     "file_type": ".exe"
   }
 }
