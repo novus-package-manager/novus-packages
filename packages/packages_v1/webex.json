@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "Cisco Systems",
   "description": "Webex is the leading enterprise solution for video conferencing, online meetings, screen share, and webinars.",
-  "latest_version": "43.4.0.25959",
+  "latest_version": "43.5.0.26155",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -13,6 +13,18 @@
     "download_page": "https://www.filehorse.com/download-cisco-webex-meetings/",
     "download_url": "https://binaries.webex.com/WebexTeamsDesktop-Windows-Gold/Webex_x86.msi",
     "regex": "<li>Cisco Webex Meetings (\\d+\\.\\d+\\.\\d+\\.\\d+)</li>"
+  },
+  "41.12.2.15": {
+    "url": "https://binaries.webex.com/WebexTeamsDesktop-Windows-Gold/Webex_x86.msi",
+    "size": 245407744,
+    "checksum": "538F487BC3A2C5612807BC65910BA22AE6E041A838F77056836D17BEEC80C642",
+    "file_type": ".msi"
+  },
+  "43.5.0.26155": {
+    "url": "https://binaries.webex.com/WebexTeamsDesktop-Windows-Gold/Webex_x86.msi",
+    "size": 183398400,
+    "checksum": "615622EF7BF74B66B1E16F28B426C56A0609F2BE079C365062E19980E619F4F1",
+    "file_type": ".msi"
   },
   "43.3.0.25468": {
     "url": "https://binaries.webex.com/WebexTeamsDesktop-Windows-Gold/Webex_x86.msi",
@@ -30,12 +42,6 @@
     "url": "https://binaries.webex.com/WebexTeamsDesktop-Windows-Gold/Webex_x86.msi",
     "size": 211357696,
     "checksum": "507CF7226F95E2D3314C464E374198152E2463DC5643EF7F00CF423602473AF2",
-    "file_type": ".msi"
-  },
-  "41.12.2.15": {
-    "url": "https://binaries.webex.com/WebexTeamsDesktop-Windows-Gold/Webex_x86.msi",
-    "size": 245407744,
-    "checksum": "538F487BC3A2C5612807BC65910BA22AE6E041A838F77056836D17BEEC80C642",
     "file_type": ".msi"
   },
   "43.4.0.25959": {
