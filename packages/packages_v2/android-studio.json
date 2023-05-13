@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "Google, JetBrains",
   "description": "Android Studio is the official integrated development environment for Google's Android operating system.",
-  "latest_version": "2022.2.1.18",
+  "latest_version": "2022.2.1.19",
   "threads": 8,
   "iswitches": [
     "/S"
@@ -21,58 +21,10 @@
     "download_url": "https://redirector.gvt1.com/edgedl/android/studio/install/<version>/android-studio-<version>-windows.exe",
     "regex": "href=\"https://redirector\\.gvt1\\.com/edgedl/android/studio/install/(\\d+\\.\\d+\\.\\d+\\.\\d+)/android-studio"
   },
-  "2022.2.1.18": {
-    "url": "https://redirector.gvt1.com/edgedl/android/studio/install/2022.2.1.18/android-studio-2022.2.1.18-windows.exe",
-    "size": 1033519416,
-    "checksum": "C3811117B4FB8B41F23D060915A9BF020EAB037E183B0EB1614EF44AD5103B8A",
-    "file_type": ".exe"
-  },
-  "4.2.2.0": {
-    "url": "https://redirector.gvt1.com/edgedl/android/studio/install/4.2.2.0/android-studio-ide-202.7351085-windows.exe",
-    "size": 1449,
-    "checksum": "BE5F674A5468791F22997A635FEE430358F86C938943AA4235256DE468BE212A",
-    "file_type": ".exe"
-  },
-  "2022.1.1.20": {
-    "url": "https://redirector.gvt1.com/edgedl/android/studio/install/2022.1.1.20/android-studio-2022.1.1.20-windows.exe",
-    "size": 988640592,
-    "checksum": "5AFB440754A8BD752340141B0C77CE9036E640B2932BE60E50971B5E705B4D8E",
-    "file_type": ".exe"
-  },
-  "2022.1.1.19": {
-    "url": "https://redirector.gvt1.com/edgedl/android/studio/install/2022.1.1.19/android-studio-2022.1.1.19-windows.exe",
-    "size": 992149296,
-    "checksum": "1AE29028EF09838A04FFFAE463E4B008251019A33733DD27AA72CA6B2D9C1029",
-    "file_type": ".exe"
-  },
-  "2021.3.1.16": {
-    "url": "https://redirector.gvt1.com/edgedl/android/studio/install/2021.3.1.16/android-studio-2021.3.1.16-windows.exe",
-    "size": 950744488,
-    "checksum": "35BCDF04192E31568914931DC6F52E1879763C211321BF5F2F87D70B84516E1E",
-    "file_type": ".exe"
-  },
-  "2021.1.1.21": {
-    "url": "https://redirector.gvt1.com/edgedl/android/studio/install/2021.1.1.21/android-studio-2021.1.1.21-windows.exe",
-    "size": 914756056,
-    "checksum": "FE4F1DA3A174D370077CF616B2C31E566B24A3465E677BAAF718ACA73D283E55",
-    "file_type": ".exe"
-  },
-  "2021.1.1.20": {
-    "url": "https://redirector.gvt1.com/edgedl/android/studio/install/2021.1.1.20/android-studio-2021.1.1.20-windows.exe",
-    "size": 914751400,
-    "checksum": "52A9FF5746BFDD65823FC660E7C015C1C116A5B18F3C0B4B7E639F564BE6EE5E",
-    "file_type": ".exe"
-  },
-  "2021.2.1.14": {
-    "url": "https://redirector.gvt1.com/edgedl/android/studio/install/2021.2.1.14/android-studio-2021.2.1.14-windows.exe",
-    "size": 974381664,
-    "checksum": "DE733BCD1CD4FD23D474C76889DB0BA9AF0A5AE5BA7171FB9AA8E27311CF950B",
-    "file_type": ".exe"
-  },
-  "2021.2.1.15": {
-    "url": "https://redirector.gvt1.com/edgedl/android/studio/install/2021.2.1.15/android-studio-2021.2.1.15-windows.exe",
-    "size": 974402544,
-    "checksum": "D99D2B24E232AC869D9C9E64CD19CD2572CFD4512E7DF7941B812C4CD39D7B45",
+  "2021.2.1.16": {
+    "url": "https://redirector.gvt1.com/edgedl/android/studio/install/2021.2.1.16/android-studio-2021.2.1.16-windows.exe",
+    "size": 974525224,
+    "checksum": "214FC7339060990D615BB02F2576474A3D6C152249FB67B03124162E111DA4C7",
     "file_type": ".exe"
   },
   "2021.3.1.17": {
@@ -81,16 +33,16 @@
     "checksum": "DD176791E15E921D4A3B3C9A251C61E5CFD28D75588FD717971DFBAC030CD497",
     "file_type": ".exe"
   },
-  "2020.3.1.25": {
-    "url": "https://redirector.gvt1.com/edgedl/android/studio/install/2020.3.1.25/android-studio-2020.3.1.25-windows.exe",
-    "size": 959102872,
-    "checksum": "DECBE76F8B25A40C5CE8EA3A212DD23D3B3172E26D63E297291F8A555ABED4E0",
+  "2020.3.1.24": {
+    "url": "https://redirector.gvt1.com/edgedl/android/studio/install/2020.3.1.24/android-studio-2020.3.1.24-windows.exe",
+    "size": 957232976,
+    "checksum": "4C6EC4029FEEA3672BFD17B359CC605FA96E74A0BB6A43DA83B06FA662EB71E7",
     "file_type": ".exe"
   },
-  "4.2.1.0": {
-    "url": "https://redirector.gvt1.com/edgedl/android/studio/install/4.2.1.0/android-studio-ide-202.7351085-windows.exe",
-    "size": 978607576,
-    "checksum": "1DB6AEF39055D4CD69DE26026AA0D3F17D10DD2B66051004580EB5175039934F",
+  "2022.2.1.19": {
+    "url": "https://redirector.gvt1.com/edgedl/android/studio/install/2022.2.1.19/android-studio-2022.2.1.19-windows.exe",
+    "size": 1035519256,
+    "checksum": "6B31BE219DBCCA315866CE94BBC7B5C244D617BA1BE97D66B1B3C49C02506D56",
     "file_type": ".exe"
   },
   "2021.1.1.22": {
@@ -99,10 +51,28 @@
     "checksum": "5AA9BE4C22DC5648C6A3B25600A23E5AA2F40DA04AA0F49C55B5B261F1D7E603",
     "file_type": ".exe"
   },
-  "2020.3.1.22": {
-    "url": "https://redirector.gvt1.com/edgedl/android/studio/install/2020.3.1.22/android-studio-2020.3.1.22-windows.exe",
-    "size": 957435584,
-    "checksum": "9A95E747121830B7A62F276438DD4DF4390A4CCF785E09F226A9FB2AC0B576CF",
+  "2021.1.1.23": {
+    "url": "https://redirector.gvt1.com/edgedl/android/studio/install/2021.1.1.23/android-studio-2021.1.1.23-windows.exe",
+    "size": 914772448,
+    "checksum": "DEF7755842942BE93C56DB94C7D53EED70004B0AB1DC8883E959DA0649032582",
+    "file_type": ".exe"
+  },
+  "4.2.1.0": {
+    "url": "https://redirector.gvt1.com/edgedl/android/studio/install/4.2.1.0/android-studio-ide-202.7351085-windows.exe",
+    "size": 978607576,
+    "checksum": "1DB6AEF39055D4CD69DE26026AA0D3F17D10DD2B66051004580EB5175039934F",
+    "file_type": ".exe"
+  },
+  "2022.2.1.18": {
+    "url": "https://redirector.gvt1.com/edgedl/android/studio/install/2022.2.1.18/android-studio-2022.2.1.18-windows.exe",
+    "size": 1033519416,
+    "checksum": "C3811117B4FB8B41F23D060915A9BF020EAB037E183B0EB1614EF44AD5103B8A",
+    "file_type": ".exe"
+  },
+  "2022.1.1.20": {
+    "url": "https://redirector.gvt1.com/edgedl/android/studio/install/2022.1.1.20/android-studio-2022.1.1.20-windows.exe",
+    "size": 988640592,
+    "checksum": "5AFB440754A8BD752340141B0C77CE9036E640B2932BE60E50971B5E705B4D8E",
     "file_type": ".exe"
   },
   "2022.1.1.21": {
@@ -111,16 +81,40 @@
     "checksum": "7F08286EFFD7C426E36A5DD2D49979D9D461874CA4A6FFFE87E0092619B68C98",
     "file_type": ".exe"
   },
-  "2020.3.1.24": {
-    "url": "https://redirector.gvt1.com/edgedl/android/studio/install/2020.3.1.24/android-studio-2020.3.1.24-windows.exe",
-    "size": 957232976,
-    "checksum": "4C6EC4029FEEA3672BFD17B359CC605FA96E74A0BB6A43DA83B06FA662EB71E7",
+  "2021.3.1.16": {
+    "url": "https://redirector.gvt1.com/edgedl/android/studio/install/2021.3.1.16/android-studio-2021.3.1.16-windows.exe",
+    "size": 950744488,
+    "checksum": "35BCDF04192E31568914931DC6F52E1879763C211321BF5F2F87D70B84516E1E",
     "file_type": ".exe"
   },
-  "2021.1.1.23": {
-    "url": "https://redirector.gvt1.com/edgedl/android/studio/install/2021.1.1.23/android-studio-2021.1.1.23-windows.exe",
-    "size": 914772448,
-    "checksum": "DEF7755842942BE93C56DB94C7D53EED70004B0AB1DC8883E959DA0649032582",
+  "2020.3.1.26": {
+    "url": "https://redirector.gvt1.com/edgedl/android/studio/install/2020.3.1.26/android-studio-2020.3.1.26-windows.exe",
+    "size": 959108544,
+    "checksum": "D9181AE1668FC4A5F3A19AA5A2F9951F022BFF1359A70AA0F0E7987E248C740C",
+    "file_type": ".exe"
+  },
+  "4.2.2.0": {
+    "url": "https://redirector.gvt1.com/edgedl/android/studio/install/4.2.2.0/android-studio-ide-202.7351085-windows.exe",
+    "size": 1449,
+    "checksum": "BE5F674A5468791F22997A635FEE430358F86C938943AA4235256DE468BE212A",
+    "file_type": ".exe"
+  },
+  "2022.1.1.19": {
+    "url": "https://redirector.gvt1.com/edgedl/android/studio/install/2022.1.1.19/android-studio-2022.1.1.19-windows.exe",
+    "size": 992149296,
+    "checksum": "1AE29028EF09838A04FFFAE463E4B008251019A33733DD27AA72CA6B2D9C1029",
+    "file_type": ".exe"
+  },
+  "2021.2.1.14": {
+    "url": "https://redirector.gvt1.com/edgedl/android/studio/install/2021.2.1.14/android-studio-2021.2.1.14-windows.exe",
+    "size": 974381664,
+    "checksum": "DE733BCD1CD4FD23D474C76889DB0BA9AF0A5AE5BA7171FB9AA8E27311CF950B",
+    "file_type": ".exe"
+  },
+  "2020.3.1.25": {
+    "url": "https://redirector.gvt1.com/edgedl/android/studio/install/2020.3.1.25/android-studio-2020.3.1.25-windows.exe",
+    "size": 959102872,
+    "checksum": "DECBE76F8B25A40C5CE8EA3A212DD23D3B3172E26D63E297291F8A555ABED4E0",
     "file_type": ".exe"
   },
   "2020.3.1.23": {
@@ -129,16 +123,28 @@
     "checksum": "2389FBF2C3AA5B6BE48DA7FEA793FF495EAACD40BCE95552C869C4F3A044DCCC",
     "file_type": ".exe"
   },
-  "2021.2.1.16": {
-    "url": "https://redirector.gvt1.com/edgedl/android/studio/install/2021.2.1.16/android-studio-2021.2.1.16-windows.exe",
-    "size": 974525224,
-    "checksum": "214FC7339060990D615BB02F2576474A3D6C152249FB67B03124162E111DA4C7",
+  "2021.1.1.21": {
+    "url": "https://redirector.gvt1.com/edgedl/android/studio/install/2021.1.1.21/android-studio-2021.1.1.21-windows.exe",
+    "size": 914756056,
+    "checksum": "FE4F1DA3A174D370077CF616B2C31E566B24A3465E677BAAF718ACA73D283E55",
     "file_type": ".exe"
   },
-  "2020.3.1.26": {
-    "url": "https://redirector.gvt1.com/edgedl/android/studio/install/2020.3.1.26/android-studio-2020.3.1.26-windows.exe",
-    "size": 959108544,
-    "checksum": "D9181AE1668FC4A5F3A19AA5A2F9951F022BFF1359A70AA0F0E7987E248C740C",
+  "2021.2.1.15": {
+    "url": "https://redirector.gvt1.com/edgedl/android/studio/install/2021.2.1.15/android-studio-2021.2.1.15-windows.exe",
+    "size": 974402544,
+    "checksum": "D99D2B24E232AC869D9C9E64CD19CD2572CFD4512E7DF7941B812C4CD39D7B45",
+    "file_type": ".exe"
+  },
+  "2020.3.1.22": {
+    "url": "https://redirector.gvt1.com/edgedl/android/studio/install/2020.3.1.22/android-studio-2020.3.1.22-windows.exe",
+    "size": 957435584,
+    "checksum": "9A95E747121830B7A62F276438DD4DF4390A4CCF785E09F226A9FB2AC0B576CF",
+    "file_type": ".exe"
+  },
+  "2021.1.1.20": {
+    "url": "https://redirector.gvt1.com/edgedl/android/studio/install/2021.1.1.20/android-studio-2021.1.1.20-windows.exe",
+    "size": 914751400,
+    "checksum": "52A9FF5746BFDD65823FC660E7C015C1C116A5B18F3C0B4B7E639F564BE6EE5E",
     "file_type": ".exe"
   }
 }
