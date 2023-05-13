@@ -8,7 +8,7 @@
   "portable": false,
   "creator": "Bazel",
   "description": "Bazel is a free software tool that allows for the automation of building and testing of software.",
-  "latest_version": "6.1.2",
+  "latest_version": "6.2.0",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -17,10 +17,34 @@
     "download_url": "https://github.com/bazelbuild/bazel/releases/download/<version>/bazel-<version>-windows-x86_64.exe",
     "regex": "<title>Release (\\d+\\.\\d+\\.\\d+) · bazelbuild/bazel"
   },
+  "6.0.0": {
+    "url": "https://github.com/bazelbuild/bazel/releases/download/6.0.0/bazel-6.0.0-windows-x86_64.exe",
+    "size": 47702208,
+    "checksum": "9A526F74E4140E7BAB9B577CE776ADE1531C548C077229ECE3E6CDDE9A2F670B",
+    "file_type": ".exe"
+  },
+  "4.2.1": {
+    "url": "https://github.com/bazelbuild/bazel/releases/download/4.2.1/bazel-4.2.1-windows-x86_64.exe",
+    "size": 46155804,
+    "checksum": "8FA10DFDC8B2F610A8891B68E2A132540E6FAC4FEA62174CFFD9994B9147586E",
+    "file_type": ".exe"
+  },
   "5.1.1": {
     "url": "https://github.com/bazelbuild/bazel/releases/download/5.1.1/bazel-5.1.1-windows-x86_64.exe",
     "size": 46812380,
     "checksum": "03061F1E9AAC1966155CA402DCD1075C6493DFE85DF72AA2CF3E12FCAA258D90",
+    "file_type": ".exe"
+  },
+  "6.1.1": {
+    "url": "https://github.com/bazelbuild/bazel/releases/download/6.1.1/bazel-6.1.1-windows-x86_64.exe",
+    "size": 47727731,
+    "checksum": "1D997D344936A1D98784AE58DB1152D083569556F85CD845E6E340EE855357F9",
+    "file_type": ".exe"
+  },
+  "5.4.0": {
+    "url": "https://github.com/bazelbuild/bazel/releases/download/5.4.0/bazel-5.4.0-windows-x86_64.exe",
+    "size": 46712216,
+    "checksum": "5BD612202A0AE88302BE976BE04FE8C84FF1451EED8AD2A645C9651B3D226428",
     "file_type": ".exe"
   },
   "5.0.0": {
@@ -35,10 +59,16 @@
     "checksum": "ED7FAB918E61D992E921C0C27700387AD1D5BE441B2FA2EBABDD7EBD5C4B84EC",
     "file_type": ".exe"
   },
-  "6.0.0": {
-    "url": "https://github.com/bazelbuild/bazel/releases/download/6.0.0/bazel-6.0.0-windows-x86_64.exe",
-    "size": 47702208,
-    "checksum": "9A526F74E4140E7BAB9B577CE776ADE1531C548C077229ECE3E6CDDE9A2F670B",
+  "6.1.2": {
+    "url": "https://github.com/bazelbuild/bazel/releases/download/6.1.2/bazel-6.1.2-windows-x86_64.exe",
+    "size": 47730090,
+    "checksum": "47E7F65A3BFA882910F76E2107B4298B28ACE33681BD0279E25A8F91551913C0",
+    "file_type": ".exe"
+  },
+  "5.3.1": {
+    "url": "https://github.com/bazelbuild/bazel/releases/download/5.3.1/bazel-5.3.1-windows-x86_64.exe",
+    "size": 46718466,
+    "checksum": "AF2D3AB072DCADFAD196B8E07B3AD2FCF06B3D5CDF8D2B69D528E760769CADD4",
     "file_type": ".exe"
   },
   "4.2.2": {
@@ -47,40 +77,10 @@
     "checksum": "EBF52F798BD5DD52004B7128235A0989826E68184450813D9EBE8DCFBB0679B5",
     "file_type": ".exe"
   },
-  "6.1.1": {
-    "url": "https://github.com/bazelbuild/bazel/releases/download/6.1.1/bazel-6.1.1-windows-x86_64.exe",
-    "size": 47727731,
-    "checksum": "1D997D344936A1D98784AE58DB1152D083569556F85CD845E6E340EE855357F9",
-    "file_type": ".exe"
-  },
-  "5.3.2": {
-    "url": "https://github.com/bazelbuild/bazel/releases/download/5.3.2/bazel-5.3.2-windows-x86_64.exe",
-    "size": 46719156,
-    "checksum": "AF080EF9A8B6F27C2B2055A9E0A5155EF7138CF46B967103B91D47C675C2BBDE",
-    "file_type": ".exe"
-  },
-  "5.4.0": {
-    "url": "https://github.com/bazelbuild/bazel/releases/download/5.4.0/bazel-5.4.0-windows-x86_64.exe",
-    "size": 46712216,
-    "checksum": "5BD612202A0AE88302BE976BE04FE8C84FF1451EED8AD2A645C9651B3D226428",
-    "file_type": ".exe"
-  },
-  "4.1.0": {
-    "url": "https://github.com/bazelbuild/bazel/releases/download/4.1.0/bazel-4.1.0-windows-x86_64.exe",
-    "size": 44876812,
-    "checksum": "7B2077AF7055B421FE31822F83C3C3C15E36FF39B69560BA2472DDE92DD45B46",
-    "file_type": ".exe"
-  },
   "5.1.0": {
     "url": "https://github.com/bazelbuild/bazel/releases/download/5.1.0/bazel-5.1.0-windows-x86_64.exe",
     "size": 46806609,
     "checksum": "EDDA0B9E5481931E9162A231A837EB8C8154A5904E93A344F2205E8B96F9B8F2",
-    "file_type": ".exe"
-  },
-  "5.3.1": {
-    "url": "https://github.com/bazelbuild/bazel/releases/download/5.3.1/bazel-5.3.1-windows-x86_64.exe",
-    "size": 46718466,
-    "checksum": "AF2D3AB072DCADFAD196B8E07B3AD2FCF06B3D5CDF8D2B69D528E760769CADD4",
     "file_type": ".exe"
   },
   "4.2.0": {
@@ -95,16 +95,22 @@
     "checksum": "919E5D1E9F559EA0966438B1434A74960A9FFB39E154535507B1C636EF72E2CB",
     "file_type": ".exe"
   },
-  "6.1.2": {
-    "url": "https://github.com/bazelbuild/bazel/releases/download/6.1.2/bazel-6.1.2-windows-x86_64.exe",
-    "size": 47730090,
-    "checksum": "47E7F65A3BFA882910F76E2107B4298B28ACE33681BD0279E25A8F91551913C0",
+  "5.3.2": {
+    "url": "https://github.com/bazelbuild/bazel/releases/download/5.3.2/bazel-5.3.2-windows-x86_64.exe",
+    "size": 46719156,
+    "checksum": "AF080EF9A8B6F27C2B2055A9E0A5155EF7138CF46B967103B91D47C675C2BBDE",
     "file_type": ".exe"
   },
-  "4.2.1": {
-    "url": "https://github.com/bazelbuild/bazel/releases/download/4.2.1/bazel-4.2.1-windows-x86_64.exe",
-    "size": 46155804,
-    "checksum": "8FA10DFDC8B2F610A8891B68E2A132540E6FAC4FEA62174CFFD9994B9147586E",
+  "6.2.0": {
+    "url": "https://github.com/bazelbuild/bazel/releases/download/6.2.0/bazel-6.2.0-windows-x86_64.exe",
+    "size": 49229673,
+    "checksum": "3D119E934FFB26910FCBD44DBC5973761480F58D3A06722CB84A90E16D8C5727",
+    "file_type": ".exe"
+  },
+  "4.1.0": {
+    "url": "https://github.com/bazelbuild/bazel/releases/download/4.1.0/bazel-4.1.0-windows-x86_64.exe",
+    "size": 44876812,
+    "checksum": "7B2077AF7055B421FE31822F83C3C3C15E36FF39B69560BA2472DDE92DD45B46",
     "file_type": ".exe"
   }
 }
