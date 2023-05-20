@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "",
   "description": "",
-  "latest_version": "17.5",
+  "latest_version": "17.6",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -13,6 +13,18 @@
     "download_page": "",
     "download_url": "",
     "regex": ""
+  },
+  "17.5": {
+    "url": "https://aka.ms/vs/17/release/vs_professional.exe",
+    "size": 3706952,
+    "checksum": "39639F232A0497217088A3E4185D8E8B3B2D7DD2DFCD1065679705486C247902",
+    "file_type": ".exe"
+  },
+  "17.0": {
+    "url": "https://aka.ms/vs/17/release/vs_professional.exe",
+    "size": 1648736,
+    "checksum": "FF45383F2BB79ABF9F0560E4FC6B12166C87A7B5131F8E00ECE9F63231A41742",
+    "file_type": ".exe"
   },
   "17.1": {
     "url": "https://aka.ms/vs/17/release/vs_professional.exe",
@@ -26,16 +38,10 @@
     "checksum": "475ADA04E571C3F88393E7568282FA8EA41CF7A98B43327876F7FB5CA0C057AB",
     "file_type": ".exe"
   },
-  "17.5": {
+  "17.6": {
     "url": "https://aka.ms/vs/17/release/vs_professional.exe",
-    "size": 3706952,
-    "checksum": "39639F232A0497217088A3E4185D8E8B3B2D7DD2DFCD1065679705486C247902",
-    "file_type": ".exe"
-  },
-  "17.0": {
-    "url": "https://aka.ms/vs/17/release/vs_professional.exe",
-    "size": 1648736,
-    "checksum": "FF45383F2BB79ABF9F0560E4FC6B12166C87A7B5131F8E00ECE9F63231A41742",
+    "size": 3781816,
+    "checksum": "229BF2C4345A578F0C3FA6CC68E2DF135820BA540E53E8698205AE99D20D041F",
     "file_type": ".exe"
   }
 }
