@@ -5,7 +5,7 @@
   "portable": false,
   "creator": "",
   "description": "",
-  "latest_version": "1.0.5",
+  "latest_version": "1.1.1",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -13,6 +13,12 @@
     "download_page": "",
     "download_url": "",
     "regex": ""
+  },
+  "0.7.3": {
+    "url": "https://github.com/stnkl/EverythingToolbar/releases/download/0.7.3/EverythingToolbar-0.7.3.msi",
+    "size": 997000,
+    "checksum": "7577A3B3F021C9BB25A4C8B637C3DFED3A5A7DA70EF0969B4DB6DE47650AE1D9",
+    "file_type": ".msi"
   },
   "1.0.3": {
     "url": "https://github.com/stnkl/EverythingToolbar/releases/download/1.0.3/EverythingToolbar-1.0.3.msi",
@@ -26,22 +32,22 @@
     "checksum": "592A163C725A44968625ADDB771BD51F99BD7A5D2691FC17C924865730CFDDF6",
     "file_type": ".msi"
   },
-  "0.7.4": {
-    "url": "https://github.com/stnkl/EverythingToolbar/releases/download/0.7.4/EverythingToolbar-0.7.4.msi",
-    "size": 997000,
-    "checksum": "3982C5605ED0C440CCC24A04EF48870F2546EE34D516471C54AF93D8F9C9CF88",
-    "file_type": ".msi"
-  },
   "1.0.5": {
     "url": "https://github.com/stnkl/EverythingToolbar/releases/download/1.0.5/EverythingToolbar-1.0.5.msi",
     "size": 3362836,
     "checksum": "D1BBF650ADF1EA2786BDD6944B746F762DB134EF6AA02225A746E35731141E8A",
     "file_type": ".msi"
   },
-  "0.7.3": {
-    "url": "https://github.com/stnkl/EverythingToolbar/releases/download/0.7.3/EverythingToolbar-0.7.3.msi",
+  "0.7.4": {
+    "url": "https://github.com/stnkl/EverythingToolbar/releases/download/0.7.4/EverythingToolbar-0.7.4.msi",
     "size": 997000,
-    "checksum": "7577A3B3F021C9BB25A4C8B637C3DFED3A5A7DA70EF0969B4DB6DE47650AE1D9",
+    "checksum": "3982C5605ED0C440CCC24A04EF48870F2546EE34D516471C54AF93D8F9C9CF88",
+    "file_type": ".msi"
+  },
+  "1.1.1": {
+    "url": "https://github.com/stnkl/EverythingToolbar/releases/download/1.1.1/EverythingToolbar-1.1.1.msi",
+    "size": 3391588,
+    "checksum": "971366BF8455EFF46BEFAE2C2042675C04C7F257A68C7120F2DF015C77CED92C",
     "file_type": ".msi"
   }
 }
