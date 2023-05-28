@@ -8,7 +8,7 @@
   "portable": true,
   "creator": "Voidtools",
   "description": "Everything is a desktop search utility for Windows that can rapidly find files and folders by name",
-  "latest_version": "1.4.1.1023",
+  "latest_version": "1.4.1.1024",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -17,34 +17,22 @@
     "download_url": "https://www.voidtools.com/Everything-<version>.x64.zip",
     "regex": "Download Everything (\\d+\\.\\d+\\.\\d+\\.\\d+)"
   },
+  "1.4.1.1022": {
+    "url": "https://www.voidtools.com/Everything-1.4.1.1022.x64.zip",
+    "size": 1803678,
+    "checksum": "C718BCD73D341E64C8CB47E97EB0C45D010FDCC45C2488D4A3A3C51ACC775889",
+    "file_type": ".zip"
+  },
   "1.4.1.1020": {
     "url": "https://www.voidtools.com/Everything-1.4.1.1020.x64.zip",
     "size": 1804512,
     "checksum": "B00AA85255DDB518DFCCDACA6834417B71BA3C1A39E92212A3863D6CEF88400C",
     "file_type": ".zip"
   },
-  "1.4.1.1015": {
-    "url": "https://www.voidtools.com/Everything-1.4.1.1015.x64.zip",
-    "size": 1738469,
-    "checksum": "656FF3946222048A5558160023DA6FD8ABC6FA9569F7AC1DFF058410A3DB6F28",
-    "file_type": ".zip"
-  },
-  "1.4.1.1014": {
-    "url": "https://www.voidtools.com/Everything-1.4.1.1014.x64.zip",
-    "size": 1738468,
-    "checksum": "CCA3236C113EC2312555F7D57137D2A6A7425E5BBA10D58B682A4B0D891DD4EA",
-    "file_type": ".zip"
-  },
   "1.4.1.1009": {
     "url": "https://www.voidtools.com/Everything-1.4.1.1009.x64.zip",
     "size": 1661262,
     "checksum": "F61B601ACBA59D61FB0631A654E48A564DB34E279B6F2CC45E20A42CE9D9C466",
-    "file_type": ".zip"
-  },
-  "1.4.1.1021": {
-    "url": "https://www.voidtools.com/Everything-1.4.1.1021.x64.zip",
-    "size": 1803593,
-    "checksum": "BAE602D35F55D646C608DA89035C3D154D136D1B90AA04AB1B583B8D18712CA9",
     "file_type": ".zip"
   },
   "1.4.1.1017": {
@@ -59,16 +47,34 @@
     "checksum": "E9909F1BCD69673FC05E521B5319A1405CE3E3C7F4026EEE356A0F92CE9682AE",
     "file_type": ".zip"
   },
-  "1.4.1.1022": {
-    "url": "https://www.voidtools.com/Everything-1.4.1.1022.x64.zip",
-    "size": 1803678,
-    "checksum": "C718BCD73D341E64C8CB47E97EB0C45D010FDCC45C2488D4A3A3C51ACC775889",
-    "file_type": ".zip"
-  },
   "1.4.1.1018": {
     "url": "https://www.voidtools.com/Everything-1.4.1.1018.x64.zip",
     "size": 1804183,
     "checksum": "E1BF13CE8765BBCA4E8D7DDA8CE07B25471090FF222701789F816E7BF3FD552E",
+    "file_type": ".zip"
+  },
+  "1.4.1.1021": {
+    "url": "https://www.voidtools.com/Everything-1.4.1.1021.x64.zip",
+    "size": 1803593,
+    "checksum": "BAE602D35F55D646C608DA89035C3D154D136D1B90AA04AB1B583B8D18712CA9",
+    "file_type": ".zip"
+  },
+  "1.4.1.1024": {
+    "url": "https://www.voidtools.com/Everything-1.4.1.1024.x64.zip",
+    "size": 1803557,
+    "checksum": "4BE0851752E195C9C7F707B1E0905CD01CAF6208F4E2BFA2A66E43C0837BE8F5",
+    "file_type": ".zip"
+  },
+  "1.4.1.1015": {
+    "url": "https://www.voidtools.com/Everything-1.4.1.1015.x64.zip",
+    "size": 1738469,
+    "checksum": "656FF3946222048A5558160023DA6FD8ABC6FA9569F7AC1DFF058410A3DB6F28",
+    "file_type": ".zip"
+  },
+  "1.4.1.1014": {
+    "url": "https://www.voidtools.com/Everything-1.4.1.1014.x64.zip",
+    "size": 1738468,
+    "checksum": "CCA3236C113EC2312555F7D57137D2A6A7425E5BBA10D58B682A4B0D891DD4EA",
     "file_type": ".zip"
   }
 }
