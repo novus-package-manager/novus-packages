@@ -8,7 +8,7 @@
   "portable": true,
   "creator": "WizTree",
   "description": "WizTree is the fastest disk space analyzer available for Windows.",
-  "latest_version": "4.13",
+  "latest_version": "4.14",
   "threads": 8,
   "iswitches": [],
   "uswitches": [],
@@ -23,6 +23,18 @@
     "checksum": "21514E2921E49D743D7C6141CD35C42CBDBE64E91EEFDF92C75F27350112C49C",
     "file_type": ".zip"
   },
+  "4.13": {
+    "url": "https://diskanalyzer.com/files/wiztree_4_13_portable.zip",
+    "size": 6647960,
+    "checksum": "6D02A127DF9AEF0914DA4728D42DD6BEC9EACDD226762E7DEC9BF36DB8897EBB",
+    "file_type": ".zip"
+  },
+  "4.14": {
+    "url": "https://diskanalyzer.com/files/wiztree_4_14_portable.zip",
+    "size": 6654415,
+    "checksum": "7C5CBDD4A1B009884463D579FC2EBB28145958B6450FD07227C590F4F5AEC45E",
+    "file_type": ".zip"
+  },
   "4.06": {
     "url": "https://diskanalyzer.com/files/wiztree_4_06_portable.zip",
     "size": 6311237,
@@ -33,12 +45,6 @@
     "url": "https://diskanalyzer.com/files/wiztree_4_08_portable.zip",
     "size": 6347840,
     "checksum": "066E270DE1E398CC8447428047628C241832D53839AAE9815443B486AFFD66C9",
-    "file_type": ".zip"
-  },
-  "4.13": {
-    "url": "https://diskanalyzer.com/files/wiztree_4_13_portable.zip",
-    "size": 6647960,
-    "checksum": "6D02A127DF9AEF0914DA4728D42DD6BEC9EACDD226762E7DEC9BF36DB8897EBB",
     "file_type": ".zip"
   }
 }
